@@ -1,0 +1,2605 @@
+[ 2017-01-17T09:54:52+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T09:54:52+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T09:54:52+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/js/jquery.swipebox.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-01-17T09:54:52+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T09:55:24+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-17T09:57:18+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:09:36+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/scanTheses.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 46 行.
+SQL: SELECT * FROM `srms_tj_theses` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 216 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:41:57+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/scanTheses.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 46 行.
+SQL: SELECT * FROM `srms_tj_theses` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 216 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:42:00+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 322 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 322 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:53:48+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 321 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:54:35+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 321 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:55:19+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:55:56+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 321 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T10:55:59+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:56:17+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:56:32+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:57:29+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-17T10:58:16+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:58:19+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 320 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 320 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T10:58:29+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:59:10+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: submit E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 233 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T10:59:13+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 320 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 320 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T10:59:14+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 320 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 320 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T10:59:17+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: tmp_name E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 254 行.
+
+[ 2017-01-17T10:59:47+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: tmp_name E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 236 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-17T11:01:09+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: tmp_name E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 235 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-17T11:03:54+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: _FIlE E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 235 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-17T11:06:50+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: name E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 79 行.
+
+[ 2017-01-17T11:06:55+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:06:58+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0150s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: name E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 79 行.
+
+[ 2017-01-17T11:07:32+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-17T11:07:50+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_tj_filedownload` (`path`,`uid`,`name`,`time`) VALUES ('2017-01-17/587d8a865abf9.doc','1','12345.doc','17-01-17') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:07:50+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:Kytj
+
+[ 2017-01-17T11:08:24+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Kytj
+
+[ 2017-01-17T11:08:28+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: date E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:08:33+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_tj_filedownload` (`path`,`uid`,`name`,`time`) VALUES ('2017-01-17/587d8ab141f4f.doc','1','12345.doc','17-01-17') [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:08:33+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/__URL__/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-01-17T11:09:58+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:11:04+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:11:04+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: date E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: date E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:11:15+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:11:15+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: date E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: date E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:14:40+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T11:14:44+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:export
+
+[ 2017-01-17T11:15:39+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T11:16:06+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_tj_filedownload` (`path`,`uid`,`username`,`name`,`time`) VALUES ('2017-01-17/587d8c76dbff1.doc','1','华佗','12345.doc','17-01-17') [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-17T11:16:07+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:16:27+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: author E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 240 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:16:36+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-17T11:18:11+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_tj_filedownload` (`path`,`uid`,`username`,`name`,`time`) VALUES ('2017-01-17/587d8cf354c57.doc','1','华佗','12345.doc','17-01-17') [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:18:11+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T11:18:42+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:18:55+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:19:03+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:19:12+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:20:51+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:21:05+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:21:31+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:21:50+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:23:03+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T11:23:19+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_tj_filedownload` (`path`,`uid`,`username`,`name`,`time`) VALUES ('2017-01-17/587d8e2700b04.doc','1','华佗','12345.doc','1484582400') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-17T11:23:19+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] A non well formed numeric value encountered E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 243 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-17T11:23:47+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:24:03+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_tj_filedownload` (`path`,`uid`,`username`,`name`,`time`) VALUES ('2017-01-17/587d8e5377f64.doc','1','华佗','12345.doc','1484582400') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-01-17T11:24:03+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-17T11:25:05+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:25:17+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 319 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-17T11:27:42+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 319 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-17T11:27:47+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload?ctime=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` WHERE `time` = '2014' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `time` = '2014' ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:29:54+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload?ctime=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` WHERE `time` = '2014' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `time` = '2014' ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:30:02+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-17T11:30:16+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-17T11:31:38+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-17T11:31:48+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofiledownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\xampp\htdocs\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_tj_filedownload` (`path`,`uid`,`username`,`name`,`time`,`year`) VALUES ('2017-01-17/587d902422e5d.doc','1','华佗','12345.doc','1484582400','2017') [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:31:48+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 319 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:31:55+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload?year=2017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T11:32:05+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload?year=2017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:32:48+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload?year=2017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` WHERE `year` = '2017' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `year` = '2017' ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:33:17+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 319 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:47:29+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T11:47:32+08:00 ] ::1 /Hospitalsrms/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:47:33+08:00 ] ::1 /Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T11:47:33+08:00 ] ::1 /Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T11:47:33+08:00 ] ::1 /Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T11:47:42+08:00 ] ::1 /Hospitalsrms/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_user` WHERE `user_name` = '华佗'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: UPDATE `srms_user` SET `last_time`='1484624861' WHERE `user_name` = '华佗' AND `id` = 1 [ RunTime:0.2260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-17T11:47:42+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-17T11:47:42+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T11:47:42+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/js/jquery.swipebox.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-01-17T11:47:42+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T11:47:44+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:47:46+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:47:48+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/name/12345.doc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: id E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 268 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T11:49:38+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:24:31+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:24:33+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T13:25:08+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:25:09+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 2  [ RunTime:0.0000s ]
+
+[ 2017-01-17T13:25:31+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:25:33+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 4  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:25:38+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:25:57+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:25:58+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 3  [ RunTime:0.0000s ]
+
+[ 2017-01-17T13:27:31+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 3  [ RunTime:0.0010s ]
+
+[ 2017-01-17T13:27:53+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 3  [ RunTime:0.0000s ]
+
+[ 2017-01-17T13:28:23+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 3  [ RunTime:0.0010s ]
+
+[ 2017-01-17T13:28:34+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:28:41+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:28:42+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:30:02+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 3  [ RunTime:0.0000s ]
+
+[ 2017-01-17T13:31:05+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 3  [ RunTime:0.0010s ]
+
+[ 2017-01-17T13:31:13+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:31:15+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/dofileDownload/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_tj_filedownload` WHERE `id` = 3  [ RunTime:0.0010s ]
+
+[ 2017-01-17T13:34:18+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 305 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:35:57+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 212 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 304 行.
+NOTIC: [8] Undefined index: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:36:08+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:36:14+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/scanTheses.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 46 行.
+SQL: SELECT * FROM `srms_tj_theses` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 216 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T13:41:28+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/scanTheses.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 46 行.
+SQL: SELECT * FROM `srms_tj_theses` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 219 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T16:13:08+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/scanTheses.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T16:13:11+08:00 ] ::1 /Hospitalsrms/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T16:13:12+08:00 ] ::1 /Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T16:13:12+08:00 ] ::1 /Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T16:13:12+08:00 ] ::1 /Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T16:13:18+08:00 ] ::1 /Hospitalsrms/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_user` WHERE `user_name` = '华佗'  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: UPDATE `srms_user` SET `last_time`='1484640798' WHERE `user_name` = '华佗' AND `id` = 1 [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-17T16:13:18+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-17T16:13:18+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/js/jquery.swipebox.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-01-17T16:13:18+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T16:13:18+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/js/jquery.swipebox.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-01-17T16:13:18+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-17T16:14:16+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

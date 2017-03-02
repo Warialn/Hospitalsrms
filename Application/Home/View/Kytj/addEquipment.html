@@ -1,0 +1,132 @@
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+		</br>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-3 column">
+			<div class="col-md-12 column">
+				<div class="panel-group" id="panel-851664">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <a class="panel-title" data-toggle="collapse" data-parent="#panel-851664" href="#panel-element-673135">统计导航</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-12 column">
+				<div class="panel-group" id="panel-851664">
+					<div class="panel panel-default">
+						<ul class="nav nav-pills nav-stacked">
+							<li><a href="{:U('Kytj/index')}">论文统计</a></li>
+							<li><a href="{:U('Kytj/addAchievement')}">科研成果</a></li>
+							<li><a href="{:U('Kytj/addPropty')}">知识产权</a></li>
+							<li class="active"><a href="{:U('Kytj/addEquipment')}">仪器设备</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 column">
+				<div class="panel-group" id="panel-851664">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <a class="panel-title" data-toggle="collapse" data-parent="#panel-851664" href="#panel-element-673135">浏览导航</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-12 column">
+				<div class="panel-group" id="panel-851664">
+					<div class="panel panel-default">
+						<ul class="nav nav-pills nav-stacked">
+							<li><a href="{:U('Kytj/scanTheses')}">论文统计</a></li>
+							<li><a href="{:U('Kytj/scanAchievement')}">科研成果</a></li>
+							<li><a href="{:U('Kytj/scanPropty')}">知识产权</a></li>
+							<li><a href="{:U('Kytj/scanEquipment')}">仪器设备</a></li>
+							<li><a href="{:U('Kytj/fileDownload')}">文件下载</a></li>
+							<li><a href="{:U('Kytj/logList')}">日志信息</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;margin-right:30px;">
+			<form role="form" style="padding-top:15px;" action="http://localhost/Hospitalsrms/index.php/Home/Kytj/addEquipment" method="post" name="myform" onsubmit="return CheckPost();">
+				<div class="row-fluid col-md-12" style="padding-top:5px;">
+				   <div class="span12 col-md-9" style="padding-left:3px;">
+					   <h3 class="text-left fontTitle">
+						 科研仪器设备统计
+					   </h3>
+				   </div>
+				</div>
+			    
+			    <div class="row" style="padding:30px 0 20px;"></div><!-- 上下块间距 -->
+			
+				<table width="795" height="287" class="table">
+				  <tr>
+				    <td width="146">设备名称（<span class="fontStar">※</span>必填）</td>
+				    <td width="633"><input type="text" class="form-control input-sm" id="name1" placeholder="" name="name"></td>
+				  </tr>
+				  <tr>
+				    <td width="146">购进时间（<span class="fontStar">※</span>必填）</td>
+				    <td width="633"><input type="text" name="date" value="2017/01/22 08:00" id="datetimepicker"/></td>
+				  </tr>
+				  <tr>
+				    <td>设备编号（<span class="fontStar">※</span>必填）</span></td>
+				    <td> <input type="text" class="form-control input-sm" id="name1" placeholder="" name="number"></td>
+				  </tr>
+				  <tr>
+				    <td>型号规格（<span class="fontStar">※</span>）</td>
+				    <td><input type="text" class="form-control input-sm" id="name2" placeholder="" name="type"></td>
+				  </tr>
+				  <tr>
+				    <td>所属科研平台（<span class="fontStar">※</span>） </td>
+				    <td> <input type="text" class="form-control input-sm" id="name3" placeholder="" name="platform"></td>
+				  </tr>
+				  <tr>
+				    <td>单价（<span class="fontStar">※</span>） </td>
+				    <td> <input type="text" class="form-control input-sm" id="name4" placeholder="" name="price"></td>
+				  </tr>
+				  <tr>
+				    <td>产地</td>
+				    <td><input type="text" class="form-control input-sm" id="num" name="origin"></td>
+				  </tr>
+				   <tr>
+				    <td>经费来源</td>
+				    <td>	
+						<input type="radio" name="costresource" id="optionsRadios1" value="医院赞助" checked >医院赞助
+
+						 <input type="radio" name="costresource" id="optionsRadios2" value="个人出资">个人出资
+					</td>
+				  </tr>
+				   <tr>
+				    <td> 联系人 </td>
+				    <td><input type="text" class="form-control input-sm" id="num" name="contact"></td>
+				  </tr>
+				   <tr>
+				    <td>联系方式</td>
+				    <td> <input type="text" class="form-control input-sm" id="num" name="phone"></td>
+				  </tr>
+				  
+				    <td> 备注 </td>
+				    <td><textarea class="form-control" rows="6" name="remarks"></textarea></td>
+				  </tr>
+				  <tr>				  	
+				    <td colspan="2"><br/>
+				    	<span class="col-lg-6">
+						  <button type="submit"  class="btn btn-primary btn-sm btn-block">提交</button>
+						</span>
+						<span class="col-lg-6">
+						  <button type="reset"  name="reset"  class="btn btn-primary btn-sm btn-block">重置</button>
+						</span>
+					</td>
+				  </tr>
+				</table>
+			</form>
+		</div>		
+	</div>
+</div>

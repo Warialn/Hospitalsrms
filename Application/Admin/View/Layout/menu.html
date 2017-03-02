@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>后台管理系统</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Play-Offs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<link href="__PUBLIC__/bootstrap/css/bootstrap.min2.css" rel="stylesheet">
+<link href="__PUBLIC__/bootstrap/css/admintop.css" rel="stylesheet">
+<link href="__PUBLIC__/bootstrap/css/ace.min.css" rel="stylesheet">
+<link href="__PUBLIC__bootstrap/css/font-awesome.min.css" rel="stylesheet">
+<script src="__PUBLIC__/bootstrap/js/jquery.min.js"></script>
+<script src="__PUBLIC__/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="contain">
+	<div class="navbar navbar-duomi navbar-static-top" role="navigation">
+	        <div class="container-fluid" style="background-color:#485b7f;">
+	            <div class="navbar-header">
+	                <span class="navbar-brand"id="logo">后台管理系统</span>
+	            </div>
+	            <div class="container">
+		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，XXX</p>
+		        </div>
+	        </div>
+	    </div>
+	        <div class="col-md-12 column">
+	            <div class="row clearfix">
+	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:580px">
+	                    <div class="col-md-12" >
+	                        <ul class="nav nav-list">
+	                            <li><a href="" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="icon-journal"></i>
+									<span class="menu-text"> 科研统计管理 </span>
+									<b class="arrow icon-angle-down"></b>
+									</a>
+
+									<ul class="dropdown-menu" id="Kytj">
+		                            	<li>
+											<a href="{:U('Kytj/index')}">
+												<i class="icon-double-angle-right"></i>
+											    论文统计管理
+											</a>
+										</li>
+										<li>
+											<a href="{:U('Kytj/Achievement')}">
+												<i class="icon-double-angle-right"></i>
+												科研成果管理
+											</a>
+										</li>
+										<li>
+											<a href="{:U('Kytj/Propty')}">
+												<i class="icon-double-angle-right"></i>
+												知识产权管理
+											</a>
+										</li>
+
+										<li>
+											<a href="{:U('Kytj/Equipment')}">
+												<i class="icon-double-angle-right"></i>
+											    仪器设备管理
+											</a>
+										</li>		                            
+									</ul>
+								</li>
+		                        
+		                        <li>
+									<a href="#" class="dropdown-toggle">
+										<i class="icon-user0"></i>
+										<span class="menu-text"> 项目申报管理 </span>
+									</a>
+									<ul class="submenu">
+										<li>
+											<a href="{:U('Xmsb/index')}">
+												<i class="icon-double-angle-right"></i>
+												课题申请
+											</a>
+										</li>
+						
+										<li>
+											<a href="{:U('Xmsb/department')}">
+												<i class="icon-double-angle-right"></i>
+												科研平台申请
+											</a>
+										</li>
+		                                <li>
+											<a href="{:U('Xmsb/coller')}">
+												<i class="icon-double-angle-right"></i>
+												领用申请
+											</a>
+
+										</li>
+										<li>
+											<a href="{:U('Xmsb/purchase')}">
+												<i class="icon-double-angle-right"></i>
+												采购申请
+											</a>
+										</li>
+									</ul>
+								</li>
+		                        <li>  
+		                            <a href="#" class="dropdown-toggle">  
+			                            <i class="icon-desktop"></i>  
+			                            <span class="menu-text">科研经费管理 </span>    
+		                            </a> 
+		                            <ul class="submenu"> 
+		                         
+			                            <li>
+											<a href="{:U('Kyjf/index')}">
+												<i class="icon-double-angle-right"></i>
+											    经费报销
+											</a>
+
+										</li>
+			                            <li  <eq name="action" value="spec">class="active"</eq>>
+
+											<a href="{:U('Kyjf/apply')}">
+												<i class="icon-double-angle-right"></i>
+											    经费申请
+											</a>
+										</li>
+		                            </ul>                    
+		                    	</li>
+		                        
+		                        
+		                         <li>
+									<a href="#" class="dropdown-toggle">
+										<i class="icon-alarm"></i>
+										<span class="menu-text"> 学术活动管理 </span>
+
+										<b class="arrow icon-angle-down"></b>
+									</a>
+									<ul class="submenu">
+		                             	<li>
+
+											<a href="{:U('Xshd/index')}">
+												<i class="icon-double-angle-right"></i>
+												会议管理
+											</a>
+				
+										</li>
+										<li>
+											<a href="{:U('Xshd/lecture')}">
+												<i class="icon-double-angle-right"></i>
+											    讲座管理
+											</a>
+										</li>
+
+										<li>
+											<a href="{:U('Xshd/composition')}">
+												<i class="icon-double-angle-right"></i>
+											    学术著作管理
+											</a>
+										</li>
+									</ul> 
+								</li>            
+		                        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+										<i class="icon-net"></i>
+										<span class="menu-text">系统管理</span>
+										<b class="arrow icon-angle-down"></b>
+									</a>
+									<ul class="submenu">
+										<li><a href="">
+												<i class="icon-double-angle-right"></i>
+												密码管理
+											</a>
+										</li>
+		                                
+		                                <li>  
+			                                <a href="">  
+			                                	<i class="icon-double-angle-right"></i>  
+			                                    日志管理  
+			                                </a>  
+		                                </li>
+		                                
+		                                <li>
+											<a href="{:U('Xtgl/user')}">
+												<i class="icon-double-angle-right"></i>
+												用户管理
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<i class="icon-double-angle-right"></i>
+												用户组管理
+											</a>
+										</li>								
+									</ul>
+								</li>
+                      		</ul><!-- /.nav-list -->
+	                   </div>
+	                </div> 
+
+	            
+

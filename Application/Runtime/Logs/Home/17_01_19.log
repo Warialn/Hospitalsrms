@@ -1,0 +1,1131 @@
+[ 2017-01-19T10:12:06+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T10:13:09+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/scanTheses.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 46 行.
+SQL: SELECT * FROM `srms_tj_theses` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 218 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T10:13:53+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T10:13:55+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T10:14:01+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T10:17:31+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 118 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T10:24:36+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 118 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T10:24:40+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanSubject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 28 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 58 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 114 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 114 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 115 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.271015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T10:25:24+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanSubject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-19T10:25:52+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanSubject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T14:09:32+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanSubject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T14:09:36+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanDepartment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 28 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 58 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 114 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 114 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 115 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-19T14:12:50+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanDepartment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T14:14:50+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanDepartment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T14:14:53+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanSubject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-19T14:14:55+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanColler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 模板不存在:./Application/Home/View/Xmsb/scanColler.html
+
+[ 2017-01-19T14:16:45+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanSubject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T14:16:47+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanColler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T14:17:43+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanColler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-19T14:17:45+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanPurchase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T14:17:48+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanDepartment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T14:17:49+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanSubject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T14:31:07+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-19T14:31:07+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-19T14:31:07+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/js/jquery.swipebox.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-01-19T14:31:12+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T14:57:41+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 118 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T15:03:06+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T15:59:39+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T16:00:09+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T16:01:11+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T16:01:43+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-19T16:02:01+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T16:02:09+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T16:03:21+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T16:03:45+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T16:04:15+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-19T16:04:46+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-19T16:18:37+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-19T16:24:31+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanSubject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T16:24:33+08:00 ] ::1 /Hospitalsrms/index.php/Home/Xmsb/scanDepartment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thesesList E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 131 行.
+NOTIC: [8] Undefined variable: page E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 161 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 217 行.
+NOTIC: [8] Undefined index: ctime E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 217 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T16:25:41+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T16:25:41+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-19T16:25:41+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/js/jquery.swipebox.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-01-19T16:25:41+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-01-19T16:25:41+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/js/jquery.swipebox.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-01-19T16:44:24+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T17:11:44+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/addAchievement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-19T17:11:47+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/addPropty.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-19T17:12:30+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/addAchievement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-19T17:12:32+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/addPropty.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-19T17:13:10+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/addPropty.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-19T17:21:35+08:00 ] ::1 /Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,82 @@
+ <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 200px;">科研统计管理>论文统计管理</div>
+    <div class="col-md-10 column" style="background-color:#fbfbfc;border-radius:0px;height:530px;">
+
+        <form name="form2" method="post" action="">
+            <table class="table"><br/>
+                <input  class="btn btn-default pull-right" type="submit" value="搜索">
+                <div class="col-md-2 pull-right">
+                    <input class="form-control" type="text">
+                </div>
+                                                        
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
+                        </th>
+                        <th>
+                            论文名称
+                        </th>
+                        <th>
+                            作者
+                        </th>
+                        <th>
+                            年份
+                        </th>
+                        <th>
+                            操作
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <volist name="thesesList" id="vo">
+                    <?php 
+                    $col = "";
+                    $col1 = "warning";
+                    $col2 = "error";
+                    $col3 = "sucess";
+                    $col = $col1;
+                    if($col == $col1){
+                        $col = $col2;
+                    }elseif($col == $col2){
+                        $col = $col3;
+                    }else{
+                        $col = $col1;
+                    }
+                    ?>
+                    <tr class="<?php echo $col;?>">
+                        <td>
+                        <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
+                        </td>
+                        <td>
+                            {$vo.name}
+                        </td>
+                        <td>
+                            {$vo.author}
+                        </td>
+                        <td>
+                            {$vo.date}
+                        </td> 
+                        <td>
+                            
+                        </td>                              
+                    </tr>
+                </volist>
+                <tr>
+                   <td>
+                    <img src="__PUBLIC__img/arrow_ltr.gif"/>
+                   </td>
+
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+        <div class="col-md-12 column">
+            {$page}
+        </div>
+    </div>
+</div>
+</div>

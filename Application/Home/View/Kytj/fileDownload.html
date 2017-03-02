@@ -1,0 +1,317 @@
+<style>
+
+#modal-overlay {
+		     visibility: hidden;    
+		     position: absolute;   /* 使用绝对定位或固定定位  */
+		     left: 0px;    
+		     top: 0px;
+		     width:100%;
+		     height:100%;
+		    /* text-align:center;*/
+		     z-index: 1000;
+		    /* background-color: #333; 
+		     opacity: 0.5;   /* 背景半透明 */
+		}
+		/* 模态框样式 */
+.modal-data{
+			 width:750px;
+			 height:300px;
+		     margin: 100px auto;
+		     background-color: #fff;
+		     border:1px solid #000;
+		     padding:15px;
+		     /*text-align:center;*/
+		}
+#modal-comment1 {
+		     visibility: hidden;    
+		     position: absolute;   /* 使用绝对定位或固定定位  */
+		     left: 0px;    
+		     top: 0px;
+		     width:100%;
+		     height:100%;
+		    /* text-align:center;*/
+		     z-index: 1000;
+		    /* background-color: #333; 
+		     opacity: 0.5;   /* 背景半透明 */
+		}
+		/* 模态框样式 */
+.modal-data1{
+			 width:750px;
+			 height:300px;
+		     margin: 100px auto;
+		     background-color: #fff;
+		     border:1px solid #000;
+		     padding:15px;
+		     /*text-align:center;*/
+		}
+
+</style>
+<div class="container">	
+    <div id="modal-overlay" class="">
+        <div class="modal-data">
+            <ul class="breadcrumb">
+                <li>上传文件</li>
+               <a class="pull-right" style="cursor:pointer;"onclick="overlay()">关闭</a>  
+            </ul>
+
+            <!-- .breadcrumb -->           
+            <div class="col-sm-12">
+            	<div class="row">
+	                <div class="col-xs-win">
+	                    <!-- PAGE CONTENT BEGINS -->
+	                    <form style="position:relative;margin-top:20px;" class="form-horizontal" role="form" id="form_upload"
+	                            action="__URL__/dofileUpload" method="post"  enctype="multipart/form-data">
+	                        <div class="form-group">
+	                            <div class="col-sm-9">
+	                                <div class="widget-main">
+	                                    <input type="file" id="id-input-file-2" name="tmp_name"/>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <div class="clearfix form-actions">
+	                            <div>
+	                                <input class="btn btn-info" name="submit" value="提交" type="submit"/>
+	                                &nbsp; &nbsp; &nbsp;
+	                                <button class="btn closePop" type="reset">
+	                                    取消
+	                                </button>
+	                            </div>
+	                        </div>
+                    	</form>
+                	</div>
+                <!-- /.col -->
+            	</div>
+            <!-- /.row -->
+        	</div>
+        </div>       
+    </div>
+   
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="row clearfix">
+				<br/>
+				<div class="col-md-3 column">
+					<div class="col-md-12 column">
+						<div class="panel-group" id="panel-851664">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									 <a class="panel-title" data-toggle="collapse" data-parent="#panel-851664" href="#panel-element-673135">统计导航</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 column">
+						<div class="panel-group" id="panel-851664">
+							<div class="panel panel-default">
+								<ul class="nav nav-pills nav-stacked">
+									<li><a href="{:U('Kytj/index')}">论文统计</a></li>
+									<li><a href="{:U('Kytj/addAchievement')}">科研成果</a></li>
+									<li><a href="{:U('Kytj/addPropty')}">知识产权</a></li>
+									<li><a href="{:U('Kytj/addEquipment')}">仪器设备</a></li>									
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 column">
+						<div class="panel-group" id="panel-851664">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									 <a class="panel-title" data-toggle="collapse" data-parent="#panel-851664" href="#panel-element-673135">浏览导航</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 column">
+						<div class="panel-group" id="panel-851664">
+							<div class="panel panel-default">
+								<ul class="nav nav-pills nav-stacked">
+									<li><a href="{:U('Kytj/scanTheses')}">论文统计</a></li>
+									<li><a href="{:U('Kytj/scanAchievement')}">科研成果</a></li>
+									<li><a href="{:U('Kytj/scanPropty')}">知识产权</a></li>
+									<li><a href="{:U('Kytj/scanEquipment')}">仪器设备</a></li>
+									<li class="active"><a href="{:U('Kytj/fileDownload')}">文件下载</a></li>
+									<li><a href="{:U('Kytj/logList')}">日志信息</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 column">
+						<form name="form1" method="get">
+							<div class="col-md-12" id="panel-564300" style="border-radius:6px;border:1px solid #e8e8e8;" >
+								<div class="col-md-12" >						
+									<label for="name" class="fontTitle">选择年份</label> 
+									<select class="form-control input-sm" id="year1" name="ctime">
+										<option value="<?php echo $_GET['ctime']?>"><?php if($_GET['ctime']==''){echo "所有年份";}else{echo $_GET['ctime'];}?></option>
+										<?php foreach($year as $key => $val): ?>
+					                        <option value="<?= $val ?>"><?= $val ?></option>
+					                    <?php endforeach; ?>
+									</select>							
+								</div>
+								<div class="col-lg-12" style="padding:10px 0 35px;">
+									<span class="col-lg-6">
+										<input type="submit" class="btn btn-primary btn-sm btn-block" onclick="look()"value="查看">
+									</span>
+									<span class="col-lg-6">
+										<input type="submit" class="btn btn-primary btn-sm btn-block" onclick="out()" value="导出">
+									</span>
+								</div>							
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-8 column" style="border-radius:6px;border:1px solid #e8e8e8;">
+					<form name="form2" method="get" role="form" >
+						<table class="table">
+							<thead>
+								<tr>
+									<th width="100px;">
+										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
+									</th>
+									<th width="40%">
+										文件名称
+									</th>
+									<th>
+										上传者
+									</th>
+									<th>
+										时间
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<volist name="thesesList" id="vo">
+								<?php 
+								$col = "";
+								$col1 = "warning";
+								$col2 = "error";
+								$col3 = "sucess";
+								$col = $col1;
+								if($col == $col1){
+									$col = $col2;
+								}elseif($col == $col2){
+									$col = $col3;
+								}else{
+									$col = $col1;
+								}
+								?>
+								<tr class="<?php echo $col;?>">
+									<td>
+									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
+									</td>
+									<td>
+										<a href="{:U('Kytj/dofileDownload',array('id'=>$vo['id']))}">{$vo.name}</a>
+									</td>
+									<td>
+										{$vo.username}
+									</td>
+									<td>
+										{$vo.time|date="Y.m.d",###}
+									</td>
+								</tr>
+							</volist>
+							<tr>
+							   <td>
+							   	<a class="btn btn-default" href="javascript:checkaction(0)">批量删除</a> 							   	
+							   </td>
+							   <td>  
+							   	<a class="btn btn-default" href="javascript:overlay();">上传</a>
+							   </td>
+							   <td></td>
+							   <td></td>
+							</tr>
+							</tbody>
+						</table>
+					</form>
+					<div class="col-md-12 column">
+						{$page}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+function overlay(){
+   var e1 = document.getElementById('modal-overlay');			
+   e1.style.visibility = (e1.style.visibility == "visible")? "hidden" : "visible";
+
+}
+</script>
+<script>
+function comment(value){
+	//alert(value);
+   
+   var e1 = document.getElementById('modal-comment1');			
+   e1.style.visibility = (e1.style.visibility == "visible")? "hidden" : "visible";
+   var a=value;
+   document.getElementById("comm").value= a;
+
+}
+</script>
+
+<script>
+	function look(){
+	    document.form1.action="fileDownload";
+	}
+
+	function checkaction(v){
+	if(v==0){
+		document.form2.method="get";
+		document.form2.action="__URL__/deleteAll";
+	}
+	form2.submit();
+}
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll[]");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll[]");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
+
+//反选按钮
+function inverse() {
+var checkboxs=document.getElementsByName("checkAll");
+for (var i=0;i<checkboxs.length;i++) {
+  var e=checkboxs[i];
+  e.checked=!e.checked;
+  setSelectAll();
+}
+}
+	</script>
