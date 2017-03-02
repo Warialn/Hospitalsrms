@@ -10,8 +10,7 @@ html {
 }
 	 
 body {
-	margin: 0;
-	background-color:#fbfbfc;
+	margin: 0
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
@@ -1359,14 +1358,12 @@ button,input,select,textarea {
 }
 
 a {
-	color: #485b7f;
-	text-decoration: none;
-	font-weight: bold;
-
+	color: #eeeeee;
+	text-decoration: none
 }
 
 a:focus,a:hover {
-	color: #485b7f;
+	color: #2fb298;
 	text-decoration: underline
 }
 
@@ -1857,7 +1854,7 @@ pre code {
 	position: relative;
 	min-height: 1px;
 	padding-right: 15px;
-	padding-left: 0px
+	padding-left: 15px
 }
 
 .col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9 {

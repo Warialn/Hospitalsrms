@@ -13,22 +13,22 @@
 		fonts-->
 			<!--owlcss-->
 
-		<link rel="stylesheet" type="text/css" href="/Hospitalsrms/Public//bootstrap/css/jquery.datetimepicker.css"/>
-		<link href="/Hospitalsrms/Public//bootstrap/css/main.css" rel="stylesheet"><!-- 导航条引入效果文件 -->
-    	<link href="/Hospitalsrms/Public//bootstrap/css/tj_common.css" rel="stylesheet">
-		<link href="/Hospitalsrms/Public//bootstrap/css/owl.carousel.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/test/Hospitalsrms/Public//bootstrap/css/jquery.datetimepicker.css"/>
+		<link href="/test/Hospitalsrms/Public//bootstrap/css/main.css" rel="stylesheet"><!-- 导航条引入效果文件 -->
+    	<link href="/test/Hospitalsrms/Public//bootstrap/css/tj_common.css" rel="stylesheet">
+		<link href="/test/Hospitalsrms/Public//bootstrap/css/owl.carousel.css" rel="stylesheet">
 		<!--bootstrap-->
-			<link href="/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			<link href="/test/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<!--coustom css-->
-			<link href="/Hospitalsrms/Public//bootstrap/css/style.css" rel="stylesheet" type="text/css"/>
+			<link href="/test/Hospitalsrms/Public//bootstrap/css/style.css" rel="stylesheet" type="text/css"/>
 		<!--default-js-->
-			<script src="/Hospitalsrms/Public//bootstrap/js/jquery-2.1.4.min.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery-2.1.4.min.js"></script>
 		<!--bootstrap-js-->
-			<script src="/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
 		<!--script-->
-			<script type="text/javascript" src="/Hospitalsrms/Public//bootstrap/js/move-top.js"></script>
-			<script type="text/javascript" src="/Hospitalsrms/Public//bootstrap/js/easing.js"></script>
-			<script src="/Hospitalsrms/Public//bootstrap/js/jquery.swipebox.min.js"></script>
+			<script type="text/javascript" src="/test/Hospitalsrms/Public//bootstrap/js/move-top.js"></script>
+			<script type="text/javascript" src="/test/Hospitalsrms/Public//bootstrap/js/easing.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.swipebox.min.js"></script>
 
 		<!--script-->
 	</head>
@@ -120,7 +120,7 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active  image-wid">
-					<img src="/Hospitalsrms/Public//bootstrap/images/1a.jpg" alt="..." class="img-responsive">
+					<img src="/test/Hospitalsrms/Public//bootstrap/images/1a.jpg" alt="..." class="img-responsive">
 					<div class="carousel-caption">
 						<h3>科研统计</h3>
 						<p>Lorem Ipsum is simply dummy text of the typesetting industry</p>
@@ -128,7 +128,7 @@
 					</div>
 					</div>
 					<div class="item  image-wid">
-					<img src="/Hospitalsrms/Public//bootstrap/images/1d.jpg" alt="..." class="img-responsive">
+					<img src="/test/Hospitalsrms/Public//bootstrap/images/1d.jpg" alt="..." class="img-responsive">
 					<div class="carousel-caption">
 						<h3>项目申报</h3>
 						<p>Lorem Ipsum is simply dummy text of the typesetting industry</p>
@@ -136,7 +136,7 @@
 					</div>
 					</div>
 					<div class="item  image-wid">
-					<img src="/Hospitalsrms/Public//bootstrap/images/1g.jpg" alt="..." class="img-responsive">
+					<img src="/test/Hospitalsrms/Public//bootstrap/images/1g.jpg" alt="..." class="img-responsive">
 					<div class="carousel-caption">
 						<h3>费用报销</h3>
 						<p>Lorem Ipsum is simply dummy text of the typesetting industry</p>
@@ -144,7 +144,7 @@
 					</div>
 					</div>
 					<div class="item  image-wid">
-					<img src="/Hospitalsrms/Public//bootstrap/images/1l.jpg" alt="..." class="img-responsive">
+					<img src="/test/Hospitalsrms/Public//bootstrap/images/1l.jpg" alt="..." class="img-responsive">
 					<div class="carousel-caption">
 						<h3>学术活动</h3>
 						<p>Lorem Ipsum is simply dummy text of the typesetting industry</p>
@@ -384,48 +384,48 @@
 					<div class="gallery-grids">
 						<ul>
 							<li class="col-md-4 gal-alt">
-								<a href="/Hospitalsrms/Public//bootstrap/images/1i.jpg" class="swipebox">
-								<img src="/Hospitalsrms/Public//bootstrap/images/1i.jpg" alt="/"/>
+								<a href="/test/Hospitalsrms/Public//bootstrap/images/1i.jpg" class="swipebox">
+								<img src="/test/Hospitalsrms/Public//bootstrap/images/1i.jpg" alt="/"/>
 									<span class="hide-box">
 										<h4>Neutron collider Microscope</h4>
 										<p>Great transparency Rate</p>
 									</span>
 							</li></a>
 							<li class="col-md-4 gal-alt">
-								<a href="/Hospitalsrms/Public//bootstrap/images/1p.jpg" class="swipebox">
-								<img src="/Hospitalsrms/Public//bootstrap/images/1p.jpg" alt="/"/>
+								<a href="/test/Hospitalsrms/Public//bootstrap/images/1p.jpg" class="swipebox">
+								<img src="/test/Hospitalsrms/Public//bootstrap/images/1p.jpg" alt="/"/>
 									<span class="hide-box">
 										<h4>German made Ak-2000 Ct-Scan</h4>
 										<p>Lorem is a dummy Text</p>
 									</span>
 							</li></a>
 							<li class="col-md-4 gal-alt">
-								<a href="/Hospitalsrms/Public//bootstrap/images/1n.jpg" class="swipebox">
-								<img src="/Hospitalsrms/Public//bootstrap/images/1n.jpg" alt="/" />
+								<a href="/test/Hospitalsrms/Public//bootstrap/images/1n.jpg" class="swipebox">
+								<img src="/test/Hospitalsrms/Public//bootstrap/images/1n.jpg" alt="/" />
 								<span class="hide-box">
 										<h4>Symbiosis Laser T-300</h4>
 										<p>Lorem is a dummy Text</p>
 								</span>
 							</li></a>
 							<li class="col-md-4 gal-alt">
-								<a href="/Hospitalsrms/Public//bootstrap/images/1k.jpg" class="swipebox">
-								<img src="/Hospitalsrms/Public//bootstrap/images/1k.jpg" alt="/" />
+								<a href="/test/Hospitalsrms/Public//bootstrap/images/1k.jpg" class="swipebox">
+								<img src="/test/Hospitalsrms/Public//bootstrap/images/1k.jpg" alt="/" />
 								<span class="hide-box">
 										<h4>Angeo Blast</h4>
 										<p>Lorem is a dummy Text</p>
 								</span>	
 							</li></a>
 							<li class="col-md-4 gal-alt">
-								<a href="/Hospitalsrms/Public//bootstrap/images/1o.jpg" class="swipebox">
-								<img src="/Hospitalsrms/Public//bootstrap/images/1o.jpg" alt="/" />
+								<a href="/test/Hospitalsrms/Public//bootstrap/images/1o.jpg" class="swipebox">
+								<img src="/test/Hospitalsrms/Public//bootstrap/images/1o.jpg" alt="/" />
 								<span class="hide-box">
 										<h4>Spacious Operatio Theater</h4>
 										<p>Lorem is a dummy Text</p>
 								</span>
 							</li></a>
 							<li class="col-md-4 gal-alt">
-								<a href="/Hospitalsrms/Public//bootstrap/images/1f.jpg" class="swipebox">
-								<img src="/Hospitalsrms/Public//bootstrap/images/1f.jpg" alt="/"/>
+								<a href="/test/Hospitalsrms/Public//bootstrap/images/1f.jpg" class="swipebox">
+								<img src="/test/Hospitalsrms/Public//bootstrap/images/1f.jpg" alt="/"/>
 								<span class="hide-box">
 										<h4>Latest Ventilators</h4>
 										<p>Lorem is a dummy Text</p>
@@ -445,8 +445,8 @@
 
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
-		<span><img src="/Hospitalsrms/Public//img/logo.png"></span>
-		<h4 style="display:inline"><img src="/Hospitalsrms/Public//img/logo-font.png"></h4>
+		<span><img src="/test/Hospitalsrms/Public//img/logo.png"></span>
+		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo-font.png"></h4>
 	</div>
 	<hr style="height:1px;background-color:#494949;border:none;margin-top:0">
 	<div class="col-md-12">
@@ -524,8 +524,8 @@
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal -->
 </div>
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.js"></script>
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.datetimepicker.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.datetimepicker.js"></script>
 <script>
 
 $('#datetimepicker').datetimepicker();

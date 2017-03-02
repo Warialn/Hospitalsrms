@@ -12,7 +12,7 @@
 <body>
 <div class="contain">
 	<div class="navbar navbar-duomi navbar-static-top" role="navigation">
-	        <div class="container-fluid" style="background-color:#485b7f;">
+	        <div class="container-fluid" style="background-color:#2fb298;">
 	            <div class="navbar-header">
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
 	            </div>
@@ -24,7 +24,7 @@
 	    <div class="row clearfix">
 	        <div class="col-md-12 column">
 	            <div class="row clearfix">
-	                <div class="col-md-2 column" style="background-color:#E4E6E9;height:580px">
+	                <div class="col-md-2 column" style="background-color:#2f3e44;height:580px">
 	                    <div class="col-md-12" >
 	                        <ul class="nav nav-list">
 	                            <li><a href="#" class="dropdown-toggle">
@@ -192,8 +192,8 @@
 
 
 
- <div style="height:30px;background-color:#E4E6E9;
- padding:5px 3px 0px 200px;">项目申报管理>科研平台申请</div>
+ <div style="height:30px;background-color:#eee;
+ padding:5px 3px 0px 240px;">项目申报管理>科研平台申请</div>
 <div class="col-md-10 column" style="background-color:#fff;height:550px;">
     <div class="col-md-0">
     </div>
@@ -258,6 +258,6 @@
                 </div>
                 </div>
             </div>
-<div class="" style="background-color:#E4E6E9;height:60px;">
+<div class="" style="background-color:#eee;height:60px;">
 
 </div>

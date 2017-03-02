@@ -463,7 +463,7 @@ for (var i=0;i<checkboxs.length;i++) {
 
 <div class="row footer-bottom" style="background-color:#111111;color:#FFFFFF; padding-top:20px;padding-bottom:15px;">
   <ul class="list-inline text-center">
-    <li>Copyright 2015-2016 <a href="" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
+    <li>Copyright 2015-2016 <a href="http://hie.hebeinu.edu.cn:7777/miic/index.php" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
   </ul>
 </div>
 
@@ -490,20 +490,3 @@ for (var i=0;i<checkboxs.length;i++) {
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal -->
 </div>
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.js"></script>
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.datetimepicker.js"></script>
-<script>
-
-$('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
-var logic = function( currentDateTime ){
-	if( currentDateTime.getDay()==6 ){
-		this.setOptions({
-			minTime:'11:00'
-		});
-	}else
-		this.setOptions({
-			minTime:'8:00'
-		});
-};
-</script>
