@@ -4,11 +4,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="keywords" content="Play-Offs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<link href="/Hospitalsrms/Public//bootstrap/css/bootstrap.min2.css" rel="stylesheet">
-<link href="/Hospitalsrms/Public//bootstrap/css/admintop.css" rel="stylesheet">
-<link href="/Hospitalsrms/Public//bootstrap/css/font-awesome.css" rel="stylesheet">
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
-<script src="/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+<link href="/test/Hospitalsrms/Public//bootstrap/css/bootstrap.min2.css" rel="stylesheet">
+<link href="/test/Hospitalsrms/Public//bootstrap/css/admintop.css" rel="stylesheet">
+<link href="/test/Hospitalsrms/Public//bootstrap/css/ace.min.css" rel="stylesheet">
+<link href="/test/Hospitalsrms/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet">
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="contain">
@@ -24,16 +25,16 @@
 	    </div>
 	        <div class="col-md-12 column">
 	            <div class="row clearfix">
-	                <div class="col-md-2 column" style="background-color:#E4E6E9;height:580px">
+	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:580px">
 	                    <div class="col-md-12" >
 	                        <ul class="nav nav-list">
-	                            <li><a href="#" class="dropdown-toggle">
+	                            <li><a href="" class="dropdown-toggle" data-toggle="dropdown">
 									<i class="icon-journal"></i>
 									<span class="menu-text"> 科研统计管理 </span>
 									<b class="arrow icon-angle-down"></b>
 									</a>
 
-									<ul class="submenu" id="Kytj">
+									<ul class="dropdown-menu" id="Kytj">
 		                            	<li>
 											<a href="<?php echo U('Kytj/index');?>">
 												<i class="icon-double-angle-right"></i>
@@ -63,11 +64,11 @@
 								</li>
 		                        
 		                        <li>
-									<a href="#" class="dropdown-toggle">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 										<i class="icon-user0"></i>
 										<span class="menu-text"> 项目申报管理 </span>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 										<li>
 											<a href="<?php echo U('Xmsb/index');?>">
 												<i class="icon-double-angle-right"></i>
@@ -97,11 +98,11 @@
 									</ul>
 								</li>
 		                        <li>  
-		                            <a href="#" class="dropdown-toggle">  
+		                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">  
 			                            <i class="icon-desktop"></i>  
 			                            <span class="menu-text">科研经费管理 </span>    
 		                            </a> 
-		                            <ul class="submenu"> 
+		                            <ul class="dropdown-menu"> 
 		                         
 			                            <li>
 											<a href="<?php echo U('Kyjf/index');?>">
@@ -122,13 +123,13 @@
 		                        
 		                        
 		                         <li>
-									<a href="#" class="dropdown-toggle">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 										<i class="icon-alarm"></i>
 										<span class="menu-text"> 学术活动管理 </span>
 
 										<b class="arrow icon-angle-down"></b>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 		                             	<li>
 
 											<a href="<?php echo U('Xshd/index');?>">
@@ -157,19 +158,12 @@
 										<span class="menu-text">系统管理</span>
 										<b class="arrow icon-angle-down"></b>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 										<li><a href="">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>
 										</li>
-		                                
-		                                <li>  
-			                                <a href="">  
-			                                	<i class="icon-double-angle-right"></i>  
-			                                    日志管理  
-			                                </a>  
-		                                </li>
 		                                
 		                                <li>
 											<a href="<?php echo U('Xtgl/user');?>">
@@ -178,7 +172,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/usergroup');?>">
 												<i class="icon-double-angle-right"></i>
 												用户组管理
 											</a>
@@ -387,21 +381,8 @@
            
         </div>
     </div> -->
-    <div class="breadcrumbs" id="breadcrumbs">
-        <script type="text/javascript">
-            try {
-                ace.settings.check('breadcrumbs', 'fixed')
-            } catch (e) {
-            }
-        </script>
-
-        <ul class="breadcrumb">
-            <li>
-                系统管理
-            </li>
-            <li class="active">用户管理</li>
-        </ul>
-</div>
+     <div style="height:30px;background-color:#E4E6E9;
+ padding:5px 3px 0px 60px;">系统管理>用户管理</div>
 <div class="buttonGroup">
                 
                     <a href="#" class="btn btn-link" id="userAdd"><i class="icon-plus-sign bigger-120 green"></i>添加</a>
@@ -409,8 +390,6 @@
                     <if condition = "authcheck('Home/Negroup/user_delete','1','')">  
                     <a href="#" class="btn btn-link" id="userDel"><i class="icon-remove  bigger-120 red "></i>批量删除</a>
                 </div>
-
-
 
                 <div class="table-responsive">
 
@@ -427,12 +406,8 @@
                             <th><input type="checkbox"></th>
                             <th>用户名</th>
                             <th>用户组</th>
-                            <th>邮箱</th>
-                            <!-- <th>机房</th> -->
                             <th>注册时间</th>
                             <th>最后在线时间</th>
-
-                            <!--  <th>状态</th> -->
                             <th>操作</th>
                         </tr>
                         </thead>
@@ -441,23 +416,20 @@
                                 <td><input type="checkbox" name="checkbox"  value="<?php echo ($user_data_vo['id']); ?>"></td>
                                 <td><?php echo ($vo["user_name"]); ?></td>
                                 <td><?php echo ($vo["usergroup_id"]); ?></td>
-                                <td><?php echo ($user_data_vo['user_email']); ?></td>
-                                 <!-- <td><?php echo ($user_data_vo['room_name']); ?></td> -->
                                 <td><?php echo (date('Y-m-d H:i:s',$vo["reg_time"])); ?></td>
                                 <td><?php if($vo['last_time'] == 0): ?>--
                                 <?php else: ?>
                                 <?php echo (date('Y-m-d H:i:s',$vo["last_time"])); endif; ?></td>
                                 <td>
+                                    <a  href="#" class="green deleteuser"title="编辑">
+                                       编辑
+                                    </a>
 
-                                        <a  href="#" title="编辑">
-                                            <i class="icon-pencil bigger-130"></i>
-                                        </a>
+                                    <a class="red deleteuser"  href="#" title="删除">
+                                        删除
+                                    </a>
 
-                                        <a class="red deleteuser"  href="#" title="删除">
-                                            <i class="icon-trash bigger-130"></i>
-                                        </a>
-
-                                        <input type="hidden" value="<?php echo ($user_data_vo['id']); ?>">
+                                    <input type="hidden" value="<?php echo ($vo['id']); ?>">
                                     
                                 </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -472,6 +444,8 @@
             </ul>
         </div>
     </div>
+</div>
+<div style="clear: both"></div>
 </div>
 
 <script>
@@ -521,7 +495,7 @@
             return $(this).val();
         }).get().join(',');
         $.ajax({
-            url:'/Hospitalsrms/index.php/Admin/Xtgl/user_delete',
+            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/user_delete',
             type:'POST',
             dataType:'json',
             data:{'id':id},
@@ -553,7 +527,7 @@
             var right = $('#selectR').val();
 
             $.ajax({
-                url: '/Hospitalsrms/index.php/Admin/Xtgl/bind_room',
+                url: '/test/Hospitalsrms/index.php/Admin/Xtgl/bind_room',
                 type: 'POST',
                 datatype: 'json',
                 data: {'id':id, 'right':right},
@@ -583,7 +557,7 @@
 
             $.ajax({
                  type: "POST",
-                 url: "/Hospitalsrms/index.php/Admin/Xtgl/user_add",
+                 url: "/test/Hospitalsrms/index.php/Admin/Xtgl/user_add",
                  data: data,
                  dataType: "json",
                 success:function(data){
@@ -638,7 +612,7 @@
         var group_id = [];
         $.ajax({
              type: "POST",
-             url: "/Hospitalsrms/index.php/Admin/Xtgl/get_usergroup",
+             url: "/test/Hospitalsrms/index.php/Admin/Xtgl/get_usergroup",
              data: {'id':id},
              dataType: "json",
              success: function(data){
@@ -663,7 +637,7 @@
         var group_id = [];
         $.ajax({
             type: "POST",
-            url: "/Hospitalsrms/index.php/Admin/Xtgl/get_usergroup",
+            url: "/test/Hospitalsrms/index.php/Admin/Xtgl/get_usergroup",
             data: {'id':id},
             dataType: "json",
             success: function(data){
@@ -704,7 +678,7 @@
         var id = $(this).next().next().next().val();
         
         $.ajax({
-            url: '/Hospitalsrms/index.php/Admin/Xtgl/getRoomUser',
+            url: '/test/Hospitalsrms/index.php/Admin/Xtgl/getRoomUser',
             type: 'POST',
             dataType: 'json',
             async: false,
@@ -770,7 +744,7 @@
             
           $.ajax({
              type: "POST",
-             url: "/Hospitalsrms/index.php/Admin/Xtgl/user_delete",
+             url: "/test/Hospitalsrms/index.php/Admin/Xtgl/user_delete",
              data: {'id':vals},
              dataType: "json",
              success: function(data){
@@ -789,7 +763,7 @@
         e.preventDefault();
         var editeUser_data = $('#user_edite_form').serialize();
         $.ajax({
-            url:'/Hospitalsrms/index.php/Admin/Xtgl/do_user_edite',
+            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/do_user_edite',
             type:'POST',
             dataType:'json',
             data:editeUser_data,

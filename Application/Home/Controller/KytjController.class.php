@@ -262,7 +262,7 @@ class KytjController extends CommonController{
 			//dump($data);die;
 			if($model->create($data)){
 				$model->add();
-				echo "<script>window.location.href='http://localhost/Hospitalsrms/index.php/Home/Kytj/fileDownload'</script>";
+				echo "<script>window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Kytj/fileDownload'</script>";
 			}
 		}
 
@@ -286,7 +286,7 @@ class KytjController extends CommonController{
 			Header("Content-Disposition:attachment;filename=".$file_name);
 			echo fread($file,filesize($file_name));
 			fclose($file);
-			echo "<script>alert('下载完成');window.location.href='http://localhost/Hospitalsrms/index.php/Home/Kytj/fileDownload';</script>";
+			echo "<script>alert('下载完成');window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Kytj/fileDownload';</script>";
 			exit();
 		}
 	}

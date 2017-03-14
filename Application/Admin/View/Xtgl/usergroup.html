@@ -1,0 +1,177 @@
+<div class="main-content">
+    <div class="col-md-10 column">
+                <div class="row">
+                    <div class="col-xs-12">
+                    
+                       <div class="buttonGroup">
+                           <a href="#" class="btn btn-link" id="usergroupAdd"><i class="icon-plus-sign bigger-120 green"></i>添加</a>|
+                           
+                           <a href="#" class="btn btn-link" id="usergroupDel"><i class="icon-remove  bigger-120 red "></i>批量删除</a>
+                        
+
+                        </div>
+                    
+                        <div class="table-responsive">
+                            <table id="sample-table-1" class="table table-striped table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                       
+                                        <th><input type="checkbox" ></th>
+                                        <!-- <th>机房</th> -->
+                                        <th>用户组</th>
+                                        <th>备注</th>
+                                        <!-- <th>创建时间</th> -->
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                 <volist name="usergroup_data" id="usergroup_data_vo" >
+                                    <tr>
+                                        <td><input type="checkbox" name="checkbox" value="{$usergroup_data_vo['id']}"></td>
+                                        <!-- <td>南京机房</td> -->
+                                        <td>{$usergroup_data_vo['title']}</td>
+                                        <td>{$usergroup_data_vo['note']}</td>
+                                        <td><if condition="$usergroup_data_vo['title'] eq '超级管理员'">
+                                            ---
+                                         
+                                           
+                                            <a href="__URL__/authorize/id/{$usergroup_data_vo['id']}">权限设置</a>
+                                           
+						<a class="green editeUsergroup" href="#" title="编辑">
+							<i class="icon-pencil bigger-130"></i>
+						</a>
+                      
+						<a class="red" href="#" title="删除">
+							<i class="icon-trash delUsergroup bigger-130"></i>
+						</a>
+
+
+                                                                    
+                                </td>
+                            </tr>
+                           </volist>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    <div class="dataTables_paginate paging_bootstrap">
+        <ul class="pagination">
+            {$usergroup_show}
+        </ul>
+    </div>
+</div>
+<div style="clear: both"></div>
+</div>
+
+<script>
+    $(".buttonGroup #usergroupAdd").click(function () {
+        $("#userAddgroup").show();
+        $("#fade").show();
+        return false
+    });
+    $(".closePop").css("cursor", "pointer").click(function () {
+        $("#userAddgroup").hide();
+        $("#delUser").hide();
+        $("#editeUsergroup").hide();
+        $("#fade").hide();
+        $(":checked").attr('checked',false);
+    });
+    $(".buttonGroup #usergroupDel").click(function () {
+        var val= $("input:checkbox[name='checkbox']:checked").map(function() {
+            return $(this).val();
+        }).get();
+        if(val.length<1){
+            layer.alert("请选择数据");
+            return;
+        }
+        $("#delUser").show();
+        $("#fade").show();
+        return false
+    });
+
+    $(".editeUsergroup").click(function () {
+        var tr = $(this).parents('tr');
+        $("#editeusergroup_form input[name='id']").val(tr.children('td:eq(0)').children().val());
+        $("#editeusergroup_form input[name='groupname']").val(tr.children('td:eq(1)').html());
+        $("#editeusergroup_form textarea[name='note']").val(tr.children('td:eq(2)').html());
+        $("#editeUsergroup").show();
+        $("#fade").show();
+        return false
+    })
+
+    $(".delUsergroup").click(function () {
+        $(":checked").attr('checked',false);
+        $(this).parents('tr').children().first().children().attr('checked','checked');
+        $("#delUser").show();
+        $("#fade").show();
+        return false;
+    })
+
+    $('#delgroup_form').submit(function(e){
+        e.preventDefault();
+        var id = $("input:checkbox[name='checkbox']:checked").map(function() {
+                return $(this).val();
+            }).get().join(',');
+        $.ajax({
+            url:'__URL__/usergroupdel',
+            type:'POST',
+            dataType:'json',
+            data:{'id':id},
+            success:function(data){
+                if(data.status=='success'){
+                   $("#delUser").hide();
+                   $("#fade").hide();
+                   $('#delgroup_form')[0].reset();
+                    layer.alert("删除成功");
+                    window.location.reload();
+                    $(":checked").attr('checked',false);
+                }
+            }
+       });
+    })
+
+    $('#editeusergroup_form').submit(function(e){
+        e.preventDefault();
+        var data = $('#editeusergroup_form').serialize();
+        $.ajax({
+            url:'__URL__/do_usergroup_edite',
+            type:'POST',
+            dataType:'json',
+            data:data,
+            success:function(data){
+                if(data.status=='success'){
+                   $("#editeUsergroup").hide();
+                   $("#fade").hide();
+                   $('#editeusergroup_form')[0].reset();
+                    layer.alert("编辑成功");
+                    window.location.reload();
+                }
+            }
+       });
+    })
+
+    $('#usergroup_form').submit(function(e){
+        e.stopPropagation();
+        e.preventDefault();
+        var usergroup_data = $('#usergroup_form').serialize();
+        $.ajax({
+            url:'__URL__/usergroup_add',
+            type:'POST',
+            dataType:'json',
+            data:usergroup_data,
+            success:function(data){
+                if(data.status=='success'){
+                    $("#userAddgroup").hide();
+                    $("#fade").hide();
+                    layer.alert("添加成功");
+                    window.location.reload();
+                }else if(data.status=='failed'){
+                    layer.alert(data.message);
+                }
+            }
+        });
+    });
+
+
+</script>

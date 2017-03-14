@@ -80,16 +80,13 @@
 										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
 									</th>
 									<th>
-										会议名称
+										著作名称
 									</th>
 									<th>
-										组织者
+										作者
 									</th>
 									<th>
-										时间
-									</th>
-									<th>
-										地点
+										完成时间
 									</th>
 								</tr>
 							</thead>
@@ -114,17 +111,15 @@
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
 									</td>
 									<td>
-										{$vo.meetName}
+										{$vo.compositionname}
 									</td>
 									<td>
-										{$vo.organizer}
+										{$vo.author}
 									</td>
 									<td>
-										{$vo.meetTime}
+										{$vo.time}
 									</td>
-									<td>
-										{$vo.address}
-									</td>
+									
 								</tr>
 							</volist>
 							<tr>

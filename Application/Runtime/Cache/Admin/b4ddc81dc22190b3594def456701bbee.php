@@ -4,10 +4,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="keywords" content="Play-Offs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<link href="/Hospitalsrms/Public//bootstrap/css/bootstrap.min2.css" rel="stylesheet">
-<link href="/Hospitalsrms/Public//bootstrap/css/admintop.css" rel="stylesheet">
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
-<script src="/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+<link href="/test/Hospitalsrms/Public//bootstrap/css/bootstrap.min2.css" rel="stylesheet">
+<link href="/test/Hospitalsrms/Public//bootstrap/css/admintop.css" rel="stylesheet">
+<link href="/test/Hospitalsrms/Public//bootstrap/css/ace.min.css" rel="stylesheet">
+<link href="/test/Hospitalsrms/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet">
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="contain">
@@ -21,19 +23,18 @@
 		        </div>
 	        </div>
 	    </div>
-	    <div class="row clearfix">
 	        <div class="col-md-12 column">
 	            <div class="row clearfix">
-	                <div class="col-md-2 column" style="background-color:#E4E6E9;height:580px">
+	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:580px">
 	                    <div class="col-md-12" >
 	                        <ul class="nav nav-list">
-	                            <li><a href="#" class="dropdown-toggle">
+	                            <li><a href="" class="dropdown-toggle" data-toggle="dropdown">
 									<i class="icon-journal"></i>
 									<span class="menu-text"> 科研统计管理 </span>
 									<b class="arrow icon-angle-down"></b>
 									</a>
 
-									<ul class="submenu" id="Kytj">
+									<ul class="dropdown-menu" id="Kytj">
 		                            	<li>
 											<a href="<?php echo U('Kytj/index');?>">
 												<i class="icon-double-angle-right"></i>
@@ -63,11 +64,11 @@
 								</li>
 		                        
 		                        <li>
-									<a href="#" class="dropdown-toggle">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 										<i class="icon-user0"></i>
 										<span class="menu-text"> 项目申报管理 </span>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 										<li>
 											<a href="<?php echo U('Xmsb/index');?>">
 												<i class="icon-double-angle-right"></i>
@@ -97,11 +98,11 @@
 									</ul>
 								</li>
 		                        <li>  
-		                            <a href="#" class="dropdown-toggle">  
+		                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">  
 			                            <i class="icon-desktop"></i>  
 			                            <span class="menu-text">科研经费管理 </span>    
 		                            </a> 
-		                            <ul class="submenu"> 
+		                            <ul class="dropdown-menu"> 
 		                         
 			                            <li>
 											<a href="<?php echo U('Kyjf/index');?>">
@@ -122,13 +123,13 @@
 		                        
 		                        
 		                         <li>
-									<a href="#" class="dropdown-toggle">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 										<i class="icon-alarm"></i>
 										<span class="menu-text"> 学术活动管理 </span>
 
 										<b class="arrow icon-angle-down"></b>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 		                             	<li>
 
 											<a href="<?php echo U('Xshd/index');?>">
@@ -157,28 +158,21 @@
 										<span class="menu-text">系统管理</span>
 										<b class="arrow icon-angle-down"></b>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 										<li><a href="">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>
 										</li>
 		                                
-		                                <li>  
-			                                <a href="">  
-			                                	<i class="icon-double-angle-right"></i>  
-			                                    日志管理  
-			                                </a>  
-		                                </li>
-		                                
 		                                <li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/user');?>">
 												<i class="icon-double-angle-right"></i>
 												用户管理
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/usergroup');?>">
 												<i class="icon-double-angle-right"></i>
 												用户组管理
 											</a>
@@ -187,7 +181,8 @@
 								</li>
                       		</ul><!-- /.nav-list -->
 	                   </div>
-	                </div>              
+	                </div> 
+
 	            
 
 
@@ -195,12 +190,11 @@
  <div style="height:30px;background-color:#E4E6E9;
  padding:5px 3px 0px 200px;">项目申报管理>课题申请</div>
 <div class="col-md-10 column" style="background-color:#fff;height:550px;">
-    <div class="col-md-0">
-    </div>
+
      <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
 
                     <form name="form2" method="post" action="">
-                        <table class="table"><br/>
+                        <table class="table  table-striped table-bordered table-hover"><br/>
                             <input  class="btn btn-default pull-right" type="submit" value="搜索">
                             <div class="col-md-2 pull-right">
                                 <input class="form-control" type="text">
@@ -208,46 +202,63 @@
                                                                     
                             <thead>
                                 <tr>
-                                    <th>
+                                   <th>
                                         <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
                                     </th>
                                     <th>
-                                        论文名称
+                                        课题名称
                                     </th>
                                     <th>
-                                        作者
+                                        项目成员
+                                    </th>
+                                    <th>
+                                        经费预算
                                     </th>
                                     <th>
                                         年份
                                     </th>
+                                     <th>
+                                        操作
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $col = ""; $col1 = "warning"; $col2 = "error"; $col3 = "sucess"; $col = $col1; if($col == $col1){ $col = $col2; }elseif($col == $col2){ $col = $col3; }else{ $col = $col1; } ?>
-                                <tr class="<?php echo $col;?>">
+                                <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
                                     <td>
                                     <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
                                     </td>
-                                    <td>
-                                        <?php echo ($vo["name"]); ?>
+                                  <td>
+                                        <?php echo ($vo["projectName"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo ($vo["author"]); ?>
+                                        <?php echo ($vo["member"]); ?>
+                                    </td>
+                                    <td>
+                                        <?php echo ($vo["funds"]); ?>
                                     </td>
                                     <td>
                                         <?php echo ($vo["date"]); ?>
-                                    </td>                               
+                                    </td>
+                                    <td> 
+                                     <a  href="#" class="green deleteuser"title="编辑">
+                                       编辑
+                                    </a>
+
+                                    <a class="red deleteuser"  href="#" title="删除">
+                                        删除
+                                    </a>
+
+                                    <input type="hidden" value="<?php echo ($vo['id']); ?>"></td>                               
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             <tr>
                                <td>
-                                <img src="/Hospitalsrms/Public/img/arrow_ltr.gif"/>
+                                <img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
                                </td>
-                               <td>
-                                <a class="btn btn-default delete" href="">删除</a>                                
-                                <a class="btn btn-default" href="javascript:checkaction(1)">修改</a>  
+                               <td>  
                                </td>
                                <td></td>
                                <td></td>
+                                <td></td>
                             </tr>
                             </tbody>
                         </table>

@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/test/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
 	<link href="css/templatemo_style.css" rel="stylesheet" type="text/css">	
 </head>
@@ -15,7 +15,7 @@
 	<div class="container">
 		<div class="col-md-6">
 			<h1  class="col-md-7" style="font-size:18px;text-align:center;">登录</h1>
-			<form class="form-horizontal templatemo-container templatemo-login-form-1 margin-bottom-30" role="form" action="http://localhost/Hospitalsrms/index.php/Home/Login/login" method="post">				
+			<form class="form-horizontal templatemo-container templatemo-login-form-1 margin-bottom-30" role="form" action="http://localhost/test/Hospitalsrms/index.php/Home/Login/login" method="post">				
 		        <div class="form-group">
 		          <div class="col-xs-6">		            
 		            <div class="control-wrapper">
@@ -55,7 +55,7 @@
 		        </div>
 		      </form>
 		      <div class="text-center">
-		      	<a href="http://localhost/Hospitalsrms/index.php/Home/Login/register" class="templatemo-create-new">注册新账号 <i class="fa fa-arrow-circle-o-right"></i></a>	
+		      	<a href="http://localhost/test/Hospitalsrms/index.php/Home/Login/register" class="templatemo-create-new">注册新账号 <i class="fa fa-arrow-circle-o-right"></i></a>	
 		      </div>
 		</div>
 	</div>

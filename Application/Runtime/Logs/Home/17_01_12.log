@@ -13466,7 +13466,7 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 ERR: 非法操作:js
 
-[ 2017-01-12T17:47:06+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/%7Bhttp://localhost/Hospitalsrms/Application/Home/View/Login/index.html%7D
+[ 2017-01-12T17:47:06+08:00 ] ::1 /Hospitalsrms/index.php/Home/Index/%7Bhttp://localhost/test/Hospitalsrms/Application/Home/View/Login/index.html%7D
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]

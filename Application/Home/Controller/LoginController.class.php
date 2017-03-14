@@ -34,9 +34,9 @@ class LoginController extends Controller{
 			$map['id']=$result['0']['id'];
 			//echo $pass;
 			if($data['password'] == $pass){
-				    echo "<script>window.location.href='http://localhost/Hospitalsrms/index.php/Home/Index/index'</script>";
+				    echo "<script>window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Index/index'</script>";
 					
-					$this->success('登陆成功！','http://localhost/Hospitalsrms/index.php/Home/Index/index');
+					$this->success('登陆成功！','http://localhost/test/Hospitalsrms/index.php/Home/Index/index');
 					$dat['last_time']=strtotime(date("Y-m-d H:i:s",time()));
 					$User->where($map)->save($dat);
 					//Session::set('USER_AUTH_KEY',$map['id']);
@@ -44,7 +44,7 @@ class LoginController extends Controller{
 					$_SESSION['user_name'] = $data['user_name'];
 
 			}else{
-				echo "<script>alert('用户名或密码错误！');window.location.href='http://localhost/Hospitalsrms/index.php/Home/Login/index.html'</script>";
+				echo "<script>alert('用户名或密码错误！');window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'</script>";
 			}
 		}
 
@@ -52,7 +52,7 @@ class LoginController extends Controller{
 	public function logout(){
 		unset($_SESSION['user_id']);
 		unset($_SESSION['user_name']);
-		echo "<script> window.location.href='http://localhost/Hospitalsrms/index.php/Home/Index/index'</script>";
+		echo "<script> window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Index/index'</script>";
 
 	}
 }

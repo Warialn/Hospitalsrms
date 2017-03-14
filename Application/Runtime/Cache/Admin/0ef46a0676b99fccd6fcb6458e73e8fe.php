@@ -64,11 +64,11 @@
 								</li>
 		                        
 		                        <li>
-									<a href="#" class="dropdown-toggle">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 										<i class="icon-user0"></i>
 										<span class="menu-text"> 项目申报管理 </span>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 										<li>
 											<a href="<?php echo U('Xmsb/index');?>">
 												<i class="icon-double-angle-right"></i>
@@ -98,11 +98,11 @@
 									</ul>
 								</li>
 		                        <li>  
-		                            <a href="#" class="dropdown-toggle">  
+		                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">  
 			                            <i class="icon-desktop"></i>  
 			                            <span class="menu-text">科研经费管理 </span>    
 		                            </a> 
-		                            <ul class="submenu"> 
+		                            <ul class="dropdown-menu"> 
 		                         
 			                            <li>
 											<a href="<?php echo U('Kyjf/index');?>">
@@ -123,13 +123,13 @@
 		                        
 		                        
 		                         <li>
-									<a href="#" class="dropdown-toggle">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 										<i class="icon-alarm"></i>
 										<span class="menu-text"> 学术活动管理 </span>
 
 										<b class="arrow icon-angle-down"></b>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 		                             	<li>
 
 											<a href="<?php echo U('Xshd/index');?>">
@@ -158,19 +158,12 @@
 										<span class="menu-text">系统管理</span>
 										<b class="arrow icon-angle-down"></b>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 										<li><a href="">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>
 										</li>
-		                                
-		                                <li>  
-			                                <a href="">  
-			                                	<i class="icon-double-angle-right"></i>  
-			                                    日志管理  
-			                                </a>  
-		                                </li>
 		                                
 		                                <li>
 											<a href="<?php echo U('Xtgl/user');?>">
@@ -179,7 +172,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/usergroup');?>">
 												<i class="icon-double-angle-right"></i>
 												用户组管理
 											</a>
@@ -197,7 +190,7 @@
     <div class="col-md-10 column" style="background-color:#fbfbfc;border-radius:0px;height:530px;">
 
         <form name="form2" method="post" action="">
-            <table class="table"><br/>
+            <table class="table table-striped table-bordered table-hover"><br/>
                 <input  class="btn btn-default pull-right" type="submit" value="搜索">
                 <div class="col-md-2 pull-right">
                     <input class="form-control" type="text">
@@ -223,8 +216,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $col = ""; $col1 = "warning"; $col2 = "error"; $col3 = "sucess"; $col = $col1; if($col == $col1){ $col = $col2; }elseif($col == $col2){ $col = $col3; }else{ $col = $col1; } ?>
-                    <tr class="<?php echo $col;?>">
+                    <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
                         <td>
                         <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
                         </td>
@@ -238,7 +230,15 @@
                             <?php echo ($vo["date"]); ?>
                         </td> 
                         <td>
-                            
+                            <a  href="#" class="green deleteuser"title="编辑">
+                                       编辑
+                                    </a>
+
+                                    <a class="red deleteuser"  href="#" title="删除">
+                                        删除
+                                    </a>
+
+                                    <input type="hidden" value="<?php echo ($vo['id']); ?>"> 
                         </td>                              
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                 <tr>

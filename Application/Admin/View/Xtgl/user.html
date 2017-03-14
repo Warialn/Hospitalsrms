@@ -198,21 +198,8 @@
            
         </div>
     </div> -->
-    <div class="breadcrumbs" id="breadcrumbs">
-        <script type="text/javascript">
-            try {
-                ace.settings.check('breadcrumbs', 'fixed')
-            } catch (e) {
-            }
-        </script>
-
-        <ul class="breadcrumb">
-            <li>
-                系统管理
-            </li>
-            <li class="active">用户管理</li>
-        </ul>
-</div>
+     <div style="height:30px;background-color:#E4E6E9;
+ padding:5px 3px 0px 60px;">系统管理>用户管理</div>
 <div class="buttonGroup">
                 
                     <a href="#" class="btn btn-link" id="userAdd"><i class="icon-plus-sign bigger-120 green"></i>添加</a>
@@ -220,8 +207,6 @@
                     <if condition = "authcheck('Home/Negroup/user_delete','1','')">  
                     <a href="#" class="btn btn-link" id="userDel"><i class="icon-remove  bigger-120 red "></i>批量删除</a>
                 </div>
-
-
 
                 <div class="table-responsive">
 
@@ -238,12 +223,8 @@
                             <th><input type="checkbox"></th>
                             <th>用户名</th>
                             <th>用户组</th>
-                            <th>邮箱</th>
-                            <!-- <th>机房</th> -->
                             <th>注册时间</th>
                             <th>最后在线时间</th>
-
-                            <!--  <th>状态</th> -->
                             <th>操作</th>
                         </tr>
                         </thead>
@@ -253,8 +234,6 @@
                                 <td><input type="checkbox" name="checkbox"  value="{$user_data_vo['id']}"></td>
                                 <td>{$vo.user_name}</td>
                                 <td>{$vo.usergroup_id}</td>
-                                <td>{$user_data_vo['user_email']}</td>
-                                 <!-- <td>{$user_data_vo['room_name']}</td> -->
                                 <td>{$vo.reg_time|date='Y-m-d H:i:s',###}</td>
                                 <td><if condition="$vo['last_time'] eq 0" >
                                 --
@@ -262,16 +241,15 @@
                                 {$vo.last_time|date='Y-m-d H:i:s',###}
                                 </if></td>
                                 <td>
+                                    <a  href="#" class="green deleteuser"title="编辑">
+                                       编辑
+                                    </a>
 
-                                        <a  href="#" title="编辑">
-                                            <i class="icon-pencil bigger-130"></i>
-                                        </a>
+                                    <a class="red deleteuser"  href="#" title="删除">
+                                        删除
+                                    </a>
 
-                                        <a class="red deleteuser"  href="#" title="删除">
-                                            <i class="icon-trash bigger-130"></i>
-                                        </a>
-
-                                        <input type="hidden" value="{$user_data_vo['id']}">
+                                    <input type="hidden" value="{$vo['id']}">
                                     
                                 </td>
                             </tr>
@@ -287,6 +265,8 @@
             </ul>
         </div>
     </div>
+</div>
+<div style="clear: both"></div>
 </div>
 
 <script>

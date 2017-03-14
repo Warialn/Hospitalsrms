@@ -13,22 +13,22 @@
 		fonts-->
 			<!--owlcss-->
 
-		<link rel="stylesheet" type="text/css" href="/Hospitalsrms/Public//bootstrap/css/jquery.datetimepicker.css"/>
-		<link href="/Hospitalsrms/Public//bootstrap/css/main.css" rel="stylesheet"><!-- 导航条引入效果文件 -->
-    	<link href="/Hospitalsrms/Public//bootstrap/css/tj_common.css" rel="stylesheet">
-		<link href="/Hospitalsrms/Public//bootstrap/css/owl.carousel.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/test/Hospitalsrms/Public//bootstrap/css/jquery.datetimepicker.css"/>
+		<link href="/test/Hospitalsrms/Public//bootstrap/css/main.css" rel="stylesheet"><!-- 导航条引入效果文件 -->
+    	<link href="/test/Hospitalsrms/Public//bootstrap/css/tj_common.css" rel="stylesheet">
+		<link href="/test/Hospitalsrms/Public//bootstrap/css/owl.carousel.css" rel="stylesheet">
 		<!--bootstrap-->
-			<link href="/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			<link href="/test/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<!--coustom css-->
-			<link href="/Hospitalsrms/Public//bootstrap/css/style.css" rel="stylesheet" type="text/css"/>
+			<link href="/test/Hospitalsrms/Public//bootstrap/css/style.css" rel="stylesheet" type="text/css"/>
 		<!--default-js-->
-			<script src="/Hospitalsrms/Public//bootstrap/js/jquery-2.1.4.min.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery-2.1.4.min.js"></script>
 		<!--bootstrap-js-->
-			<script src="/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
 		<!--script-->
-			<script type="text/javascript" src="/Hospitalsrms/Public//bootstrap/js/move-top.js"></script>
-			<script type="text/javascript" src="/Hospitalsrms/Public//bootstrap/js/easing.js"></script>
-			<script src="/Hospitalsrms/Public//bootstrap/js/jquery.swipebox.min.js"></script>
+			<script type="text/javascript" src="/test/Hospitalsrms/Public//bootstrap/js/move-top.js"></script>
+			<script type="text/javascript" src="/test/Hospitalsrms/Public//bootstrap/js/easing.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.swipebox.min.js"></script>
 
 		<!--script-->
 	</head>
@@ -36,7 +36,7 @@
 		<div class="header" id="home">
 			 <div class="header-top" style="background-color:#494949;height:35px;">
 				<div class="container" >
-					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
+					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
 				</div>
 			</div> 
 			<div class="header_nav" id="home">
@@ -220,7 +220,7 @@
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 							<tr>
 							   <td>
-							   	<img src="/Hospitalsrms/Public/img/arrow_ltr.gif"/>
+							   	<img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
 							   </td>
 							   <td>
 							   	<a class="btn btn-default delete" href="">删除</a> 							   	
@@ -246,7 +246,7 @@ $(".delete").click(function(){
         layer.confirm("您确定要删除该条数据吗？", {
             btn : ["确定", "取消"]
         }, function(){
-            $.post("/Hospitalsrms/index.php/Home/Kytj/deleteAll", {id : id}, function(data){
+            $.post("/test/Hospitalsrms/index.php/Home/Kytj/deleteAll", {id : id}, function(data){
                 if (data.status == "success") {
                     layer.alert("删除成功");
                     window.location.reload();
@@ -259,7 +259,7 @@ $(".delete").click(function(){
         return false;
     });
 	function look(){
-	    document.form1.action="/Hospitalsrms/index.php/Home/Kytj/scanTheses";
+	    document.form1.action="/test/Hospitalsrms/index.php/Home/Kytj/scanTheses";
 	}
 	function mod(){
 		document.form2.action="modify_cost.php";
@@ -267,13 +267,13 @@ $(".delete").click(function(){
 	function checkaction(v){
 	if(v==0){
 		document.form2.method="get";
-		document.form2.action="/Hospitalsrms/index.php/Home/Kytj/deleteAll";
+		document.form2.action="/test/Hospitalsrms/index.php/Home/Kytj/deleteAll";
 	}else if(v==1){
 		document.form2.method="get";
-		document.form2.action="/Hospitalsrms/index.php/Home/Kytj/updatefile";
+		document.form2.action="/test/Hospitalsrms/index.php/Home/Kytj/updatefile";
 	}else{
 		document.form2.method="get";
-		document.form2.action="/Hospitalsrms/index.php/Home/Kytj/export";
+		document.form2.action="/test/Hospitalsrms/index.php/Home/Kytj/export";
 	}
 	form2.submit();
 }
@@ -335,8 +335,8 @@ for (var i=0;i<checkboxs.length;i++) {
 
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
-		<span><img src="/Hospitalsrms/Public//img/logo.png"></span>
-		<h4 style="display:inline"><img src="/Hospitalsrms/Public//img/logo-font.png"></h4>
+		<span><img src="/test/Hospitalsrms/Public//img/logo.png"></span>
+		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo-font.png"></h4>
 	</div>
 	<hr style="height:1px;background-color:#494949;border:none;margin-top:0">
 	<div class="col-md-12">
@@ -414,12 +414,12 @@ for (var i=0;i<checkboxs.length;i++) {
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal -->
 </div>
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.js"></script>
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.datetimepicker.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.datetimepicker.js"></script>
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:'2017/01/22 08:00',step:10});
+$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

@@ -4,12 +4,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="keywords" content="Play-Offs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<link href="/Hospitalsrms/Public//bootstrap/css/bootstrap.min2.css" rel="stylesheet">
-<link href="/Hospitalsrms/Public//bootstrap/css/admintop.css" rel="stylesheet">
-<link href="/Hospitalsrms/Public//bootstrap/css/ace.min.css" rel="stylesheet">
-<link href="/Hospitalsrms/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet">
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
-<script src="/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+<link href="/test/Hospitalsrms/Public//bootstrap/css/bootstrap.min2.css" rel="stylesheet">
+<link href="/test/Hospitalsrms/Public//bootstrap/css/admintop.css" rel="stylesheet">
+<link href="/test/Hospitalsrms/Public//bootstrap/css/ace.min.css" rel="stylesheet">
+<link href="/test/Hospitalsrms/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet">
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="contain">
@@ -64,11 +64,11 @@
 								</li>
 		                        
 		                        <li>
-									<a href="#" class="dropdown-toggle">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 										<i class="icon-user0"></i>
 										<span class="menu-text"> 项目申报管理 </span>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 										<li>
 											<a href="<?php echo U('Xmsb/index');?>">
 												<i class="icon-double-angle-right"></i>
@@ -98,11 +98,11 @@
 									</ul>
 								</li>
 		                        <li>  
-		                            <a href="#" class="dropdown-toggle">  
+		                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">  
 			                            <i class="icon-desktop"></i>  
 			                            <span class="menu-text">科研经费管理 </span>    
 		                            </a> 
-		                            <ul class="submenu"> 
+		                            <ul class="dropdown-menu"> 
 		                         
 			                            <li>
 											<a href="<?php echo U('Kyjf/index');?>">
@@ -123,13 +123,13 @@
 		                        
 		                        
 		                         <li>
-									<a href="#" class="dropdown-toggle">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 										<i class="icon-alarm"></i>
 										<span class="menu-text"> 学术活动管理 </span>
 
 										<b class="arrow icon-angle-down"></b>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 		                             	<li>
 
 											<a href="<?php echo U('Xshd/index');?>">
@@ -158,7 +158,7 @@
 										<span class="menu-text">系统管理</span>
 										<b class="arrow icon-angle-down"></b>
 									</a>
-									<ul class="submenu">
+									<ul class="dropdown-menu">
 										<li><a href="">
 												<i class="icon-double-angle-right"></i>
 												密码管理
@@ -236,7 +236,7 @@
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             <tr>
                                <td>
-                                <img src="/Hospitalsrms/Public/img/arrow_ltr.gif"/>
+                                <img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
                                </td>
                                <td>
                                 <a class="btn btn-default delete" href="">删除</a>                                

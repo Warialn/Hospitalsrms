@@ -14,7 +14,7 @@
 	<h1 class="col-md-6" style="text-align:center;font-size:28px;">注册</h1>
 	<div class="container">
 		<div class="col-md-8">			
-			<form class="form-horizontal templatemo-create-account templatemo-container" role="form" action="http://localhost/Hospitalsrms/index.php/Home/Login/register" method="post">
+			<form class="form-horizontal templatemo-create-account templatemo-container" role="form" action="http://localhost/test/Hospitalsrms/index.php/Home/Login/register" method="post">
 				<div class="form-inner">
 					<div class="form-group">             
 			        </div>			
@@ -34,7 +34,7 @@
 			        <div class="form-group">
 			          <div class="col-md-6">
 			            <input type="submit" name="submit" value="注册" class="btn btn-info"/>
-			            <a href="http://localhost/Hospitalsrms/index.php/Home/Login/index" class="pull-right">登录</a>
+			            <a href="http://localhost/test/Hospitalsrms/index.php/Home/Login/index" class="pull-right">登录</a>
 			          </div>
 			        </div>	
 				</div>				    	

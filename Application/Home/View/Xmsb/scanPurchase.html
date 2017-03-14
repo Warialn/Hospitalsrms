@@ -82,13 +82,19 @@
 										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
 									</th>
 									<th>
-										论文名称
+										物资名称
 									</th>
 									<th>
-										作者
+										申请人
 									</th>
 									<th>
-										年份
+										单价
+									</th>
+									<th>
+										日期
+									</th>
+									<th>
+										审核状态
 									</th>
 								</tr>
 							</thead>
@@ -116,10 +122,16 @@
 										{$vo.name}
 									</td>
 									<td>
-										{$vo.author}
+										{$vo.applicant}
+									</td>
+									<td>
+										{$vo.price}
 									</td>
 									<td>
 										{$vo.date}
+									</td>
+									<td style="<?php if($vo['status'] == 1){echo 'color:blue;';}elseif($vo['status'] == 2){echo 'color:green';}elseif($vo['status'] == 0){echo 'color:red';}?>">
+										<?php if ($vo['status'] == 1){echo "等待审核";}elseif($vo['status'] == 2){ echo "通过审核";}elseif($vo['status'] == 0){ echo "未通过";}?>
 									</td>
 								</tr>
 							</volist>
@@ -133,6 +145,9 @@
 							   </td>
 							   <td></td>
 							   <td></td>
+							   <td></td>
+							    <td></td>
+
 							</tr>
 							</tbody>
 						</table>

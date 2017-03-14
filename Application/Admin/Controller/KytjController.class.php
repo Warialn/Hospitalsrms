@@ -36,7 +36,7 @@ class KytjController extends Controller {
 			$map['date'] = $date;
 
 		}
-		$map['uid'] = $_SESSION['user_id'];
+	
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,8);
 		    //		$Page->parameter   =   array_map('urlencode',$map);
@@ -63,7 +63,7 @@ class KytjController extends Controller {
 			$map['date'] = $date;
 
 		}
-		$map['uid'] = $_SESSION['user_id'];
+	
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,8);
 		    //		$Page->parameter   =   array_map('urlencode',$map);
@@ -90,7 +90,7 @@ class KytjController extends Controller {
 			$map['date'] = $date;
 
 		}
-		$map['uid'] = $_SESSION['user_id'];
+	
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,8);
 		    //		$Page->parameter   =   array_map('urlencode',$map);

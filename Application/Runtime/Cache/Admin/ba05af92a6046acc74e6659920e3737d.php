@@ -165,13 +165,6 @@
 											</a>
 										</li>
 		                                
-		                                <li>  
-			                                <a href="">  
-			                                	<i class="icon-double-angle-right"></i>  
-			                                    日志管理  
-			                                </a>  
-		                                </li>
-		                                
 		                                <li>
 											<a href="<?php echo U('Xtgl/user');?>">
 												<i class="icon-double-angle-right"></i>
@@ -179,7 +172,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/usergroup');?>">
 												<i class="icon-double-angle-right"></i>
 												用户组管理
 											</a>
@@ -193,82 +186,181 @@
 	            
 
 
+<div class="main-content">
+    <div class="col-md-10 column">
+                <div class="row">
+                    <div class="col-xs-12">
+                    
+                       <div class="buttonGroup">
+                           <a href="#" class="btn btn-link" id="usergroupAdd"><i class="icon-plus-sign bigger-120 green"></i>添加</a>|
+                           
+                           <a href="#" class="btn btn-link" id="usergroupDel"><i class="icon-remove  bigger-120 red "></i>批量删除</a>
+                        
 
- <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 200px;">科研统计管理>仪器设备管理</div>
-<div class="col-md-10 column" style="background-color:#fff;height:550px;">
-    <div class="col-md-0">
-    </div>
-     <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
+                        </div>
+                    
+                        <div class="table-responsive">
+                            <table id="sample-table-1" class="table table-striped table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                       
+                                        <th><input type="checkbox" ></th>
+                                        <!-- <th>机房</th> -->
+                                        <th>用户组</th>
+                                        <th>备注</th>
+                                        <!-- <th>创建时间</th> -->
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                 <?php if(is_array($usergroup_data)): $i = 0; $__LIST__ = $usergroup_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$usergroup_data_vo): $mod = ($i % 2 );++$i;?><tr>
+                                        <td><input type="checkbox" name="checkbox" value="<?php echo ($usergroup_data_vo['id']); ?>"></td>
+                                        <!-- <td>南京机房</td> -->
+                                        <td><?php echo ($usergroup_data_vo['title']); ?></td>
+                                        <td><?php echo ($usergroup_data_vo['note']); ?></td>
+                                        <td><if condition="$usergroup_data_vo['title'] eq '超级管理员'">
+                                            ---
+                                         
+                                           
+                                            <a href="/test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/<?php echo ($usergroup_data_vo['id']); ?>">权限设置</a>
+                                           
+						<a class="green editeUsergroup" href="#" title="编辑">
+							<i class="icon-pencil bigger-130"></i>
+						</a>
+                      
+						<a class="red" href="#" title="删除">
+							<i class="icon-trash delUsergroup bigger-130"></i>
+						</a>
 
-        <form name="form2" method="post" action="">
-           <table class="table"><br/>
-            <input  class="btn btn-default pull-right" type="submit" value="搜索">
-                <div class="col-md-2 pull-right">
-                    <input class="form-control" type="text">
-                </div>
-                        <thead>
-                            <tr>
-                                <th>
-                                    <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                                </th>
-                                <th>
-                                    设备名称
-                                </th>
-                                <th>
-                                    联系人
-                                </th>
-                                <th>
-                                    联系方式
-                                </th>
-                                <th>
-                                    时间
-                                </th>
-                                 <th>
-                                   操作
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $col = ""; $col1 = "warning"; $col2 = "error"; $col3 = "sucess"; $col = $col1; if($col == $col1){ $col = $col2; }elseif($col == $col2){ $col = $col3; }else{ $col = $col1; } ?>
-                            <tr class="<?php echo $col;?>">
-                                <td>
-                                    <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-                                </td>
-                                <td>
-                                    <?php echo ($vo["name"]); ?>
-                                </td>
-                                <td>
-                                    <?php echo ($vo["contact"]); ?>
-                                </td>
-                                <td>
-                                    <?php echo ($vo["phone"]); ?>
-                                </td>
-                                <td>
-                                    <?php echo ($vo["time"]); ?>
-                                </td>
-                                <td>
+
+                                                                    
                                 </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                <tr>
-                   <td>
-                    <img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
-                   </td>
-
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                </tr>
-                </tbody>
-            </table>
-        </form>
-    <div class="col-md-12 column">
-        <?php echo ($page); ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    <div class="dataTables_paginate paging_bootstrap">
+        <ul class="pagination">
+            <?php echo ($usergroup_show); ?>
+        </ul>
     </div>
 </div>
+<div style="clear: both"></div>
 </div>
-</div>
+
+<script>
+    $(".buttonGroup #usergroupAdd").click(function () {
+        $("#userAddgroup").show();
+        $("#fade").show();
+        return false
+    });
+    $(".closePop").css("cursor", "pointer").click(function () {
+        $("#userAddgroup").hide();
+        $("#delUser").hide();
+        $("#editeUsergroup").hide();
+        $("#fade").hide();
+        $(":checked").attr('checked',false);
+    });
+    $(".buttonGroup #usergroupDel").click(function () {
+        var val= $("input:checkbox[name='checkbox']:checked").map(function() {
+            return $(this).val();
+        }).get();
+        if(val.length<1){
+            layer.alert("请选择数据");
+            return;
+        }
+        $("#delUser").show();
+        $("#fade").show();
+        return false
+    });
+
+    $(".editeUsergroup").click(function () {
+        var tr = $(this).parents('tr');
+        $("#editeusergroup_form input[name='id']").val(tr.children('td:eq(0)').children().val());
+        $("#editeusergroup_form input[name='groupname']").val(tr.children('td:eq(1)').html());
+        $("#editeusergroup_form textarea[name='note']").val(tr.children('td:eq(2)').html());
+        $("#editeUsergroup").show();
+        $("#fade").show();
+        return false
+    })
+
+    $(".delUsergroup").click(function () {
+        $(":checked").attr('checked',false);
+        $(this).parents('tr').children().first().children().attr('checked','checked');
+        $("#delUser").show();
+        $("#fade").show();
+        return false;
+    })
+
+    $('#delgroup_form').submit(function(e){
+        e.preventDefault();
+        var id = $("input:checkbox[name='checkbox']:checked").map(function() {
+                return $(this).val();
+            }).get().join(',');
+        $.ajax({
+            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/usergroupdel',
+            type:'POST',
+            dataType:'json',
+            data:{'id':id},
+            success:function(data){
+                if(data.status=='success'){
+                   $("#delUser").hide();
+                   $("#fade").hide();
+                   $('#delgroup_form')[0].reset();
+                    layer.alert("删除成功");
+                    window.location.reload();
+                    $(":checked").attr('checked',false);
+                }
+            }
+       });
+    })
+
+    $('#editeusergroup_form').submit(function(e){
+        e.preventDefault();
+        var data = $('#editeusergroup_form').serialize();
+        $.ajax({
+            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/do_usergroup_edite',
+            type:'POST',
+            dataType:'json',
+            data:data,
+            success:function(data){
+                if(data.status=='success'){
+                   $("#editeUsergroup").hide();
+                   $("#fade").hide();
+                   $('#editeusergroup_form')[0].reset();
+                    layer.alert("编辑成功");
+                    window.location.reload();
+                }
+            }
+       });
+    })
+
+    $('#usergroup_form').submit(function(e){
+        e.stopPropagation();
+        e.preventDefault();
+        var usergroup_data = $('#usergroup_form').serialize();
+        $.ajax({
+            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/usergroup_add',
+            type:'POST',
+            dataType:'json',
+            data:usergroup_data,
+            success:function(data){
+                if(data.status=='success'){
+                    $("#userAddgroup").hide();
+                    $("#fade").hide();
+                    layer.alert("添加成功");
+                    window.location.reload();
+                }else if(data.status=='failed'){
+                    layer.alert(data.message);
+                }
+            }
+        });
+    });
+
+
+</script>
 <div class="" style="background-color:#E4E6E9;height:60px;">
 
 </div>

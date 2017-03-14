@@ -13,22 +13,22 @@
 		fonts-->
 			<!--owlcss-->
 
-		<link rel="stylesheet" type="text/css" href="/Hospitalsrms/Public//bootstrap/css/jquery.datetimepicker.css"/>
-		<link href="/Hospitalsrms/Public//bootstrap/css/main.css" rel="stylesheet"><!-- 导航条引入效果文件 -->
-    	<link href="/Hospitalsrms/Public//bootstrap/css/tj_common.css" rel="stylesheet">
-		<link href="/Hospitalsrms/Public//bootstrap/css/owl.carousel.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/test/Hospitalsrms/Public//bootstrap/css/jquery.datetimepicker.css"/>
+		<link href="/test/Hospitalsrms/Public//bootstrap/css/main.css" rel="stylesheet"><!-- 导航条引入效果文件 -->
+    	<link href="/test/Hospitalsrms/Public//bootstrap/css/tj_common.css" rel="stylesheet">
+		<link href="/test/Hospitalsrms/Public//bootstrap/css/owl.carousel.css" rel="stylesheet">
 		<!--bootstrap-->
-			<link href="/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			<link href="/test/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<!--coustom css-->
-			<link href="/Hospitalsrms/Public//bootstrap/css/style.css" rel="stylesheet" type="text/css"/>
+			<link href="/test/Hospitalsrms/Public//bootstrap/css/style.css" rel="stylesheet" type="text/css"/>
 		<!--default-js-->
-			<script src="/Hospitalsrms/Public//bootstrap/js/jquery-2.1.4.min.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery-2.1.4.min.js"></script>
 		<!--bootstrap-js-->
-			<script src="/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
 		<!--script-->
-			<script type="text/javascript" src="/Hospitalsrms/Public//bootstrap/js/move-top.js"></script>
-			<script type="text/javascript" src="/Hospitalsrms/Public//bootstrap/js/easing.js"></script>
-			<script src="/Hospitalsrms/Public//bootstrap/js/jquery.swipebox.min.js"></script>
+			<script type="text/javascript" src="/test/Hospitalsrms/Public//bootstrap/js/move-top.js"></script>
+			<script type="text/javascript" src="/test/Hospitalsrms/Public//bootstrap/js/easing.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.swipebox.min.js"></script>
 
 		<!--script-->
 	</head>
@@ -36,7 +36,7 @@
 		<div class="header" id="home">
 			 <div class="header-top" style="background-color:#494949;height:35px;">
 				<div class="container" >
-					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
+					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
 				</div>
 			</div> 
 			<div class="header_nav" id="home">
@@ -161,7 +161,7 @@
 			</div>
 		</div>
 		<div class="col-md-8" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;margin-right:30px;">
-			<form role="form" style="padding-top:15px;" action="http://localhost/Hospitalsrms/index.php/Home/Kytj/addTheses" method="post" name="myform" onsubmit="return CheckPost();">
+			<form role="form" style="padding-top:15px;" action="http://localhost/test/Hospitalsrms/index.php/Home/Xmsb/department" method="post" name="myform" onsubmit="return CheckPost();">
 				<div class="row-fluid col-md-12" style="padding-top:5px;">
 				   <div class="span12 col-md-9" style="padding-left:3px;">
 					   <h3 class="text-left fontTitle">
@@ -175,27 +175,27 @@
 				<table width="795" height="287" class="table">
 				  <tr>
 				    <td width="178">科研平台名称（<span class="fontStar">※</span>必填）</td>
-				    <td width="601"><input type="text" class="form-control input-sm" id="name1" placeholder="" name="name"></td>
+				    <td width="601"><input type="text" class="form-control input-sm" id="name1" placeholder="" name="plantformName"></td>
 				  </tr>
 				  <tr>
 				    <td>申请人（<span class="fontStar">※</span>）</span></td>
-				    <td> <input type="text" class="form-control input-sm" id="name2" placeholder="" name="member"></td>
+				    <td> <input type="text" class="form-control input-sm" id="name2" placeholder="" name="user"></td>
 				  </tr>
 				  <tr>
 				    <td>所属科室（<span class="fontStar">※</span>）</td>
-				    <td><input type="text" class="form-control input-sm" id="name2" placeholder="" name="objective"></td>
+				    <td><input type="text" class="form-control input-sm" id="name2" placeholder="" name="department"></td>
 				  </tr>
 				  <tr>
 				    <td>研究项目</td>
-				    <td> <input type="text" class="form-control input-sm" id="name3" placeholder="" name="content"></td>
+				    <td> <input type="text" class="form-control input-sm" id="name3" placeholder="" name="item"></td>
 				  </tr>
 				  <tr>
 				    <td>占用时间 </td>
-				    <td> <input type="text" class="form-control input-sm" id="name4" placeholder="" name="programme"></td>
+				    <td> <input type="text" class="form-control input-sm" id="name4" placeholder="" name="time"></td>
 				  </tr>
 				  <tr>
 				    <td>联系方式</td>
-				    <td><input type="text" class="form-control input-sm" id="num" name="gurantee"></td>
+				    <td><input type="text" class="form-control input-sm" id="num" name="contact"></td>
 				  </tr>
 				  <tr>
 				    <td colspan="2">
@@ -215,8 +215,8 @@
 </div>
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
-		<span><img src="/Hospitalsrms/Public//img/logo.png"></span>
-		<h4 style="display:inline"><img src="/Hospitalsrms/Public//img/logo-font.png"></h4>
+		<span><img src="/test/Hospitalsrms/Public//img/logo.png"></span>
+		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo-font.png"></h4>
 	</div>
 	<hr style="height:1px;background-color:#494949;border:none;margin-top:0">
 	<div class="col-md-12">
@@ -294,12 +294,12 @@
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal -->
 </div>
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.js"></script>
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.datetimepicker.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.datetimepicker.js"></script>
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:'2017/01/22 08:00',step:10});
+$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

@@ -82,10 +82,13 @@
 										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
 									</th>
 									<th>
-										论文名称
+										课题名称
 									</th>
 									<th>
-										作者
+										项目成员
+									</th>
+									<th>
+										经费预算
 									</th>
 									<th>
 										年份
@@ -113,10 +116,13 @@
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
 									</td>
 									<td>
-										{$vo.name}
+										{$vo.projectname}
 									</td>
 									<td>
-										{$vo.author}
+										{$vo.member}
+									</td>
+									<td>
+										{$vo.funds}
 									</td>
 									<td>
 										{$vo.date}
@@ -131,6 +137,7 @@
 							   	<a class="btn btn-default" href="javascript:checkaction(0)">删除</a> 							   	
 							   	<a class="btn btn-default" href="javascript:checkaction(1)">修改</a>  
 							   </td>
+							   <td></td>
 							   <td></td>
 							   <td></td>
 							</tr>

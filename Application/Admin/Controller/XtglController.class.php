@@ -11,4 +11,14 @@ class XtglController extends Controller {
 		$this->display();
 
 	}
+	public function pass(){
+		Layout('layout/layout');
+		$this->display();
+
+	}
+	public function usergroup(){
+		Layout('layout/layout');
+		$this->display();
+		
+	}
 }
