@@ -2,18 +2,60 @@
 Navicat MySQL Data Transfer
 
 Source Server         : localhost_3306
-Source Server Version : 50626
+Source Server Version : 50553
 Source Host           : localhost:3306
 Source Database       : srms
 
 Target Server Type    : MYSQL
-Target Server Version : 50626
+Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2017-02-10 10:46:05
+Date: 2017-03-14 16:43:35
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for srms_jf_expense
+-- ----------------------------
+DROP TABLE IF EXISTS `srms_jf_expense`;
+CREATE TABLE `srms_jf_expense` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user` varchar(255) DEFAULT NULL,
+  `where` varchar(255) DEFAULT NULL,
+  `money` varchar(255) DEFAULT NULL,
+  `item` varchar(255) DEFAULT NULL,
+  `time` datetime DEFAULT NULL,
+  `type` varchar(255) DEFAULT NULL,
+  `picpath` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of srms_jf_expense
+-- ----------------------------
+INSERT INTO `srms_jf_expense` VALUES ('1', '王诺楠', '买书', '20', '医学项目', '2017-03-13 16:56:00', '医学', null);
+
+-- ----------------------------
+-- Table structure for srms_jf_expense_apply
+-- ----------------------------
+DROP TABLE IF EXISTS `srms_jf_expense_apply`;
+CREATE TABLE `srms_jf_expense_apply` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user` varchar(255) DEFAULT NULL,
+  `where` varchar(255) DEFAULT NULL,
+  `money` varchar(255) DEFAULT NULL,
+  `item` varchar(255) DEFAULT NULL,
+  `time` datetime DEFAULT NULL,
+  `type` varchar(255) DEFAULT NULL,
+  `picpath` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of srms_jf_expense_apply
+-- ----------------------------
+INSERT INTO `srms_jf_expense_apply` VALUES ('1', '王诺楠', '买书', '80', '项目2', '2017-01-22 08:00:00', '医学', null);
 
 -- ----------------------------
 -- Table structure for srms_log
@@ -159,7 +201,7 @@ CREATE TABLE `srms_tj_theses` (
   `remarks` text NOT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_ID5` (`uid`)
-) ENGINE=InnoDB AUTO_INCREMENT=46 DEFAULT CHARSET=utf8 COMMENT='论文统计';
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8 COMMENT='论文统计';
 
 -- ----------------------------
 -- Records of srms_tj_theses
@@ -201,6 +243,7 @@ INSERT INTO `srms_tj_theses` VALUES ('39', '1', '2017', '中国梦', '校报', '
 INSERT INTO `srms_tj_theses` VALUES ('43', '1', '2016', '111', '111', '111', '111', '已收录', 'SCI收录', '111', '111', '1111');
 INSERT INTO `srms_tj_theses` VALUES ('44', '1', '2016', '111', '111', '111', '111', '已收录', 'SCI收录', '111', '111', '1111');
 INSERT INTO `srms_tj_theses` VALUES ('45', '1', '2016', '111', '111', '111', '111', '已收录', 'SCI收录', '111', '111', '1111');
+INSERT INTO `srms_tj_theses` VALUES ('46', '1', '2013', '课题122', '', '', '', '', '', '', '', '');
 
 -- ----------------------------
 -- Table structure for srms_user
@@ -220,7 +263,7 @@ CREATE TABLE `srms_user` (
 -- ----------------------------
 -- Records of srms_user
 -- ----------------------------
-INSERT INTO `srms_user` VALUES ('1', '华佗', '827ccb0eea8a706c4c34a16891f84e7b', '1484213881', '1486608519', '1', '1');
+INSERT INTO `srms_user` VALUES ('1', '华佗', '827ccb0eea8a706c4c34a16891f84e7b', '1484213881', '1489385702', '1', '1');
 
 -- ----------------------------
 -- Table structure for srms_usergroup
@@ -255,11 +298,32 @@ CREATE TABLE `srms_xm_coller` (
   `reason` varchar(255) NOT NULL,
   `status` tinyint(22) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of srms_xm_coller
 -- ----------------------------
+INSERT INTO `srms_xm_coller` VALUES ('1', '1', '铅笔', '2017/01/22 08:00', '信息科', '10', '200', '王诺楠', '11111111111', '写字', '1');
+
+-- ----------------------------
+-- Table structure for srms_xm_department
+-- ----------------------------
+DROP TABLE IF EXISTS `srms_xm_department`;
+CREATE TABLE `srms_xm_department` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `plantformName` varchar(255) DEFAULT NULL,
+  `user` varchar(255) DEFAULT NULL,
+  `department` varchar(255) DEFAULT NULL,
+  `item` varchar(255) DEFAULT NULL,
+  `time` char(255) DEFAULT NULL,
+  `contact` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of srms_xm_department
+-- ----------------------------
+INSERT INTO `srms_xm_department` VALUES ('1', '科研平台1', '王诺楠', '信息科', '项目2 ', '两天', '11111111111');
 
 -- ----------------------------
 -- Table structure for srms_xm_purchase
@@ -279,11 +343,12 @@ CREATE TABLE `srms_xm_purchase` (
   `reason` varchar(255) NOT NULL,
   `status` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of srms_xm_purchase
 -- ----------------------------
+INSERT INTO `srms_xm_purchase` VALUES ('1', '1', '书', '20 * 39', '200', '20', '4000', '2017-03-22 12:00:00', '王诺楠', '信息科', '看书', '1');
 
 -- ----------------------------
 -- Table structure for srms_xm_subject
@@ -292,6 +357,8 @@ DROP TABLE IF EXISTS `srms_xm_subject`;
 CREATE TABLE `srms_xm_subject` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `uid` int(11) NOT NULL,
+  `projectName` varchar(255) DEFAULT NULL,
+  `date` char(0) DEFAULT NULL,
   `member` varchar(255) NOT NULL,
   `objective` varchar(255) NOT NULL,
   `content` varchar(255) NOT NULL,
@@ -306,11 +373,34 @@ CREATE TABLE `srms_xm_subject` (
   `commitment_book` varchar(255) DEFAULT NULL,
   `status` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of srms_xm_subject
 -- ----------------------------
+INSERT INTO `srms_xm_subject` VALUES ('1', '1', null, null, 'wnn', '哈哈哈', '', '', '', '', '', '', '', '', null, '', null);
+INSERT INTO `srms_xm_subject` VALUES ('2', '1', '课题122', null, 'wnn', '目的及意义', '', '', '', '', '', '', '', '', null, '', null);
+
+-- ----------------------------
+-- Table structure for srms_xs_composition
+-- ----------------------------
+DROP TABLE IF EXISTS `srms_xs_composition`;
+CREATE TABLE `srms_xs_composition` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `compositionName` varchar(255) DEFAULT NULL,
+  `author` varchar(255) DEFAULT NULL,
+  `key` varchar(255) DEFAULT NULL,
+  `time` datetime DEFAULT NULL,
+  `field` varchar(255) DEFAULT NULL,
+  `introduction` varchar(255) DEFAULT NULL,
+  `status` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of srms_xs_composition
+-- ----------------------------
+INSERT INTO `srms_xs_composition` VALUES ('2', '本草纲目', '李时珍', '药材', '2014-09-11 10:00:00', '医学', '本草纲目是李时珍当年历时 多少多少年亲身验证完成的。', null);
 
 -- ----------------------------
 -- Table structure for srms_xs_lecture
@@ -327,11 +417,13 @@ CREATE TABLE `srms_xs_lecture` (
   `introduction` varchar(255) NOT NULL,
   `status` varchar(255) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of srms_xs_lecture
 -- ----------------------------
+INSERT INTO `srms_xs_lecture` VALUES ('1', '1', '', '', '讲座内容', '', '北方学院西校区', '', '1');
+INSERT INTO `srms_xs_lecture` VALUES ('2', '1', 'wnn', '关于某某某的', 'XXX', '2017/01/22 08:00', '北方学院西校区', '', '1');
 
 -- ----------------------------
 -- Table structure for srms_xs_meet
@@ -349,11 +441,14 @@ CREATE TABLE `srms_xs_meet` (
   `introduction` varchar(255) NOT NULL,
   `status` tinyint(10) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of srms_xs_meet
 -- ----------------------------
+INSERT INTO `srms_xs_meet` VALUES ('1', '1', '', '关于某某的某木', '', '2017/01/22 08:00', '', '', '', '1');
+INSERT INTO `srms_xs_meet` VALUES ('2', '1', '我，', '关于某某的某木', '某某皮', '2017/01/22 08:00', '北方学院西校区', '234', '', '1');
+INSERT INTO `srms_xs_meet` VALUES ('3', '1', '我，', '关于某某的某木', '某某皮', '2017/01/22 08:00', '北方学院西校区', '234', '', '1');
 
 -- ----------------------------
 -- Table structure for srms_year
