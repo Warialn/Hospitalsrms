@@ -36,7 +36,7 @@
 		<div class="header" id="home">
 			 <div class="header-top" style="background-color:#494949;height:35px;">
 				<div class="container" >
-					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
+					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"." , 欢迎您"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
 				</div>
 			</div> 
 			<div class="header_nav" id="home">
@@ -303,7 +303,7 @@
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
+$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

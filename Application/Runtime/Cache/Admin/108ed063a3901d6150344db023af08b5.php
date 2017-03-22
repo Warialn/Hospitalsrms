@@ -172,7 +172,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/usergroup');?>">
 												<i class="icon-double-angle-right"></i>
 												用户组管理
 											</a>
@@ -203,9 +203,9 @@
                                                         
                 <thead>
                     <tr>
-                        <th>
+                        <!-- <th>
                             <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                        </th>
+                        </th> -->
                         <th>
                             报销人
                         </th>
@@ -225,9 +225,9 @@
                 </thead>
                 <tbody>
                     <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
-                        <td>
+                        <!-- <td>
                         <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-                        </td>
+                        </td> -->
                         <td>
                             <?php echo ($vo["user"]); ?>
                         </td>
@@ -241,10 +241,20 @@
                             <?php echo ($vo["money"]); ?>
                         </td> 
                         <td>
-                            
+                           <?php if($vo['status'] == 0): ?><a  data1 = "<?php echo ($vo['id']); ?>"href="#" class="green agree"title="同意">
+                                           同意
+                                        </a>
+
+                                        <a data2 = "<?php echo ($vo['id']); ?>" class="red refuse"  href="#" title="拒绝">
+                                            拒绝
+                                        </a>
+                                        
+                                    <?php elseif($vo['status'] == 1): ?>
+                                    <span style="color:green">已同意</span>
+                                <?php else: ?> <span style="color:red">已拒绝</span><?php endif; ?>  
                         </td>                              
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                <tr>
+                <!-- <tr>
                    <td>
                     <img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
                    </td>
@@ -253,7 +263,7 @@
                    <td></td>
                    <td></td>
                    <td></td>
-                </tr>
+                </tr> -->
                 </tbody>
             </table>
         </form>
@@ -263,6 +273,51 @@
 </div>
 </div>
 </div>
+<script>
+            $('.agree').click(function(){
+                var data ={};
+                data.id = $(this).attr('data1');
+                data.stat = 'agree';
+                $.ajax({
+                    type:'POST',
+                    url:'/test/Hospitalsrms/index.php/Admin/Kyjf/index_edit',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+                            window.location.reload();
+
+                        }
+                       
+                    }
+                });
+            });
+            $('.refuse').click(function(){
+                var data ={};
+                data.id = $(this).attr('data2');
+                data.stat = 'refuse';
+                $.ajax({
+                    type:'POST',
+                    url:'/test/Hospitalsrms/index.php/Admin/Kyjf/index_edit',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+
+                        }
+                       
+                    }
+                });
+            });
+            </script>
 <div class="" style="background-color:#E4E6E9;height:60px;">
 
 </div>

@@ -36,7 +36,7 @@
 		<div class="header" id="home">
 			 <div class="header-top" style="background-color:#494949;height:35px;">
 				<div class="container" >
-					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
+					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"." , 欢迎您"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
 				</div>
 			</div> 
 			<div class="header_nav" id="home">
@@ -179,7 +179,7 @@
 						</form>
 					</div>
 				</div>
-				<div class="col-md-8 column" style="border-radius:6px;border:1px solid #e8e8e8;">
+				<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
 					<form name="form2" method="post" action="">
 						<table class="table">
 							<thead>
@@ -199,6 +199,9 @@
 									<th>
 										地点
 									</th>
+									<th>
+										操作
+									</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -208,7 +211,7 @@
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
 									</td>
 									<td>
-										<?php echo ($vo["meetName"]); ?>
+										<?php echo ($vo["meetname"]); ?>
 									</td>
 									<td>
 										<?php echo ($vo["organizer"]); ?>
@@ -219,6 +222,12 @@
 									<td>
 										<?php echo ($vo["address"]); ?>
 									</td>
+									<td>
+										<?php if($vo['status'] == 1): ?><a href="#" class="attend" data="<?php echo ($vo['id']); ?>">参加（<?php echo ($vo["uidcount"]); ?>）</a>
+										<?php elseif($vo['status'] == 2): ?>
+										<span style="color:red">已被拒绝</span>
+										<?php else: ?><span style="color:green">审核中</span><?php endif; ?>
+									</td>
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 							<tr>
 							   <td>
@@ -228,6 +237,8 @@
 							   	<a class="btn btn-default" href="javascript:checkaction(0)">删除</a> 							   	
 							   	<a class="btn btn-default" href="javascript:checkaction(1)">修改</a>  
 							   </td>
+							   <td></td>
+							   <td></td>
 							   <td></td>
 							   <td></td>
 							</tr>
@@ -243,6 +254,26 @@
 	</div>
 </div>
 <script>
+
+$('.attend').click(function(){
+	var id = $(this).attr('data');
+	$.ajax({
+		type:'post',
+		url:'/test/Hospitalsrms/index.php/Home/Xshd/meet_attend',
+		data:{'id':id},
+		dataType:'json',
+		success:function(data){
+			if(data.status == 'success'){
+				alert('操作成功！');
+				window.location.reload();
+			}else if(data.status == 'error'){
+				alert('操作失败！');
+			}else{
+				alert('您已经参加该会议！')
+			}
+		}
+	});
+});
 	function look(){
 	    document.form1.action="/test/Hospitalsrms/index.php/Home/Xshd/scanTheses";
 	}

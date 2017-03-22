@@ -13,22 +13,22 @@
 		fonts-->
 			<!--owlcss-->
 
-		<link rel="stylesheet" type="text/css" href="/Hospitalsrms/Public//bootstrap/css/jquery.datetimepicker.css"/>
-		<link href="/Hospitalsrms/Public//bootstrap/css/main.css" rel="stylesheet"><!-- 导航条引入效果文件 -->
-    	<link href="/Hospitalsrms/Public//bootstrap/css/tj_common.css" rel="stylesheet">
-		<link href="/Hospitalsrms/Public//bootstrap/css/owl.carousel.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/test/Hospitalsrms/Public//bootstrap/css/jquery.datetimepicker.css"/>
+		<link href="/test/Hospitalsrms/Public//bootstrap/css/main.css" rel="stylesheet"><!-- 导航条引入效果文件 -->
+    	<link href="/test/Hospitalsrms/Public//bootstrap/css/tj_common.css" rel="stylesheet">
+		<link href="/test/Hospitalsrms/Public//bootstrap/css/owl.carousel.css" rel="stylesheet">
 		<!--bootstrap-->
-			<link href="/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			<link href="/test/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<!--coustom css-->
-			<link href="/Hospitalsrms/Public//bootstrap/css/style.css" rel="stylesheet" type="text/css"/>
+			<link href="/test/Hospitalsrms/Public//bootstrap/css/style.css" rel="stylesheet" type="text/css"/>
 		<!--default-js-->
-			<script src="/Hospitalsrms/Public//bootstrap/js/jquery-2.1.4.min.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery-2.1.4.min.js"></script>
 		<!--bootstrap-js-->
-			<script src="/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
 		<!--script-->
-			<script type="text/javascript" src="/Hospitalsrms/Public//bootstrap/js/move-top.js"></script>
-			<script type="text/javascript" src="/Hospitalsrms/Public//bootstrap/js/easing.js"></script>
-			<script src="/Hospitalsrms/Public//bootstrap/js/jquery.swipebox.min.js"></script>
+			<script type="text/javascript" src="/test/Hospitalsrms/Public//bootstrap/js/move-top.js"></script>
+			<script type="text/javascript" src="/test/Hospitalsrms/Public//bootstrap/js/easing.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.swipebox.min.js"></script>
 
 		<!--script-->
 	</head>
@@ -36,7 +36,7 @@
 		<div class="header" id="home">
 			 <div class="header-top" style="background-color:#494949;height:35px;">
 				<div class="container" >
-					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
+					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"." , 欢迎您"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
 				</div>
 			</div> 
 			<div class="header_nav" id="home">
@@ -168,7 +168,7 @@
 	                <div class="col-xs-win">
 	                    <!-- PAGE CONTENT BEGINS -->
 	                    <form style="position:relative;margin-top:20px;" class="form-horizontal" role="form" id="form_upload"
-	                            action="/Hospitalsrms/index.php/Home/Kytj/dofileUpload" method="post"  enctype="multipart/form-data">
+	                            action="/test/Hospitalsrms/index.php/Home/Kytj/dofileUpload" method="post"  enctype="multipart/form-data">
 	                        <div class="form-group">
 	                            <div class="col-sm-9">
 	                                <div class="widget-main">
@@ -268,7 +268,7 @@
 						</form>
 					</div>
 				</div>
-				<div class="col-md-8 column" style="border-radius:6px;border:1px solid #e8e8e8;">
+				<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
 					<form name="form2" method="get" role="form" >
 						<table class="table">
 							<thead>
@@ -288,8 +288,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $col = ""; $col1 = "warning"; $col2 = "error"; $col3 = "sucess"; $col = $col1; if($col == $col1){ $col = $col2; }elseif($col == $col2){ $col = $col3; }else{ $col = $col1; } ?>
-								<tr class="<?php echo $col;?>">
+								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
 									<td>
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
 									</td>
@@ -304,12 +303,10 @@
 									</td>
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 							<tr>
-							   <td>
-							   	<a class="btn btn-default" href="javascript:checkaction(0)">批量删除</a> 							   	
+							   <td> 
+							   	<a class="btn btn-default" href="javascript:overlay();">上传</a>							   	
 							   </td>
-							   <td>  
-							   	<a class="btn btn-default" href="javascript:overlay();">上传</a>
-							   </td>
+							   <td></td>
 							   <td></td>
 							   <td></td>
 							</tr>
@@ -351,7 +348,7 @@ function comment(value){
 	function checkaction(v){
 	if(v==0){
 		document.form2.method="get";
-		document.form2.action="/Hospitalsrms/index.php/Home/Kytj/deleteAll";
+		document.form2.action="/test/Hospitalsrms/index.php/Home/Kytj/deleteAll";
 	}
 	form2.submit();
 }
@@ -411,8 +408,8 @@ for (var i=0;i<checkboxs.length;i++) {
 
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
-		<span><img src="/Hospitalsrms/Public//img/logo.png"></span>
-		<h4 style="display:inline"><img src="/Hospitalsrms/Public//img/logo-font.png"></h4>
+		<span><img src="/test/Hospitalsrms/Public//img/logo.png"></span>
+		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo-font.png"></h4>
 	</div>
 	<hr style="height:1px;background-color:#494949;border:none;margin-top:0">
 	<div class="col-md-12">
@@ -463,7 +460,7 @@ for (var i=0;i<checkboxs.length;i++) {
 
 <div class="row footer-bottom" style="background-color:#111111;color:#FFFFFF; padding-top:20px;padding-bottom:15px;">
   <ul class="list-inline text-center">
-    <li>Copyright 2015-2016 <a href="http://hie.hebeinu.edu.cn:7777/miic/index.php" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
+    <li>Copyright 2015-2016 <a href="" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
   </ul>
 </div>
 
@@ -490,3 +487,20 @@ for (var i=0;i<checkboxs.length;i++) {
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal -->
 </div>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.datetimepicker.js"></script>
+<script>
+
+$('#datetimepicker').datetimepicker();
+$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
+var logic = function( currentDateTime ){
+	if( currentDateTime.getDay()==6 ){
+		this.setOptions({
+			minTime:'11:00'
+		});
+	}else
+		this.setOptions({
+			minTime:'8:00'
+		});
+};
+</script>

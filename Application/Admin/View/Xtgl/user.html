@@ -425,31 +425,7 @@
     });
 
     $(".editeUser").click(function () {
-/*        var name = $(this).parent().parent().parent().children().eq(1).html();
-        var email = $(this).parent().parent().parent().children().eq(2).html();
-        $('#edite_user').val(name);
-        $('#edite_email').val(email);
-        var id = $(this).next().next().val();
-        var group_id = [];
-        $.ajax({
-             type: "POST",
-             url: "__URL__/get_usergroup",
-             data: {'id':id},
-             dataType: "json",
-             success: function(data){
-                   for (var i = 0; i < data.length; i++) {
-                        group_id.push(data[i]['group_id']);
-                    }; 
 
-                    $('#grouplist option').each(function(){
-                        id = $(this).val();
-                        if ($.inArray(id,group_id)) {
-                            $(this).attr('selected',true);
-                        }; 
-                    });
-
-                }
-         });*/
         var row = $(this).parents('tr');
         $("#edite_user").val(row.children('td:eq(1)').html());
         $("#edite_email").val(row.children('td:eq(3)').html());

@@ -71,7 +71,7 @@
 						</form>
 					</div>
 				</div>
-				<div class="col-md-8 column" style="border-radius:6px;border:1px solid #e8e8e8;">
+				<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
 					<form name="form2" method="post" action="">
 						<table class="table">
 							<thead>
@@ -90,6 +90,9 @@
 									</th>
 									<th>
 										地点
+									</th>
+									<th>
+										操作
 									</th>
 								</tr>
 							</thead>
@@ -114,7 +117,7 @@
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
 									</td>
 									<td>
-										{$vo.meetName}
+										{$vo.meetname}
 									</td>
 									<td>
 										{$vo.organizer}
@@ -124,6 +127,13 @@
 									</td>
 									<td>
 										{$vo.address}
+									</td>
+									<td>
+										<if condition="$vo['status'] eq 1">
+										<a href="#" class="attend" data="{$vo['id']}">参加（{$vo.uidcount}）</a>
+										<elseif condition = "$vo['status'] eq 2"/>
+										<span style="color:red">已被拒绝</span>
+										<else/><span style="color:green">审核中</span></if>
 									</td>
 								</tr>
 							</volist>
@@ -135,6 +145,8 @@
 							   	<a class="btn btn-default" href="javascript:checkaction(0)">删除</a> 							   	
 							   	<a class="btn btn-default" href="javascript:checkaction(1)">修改</a>  
 							   </td>
+							   <td></td>
+							   <td></td>
 							   <td></td>
 							   <td></td>
 							</tr>
@@ -150,6 +162,26 @@
 	</div>
 </div>
 <script>
+
+$('.attend').click(function(){
+	var id = $(this).attr('data');
+	$.ajax({
+		type:'post',
+		url:'__URL__/meet_attend',
+		data:{'id':id},
+		dataType:'json',
+		success:function(data){
+			if(data.status == 'success'){
+				alert('操作成功！');
+				window.location.reload();
+			}else if(data.status == 'error'){
+				alert('操作失败！');
+			}else{
+				alert('您已经参加该会议！')
+			}
+		}
+	});
+});
 	function look(){
 	    document.form1.action="__URL__/scanTheses";
 	}

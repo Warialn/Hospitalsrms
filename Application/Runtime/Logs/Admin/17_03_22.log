@@ -1,0 +1,10 @@
+[ 2017-03-22T15:52:04+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-03-22T15:52:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+

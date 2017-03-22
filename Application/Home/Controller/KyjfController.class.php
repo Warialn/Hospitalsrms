@@ -23,11 +23,7 @@ class KyjfController extends CommonController{
 	}
 	public function scanIndex(){
 		$model=M('JfExpense');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
-
-		}
+		
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);
@@ -46,6 +42,44 @@ class KyjfController extends CommonController{
 		$this->assign('page',$show);//赋值分页输出
 		Layout('Layout/layout');
 		$this->display();
+	}
+	public function index_edit(){
+
+		$model = M('JfExpense');
+		$id = I('post.id');
+		$user = I('post.user');
+		if($user){
+			$data['user'] =$user;
+		}
+		$subject_id = I('post.subject_id');
+		if($applicant){
+			$data['applicant'] = $applicant;
+		}
+		$date = I('post.date');
+		if($date){
+			$data['date']= $date;
+		}
+		$money = I('post.money');
+		if($money){
+			$data['money']= $money;
+		}
+
+		$res=$model->where(array('id'=>$id))->save($data);
+		if($res){
+			$this->ajaxReturn(array('status'=>'success'));
+		}else{
+			$this->ajaxReturn(array('status'=>'error'));
+		}
+	}
+	public function index_delete(){
+		$id = I('id');
+		$model = M('JfExpense');
+		$res = $model->where(array('id'=>$id))->delete();
+		if($res){
+			$this->ajaxReturn(array('status'=>'success'));
+		}else{
+			$this->ajaxReturn(array('status'=>'error'));
+		}
 	}
 	public function moneyApply(){
 		$model = M('JfExpenseApply');
@@ -68,11 +102,7 @@ class KyjfController extends CommonController{
 	}
 	public function scanApply(){
 		$model=M('JfExpenseApply');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
-
-		}
+		
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);
@@ -91,5 +121,41 @@ class KyjfController extends CommonController{
 		$this->assign('page',$show);//赋值分页输出
 		Layout('Layout/layout');
 		$this->display();
+	}
+	public function apply_edit(){
+		$model = M('JfExpenseApply');
+		$id = I('post.id');
+		$user = I('post.user');
+		if($user){
+			$data['user'] =$user;
+		}
+		$subject_id = I('post.subject_id');
+		if($applicant){
+			$data['applicant'] = $applicant;
+		}
+		$date = I('post.date');
+		if($date){
+			$data['date']= $date;
+		}
+		$money = I('post.money');
+		if($money){
+			$data['money']= $money;
+		}
+		$res=$model->where(array('id'=>$id))->save($data);
+		if($res){
+			$this->ajaxReturn(array('status'=>'success'));
+		}else{
+			$this->ajaxReturn(array('status'=>'error'));
+		}
+	}
+	public function apply_delete(){
+		$id = I('id');
+		$model = M('JfExpenseApply');
+		$res = $model->where(array('id'=>$id))->delete();
+		if($res){
+			$this->ajaxReturn(array('status'=>'success'));
+		}else{
+			$this->ajaxReturn(array('status'=>'error'));
+		}
 	}
 }

@@ -1,0 +1,3410 @@
+[ 2017-03-15T11:28:25+08:00 ] ::1 /test/Hospitalsrms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002299s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2017-03-15T11:28:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.1316s ]
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2017-03-15T11:28:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:28:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:28:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_user` (`user_name`,`password`,`reg_time`) VALUES ('admin','21232f297a57a5a743894a0e4a801fc3','1489548521') [ RunTime:0.1228s ]
+
+[ 2017-03-15T11:30:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_user` (`user_name`,`password`,`reg_time`) VALUES ('admin','21232f297a57a5a743894a0e4a801fc3','1489548616') [ RunTime:0.0915s ]
+
+[ 2017-03-15T11:35:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+
+[ 2017-03-15T11:35:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+
+[ 2017-03-15T11:35:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+
+[ 2017-03-15T11:35:20+08:00 ] ::1 /test/Hospitalsrms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2017-03-15T11:35:23+08:00 ] ::1 /test/Hospitalsrms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2017-03-15T11:35:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+
+[ 2017-03-15T11:35:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+
+[ 2017-03-15T11:35:35+08:00 ] ::1 /test/Hospitalsrms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2017-03-15T11:35:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+
+[ 2017-03-15T11:35:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0128s ]
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002709s ]
+
+[ 2017-03-15T11:35:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:35:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:36:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0125s ]
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002535s ]
+
+[ 2017-03-15T11:36:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:36:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:37:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0119s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_user` (`user_name`,`password`,`usergroup_id`,`reg_time`) VALUES ('aaa','21232f297a57a5a743894a0e4a801fc3','2','1489549036') [ RunTime:0.0579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.022277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003826s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2017-03-15T11:37:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:37:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:37:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002419s ]
+
+[ 2017-03-15T11:37:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2017-03-15T11:37:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:37:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:37:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002150s ]
+
+[ 2017-03-15T11:38:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2017-03-15T11:38:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:27+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0128s ]
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2017-03-15T11:38:27+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:27+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-03-15T11:38:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:33+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\LoginController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2017-03-15T11:38:33+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:33+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003003s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-03-15T11:38:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:38:57+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2017-03-15T11:38:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002254s ]
+
+[ 2017-03-15T11:38:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002340s ]
+
+[ 2017-03-15T11:39:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002747s ]
+
+[ 2017-03-15T11:39:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002427s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-03-15T11:39:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `srms_user` WHERE `user_name` = 'admin'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+SQL: UPDATE `srms_user` SET `last_time`='1489549156' WHERE `user_name` = 'admin' AND `id` = 2 [ RunTime:0.0502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002738s ]
+
+[ 2017-03-15T11:39:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-03-15T11:39:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:39:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003558s ]
+
+[ 2017-03-15T11:39:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000533s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000725s ]
+NOTIC: [8] Undefined variable: year F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002657s ]
+
+[ 2017-03-15T11:39:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2017-03-15T11:39:50+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/moneyApply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense_apply` [ RunTime:0.0500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2017-03-15T11:39:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/scanIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KyjfController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `srms_jf_expense` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\05ec04ce241e03122df0d67e8001d03d.php 第 164 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\05ec04ce241e03122df0d67e8001d03d.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002231s ]
+
+[ 2017-03-15T11:39:57+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/scanApply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense_apply` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KyjfController.class.php 第 71 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `srms_jf_expense_apply` ORDER BY id LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\ae659c2310c3878e6259621dfd4b56f9.php 第 164 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\ae659c2310c3878e6259621dfd4b56f9.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2017-03-15T11:40:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003045s ]
+
+[ 2017-03-15T11:40:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/addLecture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002216s ]
+
+[ 2017-03-15T11:40:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/addComposition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2017-03-15T11:40:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/scanMeet.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0131s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XshdController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `srms_xs_meet` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\6223bae68730648cdade172b817728ff.php 第 164 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\6223bae68730648cdade172b817728ff.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2017-03-15T11:40:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2017-03-15T11:40:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:40:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T11:40:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000523s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000751s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003400s ]
+
+[ 2017-03-15T11:40:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: year F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-03-15T16:10:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0134s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_xm_subject` (`projectName`,`member`,`objective`,`content`,`programme`,`progress`,`target`,`funds`,`expert_opinion`,`unit_opinion`,`commitment_book`,`uid`) VALUES ('课题001','王诺楠','目的及意义','研究内容','研究方案','研究进度','预期目标','1000','','','','2') [ RunTime:0.0852s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Undefined variable: year F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003485s ]
+
+[ 2017-03-15T16:10:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanSubject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `srms_xm_subject` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2017-03-15T16:18:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2017-03-15T16:18:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2017-03-15T16:18:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2017-03-15T16:18:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:18:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:18:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-03-15T16:18:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:18:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:22:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2017-03-15T16:22:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:22:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:23:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/Kyjf/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+ERR: 非法操作:Kyjf
+
+[ 2017-03-15T16:24:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/Kyjf/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+ERR: 非法操作:Kyjf
+
+[ 2017-03-15T16:24:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/Kyjf/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+ERR: 非法操作:Kyjf
+
+[ 2017-03-15T16:24:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/Kytj/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+ERR: 非法操作:Kytj
+
+[ 2017-03-15T16:24:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2017-03-15T16:24:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:48+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:50+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2017-03-15T16:24:50+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:51+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-03-15T16:24:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2017-03-15T16:24:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:24:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:25:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002245s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `srms_user` WHERE `user_name` = 'admin'  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+SQL: UPDATE `srms_user` SET `last_time`='1489566304' WHERE `user_name` = 'admin' AND `id` = 2 [ RunTime:0.0731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2017-03-15T16:25:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-03-15T16:25:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:25:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:25:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-03-15T16:25:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:25:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:25:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000654s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Undefined variable: year F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002586s ]
+
+[ 2017-03-15T16:25:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:25:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:27:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2017-03-15T16:27:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:27:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:27:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002341s ]
+
+[ 2017-03-15T16:28:42+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2017-03-15T16:28:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:28:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:29:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-03-15T16:29:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:29:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:29:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001931s ]
+
+[ 2017-03-15T16:29:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:29:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:30:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-03-15T16:30:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:30:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:30:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2017-03-15T16:30:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:30:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:30:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: year F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2017-03-15T16:30:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:30:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:30:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2017-03-15T16:30:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:30:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:30:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002437s ]
+
+[ 2017-03-15T16:33:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000743s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002352s ]
+
+[ 2017-03-15T16:33:30+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-03-15T16:33:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003383s ]
+
+[ 2017-03-15T16:33:50+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:33:50+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Index/css/swipebox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+ERR: 非法操作:css
+
+[ 2017-03-15T16:38:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2017-03-15T16:38:40+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Undefined variable: year F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\7ca6ff5ba54e4cb97fb13396ed102386.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2017-03-15T16:40:50+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001968s ]
+
+[ 2017-03-15T16:40:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002994s ]
+
+[ 2017-03-15T16:40:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/coller.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001931s ]
+
+[ 2017-03-15T16:41:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003847s ]
+
+[ 2017-03-15T16:41:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/purchase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2017-03-15T16:41:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/coller.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2017-03-15T16:41:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2017-03-15T16:42:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2017-03-15T16:43:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/coller.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2017-03-15T16:43:33+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/purchase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2017-03-15T16:43:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanColler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `srms_xm_coller` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002722s ]
+
+[ 2017-03-15T16:43:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanDepartment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 86 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `srms_xm_department` ORDER BY id LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002282s ]
+
+[ 2017-03-15T16:43:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/coller.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-03-15T16:44:27+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/coller
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `srms_xm_coller` (`name`,`date`,`department`,`price`,`num`,`user`,`contact`,`reason`,`uid`) VALUES ('铅笔','2017/01/22 08:00','信息科','12','222','王诺楠','11111111111','写字','2') [ RunTime:0.1012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-03-15T16:44:30+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanColler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0134s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `srms_xm_coller` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2017-03-15T16:45:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanColler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0084s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `srms_xm_coller` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2017-03-15T16:45:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanPurchase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 182 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `srms_xm_purchase` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000538s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2017-03-15T16:45:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanColler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `srms_xm_coller` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2017-03-15T16:45:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanDepartment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 86 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `srms_xm_department` ORDER BY id LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2017-03-15T16:45:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanSubject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 32 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `srms_xm_subject` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\a96e4a05ae9c066e27c9b28522b48274.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2017-03-15T16:46:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanDepartment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 86 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `srms_xm_department` ORDER BY id LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-03-15T16:47:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanDepartment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 86 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `srms_xm_department` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\da0a135484482e8dd5730162c9541206.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-03-15T16:47:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanColler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `srms_xm_coller` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\60bc86565041b7560192663fe3175102.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2017-03-15T16:47:40+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanPurchase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XmsbController.class.php 第 182 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `srms_xm_purchase` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001769s ]
+
+[ 2017-03-15T17:01:35+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2017-03-15T17:03:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/scanIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KyjfController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `srms_jf_expense` ORDER BY id LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\05ec04ce241e03122df0d67e8001d03d.php 第 164 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\05ec04ce241e03122df0d67e8001d03d.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2017-03-15T17:16:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/scanIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KyjfController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `srms_jf_expense` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\05ec04ce241e03122df0d67e8001d03d.php 第 164 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\05ec04ce241e03122df0d67e8001d03d.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001730s ]
+
+[ 2017-03-15T17:41:30+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001560s ]
+
+[ 2017-03-15T17:41:35+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2017-03-15T17:41:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/addComposition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002112s ]
+
+[ 2017-03-15T17:41:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/addLecture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2017-03-15T17:41:48+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2017-03-15T17:46:50+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2017-03-15T17:46:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/scanTheses.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0088s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `srms_tj_theses` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 168 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\83a028fc3b98f69baa5950d0bbfd0657.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-03-15T17:49:03+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/scanAchievement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0607s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 83 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_achievement` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `srms_tj_achievement` WHERE `uid` = 2 ORDER BY id LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\be13df572f53662b9dcbca7cd522b0c8.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\be13df572f53662b9dcbca7cd522b0c8.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001976s ]
+
+[ 2017-03-15T17:49:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/scanPropty.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 130 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_propty` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `srms_tj_propty` WHERE `uid` = 2 ORDER BY id LIMIT 0,8   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\88b77d97dc28503fa99cc67764664671.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\88b77d97dc28503fa99cc67764664671.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2017-03-15T17:49:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/scanEquipment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `srms_tj_equipment` [ RunTime:0.0546s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 177 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_equipment` WHERE `uid` = '2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `srms_tj_equipment` WHERE `uid` = '2' ORDER BY id LIMIT 0,8   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\cf4b94563ecf256ca32189b2797c5ed6.php 第 166 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\cf4b94563ecf256ca32189b2797c5ed6.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2017-03-15T17:49:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/fileDownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `srms_tj_filedownload` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: year F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 204 行.
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 210 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_filedownload` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\KytjController.class.php 第 216 行.
+SQL: SELECT * FROM `srms_tj_filedownload` ORDER BY id LIMIT 0,8   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 253 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\327e0774eba781353a3a641b47dc4bd8.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-03-15T17:49:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2017-03-15T17:49:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003626s ]
+
+[ 2017-03-15T17:49:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/scanMeet.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XshdController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `srms_xs_meet` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\6223bae68730648cdade172b817728ff.php 第 164 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\6223bae68730648cdade172b817728ff.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2017-03-15T17:56:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/scanLecture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Home\Controller\XshdController.class.php 第 69 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `srms_xs_lecture` WHERE `uid` = 2 ORDER BY id LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\b8c40cb8a73b9c8b0b9181eaae250ad4.php 第 163 行.
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\b8c40cb8a73b9c8b0b9181eaae250ad4.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001967s ]
+

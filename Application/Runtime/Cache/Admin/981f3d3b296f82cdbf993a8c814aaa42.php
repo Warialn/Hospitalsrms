@@ -165,13 +165,6 @@
 											</a>
 										</li>
 		                                
-		                                <li>  
-			                                <a href="">  
-			                                	<i class="icon-double-angle-right"></i>  
-			                                    日志管理  
-			                                </a>  
-		                                </li>
-		                                
 		                                <li>
 											<a href="<?php echo U('Xtgl/user');?>">
 												<i class="icon-double-angle-right"></i>
@@ -179,7 +172,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/usergroup');?>">
 												<i class="icon-double-angle-right"></i>
 												用户组管理
 											</a>
@@ -201,7 +194,7 @@
      <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
 
         <form name="form2" method="post" action="">
-           <table class="table"><br/>
+           <table class="table table-striped table-bordered table-hover"><br/>
             <input  class="btn btn-default pull-right" type="submit" value="搜索">
                 <div class="col-md-2 pull-right">
                     <input class="form-control" type="text">
@@ -247,6 +240,15 @@
                                     <?php echo ($vo["time"]); ?>
                                 </td>
                                 <td>
+                                     <a  href="#" class="green deleteuser"title="编辑">
+                                       编辑
+                                    </a>
+
+                                    <a class="red deleteuser"  href="#" title="删除">
+                                        删除
+                                    </a>
+
+                                    <input type="hidden" value="<?php echo ($vo['id']); ?>">
                                 </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                 <tr>

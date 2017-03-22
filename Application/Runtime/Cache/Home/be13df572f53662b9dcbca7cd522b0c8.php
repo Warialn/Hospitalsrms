@@ -13,22 +13,22 @@
 		fonts-->
 			<!--owlcss-->
 
-		<link rel="stylesheet" type="text/css" href="/Hospitalsrms/Public//bootstrap/css/jquery.datetimepicker.css"/>
-		<link href="/Hospitalsrms/Public//bootstrap/css/main.css" rel="stylesheet"><!-- 导航条引入效果文件 -->
-    	<link href="/Hospitalsrms/Public//bootstrap/css/tj_common.css" rel="stylesheet">
-		<link href="/Hospitalsrms/Public//bootstrap/css/owl.carousel.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/test/Hospitalsrms/Public//bootstrap/css/jquery.datetimepicker.css"/>
+		<link href="/test/Hospitalsrms/Public//bootstrap/css/main.css" rel="stylesheet"><!-- 导航条引入效果文件 -->
+    	<link href="/test/Hospitalsrms/Public//bootstrap/css/tj_common.css" rel="stylesheet">
+		<link href="/test/Hospitalsrms/Public//bootstrap/css/owl.carousel.css" rel="stylesheet">
 		<!--bootstrap-->
-			<link href="/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			<link href="/test/Hospitalsrms/Public//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<!--coustom css-->
-			<link href="/Hospitalsrms/Public//bootstrap/css/style.css" rel="stylesheet" type="text/css"/>
+			<link href="/test/Hospitalsrms/Public//bootstrap/css/style.css" rel="stylesheet" type="text/css"/>
 		<!--default-js-->
-			<script src="/Hospitalsrms/Public//bootstrap/js/jquery-2.1.4.min.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery-2.1.4.min.js"></script>
 		<!--bootstrap-js-->
-			<script src="/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
 		<!--script-->
-			<script type="text/javascript" src="/Hospitalsrms/Public//bootstrap/js/move-top.js"></script>
-			<script type="text/javascript" src="/Hospitalsrms/Public//bootstrap/js/easing.js"></script>
-			<script src="/Hospitalsrms/Public//bootstrap/js/jquery.swipebox.min.js"></script>
+			<script type="text/javascript" src="/test/Hospitalsrms/Public//bootstrap/js/move-top.js"></script>
+			<script type="text/javascript" src="/test/Hospitalsrms/Public//bootstrap/js/easing.js"></script>
+			<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.swipebox.min.js"></script>
 
 		<!--script-->
 	</head>
@@ -36,7 +36,7 @@
 		<div class="header" id="home">
 			 <div class="header-top" style="background-color:#494949;height:35px;">
 				<div class="container" >
-					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
+					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"." , 欢迎您"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
 				</div>
 			</div> 
 			<div class="header_nav" id="home">
@@ -156,78 +156,54 @@
 								</ul>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-12 column">
-						<form name="form1" method="get">
-							<div class="col-md-12" id="panel-564300" style="border-radius:6px;border:1px solid #e8e8e8;" >
-								<div class="col-md-12" >						
-									<label for="name" class="fontTitle">选择年份</label> 
-									<select class="form-control input-sm" id="year1" name="ctime">
-										<option value="<?php echo $_GET['ctime']?>"><?php if($_GET['ctime']==''){echo "所有年份";}else{echo $_GET['ctime'];}?></option>
-										<?php foreach($year as $key => $val): ?>
-					                        <option value="<?= $val ?>"><?= $val ?></option>
-					                    <?php endforeach; ?>
-									</select>							
-								</div>
-								<div class="col-lg-12" style="padding:10px 0 35px;">
-									<span class="col-lg-6">
-										<input type="submit" class="btn btn-primary btn-sm btn-block" onclick="look()"value="查看">
-									</span>
-									<span class="col-lg-6">
-										<input type="submit" class="btn btn-primary btn-sm btn-block" onclick="out()" value="导出">
-									</span>
-								</div>							
-							</div>
-						</form>
-					</div>
+					</div>					
 				</div>
 				<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
-					<table class="table">
-						<thead>
-							<tr>
-								<th>
-									<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-								</th>
-								<th>
-									成果名称
-								</th>
-								<th>
-									完成人
-								</th>
-								<th>
-									年份
-								</th>
-							</tr>
-						</thead>
-						<tbody>
-							<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $col = ""; $col1 = "warning"; $col2 = "error"; $col3 = "sucess"; $col = $col1; if($col == $col1){ $col = $col2; }elseif($col == $col2){ $col = $col3; }else{ $col = $col1; } ?>
-							<tr class="<?php echo $col;?>">
-								<td>
-									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-								</td>
-								<td>
-									<?php echo ($vo["name"]); ?>
-								</td>
-								<td>
-									<?php echo ($vo["author"]); ?>
-								</td>
-								<td>
-									<?php echo ($vo["date"]); ?>
-								</td>
-							</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-							<tr>
-							   <td>
-							   	<img src="/Hospitalsrms/Public/img/arrow_ltr.gif"/>
-							   </td>
-							   <td>
-							   	<a class="btn btn-default" href="javascript:checkaction(0)">删除</a> 							   	
-							   	<a class="btn btn-default" href="javascript:checkaction(1)">修改</a>  
-							   </td>
-							   <td></td>
-							   <td></td>
-							</tr>
-						</tbody>
-					</table>
+					<form name="form2" method="post" action="">
+						<div class="form-group " style="margin-top:20px;">
+							<a href="javascript:checkaction(1)"   class="btn btn-default" id="">批量删除</a><a href="javascript:checkaction(0)"   class="btn btn-default pull-right" id="">搜索</a>
+							<input class="form-control col-sm-3 pull-right " type="text" id="" name=""  placeholder="年份" class="text" style="width:85px;"/>
+							<input class="form-control col-sm-3 pull-right" name="starname" type="text" style="width:85px;"placeholder="论文名称" />
+						 
+						
+						<!-- <a href="javascript:checkaction(1)"   class="btn btn-default" id="">导出</a>&nbsp;
+						<a href="#" onclick="overlay()" class="btn btn-default">导入</a> -->
+						</div>	
+						<table class="table">
+							<thead>
+								<tr>
+									<th>
+										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
+									</th>
+									<th>
+										成果名称
+									</th>
+									<th>
+										完成人
+									</th>
+									<th>
+										年份
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
+									<td>
+										<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
+									</td>
+									<td>
+										<?php echo ($vo["name"]); ?>
+									</td>
+									<td>
+										<?php echo ($vo["author"]); ?>
+									</td>
+									<td>
+										<?php echo ($vo["date"]); ?>
+									</td>
+								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+							</tbody>
+						</table>
+					</form>
 					<div class="col-md-12 column">
 						<?php echo ($page); ?>
 					</div>
@@ -237,92 +213,12 @@
 	</div>
 </div>
 <script>
-		function look(){
-		    document.form1.action="scanTheses";
-		}
-	    function out(){
-		    document.form1.action="export_cost.php";
-		}
-		function del(){
-			if(confirm("此操作会删除选中项，是否继续？")){
-				document.form2.action="do_cost.php";
-			}
-		}
-		function mod(){
-			document.form2.action="modify_cost.php";
-		}
-		function checkaction(v){
-	if(v==0){
-		document.form2.method="get";
-		document.form2.action="/Hospitalsrms/index.php/Home/Kytj/deleteAll";
-	}else if(v==1){
-		document.form2.method="get";
-		document.form2.action="/Hospitalsrms/index.php/Home/Kytj/updatefile";
-	}else{
-		document.form2.method="get";
-		document.form2.action="/Hospitalsrms/index.php/Home/Kytj/export";
-	}
-	form2.submit();
-		//选中全选按钮，下面的checkbox全部选中
-var selAll = document.getElementById("selAll");
-function selectAll()
-{
-  var obj = document.getElementsByName("checkAll[]");
-  if(document.getElementById("selAll").checked == false)
-  {
-  for(var i=0; i<obj.length; i++)
-  {
-    obj[i].checked=false;
-  }
-  }else
-  {
-  for(var i=0; i<obj.length; i++)
-  {  
-    obj[i].checked=true;
-  }
-  }
- 
-}
-
-//当选中所有的时候，全选按钮会勾上
-function setSelectAll()
-{
-var obj=document.getElementsByName("checkAll[]");
-var count = obj.length;
-var selectCount = 0;
-
-for(var i = 0; i < count; i++)
-{
-if(obj[i].checked == true)
-{
-selectCount++;
-}
-}
-if(count == selectCount)
-{
-document.all.selAll.checked = true;
-}
-else
-{
-document.all.selAll.checked = false;
-}
-}
-
-//反选按钮
-function inverse() {
-var checkboxs=document.getElementsByName("checkAll");
-for (var i=0;i<checkboxs.length;i++) {
-  var e=checkboxs[i];
-  e.checked=!e.checked;
-  setSelectAll();
-}
-}
-	</script>
+</script>
 
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
-		<span><img src="/Hospitalsrms/Public//img/logo.png"></span>
-		<h4 style="display:inline"><img src="/Hospitalsrms/Public//img/logo-font.png"></h4>
+		<span><img src="/test/Hospitalsrms/Public//img/logo.png"></span>
+		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo-font.png"></h4>
 	</div>
 	<hr style="height:1px;background-color:#494949;border:none;margin-top:0">
 	<div class="col-md-12">
@@ -400,12 +296,12 @@ for (var i=0;i<checkboxs.length;i++) {
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal -->
 </div>
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.js"></script>
-<script src="/Hospitalsrms/Public//bootstrap/js/jquery.datetimepicker.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.js"></script>
+<script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.datetimepicker.js"></script>
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
+$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

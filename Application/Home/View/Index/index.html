@@ -59,29 +59,36 @@
 		<div class="style-label">
 			<div class="container">
 				<ul class="box-shadow effect2">
+					
 					<li class="col-md-3">
-						<span class="glyphicon glyphicon-leaf flt" aria-hidden="true"></span>
+						<a href='javascript:checkaction(0);' >
+						<span class="glyphicon glyphicon-leaf flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>科研统计</h3>
 						<p>医师的科研成果都发布在这里，让其他医师学习。</p>
 						</div>
 					</li>
+					
 					<li class="col-md-3">
-						<span class="glyphicon glyphicon-eye-open flt" aria-hidden="true"></span>
+						<a href='javascript:checkaction(1);' >
+						<span class="glyphicon glyphicon-eye-open flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>项目申报</h3>
 						<p>医师申报项目，在这里申请。</p>
 						</div>
-					</li>
-					<li class="col-md-3">
-						<span class="glyphicon glyphicon-pencil flt" aria-hidden="true"></span>
+					</li></a>
+					
+
+					<li class="col-md-3"><a href='javascript:checkaction(2);' >
+						<span class="glyphicon glyphicon-pencil flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>费用报销</h3>
 						<p>医院的各种费用报销请来这里。</p>
 						</div>
 					</li>
-					<li class="col-md-3">
-						<span class="glyphicon glyphicon-cutlery flt" aria-hidden="true"></span>
+					
+					<li class="col-md-3"><a href='javascript:checkaction(3);' >
+						<span class="glyphicon glyphicon-cutlery flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>学术活动</h3>
 						<p>近期的学术活动会展示在这里。</p>
@@ -329,7 +336,17 @@
 			</div>
 		</div>
 		<script>
-		function checkaction(){
+		function checkaction(v){
+			var a = v;
+			if(a == 0){
+				document.location.href="__ROOT__/index.php/Home/Kytj/index";
+			}else if(a == 1){
+				document.location.href="__ROOT__/index.php/Home/Xmsb/index";
+			}else if(a == 2){
+				document.location.href="__ROOT__/index.php/Home/Kyjf/index";
+			}else if(a == 3){
+				document.location.href="__ROOT__/index.php/Home/Xshd/index";
+			}
 			
 		}
 		</script>

@@ -172,7 +172,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/usergroup');?>">
 												<i class="icon-double-angle-right"></i>
 												用户组管理
 											</a>

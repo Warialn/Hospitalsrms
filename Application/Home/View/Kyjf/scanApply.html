@@ -1,5 +1,85 @@
 
+<style>
+#modal-overlay {
+		     /*visibility: hidden; */   
+		     display:none;
+		     position: absolute;   /* 使用绝对定位或固定定位  */
+		     left: 0px;    
+		     top: 0px;
+		     width:100%;
+		     height:100%;
+		    /* text-align:center;*/
+		     z-index: 1000;
+		    /* background-color: #333; 
+		     opacity: 0.5;   /* 背景半透明 */
+		}
+		/* 模态框样式 */
+.modal-data{
+			 width:750px;
+			 height:330px;
+		     margin: 100px auto;
+		     background-color: #fff;
+		     border:1px solid #000;
+		     padding:15px;
+		     /*text-align:center;*/
+		}
+
+</style>
 <div class="container">
+	<div id="modal-overlay" class="editApply">
+        <div class="modal-data">
+            <ul class="breadcrumb">
+                <li>编辑经费申请</li> 
+                <a class="pull-right closePop" style="cursor:pointer;">关闭</a>
+            </ul>  
+	        <div class="col-sm-12">
+	            <div class="row">
+	                <div class="col-xs-win">             
+	                    <form id="apply_edit_form" method="post" class="form-horizontal" role="form">
+
+	                        <div class="form-group">
+	                            <label class="col-sm-3 control-label no-padding-right">申请人: </label>
+	                            <div class="col-sm-6">
+	                                <input type="text" name="user" id="user" class="form-control"/>
+	                            </div>
+	                        </div>
+	                         <div class="space-4"></div>
+	                         <div class="form-group">
+	                            <label class="col-sm-3 control-label no-padding-right"> 依托课题: </label>
+	                            <div class="col-sm-6">
+	                                <input type="text" name="subject_id" id="subject_id" class="form-control"/>
+	                            </div>
+	                        </div>
+	                        <div class="space-4"></div>
+	                         <div class="form-group">
+	                            <label class="col-sm-3 control-label no-padding-right"> 申请金额: </label>
+	                            <div class="col-sm-6">
+	                                <input type="text" name="money" id="money" class="form-control"/>
+	                            </div>
+	                        </div>
+	                        
+	                        <div class="space-4"></div>
+	                         <div class="form-group">
+	                            <label class="col-sm-3 control-label no-padding-right"> 日期:</label>
+	                            <div class="col-sm-6">
+	                                <input type="text" name="time" id="datetimepicker" class="form-control"/>
+	                            </div>
+	                        </div>
+	                        <input type="hidden" id='edit_id' name="id"  />
+	                        <div class="clearfix form-actions">
+
+	                                <button class="btn btn-info" type="submit" >
+	                                    <i class="icon-ok bigger-110"></i>
+	                                    提交
+	                                </button>
+
+	                        </div>
+	                    </form>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+    </div>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 		</br>
@@ -72,7 +152,7 @@
 			</div>
 		</div>
 
-		<div class="col-md-8 column" style="border-radius:6px;border:1px solid #e8e8e8;">
+		<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
 					<form name="form2" method="post" action="">
 						<table class="table">
 							<thead>
@@ -80,60 +160,62 @@
 									<th>
 										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
 									</th>
-									<th>
+									<th style="text-align:center;">
 										申请人
 									</th>
-									<th>
+									<th style="text-align:center;">
+										依托项目
+									</th>
+									<th style="text-align:center;">
 										金额
 									</th>
-									<th>
+									<th style="text-align:center;">
 										时间
+									</th>
+									<th style="text-align:center;">
+										审核状态
+									</th>
+									<th style="text-align:center;">
+										操作
 									</th>
 								</tr>
 							</thead>
 							<tbody>
 								<volist name="thesesList" id="vo">
-								<?php 
-								$col = "";
-								$col1 = "warning";
-								$col2 = "error";
-								$col3 = "sucess";
-								$col = $col1;
-								if($col == $col1){
-									$col = $col2;
-								}elseif($col == $col2){
-									$col = $col3;
-								}else{
-									$col = $col1;
-								}
-								?>
-								<tr class="<?php echo $col;?>">
+								
+								<tr>
 									<td>
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
 									</td>
-									<td>
+									<td style="text-align:center;">
 										{$vo.user}
 									</td>
-									<td>
+									<td style="text-align:center;">
+										{$vo.subject_id}
+									</td>
+									<td style="text-align:center;">
 										{$vo.money}
 									</td>
-									<td>
+									<td style="text-align:center;">
 										{$vo.time}
 									</td>
 									
+									<td style="text-align:center;"><if condition="$vo['status'] eq 0">
+											<span style="color:blue">等待审核</span>
+										<elseif condition="$vo['status'] eq 1"/>
+											<span style="color:green">已通过审核</span>
+										<else/><span style="color:red">已拒绝</span></if>
+									</td>
+									<td style="text-align:center">
+										<if condition="$vo['status'] eq 1">
+											--  --
+										<else/>
+										<a href="#" style="color:green;" data1="{$vo['id']}" class="edit">编辑</a>
+										<a href="#" style="color:red;" data2="{$vo['id']}" class="delete">删除</a>
+									</if>
+									</td>	
 								</tr>
 							</volist>
-							<tr>
-							   <td>
-							   	<img src="__PUBLIC__img/arrow_ltr.gif"/>
-							   </td>
-							   <td>
-							   	<a class="btn btn-default" href="javascript:checkaction(0)">删除</a> 							   	
-							   	<a class="btn btn-default" href="javascript:checkaction(1)">修改</a>  
-							   </td>
-							   <td></td>
-							   <td></td>
-							</tr>
 							</tbody>
 						</table>
 					</form>
@@ -143,3 +225,64 @@
 				</div>
 			</div>
 		</div>
+<script>
+$(".closePop").css('cusor','pointer').click(function(){
+	$(".editApply").hide();
+});
+ $(".edit").click(function () {
+ 	   $(".editApply").show();
+        var row = $(this).parents('tr');
+        var id = $(this).attr('data1');
+        $('#edit_id').val(id);
+        $("#apply_edit_form #user").val(row.children('td:eq(1)').html());
+        $("#apply_edit_form #subject_id").val(row.children('td:eq(2)').html());
+        $("#apply_edit_form #money").val(row.children('td:eq(3)').html());
+        $("#apply_edit_form #datetimepicker").val(row.children('td:eq(4)').html());
+
+        
+
+        //return false
+    });
+ $("#apply_edit_form").submit(function(e){
+ 		e.stopPropagation();
+        e.preventDefault();
+        var editApply_data = $('#apply_edit_form').serialize();
+        console.log(editApply_data);
+         $.ajax({
+            url:'__URL__/apply_edit',
+            type:'POST',
+            dataType:'json',
+            data:editApply_data,
+            success:function(data){
+                if(data.status=='success'){
+                    $(".editApply").hide();
+                  
+                    alert("编辑成功");
+                    window.location.reload();
+                }else if(data.status=='error'){
+                    alert("操作失败");
+                }
+            }
+        });
+       
+    });
+ $('.delete').click(function(){
+ 	var row = $(this).parents('tr');
+    var id = $(this).attr('data2');
+    $.ajax({
+    	url:'__URL__/apply_delete',
+    	type:'post',
+    	data:{'id':id},
+    	dataType:'json',
+    	success:function(data){
+    		if(data.status=='success'){
+                  
+                    alert("操作成功");
+                    window.location.reload();
+                }else if(data.status=='error'){
+                    alert("操作失败");
+                }
+            }
+    	});
+ });	
+</script>

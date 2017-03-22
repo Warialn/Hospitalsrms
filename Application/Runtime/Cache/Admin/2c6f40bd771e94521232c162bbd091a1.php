@@ -172,7 +172,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/usergroup');?>">
 												<i class="icon-double-angle-right"></i>
 												用户组管理
 											</a>
@@ -230,28 +230,30 @@
                                     <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
                                     </td>
                                    <td>
-                                        <?php echo ($vo["meetName"]); ?>
+                                        <?php echo ($vo["meetname"]); ?>
                                     </td>
                                     <td>
                                         <?php echo ($vo["organizer"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo ($vo["meetTime"]); ?>
+                                        <?php echo ($vo["meettime"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo ($vo["address"]); ?>
+                                        <?php echo ($vo["address"]); echo ($vo['id']); ?>
                                     </td>
-                                    <td>
-                                     <a  href="#" class="green deleteuser"title="编辑">
-                                       编辑
-                                    </a>
+                                   <td><?php if($vo['status'] == 0): ?><a  data1 = "<?php echo ($vo['id']); ?>"href="#" class="green agree"title="同意">
+                                           同意
+                                        </a>
 
-                                    <a class="red deleteuser"  href="#" title="删除">
-                                        删除
-                                    </a>
+                                        <a data2 = "<?php echo ($vo['id']); ?>" class="red refuse"  href="#" title="拒绝">
+                                            拒绝
+                                        </a>
+                                        
+                                    <?php elseif($vo['status'] == 1): ?>
+                                    <span style="color:green">已同意</span>
+                                <?php else: ?> <span style="color:red">已拒绝</span><?php endif; ?>
 
-                                    <input type="hidden" value="<?php echo ($vo['id']); ?>"></td>                             
-                                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    </td><?php endforeach; endif; else: echo "" ;endif; ?>
                             <tr>
                                <td>
                                 <img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
@@ -272,6 +274,51 @@
                 </div>
                 </div>
             </div>
+            <script>
+            $('.agree').click(function(){
+                var data ={};
+                data.id = $(this).attr('data1');
+                data.stat = 'agree';
+                $.ajax({
+                    type:'POST',
+                    url:'/test/Hospitalsrms/index.php/Admin/Xshd/index_edit',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+                            window.location.reload();
+
+                        }
+                       
+                    }
+                });
+            });
+            $('.refuse').click(function(){
+                var data ={};
+                data.id = $(this).attr('data2');
+                data.stat = 'refuse';
+                $.ajax({
+                    type:'POST',
+                    url:'/test/Hospitalsrms/index.php/Admin/Xshd/index_edit',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+
+                        }
+                       
+                    }
+                });
+            });
+            </script>
 <div class="" style="background-color:#E4E6E9;height:60px;">
 
 </div>

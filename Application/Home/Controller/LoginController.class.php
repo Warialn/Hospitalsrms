@@ -11,13 +11,14 @@ class LoginController extends Controller{
 		if($_POST['submit']){
 		$data['user_name']=$_POST['username'];
 		$data['password']=md5($_POST['password']);
+		$data['usergroup_id'] = I('post.usergroup_id');
 		//dump($data);die;
 	    }
 		if($User->create($data)){
 			
-			$User->reg_time=strtotime(date('Y-m-d H:i:s',time()));
-			$member=$User->add();
-			//echo "123";
+			$data['reg_time']=strtotime(date('Y-m-d H:i:s',time()));
+			$member=$User->add($data);
+		    $this->success('注册成功！','http://localhost/test/Hospitalsrms/index.php/Home/Login/index');
 		}
 		$this->display();
 	

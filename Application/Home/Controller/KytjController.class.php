@@ -32,11 +32,7 @@ class KytjController extends CommonController{
 	}
 	public function scanTheses(){
 		$model=M('TjTheses');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
-
-		}
+		
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);
@@ -80,11 +76,7 @@ class KytjController extends CommonController{
 	}
 	public function scanAchievement(){
 		$model=M('TjAchievement');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
-
-		}
+		
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,8);
@@ -127,11 +119,7 @@ class KytjController extends CommonController{
 	}
 	public function scanPropty(){
 		$model=M('TjPropty');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
-
-		}
+		
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,8);
@@ -174,11 +162,7 @@ class KytjController extends CommonController{
 	}
 	public function scanEquipment(){
 		$model=M('TjEquipment');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
-
-		}
+		
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,8);

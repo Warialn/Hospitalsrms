@@ -10,6 +10,7 @@
 <link href="/test/Hospitalsrms/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet">
 <script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
 <script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <div class="contain">
@@ -198,11 +199,14 @@
                                                         
                 <thead>
                     <tr>
-                        <th>
+                        <!-- <th>
                             <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                        </th>
+                        </th> -->
                         <th>
                             论文名称
+                        </th>
+                         <th>
+                            发布刊物或会议名称
                         </th>
                         <th>
                             作者
@@ -210,18 +214,24 @@
                         <th>
                             年份
                         </th>
-                        <th>
-                            操作
+                         <th>
+                            论文状态
                         </th>
+                       <!--  <th>
+                            操作
+                        </th> -->
                     </tr>
                 </thead>
                 <tbody>
                     <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
-                        <td>
+                       <!--  <td>
                         <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-                        </td>
+                        </td> -->
                         <td>
                             <?php echo ($vo["name"]); ?>
+                        </td>
+                         <td>
+                            <?php echo ($vo["sname"]); ?>
                         </td>
                         <td>
                             <?php echo ($vo["author"]); ?>
@@ -229,7 +239,10 @@
                         <td>
                             <?php echo ($vo["date"]); ?>
                         </td> 
-                        <td>
+                         <td>
+                            <?php echo ($vo["status"]); ?>
+                        </td> 
+                      <!--   <td>
                             <a  href="#" class="green deleteuser"title="编辑">
                                        编辑
                                     </a>
@@ -239,9 +252,9 @@
                                     </a>
 
                                     <input type="hidden" value="<?php echo ($vo['id']); ?>"> 
-                        </td>                              
+                        </td>  -->                             
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                <tr>
+                <!-- <tr>
                    <td>
                     <img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
                    </td>
@@ -250,7 +263,7 @@
                    <td></td>
                    <td></td>
                    <td></td>
-                </tr>
+                </tr> -->
                 </tbody>
             </table>
         </form>

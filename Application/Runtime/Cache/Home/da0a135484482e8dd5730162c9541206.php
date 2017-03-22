@@ -36,7 +36,7 @@
 		<div class="header" id="home">
 			 <div class="header-top" style="background-color:#494949;height:35px;">
 				<div class="container" >
-					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
+					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"." , 欢迎您"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
 				</div>
 			</div> 
 			<div class="header_nav" id="home">
@@ -106,7 +106,85 @@
 					</div><!-- /.container-fluid -->
 				</nav>
 			</div>
+<style>
+	#modal-overlay {
+		     /*visibility: hidden; */   
+		     display:none;
+		     position: absolute;   /* 使用绝对定位或固定定位  */
+		     left: 0px;    
+		     top: 0px;
+		     width:100%;
+		     height:100%;
+		    /* text-align:center;*/
+		     z-index: 1000;
+		    /* background-color: #333; 
+		     opacity: 0.5;   /* 背景半透明 */
+		}
+		/* 模态框样式 */
+.modal-data{
+			 width:750px;
+			 height:300px;
+		     margin: 100px auto;
+		     background-color: #fff;
+		     border:1px solid #000;
+		     padding:15px;
+		     /*text-align:center;*/
+		}
+
+</style>
 <div class="container">
+	<div id="modal-overlay" class="editSubject">
+        <div class="modal-data">
+            <ul class="breadcrumb">
+                <li>编辑平台申请</li> 
+                <a class="pull-right closePop" style="cursor:pointer;">关闭</a>
+            </ul>  
+	        <div class="col-sm-12">
+	            <div class="row">
+	                <div class="col-xs-win">             
+	                    <form id="subject_edit_form" method="post" class="form-horizontal" role="form">
+
+	                        <div class="form-group">
+	                            <label class="col-sm-3 control-label no-padding-right"> 平台名称: </label>
+	                            <div class="col-sm-6">
+	                                <input type="text" name="department_name" id="department_name" class="form-control"/>
+	                            </div>
+	                        </div>
+	                         <div class="form-group">
+	                            <label class="col-sm-3 control-label no-padding-right"> 申请人: </label>
+	                            <div class="col-sm-6">
+	                                <input type="text" name="user" id="userber" class="form-control"/>
+	                            </div>
+	                        </div>
+	                         <div class="space-4"></div>
+	                         <div class="form-group">
+	                            <label class="col-sm-3 control-label no-padding-right">开始使用时间:</label>
+	                            <div class="col-sm-6">
+	                                <input type="text" name="date" id="datetimepicker" class="form-control"/>
+	                            </div>
+	                        </div>
+	                        <div class="space-4"></div>
+	                         <div class="form-group">
+	                            <label class="col-sm-3 control-label no-padding-right"> 占用时间:</label>
+	                            <div class="col-sm-6">
+	                                <input type="text" name="time" id="time" class="form-control"/>
+	                            </div>
+	                        </div>
+	                        <input type="hidden" id='edit_id' name="id"  />
+	                        <div class="clearfix form-actions">
+
+	                                <button class="btn btn-info" type="submit" >
+	                                    <i class="icon-ok bigger-110"></i>
+	                                    提交
+	                                </button>
+
+	                        </div>
+	                    </form>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+    </div>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="row clearfix">
@@ -181,7 +259,7 @@
 						</form>
 					</div>
 				</div>
-				<div class="col-md-8 column" style="border-radius:6px;border:1px solid #e8e8e8;">
+				<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
 					<form name="form2" method="post" action="">
 						<table class="table">
 							<thead>
@@ -189,44 +267,57 @@
 									<th>
 										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
 									</th>
-									<th>
+									<th style="text-align:center;">
 										平台名称
 									</th>
-									<th>
+									<th style="text-align:center;">
 										申请人
 									</th>
-									<th>
+									<th style="text-align:center;">
+										开始使用时间
+									</th>
+									<th style="text-align:center;">
 										占用时间
+									</th>
+									<th style="text-align:center;">
+										审核状态
+									</th>
+									<th style="text-align:center;">
+										操作
 									</th>
 								</tr>
 							</thead>
 							<tbody>
-								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $col = ""; $col1 = "warning"; $col2 = "error"; $col3 = "sucess"; $col = $col1; if($col == $col1){ $col = $col2; }elseif($col == $col2){ $col = $col3; }else{ $col = $col1; } ?>
-								<tr class="<?php echo $col;?>">
+								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
 									<td>
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
 									</td>
-									<td>
-										<?php echo ($vo["plantformname"]); ?>
+									<td style="text-align:center;">
+										<?php echo ($vo["department_name"]); ?>
 									</td>
-									<td>
+									<td style="text-align:center;">
 										<?php echo ($vo["user"]); ?>
 									</td>
-									<td>
+									<td style="text-align:center;">
+										<?php echo ($vo["date"]); ?>
+									</td>
+									<td style="text-align:center;">
 										<?php echo ($vo["time"]); ?>
 									</td>
+									<td style="text-align:center;"><?php if($vo['status'] == 0): ?><span style="color:blue">等待审核</span>
+										<?php elseif($vo['status'] == 1): ?>
+											<span style="color:green">已通过审核</span>
+										<?php else: ?><span style="color:red">已拒绝</span><?php endif; ?>
+									</td>
+									<td style="text-align:center">
+										<?php if($vo['status'] == 1): ?>--  --
+										<?php else: ?>
+										<a href="#" style="color:green;" data1="<?php echo ($vo['id']); ?>" class="edit">编辑</a>
+										<a href="#" style="color:red;" data2="<?php echo ($vo['id']); ?>" class="delete">删除</a><?php endif; ?>
+									</td>
+
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-							<tr>
-							   <td>
-							   	<img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
-							   </td>
-							   <td>
-							   	<a class="btn btn-default" href="javascript:checkaction(0)">删除</a> 							   	
-							   	<a class="btn btn-default" href="javascript:checkaction(1)">修改</a>  
-							   </td>
-							   <td></td>
-							   <td></td>
-							</tr>
+						
 							</tbody>
 						</table>
 					</form>
@@ -241,79 +332,69 @@
 	</div>
 </div>
 <script>
-	function look(){
-	    document.form1.action="/test/Hospitalsrms/index.php/Home/Xmsb/scanSubject";
-	}
-	function mod(){
-		document.form2.action="modify_cost.php";
-	}
-	function checkaction(v){
-	if(v==0){
-		document.form2.method="get";
-		document.form2.action="/test/Hospitalsrms/index.php/Home/Xmsb/deleteAll";
-	}else if(v==1){
-		document.form2.method="get";
-		document.form2.action="/test/Hospitalsrms/index.php/Home/Xmsb/updatefile";
-	}else{
-		document.form2.method="get";
-		document.form2.action="/test/Hospitalsrms/index.php/Home/Xmsb/export";
-	}
-	form2.submit();
-}
-//选中全选按钮，下面的checkbox全部选中
-var selAll = document.getElementById("selAll");
-function selectAll()
-{
-  var obj = document.getElementsByName("checkAll[]");
-  if(document.getElementById("selAll").checked == false)
-  {
-  for(var i=0; i<obj.length; i++)
-  {
-    obj[i].checked=false;
-  }
-  }else
-  {
-  for(var i=0; i<obj.length; i++)
-  {  
-    obj[i].checked=true;
-  }
-  }
- 
-}
+$(".closePop").css('cusor','pointer').click(function(){
+	$(".editSubject").hide();
+});
+ $(".edit").click(function () {
+ 	   $(".editSubject").show();
+        var row = $(this).parents('tr');
+        var id = $(this).attr('data1');
+        $('#edit_id').val(id);
+        $("#subject_edit_form #department_name").val(row.children('td:eq(1)').html());
+        $("#subject_edit_form #user").val(row.children('td:eq(2)').html());
+        $("#subject_edit_form #date").val(row.children('td:eq(3)').html());
+        $("#subject_edit_form #time").val(row.children('td:eq(4)').html());
+        
 
-//当选中所有的时候，全选按钮会勾上
-function setSelectAll()
-{
-var obj=document.getElementsByName("checkAll[]");
-var count = obj.length;
-var selectCount = 0;
+        //return false
+    });
+ $("#subject_edit_form").submit(function(e){
+ 		e.stopPropagation();
+        e.preventDefault();
+        var editSubject_data = $('#subject_edit_form').serialize();
+        console.log(editSubject_data);
+         $.ajax({
+            url:'/test/Hospitalsrms/index.php/Home/Xmsb/department_edit',
+            type:'POST',
+            dataType:'json',
+            data:editSubject_data,
+            success:function(data){
+                if(data.status=='success'){
+                    $(".editSubject").hide();
+                  
+                    alert("编辑成功");
+                    window.location.reload();
+                }else if(data.status=='error'){
+                    alert("操作失败");
+                }
+            }
+        });
+       
+    });
+ $('.delete').click(function(){
+ 	var row = $(this).parents('tr');
+    var id = $(this).attr('data2');
+    $.ajax({
+    	url:'/test/Hospitalsrms/index.php/Home/Xmsb/department_delete',
+    	type:'post',
+    	data:{'id':id},
+    	dataType:'json',
+    	success:function(data){
+    		if(data.status=='success'){
+                  
+                    alert("操作成功");
+                    window.location.reload();
+                }else if(data.status=='error'){
+                    alert("操作失败");
+                }
+            }
+    	});
+ });
 
-for(var i = 0; i < count; i++)
-{
-if(obj[i].checked == true)
-{
-selectCount++;
-}
-}
-if(count == selectCount)
-{
-document.all.selAll.checked = true;
-}
-else
-{
-document.all.selAll.checked = false;
-}
-}
 
-//反选按钮
-function inverse() {
-var checkboxs=document.getElementsByName("checkAll");
-for (var i=0;i<checkboxs.length;i++) {
-  var e=checkboxs[i];
-   setSelectAll();
-}
-}
-	</script>
+
+</script>
+	
 
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
@@ -401,7 +482,7 @@ for (var i=0;i<checkboxs.length;i++) {
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
+$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

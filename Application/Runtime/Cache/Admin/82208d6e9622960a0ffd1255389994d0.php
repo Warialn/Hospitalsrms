@@ -165,13 +165,6 @@
 											</a>
 										</li>
 		                                
-		                                <li>  
-			                                <a href="">  
-			                                	<i class="icon-double-angle-right"></i>  
-			                                    日志管理  
-			                                </a>  
-		                                </li>
-		                                
 		                                <li>
 											<a href="<?php echo U('Xtgl/user');?>">
 												<i class="icon-double-angle-right"></i>
@@ -179,7 +172,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/usergroup');?>">
 												<i class="icon-double-angle-right"></i>
 												用户组管理
 											</a>
@@ -202,7 +195,7 @@
      <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
 
                     <form name="form2" method="post" action="">
-                        <table class="table"><br/>
+                        <table class="table  table-striped table-bordered table-hover"><br/>
                             <input  class="btn btn-default pull-right" type="submit" value="搜索">
                             <div class="col-md-2 pull-right">
                                 <input class="form-control" type="text">
@@ -213,19 +206,16 @@
                                     <th>
                                         <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
                                     </th>
-                                   <th>
-                                        会议名称
+                                    <th>
+                                        著作名称
                                     </th>
                                     <th>
-                                        组织者
+                                        作者
                                     </th>
                                     <th>
-                                        时间
+                                        完成时间
                                     </th>
-                                    <th>
-                                        地点
-                                    </th>
-                                    <th>
+                                     <th>
                                         操作
                                     </th>
                                 </tr>
@@ -235,21 +225,26 @@
                                     <td>
                                     <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
                                     </td>
+                                    <td>
+                                        <?php echo ($vo["compositionname"]); ?>
+                                    </td>
+                                    <td>
+                                        <?php echo ($vo["author"]); ?>
+                                    </td>
+                                    <td>
+                                        <?php echo ($vo["time"]); ?>
+                                    </td>
                                    <td>
-                                        <?php echo ($vo["meetName"]); ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($vo["organizer"]); ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($vo["meetTime"]); ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($vo["address"]); ?>
-                                    </td>
-                                    <td>
-                                        
-                                    </td>                               
+                                       <a  href="#" class="green agree"title="同意">
+                                           同意
+                                        </a>
+
+                                        <a class="red refuse"  href="#" title="拒绝">
+                                            拒绝
+                                        </a>
+
+                                        <input type="hidden" value="<?php echo ($vo['id']); ?>">  
+                                    </td>                          
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             <tr>
                                <td>

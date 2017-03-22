@@ -18,19 +18,16 @@
                                     <th>
                                         <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
                                     </th>
-                                   <th>
-                                        会议名称
+                                    <th>
+                                        著作名称
                                     </th>
                                     <th>
-                                        组织者
+                                        作者
                                     </th>
                                     <th>
-                                        时间
+                                        完成时间
                                     </th>
-                                    <th>
-                                        地点
-                                    </th>
-                                    <th>
+                                     <th>
                                         操作
                                     </th>
                                 </tr>
@@ -42,29 +39,26 @@
                                     <td>
                                     <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
                                     </td>
+                                    <td>
+                                        {$vo.compositionname}
+                                    </td>
+                                    <td>
+                                        {$vo.author}
+                                    </td>
+                                    <td>
+                                        {$vo.time}
+                                    </td>
                                    <td>
-                                        {$vo.meetName}
-                                    </td>
-                                    <td>
-                                        {$vo.organizer}
-                                    </td>
-                                    <td>
-                                        {$vo.meetTime}
-                                    </td>
-                                    <td>
-                                        {$vo.address}
-                                    </td>
-                                    <td>
-                                        <a  href="#" class="green deleteuser"title="编辑">
-                                       编辑
-                                    </a>
+                                       <a  href="#" class="green agree"title="同意">
+                                           同意
+                                        </a>
 
-                                    <a class="red deleteuser"  href="#" title="删除">
-                                        删除
-                                    </a>
+                                        <a class="red refuse"  href="#" title="拒绝">
+                                            拒绝
+                                        </a>
 
-                                    <input type="hidden" value="{$vo['id']}"> 
-                                    </td>                               
+                                        <input type="hidden" value="{$vo['id']}">  
+                                    </td>                          
                                 </tr>
                             </volist>
                             <tr>

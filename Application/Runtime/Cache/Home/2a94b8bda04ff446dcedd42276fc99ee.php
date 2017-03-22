@@ -36,7 +36,7 @@
 		<div class="header" id="home">
 			 <div class="header-top" style="background-color:#494949;height:35px;">
 				<div class="container" >
-					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
+					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"." , 欢迎您"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
 				</div>
 			</div> 
 			<div class="header_nav" id="home">
@@ -167,29 +167,36 @@
 		<div class="style-label">
 			<div class="container">
 				<ul class="box-shadow effect2">
+					
 					<li class="col-md-3">
-						<span class="glyphicon glyphicon-leaf flt" aria-hidden="true"></span>
+						<a href='javascript:checkaction(0);' >
+						<span class="glyphicon glyphicon-leaf flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>科研统计</h3>
 						<p>医师的科研成果都发布在这里，让其他医师学习。</p>
 						</div>
 					</li>
+					
 					<li class="col-md-3">
-						<span class="glyphicon glyphicon-eye-open flt" aria-hidden="true"></span>
+						<a href='javascript:checkaction(1);' >
+						<span class="glyphicon glyphicon-eye-open flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>项目申报</h3>
 						<p>医师申报项目，在这里申请。</p>
 						</div>
-					</li>
-					<li class="col-md-3">
-						<span class="glyphicon glyphicon-pencil flt" aria-hidden="true"></span>
+					</li></a>
+					
+
+					<li class="col-md-3"><a href='javascript:checkaction(2);' >
+						<span class="glyphicon glyphicon-pencil flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>费用报销</h3>
 						<p>医院的各种费用报销请来这里。</p>
 						</div>
 					</li>
-					<li class="col-md-3">
-						<span class="glyphicon glyphicon-cutlery flt" aria-hidden="true"></span>
+					
+					<li class="col-md-3"><a href='javascript:checkaction(3);' >
+						<span class="glyphicon glyphicon-cutlery flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>学术活动</h3>
 						<p>近期的学术活动会展示在这里。</p>
@@ -437,7 +444,17 @@
 			</div>
 		</div>
 		<script>
-		function checkaction(){
+		function checkaction(v){
+			var a = v;
+			if(a == 0){
+				document.location.href="/test/Hospitalsrms/index.php/Home/Kytj/index";
+			}else if(a == 1){
+				document.location.href="/test/Hospitalsrms/index.php/Home/Xmsb/index";
+			}else if(a == 2){
+				document.location.href="/test/Hospitalsrms/index.php/Home/Kyjf/index";
+			}else if(a == 3){
+				document.location.href="/test/Hospitalsrms/index.php/Home/Xshd/index";
+			}
 			
 		}
 		</script>
@@ -529,7 +546,7 @@
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
+$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

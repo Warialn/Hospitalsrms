@@ -10,6 +10,7 @@
 <link href="/test/Hospitalsrms/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet">
 <script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
 <script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <div class="contain">
@@ -165,13 +166,6 @@
 											</a>
 										</li>
 		                                
-		                                <li>  
-			                                <a href="">  
-			                                	<i class="icon-double-angle-right"></i>  
-			                                    日志管理  
-			                                </a>  
-		                                </li>
-		                                
 		                                <li>
 											<a href="<?php echo U('Xtgl/user');?>">
 												<i class="icon-double-angle-right"></i>
@@ -179,7 +173,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="">
+											<a href="<?php echo U('Xtgl/usergroup');?>">
 												<i class="icon-double-angle-right"></i>
 												用户组管理
 											</a>
@@ -195,7 +189,7 @@
 
 <div class="col-md-10 column" style="background-color:#f8f8f8;border-radius:0px;border:1px solid #e8e8e8;height:550px;">
                     <form name="form2" method="post" action="">
-                        <table class="table"><br/>
+                        <table class="table  table-striped table-bordered table-hover"><br/>
                             <input  class="btn btn-default pull-right" type="submit" value="搜索">
                             <div class="col-md-3 pull-right">
                                 <input class="form-control" type="text">

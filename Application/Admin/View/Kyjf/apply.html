@@ -15,9 +15,9 @@
                                                         
                 <thead>
                     <tr>
-                        <th>
+                        <!-- <th>
                             <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                        </th>
+                        </th> -->
                         <th>
                            申请人
                         </th>
@@ -39,9 +39,9 @@
                     <volist name="thesesList" id="vo">
                    
                     <tr>
-                        <td>
+                        <!-- <td>
                         <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
-                        </td>
+                        </td> -->
                         <td>
                             {$vo.user}
                         </td>
@@ -55,28 +55,31 @@
                             {$vo.money}
                         </td>
                         <td>
-                           <a  href="#" class="green deleteuser"title="编辑">
-                               编辑
-                            </a>
+                          <if condition="$vo['status'] eq 0">
+                                       <a  data1 = "{$vo['id']}"href="#" class="green agree"title="同意">
+                                           同意
+                                        </a>
 
-                            <a class="red deleteuser"  href="#" title="删除">
-                                删除
-                            </a>
-
-                            <input type="hidden" value="{$vo['id']}">  
+                                        <a data2 = "{$vo['id']}" class="red refuse"  href="#" title="拒绝">
+                                            拒绝
+                                        </a>
+                                        
+                                    <elseif condition = "$vo['status'] eq 1"/>
+                                    <span style="color:green">已同意</span>
+                                <else/> <span style="color:red">已拒绝</span></if> 
                         </td>                              
                     </tr>
                 </volist>
-                <tr>
-                   <td>
+               <!--  <tr>
+                    <td>
                     <img src="__PUBLIC__img/arrow_ltr.gif"/>
-                   </td>
+                   </td> ->-
 
                    <td></td>
                    <td></td>
                    <td></td>
                    <td></td>
-                </tr>
+                </tr> -->
                 </tbody>
             </table>
         </form>
@@ -86,3 +89,48 @@
 </div>
 </div>
 </div>
+<script>
+            $('.agree').click(function(){
+                var data ={};
+                data.id = $(this).attr('data1');
+                data.stat = 'agree';
+                $.ajax({
+                    type:'POST',
+                    url:'__URL__/apply_edit',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+                            window.location.reload();
+
+                        }
+                       
+                    }
+                });
+            });
+            $('.refuse').click(function(){
+                var data ={};
+                data.id = $(this).attr('data2');
+                data.stat = 'refuse';
+                $.ajax({
+                    type:'POST',
+                    url:'__URL__/apply_edit',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+
+                        }
+                       
+                    }
+                });
+            });
+            </script>

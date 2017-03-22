@@ -1,0 +1,5 @@
+[ 2017-03-20T14:52:53+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003348s ]
+

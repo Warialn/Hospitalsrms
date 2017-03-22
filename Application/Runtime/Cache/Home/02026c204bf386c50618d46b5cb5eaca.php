@@ -36,7 +36,7 @@
 		<div class="header" id="home">
 			 <div class="header-top" style="background-color:#494949;height:35px;">
 				<div class="container" >
-					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "欢迎你，"."<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
+					<p class="pull-right" ><?php if($_SESSION['user_id']){ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html' title='切换账号'>".$_SESSION['user_name']."</a>"." , 欢迎您"."&nbsp;&nbsp;<a class='footer-set-css'href='http://localhost/test/Hospitalsrms/index.php/Home/Login/logout'>退出</a>"; }else{ echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index.html'>登录</a>   &nbsp;"; echo "<a class='footer-set-css' href='http://localhost/test/Hospitalsrms/index.php/Home/Login/register.html'>注册</a>"; }?></p>
 				</div>
 			</div> 
 			<div class="header_nav" id="home">
@@ -190,6 +190,10 @@
 				    <td> <input type="text" class="form-control input-sm" id="name3" placeholder="" name="item"></td>
 				  </tr>
 				  <tr>
+				    <td>申请日期</td>
+				    <td> <input type="text" name="date" class="form-control input-sm" value="2017/01/22 08:00" name="date" id="datetimepicker"/></td>
+				  </tr>
+				  <tr>
 				    <td>占用时间 </td>
 				    <td> <input type="text" class="form-control input-sm" id="name4" placeholder="" name="time"></td>
 				  </tr>
@@ -209,8 +213,7 @@
 				  </tr>
 				</table>
 			</form>
-		</div>
-		
+		</div>		
 	</div>
 </div>
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">

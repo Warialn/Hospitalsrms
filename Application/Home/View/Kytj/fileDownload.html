@@ -160,7 +160,7 @@
 						</form>
 					</div>
 				</div>
-				<div class="col-md-8 column" style="border-radius:6px;border:1px solid #e8e8e8;">
+				<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
 					<form name="form2" method="get" role="form" >
 						<table class="table">
 							<thead>
@@ -181,21 +181,8 @@
 							</thead>
 							<tbody>
 								<volist name="thesesList" id="vo">
-								<?php 
-								$col = "";
-								$col1 = "warning";
-								$col2 = "error";
-								$col3 = "sucess";
-								$col = $col1;
-								if($col == $col1){
-									$col = $col2;
-								}elseif($col == $col2){
-									$col = $col3;
-								}else{
-									$col = $col1;
-								}
-								?>
-								<tr class="<?php echo $col;?>">
+								
+								<tr>
 									<td>
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
 									</td>
@@ -211,12 +198,10 @@
 								</tr>
 							</volist>
 							<tr>
-							   <td>
-							   	<a class="btn btn-default" href="javascript:checkaction(0)">批量删除</a> 							   	
+							   <td> 
+							   	<a class="btn btn-default" href="javascript:overlay();">上传</a>							   	
 							   </td>
-							   <td>  
-							   	<a class="btn btn-default" href="javascript:overlay();">上传</a>
-							   </td>
+							   <td></td>
 							   <td></td>
 							   <td></td>
 							</tr>
