@@ -184,9 +184,9 @@
 						<table class="table">
 							<thead>
 								<tr>
-									<th>
+									<!-- <th>
 										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-									</th>
+									</th> -->
 									<th>
 										著作名称
 									</th>
@@ -199,11 +199,10 @@
 								</tr>
 							</thead>
 							<tbody>
-								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $col = ""; $col1 = "warning"; $col2 = "error"; $col3 = "sucess"; $col = $col1; if($col == $col1){ $col = $col2; }elseif($col == $col2){ $col = $col3; }else{ $col = $col1; } ?>
-								<tr class="<?php echo $col;?>">
-									<td>
+								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+									<!-- <td>
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-									</td>
+									</td> -->
 									<td>
 										<?php echo ($vo["compositionname"]); ?>
 									</td>
@@ -215,7 +214,7 @@
 									</td>
 									
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-							<tr>
+							<!-- <tr>
 							   <td>
 							   	<img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
 							   </td>
@@ -225,7 +224,7 @@
 							   </td>
 							   <td></td>
 							   <td></td>
-							</tr>
+							</tr> -->
 							</tbody>
 						</table>
 					</form>
@@ -399,7 +398,7 @@ for (var i=0;i<checkboxs.length;i++) {
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
+$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

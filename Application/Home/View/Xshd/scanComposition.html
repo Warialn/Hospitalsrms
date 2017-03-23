@@ -76,9 +76,9 @@
 						<table class="table">
 							<thead>
 								<tr>
-									<th>
+									<!-- <th>
 										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-									</th>
+									</th> -->
 									<th>
 										著作名称
 									</th>
@@ -92,24 +92,11 @@
 							</thead>
 							<tbody>
 								<volist name="thesesList" id="vo">
-								<?php 
-								$col = "";
-								$col1 = "warning";
-								$col2 = "error";
-								$col3 = "sucess";
-								$col = $col1;
-								if($col == $col1){
-									$col = $col2;
-								}elseif($col == $col2){
-									$col = $col3;
-								}else{
-									$col = $col1;
-								}
-								?>
-								<tr class="<?php echo $col;?>">
-									<td>
+							
+								<tr>
+									<!-- <td>
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
-									</td>
+									</td> -->
 									<td>
 										{$vo.compositionname}
 									</td>
@@ -122,7 +109,7 @@
 									
 								</tr>
 							</volist>
-							<tr>
+							<!-- <tr>
 							   <td>
 							   	<img src="__PUBLIC__img/arrow_ltr.gif"/>
 							   </td>
@@ -132,7 +119,7 @@
 							   </td>
 							   <td></td>
 							   <td></td>
-							</tr>
+							</tr> -->
 							</tbody>
 						</table>
 					</form>

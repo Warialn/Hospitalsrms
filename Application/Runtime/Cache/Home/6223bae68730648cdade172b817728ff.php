@@ -229,7 +229,7 @@
 										<?php else: ?><span style="color:green">审核中</span><?php endif; ?>
 									</td>
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-							<tr>
+							<!-- <tr>
 							   <td>
 							   	<img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
 							   </td>
@@ -241,7 +241,7 @@
 							   <td></td>
 							   <td></td>
 							   <td></td>
-							</tr>
+							</tr> -->
 							</tbody>
 						</table>
 					</form>
@@ -435,7 +435,7 @@ for (var i=0;i<checkboxs.length;i++) {
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
+$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

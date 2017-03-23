@@ -133,7 +133,7 @@
 
 </style>
 <div class="container">
-	<div id="modal-overlay" class="editSubject">
+	<div id="modal-overlay" class="editColler">
         <div class="modal-data">
             <ul class="breadcrumb">
                 <li>编辑领用申请</li> 
@@ -150,6 +150,7 @@
 	                                <input type="text" name="name" id="name" class="form-control"/>
 	                            </div>
 	                        </div>
+	                         <div class="space-4"></div>
 	                         <div class="form-group">
 	                            <label class="col-sm-3 control-label no-padding-right"> 领用人: </label>
 	                            <div class="col-sm-6">
@@ -165,9 +166,9 @@
 	                            </div>
 	                        </div>
 	                        <input type="hidden" id='edit_id' name="id"  />
-	                        <div class="clearfix form-actions">
+	                        <div class="clearfix form-actions submitcenter">
 
-	                                <button class="btn btn-info" type="submit" >
+	                                <button class="btn btn-default " style="width:346px;background-color:#337ab7;color:white" type="submit" >
 	                                    <i class="icon-ok bigger-110"></i>
 	                                    提交
 	                                </button>
@@ -317,16 +318,16 @@
 </div>
 <script>
 $(".closePop").css('cusor','pointer').click(function(){
-	$(".editSubject").hide();
+	$(".editColler").hide();
 });
  $(".edit").click(function () {
- 	   $(".editSubject").show();
+ 	   $(".editColler").show();
         var row = $(this).parents('tr');
         var id = $(this).attr('data1');
         $('#edit_id').val(id);
         $("#coller_edit_form #name").val(row.children('td:eq(1)').html());
         $("#coller_edit_form #user").val(row.children('td:eq(2)').html());
-        $("#coller_edit_form #date").val(row.children('td:eq(3)').html());
+        $("#coller_edit_form #datetimepicker").val(row.children('td:eq(3)').html());
         
 
         //return false
@@ -334,16 +335,16 @@ $(".closePop").css('cusor','pointer').click(function(){
  $("#coller_edit_form").submit(function(e){
  		e.stopPropagation();
         e.preventDefault();
-        var editSubject_data = $('#coller_edit_form').serialize();
-        console.log(editSubject_data);
+        var editColler_data = $('#coller_edit_form').serialize();
+        console.log(editColler_data);
          $.ajax({
             url:'/test/Hospitalsrms/index.php/Home/Xmsb/coller_edit',
             type:'POST',
             dataType:'json',
-            data:editSubject_data,
+            data:editColler_data,
             success:function(data){
                 if(data.status=='success'){
-                    $(".editSubject").hide();
+                    $(".editColler").hide();
                   
                     alert("编辑成功");
                     window.location.reload();

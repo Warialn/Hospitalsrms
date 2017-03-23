@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class XmsbController extends Controller{
+class XmsbController extends CommonController{
 	public function index(){
 		$model=M('XmSubject');
 		$date = $_GET['ctime'];

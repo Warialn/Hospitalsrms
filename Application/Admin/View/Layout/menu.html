@@ -20,7 +20,7 @@
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，XXX</p>
+		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="{:U('login/logout')}">退出</a></p>
 		        </div>
 	        </div>
 	    </div>

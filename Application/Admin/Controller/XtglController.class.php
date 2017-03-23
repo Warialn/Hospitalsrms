@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class XtglController extends Controller {
+class XtglController extends CommonController {
 
 
 	public function user(){

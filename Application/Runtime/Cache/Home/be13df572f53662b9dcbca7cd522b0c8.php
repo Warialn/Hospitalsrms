@@ -163,7 +163,7 @@
 						<div class="form-group " style="margin-top:20px;">
 							<a href="javascript:checkaction(1)"   class="btn btn-default" id="">批量删除</a><a href="javascript:checkaction(0)"   class="btn btn-default pull-right" id="">搜索</a>
 							<input class="form-control col-sm-3 pull-right " type="text" id="" name=""  placeholder="年份" class="text" style="width:85px;"/>
-							<input class="form-control col-sm-3 pull-right" name="starname" type="text" style="width:85px;"placeholder="论文名称" />
+							<input class="form-control col-sm-3 pull-right" name="starname" type="text" style="width:85px;"placeholder="成果名称" />
 						 
 						
 						<!-- <a href="javascript:checkaction(1)"   class="btn btn-default" id="">导出</a>&nbsp;

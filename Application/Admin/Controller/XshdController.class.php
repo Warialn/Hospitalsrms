@@ -1,7 +1,7 @@
 <?php 
 namespace Admin\Controller;
 use Think\Controller;
-class XshdController extends Controller{
+class XshdController extends CommonController{
 	public function index(){
 		$model=M('XsMeet');
 		$meetName = $_GET['meetname'];

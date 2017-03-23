@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
- class KyjfController extends Controller{
+ class KyjfController extends CommonController{
  
 	 public function index(){
 	 	$model=M('JfExpense');

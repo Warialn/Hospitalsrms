@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class KytjController extends Controller {
+class KytjController extends CommonController {
 	public function index(){
 		$model=M('TjTheses');
 		$date = $_GET['ctime'];

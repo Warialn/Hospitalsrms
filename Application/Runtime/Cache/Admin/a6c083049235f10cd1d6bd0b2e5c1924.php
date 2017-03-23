@@ -10,6 +10,7 @@
 <link href="/test/Hospitalsrms/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet">
 <script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
 <script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <div class="contain">
@@ -19,7 +20,7 @@
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，XXX</p>
+		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
 		        </div>
 	        </div>
 	    </div>
@@ -604,31 +605,7 @@
     });
 
     $(".editeUser").click(function () {
-/*        var name = $(this).parent().parent().parent().children().eq(1).html();
-        var email = $(this).parent().parent().parent().children().eq(2).html();
-        $('#edite_user').val(name);
-        $('#edite_email').val(email);
-        var id = $(this).next().next().val();
-        var group_id = [];
-        $.ajax({
-             type: "POST",
-             url: "/test/Hospitalsrms/index.php/Admin/Xtgl/get_usergroup",
-             data: {'id':id},
-             dataType: "json",
-             success: function(data){
-                   for (var i = 0; i < data.length; i++) {
-                        group_id.push(data[i]['group_id']);
-                    }; 
 
-                    $('#grouplist option').each(function(){
-                        id = $(this).val();
-                        if ($.inArray(id,group_id)) {
-                            $(this).attr('selected',true);
-                        }; 
-                    });
-
-                }
-         });*/
         var row = $(this).parents('tr');
         $("#edite_user").val(row.children('td:eq(1)').html());
         $("#edite_email").val(row.children('td:eq(3)').html());
