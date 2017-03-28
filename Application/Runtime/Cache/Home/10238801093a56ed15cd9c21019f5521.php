@@ -178,9 +178,9 @@
 	                            </div>
 	                        </div>
 	                        <input type="hidden" id='edit_id' name="id"  />
-	                        <div class="clearfix form-actions">
+	                         <div class="clearfix form-actions submitcenter">
 
-	                                <button class="btn btn-info" type="submit" >
+	                                 <button class="btn btn-default " style="width:346px;background-color:#337ab7;color:white" type="submit" >
 	                                    <i class="icon-ok bigger-110"></i>
 	                                    提交
 	                                </button>
@@ -241,33 +241,18 @@
 							</div>
 						</div>
 					</div>
-
-					<div class="col-md-12 column">
-						<form name="form1" method="get">
-							<div class="col-md-12" id="panel-564300" style="border-radius:6px;border:1px solid #e8e8e8;" >
-								<div class="col-md-12" >						
-									<label for="name" class="fontTitle">选择年份</label> 
-									<select class="form-control input-sm" id="year1" name="ctime">
-										<option value="<?php echo $_GET['ctime']?>"><?php if($_GET['ctime']==''){echo "所有年份";}else{echo $_GET['ctime'];}?></option>
-										<?php foreach($year as $key => $val): ?>
-					                        <option value="<?= $val ?>"><?= $val ?></option>
-					                    <?php endforeach; ?>
-									</select>							
-								</div>
-								<div class="col-lg-12" style="padding:10px 0 35px;">
-									<span class="col-lg-6">
-										<input type="submit" class="btn btn-primary btn-sm btn-block" onclick="look()"value="查看">
-									</span>
-									<span class="col-lg-6">
-										<input type="submit" class="btn btn-primary btn-sm btn-block" onclick="out()" value="导出">
-									</span>
-								</div>							
-							</div>
-						</form>
-					</div>
 				</div>
 				<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
 					<form name="form2" method="post" action="">
+						<div class="form-group " style="margin-top:20px;">
+							<a href="javascript:checkaction(1)"   class="btn btn-default" id="">批量删除</a><a href="javascript:checkaction(0)"   class="btn btn-default pull-right" style="color:white;background-color:#337ab7;" id="">搜索</a>
+							<input class="form-control col-sm-3 pull-right " type="text" id="" name=""  placeholder="年份" class="text" style="width:85px;"/>
+							<input class="form-control col-sm-3 pull-right" name="starname" type="text" style="width:85px;"placeholder="物资名称" />
+						 
+						
+						<!-- <a href="javascript:checkaction(1)"   class="btn btn-default" id="">导出</a>&nbsp;
+						<a href="#" onclick="overlay()" class="btn btn-default">导入</a> -->
+						</div>	
 						<table class="table">
 							<thead>
 								<tr>
@@ -336,9 +321,7 @@
 					<div class="col-md-12 column">
 						<?php echo ($page); ?>
 					</div>
-				</div>
-
-				
+				</div>		
 			</div>
 		</div>
 	</div>
@@ -356,7 +339,7 @@ $(".closePop").css('cusor','pointer').click(function(){
         $("#purchase_edit_form #applicant").val(row.children('td:eq(2)').html());
         $("#purchase_edit_form #price").val(row.children('td:eq(3)').html());
         $("#purchase_edit_form #num").val(row.children('td:eq(4)').html());
-        $("#purchase_edit_form #date").val(row.children('td:eq(5)').html());
+        $("#purchase_edit_form #datetimepicker").val(row.children('td:eq(5)').html());
         
 
         //return false

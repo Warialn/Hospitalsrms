@@ -184,7 +184,7 @@
 					<td><input type="text" class="form-control input-sm" id="name3" placeholder="" name="key"></td>
 					</tr>
 					<tr>
-					<td>完成时间（<span class="fontStar">※</span>）</td>
+					<td>入库时间（<span class="fontStar">※</span>）</td>
 					<td><input type="text" name="time" class="form-control input-sm" value="2017/01/22 08:00" id="datetimepicker"/></td>
 					</tr>
 					<tr>
@@ -297,7 +297,7 @@
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
+$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

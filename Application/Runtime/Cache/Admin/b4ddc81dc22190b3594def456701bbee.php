@@ -229,7 +229,7 @@
                                     <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
                                     </td>
                                   <td>
-                                        <?php echo ($vo["projectname"]); ?>
+                                        <?php echo ($vo["subject_name"]); ?>
                                     </td>
                                     <td>
                                         <?php echo ($vo["member"]); ?>

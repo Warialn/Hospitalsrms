@@ -1,0 +1,60 @@
+[ 2017-03-24T10:44:10+08:00 ] ::1 /test/Hospitalsrms/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-03-24T10:47:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-03-24T10:47:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+
+[ 2017-03-24T10:47:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+
+[ 2017-03-24T10:48:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-03-24T10:48:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-03-24T10:48:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-03-24T10:49:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-03-24T10:49:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-03-24T10:49:38+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-03-24T10:50:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-03-24T11:03:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+

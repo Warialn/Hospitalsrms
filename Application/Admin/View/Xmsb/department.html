@@ -38,12 +38,12 @@
                             <tbody>
                                 <volist name="thesesList" id="vo">
                                
-                                <tr class="<?php echo $col;?>">
+                                <tr>
                                     <td>
                                     <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
                                     </td>
                                     <td>
-                                        {$vo.plantformname}
+                                        {$vo.department_name}
                                     </td>
                                     <td>
                                         {$vo.user}

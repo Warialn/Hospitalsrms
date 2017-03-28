@@ -155,38 +155,15 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-12 column">
-						<form name="form1" method="get">
-							<div class="col-md-12" id="panel-564300" style="border-radius:6px;border:1px solid #e8e8e8;" >
-								<div class="col-md-12" >						
-									<label for="name" class="fontTitle">选择年份</label> 
-									<select class="form-control input-sm" id="year1" name="ctime">
-										<option value="<?php echo $_GET['ctime']?>"><?php if($_GET['ctime']==''){echo "所有年份";}else{echo $_GET['ctime'];}?></option>
-										<?php foreach($year as $key => $val): ?>
-					                        <option value="<?= $val ?>"><?= $val ?></option>
-					                    <?php endforeach; ?>
-									</select>							
-								</div>
-								<div class="col-lg-12" style="padding:10px 0 35px;">
-									<span class="col-lg-6">
-										<input type="submit" class="btn btn-primary btn-sm btn-block" onclick="look()"value="查看">
-									</span>
-									<span class="col-lg-6">
-										<input type="submit" class="btn btn-primary btn-sm btn-block" onclick="out()" value="导出">
-									</span>
-								</div>							
-							</div>
-						</form>
-					</div>
 				</div>
 				<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
 					<form name="form2" method="post" action="">
 						<table class="table">
 							<thead>
 								<tr>
-									<th>
+									<!-- <th>
 										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-									</th>
+									</th> -->
 									<th>
 										会议名称
 									</th>
@@ -205,11 +182,10 @@
 								</tr>
 							</thead>
 							<tbody>
-								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $col = ""; $col1 = "warning"; $col2 = "error"; $col3 = "sucess"; $col = $col1; if($col == $col1){ $col = $col2; }elseif($col == $col2){ $col = $col3; }else{ $col = $col1; } ?>
-								<tr class="<?php echo $col;?>">
-									<td>
+								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+									<!-- <td>
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-									</td>
+									</td> -->
 									<td>
 										<?php echo ($vo["meetname"]); ?>
 									</td>
@@ -229,19 +205,7 @@
 										<?php else: ?><span style="color:green">审核中</span><?php endif; ?>
 									</td>
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-							<!-- <tr>
-							   <td>
-							   	<img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
-							   </td>
-							   <td>
-							   	<a class="btn btn-default" href="javascript:checkaction(0)">删除</a> 							   	
-							   	<a class="btn btn-default" href="javascript:checkaction(1)">修改</a>  
-							   </td>
-							   <td></td>
-							   <td></td>
-							   <td></td>
-							   <td></td>
-							</tr> -->
+							
 							</tbody>
 						</table>
 					</form>
