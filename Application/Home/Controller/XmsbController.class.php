@@ -29,15 +29,24 @@ class XmsbController extends CommonController{
 	}
 	public function scanSubject(){
 		$model=M('XmSubject');
-		
+		if(IS_GET){
+			$subject_name = I('get.name');
+			if($subject_name){
+				$map['subject_name'] = $subject_name;
+			}
+			$date = I('get.year');
+			if($date){
+				$map['date'] = $date;
+			}
+		}
+
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);
-		    //		$Page->parameter   =   array_map('urlencode',$map);
  		$show = $Page->show();		
 	    //dump($show);
 
-		$list = $model->where($map)->order('id')->limit($Page->firstRow.','.$Page->listRows)->select();
+		$list = $model->where($map)->limit($Page->firstRow.','.$Page->listRows)->select();
 		$year = M('Year');
 		$result=$year->select();
 		foreach ($result as $k =>$val){
@@ -112,7 +121,13 @@ class XmsbController extends CommonController{
 	}
 	public function scanDepartment(){
 		$model=M('XmDepartment');
-		
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['department_name'] = $name;
+			}
+
+		}
 		$uid = $_SESSION['user_id'];
 		$map['_string'] = "(status = 1) OR (status = 0 AND uid = $uid) OR(status =2 AND uid = $uid)";
 		$count = $model->where($map)->count();
@@ -192,7 +207,13 @@ class XmsbController extends CommonController{
 	}
 	public function scanColler(){
 		$model=M('XmColler');
-		
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['name'] = $name;
+			}
+
+		}
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);
@@ -270,7 +291,13 @@ class XmsbController extends CommonController{
 	}
 	public function scanPurchase(){
 		$model=M('XmPurchase');
-		
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['name'] = $name;
+			}
+
+		}
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);

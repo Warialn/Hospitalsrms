@@ -1,0 +1,355 @@
+[ 2017-04-20T11:49:00+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-04-20T13:44:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-04-20T13:44:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-04-20T13:44:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-04-20T13:44:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/Achievement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-04-20T13:44:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-04-20T13:45:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/Achievement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-04-20T13:45:50+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/lecture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-04-20T13:45:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-04-20T13:45:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-04-20T13:46:40+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-04-20T13:47:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-04-20T13:48:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-04-20T13:51:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-04-20T13:54:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-04-20T13:55:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-04-20T13:55:27+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+
+[ 2017-04-20T13:55:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-04-20T13:55:51+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+
+[ 2017-04-20T13:56:30+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-04-20T13:56:40+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-04-20T13:56:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-04-20T13:57:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+
+[ 2017-04-20T13:57:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-04-20T13:57:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+
+[ 2017-04-20T13:58:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-04-20T14:00:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-04-20T14:03:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+
+[ 2017-04-20T14:03:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2017-04-20T14:04:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-04-20T14:04:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-04-20T14:04:42+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2017-04-20T14:04:57+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-04-20T14:05:07+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-04-20T14:05:35+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-04-20T14:05:38+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-04-20T14:07:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-04-20T14:07:38+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-04-20T14:15:40+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-04-20T14:16:03+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-04-20T14:16:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005966s ]
+
+[ 2017-04-20T14:16:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+
+[ 2017-04-20T14:17:48+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+
+[ 2017-04-20T14:17:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0065s ]
+SQL: INSERT INTO `srms_news` (`title`,`author`,`content`,`time`) VALUES ('美国逾800万人存在精神健康问题','晋楠',' 本报讯 美国人经历严重心理压力的人数比以往更多。在美国，18~64岁的成年人中，有超过800万人存在精神健康问题，这相当于该国总人口的3.4%。
+
+该国疾病控制与预防中心在过去60年中连续进行年度国家健康调查。受访者被问到在过去一个月里是否有某种感觉，即情绪如此糟糕，什么也不能让他们高兴，或者他们所做的任何事情都毫无价值。这种感觉的频率可以表明一个人是否处于严重精神忧郁（SPD）。
+
+SPD与精神健康问题如抑郁和焦虑高度相关。它还与慢性疾病、低社会经济身份、吸烟、饮酒和寿命减短等存在关联。
+
+纽约大学郎赣医学中心流行病学家Judith Weissman研究了从2006年到2014年20万名受访者的调查信息。她发现SPD在女性中比男性中更加普遍，在中年人中比青年人中更加普遍，在西班牙裔和黑人中比白人中更加普遍。
+
+Weissman还发现，在SPD率上升时，人们对精神健康治疗的可获得性却在降低。
+
+Weissman说，从2007年到2009年的经济衰退可能对精神疾病产生了很大作用，那些最需要健康保健的人的财政问题可能更为艰巨。
+
+从2006年到2014年，那些心理压力得分较低的人能够获得的精神健康服务增多了。然而，在同一时期，那些患有SPD的人可获得的服务则减少了。2008年后，能够支付得起医疗费用的人的比例也出现明显下滑。
+
+“那些出现精神疾病的人不能得到恢复。可能他们的问题堆叠到了一起，他们曾有一份工作，有一些收入来源，然而经济衰退中他们被辞退，也没有了立足之地。”她说。','1492669072') [ RunTime:0.0006s ]
+
+[ 2017-04-20T14:17:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-04-20T14:17:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-04-20T14:18:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-04-20T14:18:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/do_news_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+ERR: 非法操作:do_news_edit
+
+[ 2017-04-20T14:18:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/do_news_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+ERR: 非法操作:do_news_edit
+
+[ 2017-04-20T14:19:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2017-04-20T14:19:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/do_news_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+ERR: 非法操作:do_news_edit
+
+[ 2017-04-20T14:20:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-04-20T14:20:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/do_news_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0107s ]
+SQL: UPDATE `srms_news` SET `title`='美国逾800万人存在精神健康问题',`author`='晋楠',`content`=' 本报讯 美国人经历严重心理压力的人数比以往更多。在美国，18~64岁的成年人中，有超过800万人存在精神健康问题，这相当于该国总人口的3.4%。
+
+该国疾病控制与预防中心在过去60年中连续进行年度国家健康调查。受访者被问到在过去一个月里是否有某种感觉，即情绪如此糟糕，什么也不能让他们高兴，或者他们所做的任何事情都毫无价值。这种感觉的频率可以表明一个人是否处于严重精神忧郁（SPD）。
+
+SPD与精神健康问题如抑郁和焦虑高度相关。它还与慢性疾病、低社会经济身份、吸烟、饮酒和寿命减短等存在关联。
+
+纽约大学郎赣医学中心流行病学家Judith Weissman研究了从2006年到2014年20万名受访者的调查信息。她发现SPD在女性中比男性中更加普遍，在中年人中比青年人中更加普遍，在西班牙裔和黑人中比白人中更加普遍。
+
+Weissman还发现，在SPD率上升时，人们对精神健康治疗的可获得性却在降低。
+
+Weissman说，从2007年到2009年的经济衰退可能对精神疾病产生了很大作用，那些最需要健康保健的人的财政问题可能更为艰巨。
+
+从2006年到2014年，那些心理压力得分较低的人能够获得的精神健康服务增多了。然而，在同一时期，那些患有SPD的人可获得的服务则减少了。2008年后，能够支付得起医疗费用的人的比例也出现明显下滑。
+
+“那些出现精神疾病的人不能得到恢复。可能他们的问题堆叠到了一起，他们曾有一份工作，有一些收入来源，然而经济衰退中他们被辞退，也没有了立足之地。”她说。56789',`time`='1492669206' WHERE `id` = 6 [ RunTime:0.0008s ]
+
+[ 2017-04-20T14:20:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-04-20T14:21:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+
+[ 2017-04-20T14:21:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news_delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0077s ]
+SQL: DELETE FROM `srms_news` WHERE `id` = 6 [ RunTime:0.0272s ]
+
+[ 2017-04-20T14:21:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+
+[ 2017-04-20T14:56:30+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-04-20T14:56:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+
+[ 2017-04-20T14:57:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+

@@ -160,6 +160,11 @@
 										<b class="arrow icon-angle-down"></b>
 									</a>
 									<ul class="dropdown-menu">
+										<li><a href="<?php echo U('Xtgl/news');?>">
+												<i class="icon-double-angle-right"></i>
+												新闻管理
+											</a>
+										</li>
 										<li><a href="">
 												<i class="icon-double-angle-right"></i>
 												密码管理
@@ -194,7 +199,7 @@
             <table class="table table-striped table-bordered table-hover"><br/>
                 <input  class="btn btn-default pull-right" type="submit" value="搜索">
                 <div class="col-md-2 pull-right">
-                    <input class="form-control" type="text">
+                    <input class="form-control" type="text" placeholder="论文名称" name="name"/>
                 </div>
                                                         
                 <thead>
@@ -224,9 +229,7 @@
                 </thead>
                 <tbody>
                     <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
-                       <!--  <td>
-                        <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-                        </td> -->
+                      
                         <td>
                             <?php echo ($vo["name"]); ?>
                         </td>

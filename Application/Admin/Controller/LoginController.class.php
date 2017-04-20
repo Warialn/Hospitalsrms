@@ -4,7 +4,7 @@ use Think\Controller;
  class LoginController extends Controller{
 
  	public function index(){
- 		$User =M('User');
+ 		$User =M('AdminUser');
 		if($_POST){
 			$data['user_name'] = $_POST['username'];
 			$data['password'] = md5($_POST['password']);

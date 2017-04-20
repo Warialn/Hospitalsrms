@@ -175,7 +175,7 @@
 				<table width="795" height="287" class="table">
 				  <tr>
 				    <td width="178">科研平台名称（<span class="fontStar">※</span>必填）</td>
-				    <td width="601"><input type="text" class="form-control input-sm" id="name1" placeholder="" name="plantformName"></td>
+				    <td width="601"><input type="text" class="form-control input-sm" id="name1" placeholder="" name="department_name"></td>
 				  </tr>
 				  <tr>
 				    <td>申请人（<span class="fontStar">※</span>）</span></td>
@@ -183,7 +183,7 @@
 				  </tr>
 				  <tr>
 				    <td>所属科室（<span class="fontStar">※</span>）</td>
-				    <td><input type="text" class="form-control input-sm" id="name2" placeholder="" name="department"></td>
+				    <td><input type="text" class="form-control input-sm" id="name2" placeholder="" name="keshi"></td>
 				  </tr>
 				  <tr>
 				    <td>研究项目</td>
@@ -219,7 +219,7 @@
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
 		<span><img src="/test/Hospitalsrms/Public//img/logo.png"></span>
-		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo-font.png"></h4>
+		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo_font2.png"></h4>
 	</div>
 	<hr style="height:1px;background-color:#494949;border:none;margin-top:0">
 	<div class="col-md-12">
@@ -270,7 +270,7 @@
 
 <div class="row footer-bottom" style="background-color:#111111;color:#FFFFFF; padding-top:20px;padding-bottom:15px;">
   <ul class="list-inline text-center">
-    <li>Copyright 2015-2016 <a href="" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
+    <li>Copyright 2016-2017 <a href="" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
   </ul>
 </div>
 
@@ -302,7 +302,7 @@
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:date("Y-m-d H:i:s"),step:10});
+$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

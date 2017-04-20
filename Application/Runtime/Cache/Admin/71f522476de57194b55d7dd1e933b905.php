@@ -209,7 +209,7 @@
         /* 模态框样式 */
 .modal-data{
              width:750px;
-             height:330px;
+             height:380px;
              margin: 100px auto;
              background-color: #fff;
              border:1px solid #000;
@@ -222,7 +222,7 @@
     <div id="modal-overlay" class="userAdd">
         <div class="modal-data">
             <ul class="breadcrumb">
-                <li>添加用户</li>
+                <li>添加新闻</li>
                  <a class="pull-right closePop" style="color:#485b7f;cursor:pointer;">关闭</a>
             </ul>
            
@@ -232,9 +232,17 @@
                     <div class="col-xs-win">
                         <form id="addUser_form" method="post" class="form-horizontal" role="form">
                             <div class="form-group">
-                                <label class="col-sm-3 control-label no-padding-right"> 用户名： </label>
+                                <label class="col-sm-3 control-label no-padding-right"> 标题： </label>
                                 <div class="col-sm-9">
-                                    <input type="text" name="user_name" placeholder="用户名"  pattern="^\S{1,18}$"  title="请输入1-18位字符" class="col-xs-10 col-sm-5" required/>
+                                    <input type="text" name="title" class="col-xs-10 col-sm-5" required/>
+                                </div>
+                            </div>
+                                                        
+                            <div class="space-4"></div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label no-padding-right"> 作者： </label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="author" class="col-xs-10 col-sm-5" required/>
                                 </div>
                             </div>
                                                         
@@ -242,26 +250,12 @@
 
                             <div class="form-group">
                             
-                                <label class="col-sm-3 control-label no-padding-right"> 密码：</label>
+                                <label class="col-sm-3 control-label no-padding-right"> 内容：</label>
 
                                 <div class="col-sm-9">
-                                    <input type="password" name="password" pattern="^(?![0-9]+$)[0-9A-Za-z]{6,18}$"  title="请输入6-18位字母、数字组合密码" class="col-xs-10 col-sm-5" required/>
+                                    <textarea name="content" class="col-xs-10 col-sm-10"></textarea>
                                 </div>
                             </div>
-
-
-                            <div class="space-4"></div>
-
-                            <div class="form-group">
-
-                                <label class="col-sm-3 control-label no-padding-right"> 用户组： </label>
-
-                               <div class="col-sm-9" style="line-height:30px;" id="ischeck">
-                                    <?php if(is_array($group_data)): $i = 0; $__LIST__ = $group_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_data_vo): $mod = ($i % 2 );++$i;?><input type="checkbox" name="usergroup[]" value="<?php echo ($group_data_vo['id']); ?>" style="margin-right:5px;"><?php echo ($group_data_vo['alias_name']); endforeach; endif; else: echo "" ;endif; ?>
-                               </div>
-                               
-                            </div>
-
                             <div class="space-4"></div>
 
                           
@@ -304,40 +298,32 @@
                        
                         <form style="position:relative;" id="user_edite_form" class="form-horizontal" role="form">
 
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label no-padding-right"> 用户名 </label>
-
+                             <div class="form-group">
+                                <label class="col-sm-3 control-label no-padding-right"> 标题： </label>
                                 <div class="col-sm-9">
-
-                                    <input type="text" name="user_name" id="edite_user" placeholder="用户名" pattern="^\S{1,18}$"  title="请输入小于1-18位字符" class="col-xs-10 col-sm-5"
-                                           required/>
-
+                                    <input type="text" name="title" class="col-xs-10 col-sm-5" required/>
                                 </div>
                             </div>
+                                                        
+                            <div class="space-4"></div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label no-padding-right"> 作者： </label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="author" class="col-xs-10 col-sm-5" required/>
+                                </div>
+                            </div>
+                                                        
                             <div class="space-4"></div>
 
                             <div class="form-group">
                             
-                                <label class="col-sm-3 control-label no-padding-right"> 密码：</label>
+                                <label class="col-sm-3 control-label no-padding-right"> 内容：</label>
 
                                 <div class="col-sm-9">
-                                    <input type="password" name="password" pattern="^(?![0-9]+$)[0-9A-Za-z]{6,18}$"  title="请输入6-18位字母、数字组合密码" class="col-xs-10 col-sm-5" required/>
+                                    <textarea name="content" class="col-xs-10 col-sm-10"></textarea>
                                 </div>
                             </div>
                             
-                            
-                            <div class="space-4"></div>
-
-                            <div class="form-group">
-
-                                <label class="col-sm-3 control-label no-padding-right"> 用户组： </label>
-
-                               <div class="col-sm-9" style="line-height:30px;" id="ischeck">
-                                    <?php if(is_array($group_data)): $i = 0; $__LIST__ = $group_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_data_vo): $mod = ($i % 2 );++$i;?><input type="checkbox" name="usergroup[]" value="<?php echo ($group_data_vo['id']); ?>" style="margin-right:5px;"><?php echo ($group_data_vo['alias_name']); endforeach; endif; else: echo "" ;endif; ?>
-                               </div>
-                               
-                            </div>
-
                             <div class="space-4"></div>
                             <input type="hidden" id='edit_id' name="id"  />
                             <div class="clearfix form-actions">
@@ -361,7 +347,7 @@
         <div class="modal-data">
             <ul class="breadcrumb">
                 <li>
-                    删除用户
+                    删除新闻
                 </li>
                 <a class="pull-right closePop" style="color:#485b7f;cursor:pointer;">关闭</a>
             </ul>
@@ -373,7 +359,7 @@
                         <form style="position:relative;top:20px;" id="user_delete_form" class="form-horizontal" role="form">
 
                             <div class="form-group">
-                                <label class="col-sm-4 control-label no-padding-right"> 确定要删除此用户？ </label>
+                                <label class="col-sm-4 control-label no-padding-right"> 确定要删除此新闻？ </label>
                             </div>
 
                             <input type="hidden" id="del_id"  name="id"/>
@@ -399,7 +385,7 @@
             </div>
         </div>
     </div>
-     <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 60px;">系统管理>用户管理</div>
+     <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 60px;">系统管理>新闻管理</div>
                 <div class="buttonGroup">
                     <a href="#" class="btn btn-link" id="userAdd"><i class="icon-plus-sign bigger-120 green"></i>添加</a>
                     </if>
@@ -420,26 +406,22 @@
                                 </label>
                             </th> -->
                             <th><input type="checkbox"></th>
-                            <th>用户名</th>
-                            <th>用户组</th>
-                            <th>注册时间</th>
-                            <th>最后在线时间</th>
-                            <th>操作</th>
+                            <th>标题</th>
+                            <th>内容</th>
+                            <th style="width:6%;text-align:center;">作者</th>
+                            <th>时间</th>
+                            <th style="text-align:center;">操作</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                        <?php if(is_array($news_result)): $i = 0; $__LIST__ = $news_result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                 <td><input type="checkbox" name="checkbox"  value="<?php echo ($vo['id']); ?>"></td>
-                                <td><?php echo ($vo["user_name"]); ?></td>
-                                <td>
-                                    <select style="height:25px;font-size:12px;">
-                                        <?php if(is_array($vo['group_name'])): $i = 0; $__LIST__ = $vo['group_name'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_vo): $mod = ($i % 2 );++$i;?><option><?php echo ($group_vo['name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
-                                    </select></td>
-                                <td><?php echo (date('Y-m-d H:i:s',$vo["reg_time"])); ?></td>
-                                <td><?php if($vo['last_time'] == 0): ?>--
-                                <?php else: ?>
-                                <?php echo (date('Y-m-d H:i:s',$vo["last_time"])); endif; ?></td>
-                                <td>
+                                <td><?php echo ($vo["title"]); ?></td>
+                                <td><?php echo ($vo["content"]); ?></td>
+                                <td><?php echo ($vo["author"]); ?></td>
+                                <td><?php echo (date('Y-m-d H:i:s',$vo["time"])); ?></td>
+                                
+                                <td style="width:8%;text-align:center;">
                                     <a  href="#" class="green Usered"  data1="<?php echo ($vo['id']); ?>" title="编辑">
                                        编辑
                                     </a>
@@ -453,6 +435,7 @@
                         </tbody>
                     </table>
                 </div>
+                <?php echo ($show); ?>
             </div>
         </div>
         <div class="dataTables_paginate paging_bootstrap">
@@ -480,15 +463,11 @@
         e.stopPropagation();
         e.preventDefault();
         var data = $('#addUser_form').serialize();
-        var checkVal= $('#ischeck input').serialize();
-        if (checkVal =='') {
-                 alert("请选择用户组");
-                return false
-        }else{
+        
 
             $.ajax({
                  type: "POST",
-                 url: "/test/Hospitalsrms/index.php/Admin/Xtgl/user_add",
+                 url: "/test/Hospitalsrms/index.php/Admin/Xtgl/news_add",
                  data: data,
                  dataType: "json",
                 success:function(data){
@@ -506,7 +485,7 @@
                     }
                 }
              });
-          }
+          
         
     })
 
@@ -524,7 +503,7 @@
         e.preventDefault();
         var editeUser_data = $('#user_edite_form').serialize();
         $.ajax({
-            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/do_user_edit',
+            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/do_news_edit',
             type:'POST',
             dataType:'json',
             data:editeUser_data,
@@ -536,7 +515,7 @@
                     alert("编辑成功");
                     window.location.reload();
                 }else if(data.status=='1'){
-                   alert("用户已存在");
+                   alert("已存在");
                 }
             }
         });
@@ -559,7 +538,7 @@
         e.preventDefault();
         var id = $("#del_id").val();
         $.ajax({
-            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/user_delete',
+            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/news_delete',
             type:'POST',
             dataType:'json',
             data:{'id':id},

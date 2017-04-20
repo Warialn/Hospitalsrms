@@ -23,7 +23,17 @@ class XshdController extends CommonController{
 	}
 	public function scanMeet(){
 		$model=M('XsMeet');
-		
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['meetName'] = $name;
+			}
+			/*$date = I('year');
+			if($date){
+				$map['date'] = $date;
+			}*/
+			
+		}
 
 		//如果经过同意的就显示给所有用户，如果未同意就只显示给申请人
 		$uid = $_SESSION['user_id'];
@@ -92,6 +102,17 @@ class XshdController extends CommonController{
 	}
 	public function scanLecture(){
 		$model=M('XsLecture');
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['name'] = $name;
+			}
+			/*$date = I('year');
+			if($date){
+				$map['date'] = $date;
+			}*/
+			
+		}
 		$uid = $_SESSION['user_id'];
 		$map['_string'] = "(status = 1) OR (status = 0) OR (uid = $uid) OR (status = 2 AND uid = $uid)";
 		
@@ -158,7 +179,17 @@ class XshdController extends CommonController{
 	}
 	public function scanComposition(){
 		$model=M('XsComposition');
-		
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['compositionName'] = $name;
+			}
+			/*$date = I('year');
+			if($date){
+				$map['date'] = $date;
+			}*/
+			
+		}
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);

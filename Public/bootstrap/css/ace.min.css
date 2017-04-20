@@ -1761,7 +1761,7 @@ blockquote,blockquote.pull-right {
 	z-index: 1028
 }
 
-.breadcrumb {
+/*.breadcrumb {
 	background-color: transparent;
 	display: inline-block;
 	line-height: 24px;
@@ -1770,9 +1770,9 @@ blockquote,blockquote.pull-right {
 	font-size: 13px;
 	color: #333;
 	border-radius: 0
-}
+}*/
 
-.breadcrumb>li,.breadcrumb>li.active {
+/*.breadcrumb>li,.breadcrumb>li.active {
 	color: #555
 }
 
@@ -1791,7 +1791,7 @@ blockquote,blockquote.pull-right {
 	padding: 0 5px 0 2px;
 	position: relative;
 	top: 1px
-}
+}*/
 
 .breadcrumb .home-icon {
 	margin-left: 4px;
@@ -2974,7 +2974,7 @@ li [class^="icon-"],li [class*=" icon-"],.nav-list li [class^="icon-"],.nav-list
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.25)!important;
 	background-image: none!important;
 	border: 5px solid #FFF;
-	border-radius: 0;
+	border-radius: 5;
 	box-shadow: none!important;
 	-webkit-transition: all ease .15s;
 	transition: all ease .15s;
@@ -3014,13 +3014,13 @@ button.btn:active {
 }
 
 .btn,.btn-default,.btn:focus,.btn-default:focus {
-	background-color: #abbac3!important;
-	border-color: #abbac3
+	background-color: #485b7f!important;
+	border-color: #485b7f
 }
 
 .btn:hover,.btn-default:hover,.open .btn.dropdown-toggle,.open .btn-default.dropdown-toggle {
-	background-color: #8b9aa3!important;
-	border-color: #abbac3
+	background-color: #485b7f!important;
+	border-color: #485b7f
 }
 
 .btn.no-border:hover,.btn-default.no-border:hover {

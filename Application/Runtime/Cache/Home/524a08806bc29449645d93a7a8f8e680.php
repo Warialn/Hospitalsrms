@@ -10,7 +10,7 @@
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
 	<link href="css/templatemo_style.css" rel="stylesheet" type="text/css">	
 </head>
-<body class="templatemo-bg-gray" style="background-image:url('/test/Hospitalsrms/Public//img/232.jpg');background-position:center; background-repeat:no-repeat">
+<body class="templatemo-bg-gray" style="background-image:url('/test/Hospitalsrms/Public//img/logback2.jpg');background-position:center; background-repeat:no-repeat">
 	<div class="container">
 		<div class="col-md-4" style="width:330px;height:600px;border:0px solid orange;">
 

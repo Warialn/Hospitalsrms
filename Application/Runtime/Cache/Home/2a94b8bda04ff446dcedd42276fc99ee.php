@@ -123,7 +123,7 @@
 					<img src="/test/Hospitalsrms/Public//bootstrap/images/1a.jpg" alt="..." class="img-responsive">
 					<div class="carousel-caption">
 						<h3>科研统计</h3>
-						<p>Lorem Ipsum is simply dummy text of the typesetting industry</p>
+						<p>If you want to do research statistics, please come here</p>
 						<button type="button" onclick="javascript:checkaction(0);" class="btn btn-info sld">进入</button>
 					</div>
 					</div>
@@ -131,7 +131,7 @@
 					<img src="/test/Hospitalsrms/Public//bootstrap/images/1d.jpg" alt="..." class="img-responsive">
 					<div class="carousel-caption">
 						<h3>项目申报</h3>
-						<p>Lorem Ipsum is simply dummy text of the typesetting industry</p>
+						<p>If you want to declare the project, come here</p>
 						<button type="button" onclick="javascript:checkaction(1);" class="btn btn-info sld">进入</button>
 					</div>
 					</div>
@@ -139,7 +139,7 @@
 					<img src="/test/Hospitalsrms/Public//bootstrap/images/1g.jpg" alt="..." class="img-responsive">
 					<div class="carousel-caption">
 						<h3>费用报销</h3>
-						<p>Lorem Ipsum is simply dummy text of the typesetting industry</p>
+						<p>Reimbursement is best to come here</p>
 						<button type="button" onclick="javascript:checkaction(2);" class="btn btn-info sld">进入</button>
 					</div>
 					</div>
@@ -147,7 +147,7 @@
 					<img src="/test/Hospitalsrms/Public//bootstrap/images/1l.jpg" alt="..." class="img-responsive">
 					<div class="carousel-caption">
 						<h3>学术活动</h3>
-						<p>Lorem Ipsum is simply dummy text of the typesetting industry</p>
+						<p>Want to participate in academic activities, come here to have a look</p>
 						<button type="button" onclick="javascript:checkaction(3);" class="btn btn-info sld">进入</button>
 					</div>
 					</div>
@@ -169,7 +169,7 @@
 				<ul class="box-shadow effect2">
 					
 					<li class="col-md-3">
-						<a href='javascript:checkaction(0);' >
+						<a href='javascript:checkscan(0);' >
 						<span class="glyphicon glyphicon-leaf flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>科研统计</h3>
@@ -178,24 +178,24 @@
 					</li>
 					
 					<li class="col-md-3">
-						<a href='javascript:checkaction(1);' >
+						<a href='javascript:checkscan(1);' >
 						<span class="glyphicon glyphicon-eye-open flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>项目申报</h3>
-						<p>医师申报项目，在这里申请。</p>
+						<p>医师申报项目进程，在这里查看。</p>
 						</div>
 					</li></a>
 					
 
-					<li class="col-md-3"><a href='javascript:checkaction(2);' >
+					<li class="col-md-3"><a href='javascript:checkscan(2);' >
 						<span class="glyphicon glyphicon-pencil flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>费用报销</h3>
-						<p>医院的各种费用报销请来这里。</p>
+						<p>医师的各种费用报销情况请来这里。</p>
 						</div>
 					</li>
 					
-					<li class="col-md-3"><a href='javascript:checkaction(3);' >
+					<li class="col-md-3"><a href='javascript:checkscan(3);' >
 						<span class="glyphicon glyphicon-cutlery flt" aria-hidden="true"></span></a>
 						<div class="label-text">
 						<h3>学术活动</h3>
@@ -210,72 +210,24 @@
 			<div class="service_features" id="features">
 				<div class="container">
 					<div class="col-md-4 ser-fet">
-						<h3>我们的服务</h3>
-						<p>我们擅长</p>
+						<h3>业内新闻</h3>
 						<span class="line"></span>
 						<div class="services">
 							<div class="menu-grid">
 								<ul class="menu_drop">
-									<li class="item1 plus"><a href="#" class="active">内科<span class="caret"></span></a>
-										<ul>
-											<li class="subitem1">
-												<p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry</p><br>
-												<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-												It has survived not only five centuries, but also the leap into electronic typesetting</p>
-											</li>
-										</ul>
-									</li>
-									<li class="item3 plus"><a href="#" class="active">外科<span class="caret"></span></a>
-										<ul>
-											<li class="subitem1">
-												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry,
-												Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><br>
-												<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-												It has survived not only five centuries, but also the leap into electronic typesetting</p>
-											</li>
-										</ul>
-									</li>
-									<li class="item4 plus"><a href="#" class="active">骨科<span class="caret"></span></a>
-										<ul>
-											<li class="subitem1">
-												<p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry</p><br>
-												<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-												It has survived not only five centuries, but also the leap into electronic typesetting</p>
-											</li>
-										</ul>
-									</li>
-									<li class="item4 plus"><a href="#" class="active">呼吸科<span class="caret"></span></a>
-										<ul>
-											<li class="subitem1">
-												<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry</p><br>
-												<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-												It has survived not only five centuries, but also the leap into electronic typesetting</p>
-											</li>
-										</ul>
-									</li>
-									<li class="item5 plus"><a href="#" class="active">皮肤科<span class="caret"></span></a>
-										<ul>
-											<li class="subitem1">
-												<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry</p><br>
-												<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-												It has survived not only five centuries, but also the leap into electronic typesetting</p>
-											</li>
-										</ul>
-									</li>
-									<li class="item6 plus"><a href="#" class="active">肛肠科<span class="caret"></span></a>
-										<ul>
-											<li class="subitem1">
-												<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry</p><br>
-												<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-												It has survived not only five centuries, but also the leap into electronic typesetting</p>
-											</li>
-										</ul>
-									</li>
+									<?php if(is_array($new_res)): $i = 0; $__LIST__ = $new_res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="item1 plus">
+											<a href="#" title="<?php echo ($vo['title']); ?>" class="active">
+												<?php if(strlen($vo['title'])>39) { echo mb_substr($vo['title'], 0, 15,'utf-8')."...";}else{echo $vo['title'];}?>
+												  <!-- <?php echo (mb_substr($vo["title"],0,15,'utf-8')); ?>...  -->
+												<span class="caret"></span>
+											</a>
+											<ul>
+												<li class="subitem1">
+													<p> <?php echo ($vo["content"]); ?></p>
+												</li>
+											</ul>
+										</li><?php endforeach; endif; else: echo "" ;endif; ?>
+									
 								</ul>
 								<!-- script for tabs -->
 								<script type="text/javascript">
@@ -302,8 +254,8 @@
 					</div>
                   
 					<div class="col-md-8 ser-fet">
-						<h3>我们的未来</h3>
-						<p>我们的目标</p>
+						<h3>我们的目标</h3>
+						
 						<span class="line"></span>
 						<div class="features">
 							<div class="col-md-6 fet-pad">
@@ -391,53 +343,53 @@
 					<div class="gallery-grids">
 						<ul>
 							<li class="col-md-4 gal-alt">
-								<a href="/test/Hospitalsrms/Public//bootstrap/images/1i.jpg" class="swipebox">
+								<!-- <a href="/test/Hospitalsrms/Public//bootstrap/images/1i.jpg" class="swipebox"> -->
 								<img src="/test/Hospitalsrms/Public//bootstrap/images/1i.jpg" alt="/"/>
 									<span class="hide-box">
 										<h4>Neutron collider Microscope</h4>
 										<p>Great transparency Rate</p>
 									</span>
-							</li></a>
+							</li><!-- </a> -->
 							<li class="col-md-4 gal-alt">
-								<a href="/test/Hospitalsrms/Public//bootstrap/images/1p.jpg" class="swipebox">
+								<!-- <a href="/test/Hospitalsrms/Public//bootstrap/images/1p.jpg" class="swipebox"> -->
 								<img src="/test/Hospitalsrms/Public//bootstrap/images/1p.jpg" alt="/"/>
 									<span class="hide-box">
 										<h4>German made Ak-2000 Ct-Scan</h4>
 										<p>Lorem is a dummy Text</p>
 									</span>
-							</li></a>
+							</li><!-- </a> -->
 							<li class="col-md-4 gal-alt">
-								<a href="/test/Hospitalsrms/Public//bootstrap/images/1n.jpg" class="swipebox">
+								<!-- <a href="/test/Hospitalsrms/Public//bootstrap/images/1n.jpg" class="swipebox"> -->
 								<img src="/test/Hospitalsrms/Public//bootstrap/images/1n.jpg" alt="/" />
 								<span class="hide-box">
 										<h4>Symbiosis Laser T-300</h4>
 										<p>Lorem is a dummy Text</p>
 								</span>
-							</li></a>
+							</li><!-- </a> -->
 							<li class="col-md-4 gal-alt">
-								<a href="/test/Hospitalsrms/Public//bootstrap/images/1k.jpg" class="swipebox">
+								<!-- <a href="/test/Hospitalsrms/Public//bootstrap/images/1k.jpg" class="swipebox"> -->
 								<img src="/test/Hospitalsrms/Public//bootstrap/images/1k.jpg" alt="/" />
 								<span class="hide-box">
 										<h4>Angeo Blast</h4>
 										<p>Lorem is a dummy Text</p>
 								</span>	
-							</li></a>
+							</li><!-- </a> -->
 							<li class="col-md-4 gal-alt">
-								<a href="/test/Hospitalsrms/Public//bootstrap/images/1o.jpg" class="swipebox">
+								<!-- <a href="/test/Hospitalsrms/Public//bootstrap/images/1o.jpg" class="swipebox"> -->
 								<img src="/test/Hospitalsrms/Public//bootstrap/images/1o.jpg" alt="/" />
 								<span class="hide-box">
 										<h4>Spacious Operatio Theater</h4>
 										<p>Lorem is a dummy Text</p>
 								</span>
-							</li></a>
+							</li><!-- </a> -->
 							<li class="col-md-4 gal-alt">
-								<a href="/test/Hospitalsrms/Public//bootstrap/images/1f.jpg" class="swipebox">
+								<!-- <a href="/test/Hospitalsrms/Public//bootstrap/images/1f.jpg" class="swipebox"> -->
 								<img src="/test/Hospitalsrms/Public//bootstrap/images/1f.jpg" alt="/"/>
 								<span class="hide-box">
 										<h4>Latest Ventilators</h4>
 										<p>Lorem is a dummy Text</p>
 								</span>
-							</li></a>
+							</li><!-- </a> -->
 							<div class="clearfix"></div>
 						</ul>
 					</div>
@@ -457,13 +409,26 @@
 			}
 			
 		}
+		function checkscan(v){
+			var a = v;
+			if(a == 0){
+				document.location.href="/test/Hospitalsrms/index.php/Home/Kytj/scanTheses";
+			}else if(a == 1){
+				document.location.href="/test/Hospitalsrms/index.php/Home/Xmsb/scanSubject";
+			}else if(a == 2){
+				document.location.href="/test/Hospitalsrms/index.php/Home/Kyjf/scanIndex";
+			}else if(a == 3){
+				document.location.href="/test/Hospitalsrms/index.php/Home/Xshd/scanMeet";
+			}
+			
+		}
 		</script>
 
 
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
 		<span><img src="/test/Hospitalsrms/Public//img/logo.png"></span>
-		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo-font.png"></h4>
+		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo_font2.png"></h4>
 	</div>
 	<hr style="height:1px;background-color:#494949;border:none;margin-top:0">
 	<div class="col-md-12">
@@ -514,7 +479,7 @@
 
 <div class="row footer-bottom" style="background-color:#111111;color:#FFFFFF; padding-top:20px;padding-bottom:15px;">
   <ul class="list-inline text-center">
-    <li>Copyright 2015-2016 <a href="" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
+    <li>Copyright 2016-2017 <a href="" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
   </ul>
 </div>
 

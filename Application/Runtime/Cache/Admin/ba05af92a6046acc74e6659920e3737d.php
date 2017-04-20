@@ -10,6 +10,7 @@
 <link href="/test/Hospitalsrms/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet">
 <script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
 <script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <div class="contain">
@@ -19,7 +20,7 @@
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，XXX</p>
+		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
 		        </div>
 	        </div>
 	    </div>
@@ -186,11 +187,37 @@
 	            
 
 
+<style>
+#modal-overlay {
+             /*visibility: hidden; */   
+             display:none;
+             position: absolute;   /* 使用绝对定位或固定定位  */
+             left: 0px;    
+             top: 0px;
+             width:100%;
+             height:100%;
+            /* text-align:center;*/
+             z-index: 1000;
+            /* background-color: #333; 
+             opacity: 0.5;   /* 背景半透明 */
+        }
+        /* 模态框样式 */
+.modal-data{
+             width:750px;
+             height:330px;
+             margin: 100px auto;
+             background-color: #fff;
+             border:1px solid #000;
+             padding:15px;
+             /*text-align:center;*/
+        }
+
+</style>
 <div class="main-content">
     <div class="col-md-10 column">
                 <div class="row">
                     <div class="col-xs-12">
-                    
+                       <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 0px;">系统管理>用户组管理</div>
                        <div class="buttonGroup">
                            <a href="#" class="btn btn-link" id="usergroupAdd"><i class="icon-plus-sign bigger-120 green"></i>添加</a>|
                            
@@ -213,24 +240,23 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                 <?php if(is_array($usergroup_data)): $i = 0; $__LIST__ = $usergroup_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$usergroup_data_vo): $mod = ($i % 2 );++$i;?><tr>
+                                 <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$usergroup_data_vo): $mod = ($i % 2 );++$i;?><tr>
                                         <td><input type="checkbox" name="checkbox" value="<?php echo ($usergroup_data_vo['id']); ?>"></td>
                                         <!-- <td>南京机房</td> -->
-                                        <td><?php echo ($usergroup_data_vo['title']); ?></td>
+                                        <td><?php echo ($usergroup_data_vo['alias_name']); ?></td>
                                         <td><?php echo ($usergroup_data_vo['note']); ?></td>
-                                        <td><if condition="$usergroup_data_vo['title'] eq '超级管理员'">
-                                            ---
-                                         
+                                        <td><?php if($usergroup_data_vo['alias_name'] == '超级管理员'): ?>---
+                                            <?php else: ?>
+                                            <a class="green editeUsergroup" href="#" title="编辑">
+                                                编辑
+                                            </a>
+                                          
+                                            <a class="red" href="#" title="删除">
+                                                删除
+                                            </a>
+                                            <a style="color:#485b7f;"href="/test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/<?php echo ($usergroup_data_vo['id']); ?>">权限设置</a><?php endif; ?>
                                            
-                                            <a href="/test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/<?php echo ($usergroup_data_vo['id']); ?>">权限设置</a>
-                                           
-						<a class="green editeUsergroup" href="#" title="编辑">
-							<i class="icon-pencil bigger-130"></i>
-						</a>
-                      
-						<a class="red" href="#" title="删除">
-							<i class="icon-trash delUsergroup bigger-130"></i>
-						</a>
+						
 
 
                                                                     

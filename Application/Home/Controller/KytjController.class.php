@@ -23,7 +23,7 @@ class KytjController extends CommonController{
 		
 			if($model->create($data)){
 				$model->add();
-			    echo "<script>alert('信息已记录！');window.location.href='Kytj/scanTheses';</script>";
+			    echo "<script>alert('信息已记录！');window.location.href='scanTheses';</script>";
 
 			}else{
 				echo "有错误";
@@ -32,7 +32,17 @@ class KytjController extends CommonController{
 	}
 	public function scanTheses(){
 		$model=M('TjTheses');
-		
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['name'] = $name;
+			}
+			$date = I('year');
+			if($date){
+				$map['date'] = $date;
+			}
+			
+		}
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);
@@ -76,7 +86,17 @@ class KytjController extends CommonController{
 	}
 	public function scanAchievement(){
 		$model=M('TjAchievement');
-		
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['name'] = $name;
+			}
+			$date = I('year');
+			if($date){
+				$map['date'] = $date;
+			}
+			
+		}
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,8);
@@ -119,6 +139,17 @@ class KytjController extends CommonController{
 	}
 	public function scanPropty(){
 		$model=M('TjPropty');
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['cname'] = $name;
+			}
+			$date = I('year');
+			if($date){
+				$map['date'] = $date;
+			}
+			
+		}
 		
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
@@ -162,7 +193,17 @@ class KytjController extends CommonController{
 	}
 	public function scanEquipment(){
 		$model=M('TjEquipment');
-		
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['name'] = $name;
+			}
+/*			$date = I('year');
+			if($date){
+				$map['time'] = $date;
+			}*/
+			
+		}
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,8);

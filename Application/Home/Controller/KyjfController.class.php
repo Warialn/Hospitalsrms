@@ -23,7 +23,14 @@ class KyjfController extends CommonController{
 	}
 	public function scanIndex(){
 		$model=M('JfExpense');
-		
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['item'] = $name;
+			}
+			
+			
+		}
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);
@@ -102,7 +109,14 @@ class KyjfController extends CommonController{
 	}
 	public function scanApply(){
 		$model=M('JfExpenseApply');
-		
+		if(IS_GET){
+			$name = I('get.name');
+			if($name){
+				$map['item'] = $name;
+			}
+			
+			
+		}
 		$map['uid'] = $_SESSION['user_id'];
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);

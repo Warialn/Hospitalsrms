@@ -174,9 +174,9 @@
 	                            </div>
 	                        </div>
 	                        <input type="hidden" id='edit_id' name="id"  />
-	                        <div class="clearfix form-actions">
+	                         <div class="clearfix form-actions submitcenter">
 
-	                                <button class="btn btn-info" type="submit" >
+	                                 <button class="btn btn-default " style="width:346px;background-color:#337ab7;color:white" type="submit" >
 	                                    <i class="icon-ok bigger-110"></i>
 	                                    提交
 	                                </button>
@@ -235,33 +235,19 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-12 column">
-				<form name="form1" method="get">
-					<div class="col-md-12" id="panel-564300" style="border-radius:6px;border:1px solid #e8e8e8;" >
-						<div class="col-md-12" >						
-							<label for="name" class="fontTitle">选择年份</label> 
-							<select class="form-control input-sm" id="year1" name="ctime">
-								<option value="<?php echo $_GET['ctime']?>"><?php if($_GET['ctime']==''){echo "所有年份";}else{echo $_GET['ctime'];}?></option>
-								<?php foreach($year as $key => $val): ?>
-			                        <option value="<?= $val ?>"><?= $val ?></option>
-			                    <?php endforeach; ?>
-							</select>							
-						</div>
-						<div class="col-lg-12" style="padding:10px 0 35px;">
-							<span class="col-lg-6">
-								<input type="submit" class="btn btn-primary btn-sm btn-block" onclick="look()"value="查看">
-							</span>
-							<span class="col-lg-6">
-								<input type="submit" class="btn btn-primary btn-sm btn-block" onclick="out()" value="导出">
-							</span>
-						</div>							
-					</div>
-				</form>
-			</div>
 		</div>
 
 		<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
-					<form name="form2" method="post" action="">
+					<form name="form2" method="get" action="">
+						<div class="form-group " style="margin-top:20px;">
+							<a href="javascript:checkaction(1)"   class="btn btn-default" id="">批量删除</a><input type="submit" class="btn btn-default pull-right search" style="color:white;background-color:#337ab7;" value="搜索">
+							<!-- <input class="form-control col-sm-3 pull-right " type="text" id="" name="year"  placeholder="年份" class="text" style="width:85px;"/> -->
+							<input class="form-control col-sm-3 pull-right" name="name" type="text" style="width:85px;"placeholder="依托项目" />
+						 
+						
+						<!-- <a href="javascript:checkaction(1)"   class="btn btn-default" id="">导出</a>&nbsp;
+						<a href="#" onclick="overlay()" class="btn btn-default">导入</a> -->
+						</div>
 						<table class="table">
 							<thead>
 								<tr>
@@ -269,10 +255,10 @@
 										<input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
 									</th>
 									<th style="text-align:center;">
-										申请人
+										依托项目
 									</th>
 									<th style="text-align:center;">
-										依托项目
+										依托项目编号
 									</th>
 									<th style="text-align:center;">
 										金额
@@ -294,7 +280,7 @@
 									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
 									</td>
 									<td style="text-align:center;">
-										<?php echo ($vo["user"]); ?>
+										<?php echo ($vo["item"]); ?>
 									</td>
 									<td style="text-align:center;">
 										<?php echo ($vo["subject_id"]); ?>
@@ -392,7 +378,7 @@ $(".closePop").css('cusor','pointer').click(function(){
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
 		<span><img src="/test/Hospitalsrms/Public//img/logo.png"></span>
-		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo-font.png"></h4>
+		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo_font2.png"></h4>
 	</div>
 	<hr style="height:1px;background-color:#494949;border:none;margin-top:0">
 	<div class="col-md-12">
@@ -443,7 +429,7 @@ $(".closePop").css('cusor','pointer').click(function(){
 
 <div class="row footer-bottom" style="background-color:#111111;color:#FFFFFF; padding-top:20px;padding-bottom:15px;">
   <ul class="list-inline text-center">
-    <li>Copyright 2015-2016 <a href="" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
+    <li>Copyright 2016-2017 <a href="" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
   </ul>
 </div>
 
