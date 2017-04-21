@@ -10,6 +10,7 @@
 <link href="/test/Hospitalsrms/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet">
 <script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
 <script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <div class="contain">
@@ -19,7 +20,7 @@
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，XXX</p>
+		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
 		        </div>
 	        </div>
 	    </div>
@@ -159,6 +160,11 @@
 										<b class="arrow icon-angle-down"></b>
 									</a>
 									<ul class="dropdown-menu">
+										<li><a href="<?php echo U('Xtgl/news');?>">
+												<i class="icon-double-angle-right"></i>
+												新闻管理
+											</a>
+										</li>
 										<li><a href="">
 												<i class="icon-double-angle-right"></i>
 												密码管理
@@ -203,9 +209,9 @@
                                                                     
                             <thead>
                                 <tr>
-                                    <th>
+                                    <!-- <th>
                                         <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                                    </th>
+                                    </th> -->
                                     <th>
                                         物品名称
                                     </th>
@@ -221,10 +227,10 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
-                                    <td>
+                                <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                    <!-- <td>
                                     <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-                                    </td>
+                                    </td> -->
                                     <td>
                                         <?php echo ($vo["name"]); ?>
                                     </td>
@@ -248,16 +254,7 @@
                                 <?php else: ?> <span style="color:red">已拒绝</span><?php endif; ?>  
                                     </td>                            
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                            <tr>
-                               <td>
-                                <img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
-                               </td>
-                               <td></td>
-                               <td></td>
-                               <td></td>
-                               <td></td>
-
-                            </tr>
+                           
                             </tbody>
                         </table>
                     </form>

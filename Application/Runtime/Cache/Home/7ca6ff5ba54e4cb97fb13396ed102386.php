@@ -4,6 +4,7 @@
 		<title>综合性医院科研管理系统</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8">
 		<meta name="keywords" content="Play-Offs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 		<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<!meta charset utf="8">
@@ -232,7 +233,7 @@
 				    </tr>
 				     <tr>
 				    <td> 申报方承诺书 </td>
-				    <td><input type="file" class="form-control" id="num" name="commitment_book"></td>
+				    <td><input type="file" id="num" name="commitment_book"></td>
 				  </tr>
 				    <td> 备注 </td>
 				    <td><textarea class="form-control" rows="6" name="remarks"></textarea></td>
@@ -339,7 +340,7 @@
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
+$('#datetimepicker').datetimepicker({value:'2017/05/05 07:00',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

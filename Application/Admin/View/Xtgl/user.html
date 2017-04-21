@@ -65,7 +65,7 @@
                                <div class="col-sm-9" style="line-height:30px;" id="ischeck">
                                     <volist name="group_data" id="group_data_vo" >
                                         
-                                          <input type="checkbox" name="usergroup[]" value="{$group_data_vo['id']}" style="margin-right:5px;">{$group_data_vo['alias_name']}
+                                          <input type="checkbox" name="usergroup" value="{$group_data_vo['id']}" style="margin-right:5px;">{$group_data_vo['alias_name']}
                                     </volist>
                                </div>
                                
@@ -111,7 +111,7 @@
                 <div class="row">
                     <div class="col-xs-win">
                        
-                        <form style="position:relative;" id="user_edite_form" class="form-horizontal" role="form">
+                        <form style="position:relative;" name="form" id="user_edite_form" class="form-horizontal" role="form">
 
                             <div class="form-group">
                                 <label class="col-sm-3 control-label no-padding-right"> 用户名 </label>
@@ -144,7 +144,7 @@
                                <div class="col-sm-9" style="line-height:30px;" id="ischeck">
                                     <volist name="group_data" id="group_data_vo" >
                                         
-                                          <input type="checkbox" name="usergroup[]" value="{$group_data_vo['id']}" style="margin-right:5px;">{$group_data_vo['alias_name']}
+                                          <input type="checkbox" name="usergroup" value="{$group_data_vo['id']}" style="margin-right:5px;">{$group_data_vo['alias_name']}
                                     </volist>
                                </div>
                                
@@ -244,12 +244,7 @@
                             <tr>
                                 <td><input type="checkbox" name="checkbox"  value="{$vo['id']}"></td>
                                 <td>{$vo.user_name}</td>
-                                <td>
-                                    <select style="height:25px;font-size:12px;">
-                                        <volist name="vo['group_name']" id="group_vo">
-                                            <option>{$group_vo['name']}</option>
-                                        </volist>
-                                    </select></td>
+                                <td>{$vo.alias_name}</td>
                                 <td>{$vo.reg_time|date='Y-m-d H:i:s',###}</td>
                                 <td><if condition="$vo['last_time'] eq 0" >
                                 --
@@ -299,9 +294,13 @@
         e.preventDefault();
         var data = $('#addUser_form').serialize();
         var checkVal= $('#ischeck input').serialize();
+
         if (checkVal =='') {
                  alert("请选择用户组");
-                return false
+                return false;
+        }else if(checkVal.length > 11){
+            alert("只可以选择一个用户组");
+            return false;
         }else{
 
             $.ajax({

@@ -15,12 +15,17 @@
 <body>
 <div class="contain">
 	<div class="navbar navbar-duomi navbar-static-top" role="navigation">
+		
 	        <div class="container-fluid" style="background-color:#485b7f;">
+	        	<a href="http://localhost/test/Hospitalsrms/index.php/Home/Index/index"><img class="pull-right" title="前台首页" style="width:26px;height:26px;margin-top:9px;margin-right:50px;"src="/test/Hospitalsrms/Public//bootstrap/images/qianshou.png"></a>
 	            <div class="navbar-header">
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
+
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
+	            	<a href="<?php echo U('Login/logout');?>"><span title="退出" class="glyphicon glyphicon-off pull-right" style="color:white;font-size:18px;margin-top:15px;margin-left:20px;" aria-hidden="true"></span></a>
+    				<a href="<?php echo U('Index/index');?>"><span title="首页" class="glyphicon glyphicon-home pull-right" style="color:white;font-size:18px;margin-top:13px;margin-left:20px;" aria-hidden="true"></span></a>
+		            <p class="pull-right" style="font-size:15px;color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
 		        </div>
 	        </div>
 	    </div>
@@ -165,7 +170,7 @@
 												新闻管理
 											</a>
 										</li>
-										<li><a href="">
+										<li><a href="<?php echo U('Xtgl/password');?>">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>
@@ -257,7 +262,7 @@
                                 <label class="col-sm-3 control-label no-padding-right"> 用户组： </label>
 
                                <div class="col-sm-9" style="line-height:30px;" id="ischeck">
-                                    <?php if(is_array($group_data)): $i = 0; $__LIST__ = $group_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_data_vo): $mod = ($i % 2 );++$i;?><input type="checkbox" name="usergroup[]" value="<?php echo ($group_data_vo['id']); ?>" style="margin-right:5px;"><?php echo ($group_data_vo['alias_name']); endforeach; endif; else: echo "" ;endif; ?>
+                                    <?php if(is_array($group_data)): $i = 0; $__LIST__ = $group_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_data_vo): $mod = ($i % 2 );++$i;?><input type="checkbox" name="usergroup" value="<?php echo ($group_data_vo['id']); ?>" style="margin-right:5px;"><?php echo ($group_data_vo['alias_name']); endforeach; endif; else: echo "" ;endif; ?>
                                </div>
                                
                             </div>
@@ -302,7 +307,7 @@
                 <div class="row">
                     <div class="col-xs-win">
                        
-                        <form style="position:relative;" id="user_edite_form" class="form-horizontal" role="form">
+                        <form style="position:relative;" name="form" id="user_edite_form" class="form-horizontal" role="form">
 
                             <div class="form-group">
                                 <label class="col-sm-3 control-label no-padding-right"> 用户名 </label>
@@ -333,7 +338,7 @@
                                 <label class="col-sm-3 control-label no-padding-right"> 用户组： </label>
 
                                <div class="col-sm-9" style="line-height:30px;" id="ischeck">
-                                    <?php if(is_array($group_data)): $i = 0; $__LIST__ = $group_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_data_vo): $mod = ($i % 2 );++$i;?><input type="checkbox" name="usergroup[]" value="<?php echo ($group_data_vo['id']); ?>" style="margin-right:5px;"><?php echo ($group_data_vo['alias_name']); endforeach; endif; else: echo "" ;endif; ?>
+                                    <?php if(is_array($group_data)): $i = 0; $__LIST__ = $group_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_data_vo): $mod = ($i % 2 );++$i;?><input type="checkbox" name="usergroup" value="<?php echo ($group_data_vo['id']); ?>" style="margin-right:5px;"><?php echo ($group_data_vo['alias_name']); endforeach; endif; else: echo "" ;endif; ?>
                                </div>
                                
                             </div>
@@ -431,10 +436,7 @@
                         <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                 <td><input type="checkbox" name="checkbox"  value="<?php echo ($vo['id']); ?>"></td>
                                 <td><?php echo ($vo["user_name"]); ?></td>
-                                <td>
-                                    <select style="height:25px;font-size:12px;">
-                                        <?php if(is_array($vo['group_name'])): $i = 0; $__LIST__ = $vo['group_name'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_vo): $mod = ($i % 2 );++$i;?><option><?php echo ($group_vo['name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
-                                    </select></td>
+                                <td><?php echo ($vo["alias_name"]); ?></td>
                                 <td><?php echo (date('Y-m-d H:i:s',$vo["reg_time"])); ?></td>
                                 <td><?php if($vo['last_time'] == 0): ?>--
                                 <?php else: ?>
@@ -481,9 +483,13 @@
         e.preventDefault();
         var data = $('#addUser_form').serialize();
         var checkVal= $('#ischeck input').serialize();
+
         if (checkVal =='') {
                  alert("请选择用户组");
-                return false
+                return false;
+        }else if(checkVal.length > 11){
+            alert("只可以选择一个用户组");
+            return false;
         }else{
 
             $.ajax({

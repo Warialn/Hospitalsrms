@@ -165,7 +165,7 @@
 												新闻管理
 											</a>
 										</li>
-										<li><a href="">
+										<li><a href="<?php echo U('Xtgl/password');?>">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>

@@ -4,13 +4,17 @@ use Think\Controller;
  class LoginController extends Controller{
 
  	public function index(){
- 		$User =M('AdminUser');
+ 		$User =M('User');
 		if($_POST){
 			$data['user_name'] = $_POST['username'];
 			$data['password'] = md5($_POST['password']);
 			$map['user_name'] = $data['user_name'];
 		   
 			$result = $User->where($map)->select();
+			if($result[0]['type'] == 0){
+				echo "<script>alert('对不起，您没有权限访问！');window.location.href='http://localhost/test/Hospitalsrms/index.php/Admin/Login/index'</script>";
+
+			}
 			$pass=$result['0']['password'];
 			$map['id']=$result['0']['id'];
 			//echo $pass;

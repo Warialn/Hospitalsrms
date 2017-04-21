@@ -10,6 +10,7 @@
 <link href="/test/Hospitalsrms/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet">
 <script src="/test/Hospitalsrms/Public//bootstrap/js/jquery.min.js"></script>
 <script src="/test/Hospitalsrms/Public//bootstrap/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <div class="contain">
@@ -19,7 +20,7 @@
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，XXX</p>
+		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
 		        </div>
 	        </div>
 	    </div>
@@ -159,6 +160,11 @@
 										<b class="arrow icon-angle-down"></b>
 									</a>
 									<ul class="dropdown-menu">
+										<li><a href="<?php echo U('Xtgl/news');?>">
+												<i class="icon-double-angle-right"></i>
+												新闻管理
+											</a>
+										</li>
 										<li><a href="">
 												<i class="icon-double-angle-right"></i>
 												密码管理
@@ -186,19 +192,19 @@
 	            
 
 
+<div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 200px;">
+    科研统计管理>仪器设备管理</div>
+    <div class="col-md-10 column" style="background-color:#fff;height:550px;">
+        <div class="col-md-0">
+        </div>
+        <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
 
- <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 200px;">科研统计管理>仪器设备管理</div>
-<div class="col-md-10 column" style="background-color:#fff;height:550px;">
-    <div class="col-md-0">
-    </div>
-     <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
-
-        <form name="form2" method="post" action="">
-           <table class="table table-striped table-bordered table-hover"><br/>
-            <input  class="btn btn-default pull-right" type="submit" value="搜索">
-                <div class="col-md-2 pull-right">
-                    <input class="form-control" type="text">
-                </div>
+            <form name="form2" method="post" action="">
+               <table class="table table-striped table-bordered table-hover"><br/>
+                <input  class="btn btn-default pull-right" type="submit" value="搜索">
+                    <div class="col-md-2 pull-right">
+                        <input class="form-control" type="text" laceholder="设备名称" name="name"/>
+                    </div>
                         <thead>
                             <tr>
                                 <th>
@@ -251,20 +257,9 @@
                                     <input type="hidden" value="<?php echo ($vo['id']); ?>">
                                 </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                <tr>
-                   <td>
-                    <img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
-                   </td>
-
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                </tr>
-                </tbody>
-            </table>
-        </form>
+                    </tbody>
+                </table>
+            </form>
     <div class="col-md-12 column">
         <?php echo ($page); ?>
     </div>

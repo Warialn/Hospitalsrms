@@ -207,9 +207,9 @@
                                                         
                 <thead>
                     <tr>
-                        <th>
+                        <!-- <th>
                             <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                        </th>
+                        </th> -->
                        <th>
                             成果名称
                         </th>
@@ -225,10 +225,10 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
-                        <td>
+                    <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                        <!-- <td>
                         <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-                        </td>
+                        </td> -->
                         <td>
                             <?php echo ($vo["name"]); ?>
                         </td>
@@ -250,16 +250,7 @@
                                     <input type="hidden" value="<?php echo ($vo['id']); ?>"> 
                         </td>                              
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                <tr>
-                   <td>
-                    <img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
-                   </td>
-
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                </tr>
+               
                 </tbody>
             </table>
         </form>

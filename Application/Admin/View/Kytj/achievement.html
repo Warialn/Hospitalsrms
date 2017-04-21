@@ -13,9 +13,9 @@
                                                         
                 <thead>
                     <tr>
-                        <th>
+                        <!-- <th>
                             <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                        </th>
+                        </th> -->
                        <th>
                             成果名称
                         </th>
@@ -32,49 +32,39 @@
                 </thead>
                 <tbody>
                     <volist name="thesesList" id="vo">
-                    <tr class="<?php echo $col;?>">
-                        <td>
-                        <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
-                        </td>
-                        <td>
-                            {$vo.name}
-                        </td>
-                        <td>
-                            {$vo.author}
-                        </td>
-                        <td>
-                            {$vo.date}
-                        </td> 
-                        <td>
-                            <a  href="#" class="green deleteuser"title="编辑">
-                                       编辑
-                                    </a>
+                        <tr>
+                            <!-- <td>
+                            <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
+                            </td> -->
+                            <td>
+                                {$vo.name}
+                            </td>
+                            <td>
+                                {$vo.author}
+                            </td>
+                            <td>
+                                {$vo.date}
+                            </td> 
+                            <td>
+                                <a  href="#" class="green deleteuser"title="编辑">
+                                   编辑
+                                </a>
 
-                                    <a class="red deleteuser"  href="#" title="删除">
-                                        删除
-                                    </a>
+                                <a class="red deleteuser"  href="#" title="删除">
+                                    删除
+                                </a>
 
-                                    <input type="hidden" value="{$vo['id']}"> 
-                        </td>                              
-                    </tr>
-                </volist>
-                <tr>
-                   <td>
-                    <img src="__PUBLIC__img/arrow_ltr.gif"/>
-                   </td>
-
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                </tr>
+                                <input type="hidden" value="{$vo['id']}"> 
+                            </td>                              
+                        </tr>
+                    </volist>              
                 </tbody>
             </table>
         </form>
-    <div class="col-md-12 column">
-        {$page}
+        <div class="col-md-12 column">
+            {$page}
+        </div>
     </div>
-</div>
 </div>
 </div>
 

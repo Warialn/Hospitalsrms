@@ -249,6 +249,10 @@
 						<td><textarea class="form-control" rows="7" name="source"></textarea></td>
 					</tr>
 					<tr>
+						<td>论文附件（<span class="fontStar">※</span>）</td>
+						<td><input type="file"  name="fujian"/></td>
+					</tr>
+					<tr>
 						<td>备注</td>
 						<td><textarea class="form-control" rows="6" name="remarks"></textarea></td>
 					</tr>
@@ -353,7 +357,7 @@
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
+$('#datetimepicker').datetimepicker({value:'2017/05/05 07:00',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({

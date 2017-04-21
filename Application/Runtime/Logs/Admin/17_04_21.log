@@ -1,0 +1,2275 @@
+[ 2017-04-21T09:27:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+
+[ 2017-04-21T09:27:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-04-21T09:27:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:27:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:27:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:28:03+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-04-21T09:28:03+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:28:03+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:28:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:28:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-04-21T09:28:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:28:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:28:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-04-21T09:30:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-04-21T09:30:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+
+[ 2017-04-21T09:30:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-04-21T09:30:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:30:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:31:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-04-21T09:31:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:31:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:31:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T09:31:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-04-21T09:31:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-04-21T09:31:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-04-21T09:32:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-04-21T09:32:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/do_user_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0415s ]
+SQL: UPDATE `srms_admin_user` SET `user_name`='admin',`password`='0b4e7a0e5fe84ad35fb5f95b9ceeac79' WHERE `id` = 7 [ RunTime:0.0840s ]
+
+[ 2017-04-21T09:32:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+
+[ 2017-04-21T09:33:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-04-21T09:37:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-04-21T09:37:40+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-04-21T09:37:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+
+[ 2017-04-21T09:38:30+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-04-21T09:38:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-04-21T09:42:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-04-21T10:00:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-04-21T10:00:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-04-21T10:01:51+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-04-21T10:03:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+
+[ 2017-04-21T10:04:35+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+
+[ 2017-04-21T10:05:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-04-21T10:05:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-04-21T10:06:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+
+[ 2017-04-21T10:07:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-04-21T10:07:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-04-21T10:26:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+
+[ 2017-04-21T10:26:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html?password=aaaaaa&password_new=aaa111&password_new2=aaa111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-04-21T10:28:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html?password=aaaaaa&password_new=aaa111&password_new2=aaa111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-04-21T10:28:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html?password=aaaaaa&password_new=aaa111&password_new2=aaa111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-04-21T10:29:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-04-21T10:29:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html?password=aaaaaa&password_new=aaa111&password_new2=aaa111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+
+[ 2017-04-21T10:31:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html?password=aaaaaa&password_new=aaa111&password_new2=aaa111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-04-21T10:31:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html?password=aaaaaa&password_new=aaa111&password_new2=111aaa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-04-21T10:33:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html?password=aaaaaa&password_new=aaa111&password_new2=111aaa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-04-21T10:33:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-04-21T10:34:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0009s ]
+SQL: UPDATE `srms_admin_user` SET `password`='aaa111' WHERE `id` = 7 [ RunTime:0.0741s ]
+
+[ 2017-04-21T10:35:04+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-04-21T10:35:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-04-21T10:35:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-04-21T10:35:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-04-21T10:35:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-04-21T10:35:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-04-21T10:35:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-04-21T10:35:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:35:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-04-21T10:36:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:03+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-04-21T10:36:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-04-21T10:36:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-04-21T10:36:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-04-21T10:36:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-04-21T10:36:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2017-04-21T10:36:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001636s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:36:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-04-21T10:36:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-04-21T10:36:36+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-04-21T10:36:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0011s ]
+SQL: UPDATE `srms_admin_user` SET `password`='eabd8ce9404507aa8c22714d3f5eada9' WHERE `id` = 7 [ RunTime:0.0741s ]
+
+[ 2017-04-21T10:38:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-04-21T10:38:07+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-04-21T10:38:07+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:07+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:07+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-04-21T10:38:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+
+[ 2017-04-21T10:38:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001790s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-04-21T10:38:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-04-21T10:38:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:38:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-04-21T10:38:38+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-04-21T10:38:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-04-21T10:38:57+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0011s ]
+SQL: UPDATE `srms_admin_user` SET `password`='eb0dff1c3d6739e71d7360c6e0aa4510' WHERE `id` = 7 [ RunTime:0.1291s ]
+
+[ 2017-04-21T10:40:42+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-04-21T10:40:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-04-21T10:40:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:40:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:40:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:40:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-04-21T10:40:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:40:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001964s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:40:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001663s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:40:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-04-21T10:40:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:40:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:40:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:41:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-04-21T10:41:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-04-21T10:41:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-04-21T10:41:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0010s ]
+
+[ 2017-04-21T10:42:12+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+
+[ 2017-04-21T10:42:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-04-21T10:42:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:42:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:42:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:42:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-04-21T10:42:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:42:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:42:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:42:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-04-21T10:42:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:42:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:42:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:42:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-04-21T10:42:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-04-21T10:42:35+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-04-21T10:42:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-04-21T10:42:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-04-21T10:43:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:43:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:43:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:43:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-04-21T10:43:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:43:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:43:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001523s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:43:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-04-21T10:43:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-04-21T10:43:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0012s ]
+SQL: UPDATE `srms_admin_user` SET `password`='eabd8ce9404507aa8c22714d3f5eada9' WHERE `id` = 7 [ RunTime:0.0703s ]
+
+[ 2017-04-21T10:44:36+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-04-21T10:44:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0011s ]
+SQL: UPDATE `srms_admin_user` SET `password`='eb0dff1c3d6739e71d7360c6e0aa4510' WHERE `id` = 7 [ RunTime:0.0727s ]
+
+[ 2017-04-21T10:44:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgluser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载控制器:Xtgluser
+
+[ 2017-04-21T10:45:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-04-21T10:45:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0011s ]
+SQL: UPDATE `srms_admin_user` SET `password`='eabd8ce9404507aa8c22714d3f5eada9' WHERE `id` = 7 [ RunTime:0.0560s ]
+
+[ 2017-04-21T10:45:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-04-21T10:45:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+
+[ 2017-04-21T10:45:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0011s ]
+
+[ 2017-04-21T10:45:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0012s ]
+
+[ 2017-04-21T10:45:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0012s ]
+SQL: UPDATE `srms_admin_user` SET `password`='eb0dff1c3d6739e71d7360c6e0aa4510' WHERE `id` = 7 [ RunTime:0.0566s ]
+
+[ 2017-04-21T10:45:48+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+
+[ 2017-04-21T10:45:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-04-21T10:46:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0010s ]
+
+[ 2017-04-21T10:55:46+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-04-21T10:55:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-04-21T10:55:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:55:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:55:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:55:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-04-21T10:55:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-04-21T10:56:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+
+[ 2017-04-21T10:57:20+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-04-21T10:57:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-04-21T10:57:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:57:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:57:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T10:57:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-04-21T10:57:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-04-21T11:00:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-04-21T11:01:07+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0005s ]
+
+[ 2017-04-21T11:01:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `srms_admin_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `srms_admin_user` WHERE `id` = 7  [ RunTime:0.0004s ]
+
+[ 2017-04-21T11:21:27+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-04-21T11:21:51+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-04-21T11:22:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-04-21T11:22:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-04-21T11:23:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+
+[ 2017-04-21T11:23:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-04-21T11:24:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-04-21T11:24:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-04-21T11:24:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-04-21T11:24:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-04-21T11:25:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-04-21T11:25:35+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-04-21T11:25:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-04-21T11:25:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-04-21T11:26:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-04-21T11:26:36+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-04-21T11:26:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-04-21T11:28:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-04-21T11:29:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-04-21T11:29:38+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-04-21T11:30:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-04-21T11:30:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-04-21T11:30:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-04-21T11:31:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-04-21T11:31:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-04-21T11:31:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-04-21T11:32:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-04-21T11:32:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-04-21T11:32:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-04-21T11:33:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-04-21T11:33:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-04-21T11:34:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-04-21T11:34:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-04-21T11:35:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001778s ]
+
+[ 2017-04-21T11:35:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-04-21T11:35:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-04-21T11:36:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-04-21T11:36:27+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-04-21T11:44:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-04-21T11:44:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001402s ]
+
+[ 2017-04-21T11:45:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+
+[ 2017-04-21T11:45:40+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-04-21T11:45:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-04-21T11:46:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+
+[ 2017-04-21T11:46:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-04-21T11:46:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-04-21T11:47:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+
+[ 2017-04-21T11:47:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-04-21T11:47:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+
+[ 2017-04-21T11:48:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-04-21T11:49:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-04-21T13:22:27+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-04-21T13:23:19+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-04-21T13:24:44+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000258s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+
+[ 2017-04-21T13:24:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-04-21T13:24:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+
+[ 2017-04-21T13:24:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:24:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:24:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:24:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-04-21T13:24:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:24:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:24:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:25:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-04-21T13:25:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:25:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:25:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:25:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+
+[ 2017-04-21T13:25:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002103s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:25:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:25:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:25:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+
+[ 2017-04-21T13:25:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:25:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:25:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:25:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-04-21T13:25:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-04-21T13:26:36+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-04-21T13:26:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-04-21T13:26:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:26:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:26:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:26:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-04-21T13:26:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:26:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:26:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:26:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-04-21T13:26:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:26:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:26:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:28:42+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-04-21T13:28:42+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-04-21T13:40:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-04-21T13:40:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 1146:Table 'srms.srms_admin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `srms_admin_user`
+
+[ 2017-04-21T13:41:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-04-21T13:41:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:41:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:41:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:41:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-04-21T13:41:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-04-21T13:41:57+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-04-21T13:41:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+
+[ 2017-04-21T13:41:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:41:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:41:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:42:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-04-21T13:42:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-04-21T13:45:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-04-21T13:45:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-04-21T13:45:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:45:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:45:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002151s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:46:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-04-21T13:47:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-04-21T13:47:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:47:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:47:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:47:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-04-21T13:47:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+
+[ 2017-04-21T13:47:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-04-21T13:51:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+ERR: 1146:Table 'srms.srms_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `srms_group_access`
+
+[ 2017-04-21T13:51:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-04-21T13:54:59+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-04-21T13:55:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-04-21T13:55:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:55:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:55:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 非法操作:css
+
+[ 2017-04-21T13:55:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-04-21T13:55:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-04-21T13:55:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+
+[ 2017-04-21T13:56:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+
+[ 2017-04-21T13:58:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-04-21T13:58:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0066s ]
+SQL: INSERT INTO `srms_user` (`user_name`,`password`,`reg_time`) VALUES ('ww','d78ff0ef526543e2174540afdfea0154','1492754295') [ RunTime:0.0904s ]
+ERR: 1146:Table 'srms.srms_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `srms_group_access`
+ERR: 1146:Table 'srms.srms_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `srms_group_access`
+
+[ 2017-04-21T13:58:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-04-21T13:59:36+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-04-21T14:00:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0123s ]
+SQL: INSERT INTO `srms_user` (`user_name`,`password`,`reg_time`) VALUES ('ww','d78ff0ef526543e2174540afdfea0154','1492754437') [ RunTime:0.0839s ]
+
+[ 2017-04-21T14:00:40+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-04-21T14:01:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-04-21T14:01:36+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001730s ]
+
+[ 2017-04-21T14:07:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-04-21T14:08:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-04-21T14:08:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-04-21T14:09:27+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-04-21T14:10:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+
+[ 2017-04-21T14:12:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-04-21T14:12:48+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-04-21T14:13:33+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-04-21T14:14:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-04-21T14:15:07+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-04-21T14:15:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0159s ]
+SQL: INSERT INTO `srms_user` (`user_name`,`password`,`reg_time`) VALUES ('123','d78ff0ef526543e2174540afdfea0154','1492755322') [ RunTime:0.0685s ]
+
+[ 2017-04-21T14:15:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-04-21T14:15:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0053s ]
+SQL: DELETE FROM `srms_user` WHERE `id` = 8 [ RunTime:0.0817s ]
+
+[ 2017-04-21T14:15:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-04-21T14:15:36+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0082s ]
+SQL: DELETE FROM `srms_user` WHERE `id` = 7 [ RunTime:0.0916s ]
+
+[ 2017-04-21T14:15:38+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-04-21T14:17:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 1146:Table 'srms.srms_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `srms_group_access`
+
+[ 2017-04-21T14:18:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-04-21T14:21:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-04-21T14:21:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0048s ]
+SQL: INSERT INTO `srms_user` (`user_name`,`password`,`reg_time`) VALUES ('1233','587dc94750753b62f3f1409b421e44d6','1492755682') [ RunTime:0.0616s ]
+
+[ 2017-04-21T14:21:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-04-21T14:22:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-04-21T14:22:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0080s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','134','e1528d6fc8357f5edc5593860b17573c','1492755757') [ RunTime:0.0510s ]
+
+[ 2017-04-21T14:22:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-04-21T14:23:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-04-21T14:24:57+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-04-21T14:25:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0054s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','123456','d78ff0ef526543e2174540afdfea0154','1492755910') [ RunTime:0.0694s ]
+
+[ 2017-04-21T14:25:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-04-21T14:25:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0081s ]
+SQL: DELETE FROM `srms_user` WHERE `id` = 6 [ RunTime:0.0498s ]
+
+[ 2017-04-21T14:25:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-04-21T14:25:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0065s ]
+SQL: DELETE FROM `srms_user` WHERE `id` = 9 [ RunTime:0.0650s ]
+
+[ 2017-04-21T14:25:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-04-21T14:26:42+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/usergroup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-04-21T14:42:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+

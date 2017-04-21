@@ -18,7 +18,7 @@ class LoginController extends Controller{
 			
 			$data['reg_time']=strtotime(date('Y-m-d H:i:s',time()));
 			$member=$User->add($data);
-		    $this->success('注册成功！','http://localhost/test/Hospitalsrms/index.php/Home/Login/index');
+			echo "<script>alert('注册成功！'');window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index'</script>";
 		}
 		$this->display();
 	
@@ -37,7 +37,7 @@ class LoginController extends Controller{
 			if($data['password'] == $pass){
 				    echo "<script>window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Index/index'</script>";
 					
-					$this->success('登陆成功！','http://localhost/test/Hospitalsrms/index.php/Home/Index/index');
+					//$this->success('登陆成功！','http://localhost/test/Hospitalsrms/index.php/Home/Index/index');
 					$dat['last_time']=strtotime(date("Y-m-d H:i:s",time()));
 					$User->where($map)->save($dat);
 					//Session::set('USER_AUTH_KEY',$map['id']);

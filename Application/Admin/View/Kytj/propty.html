@@ -1,5 +1,4 @@
-
- <div style="height:30px;background-color:#E4E6E9;;padding:5px 3px 0px 200px;">科研统计管理>知识产权管理</div>
+<div style="height:30px;background-color:#E4E6E9;;padding:5px 3px 0px 200px;">科研统计管理>知识产权管理</div>
 <div class="col-md-10 column" style="background-color:#fff;height:550px;">
     <div class="col-md-0">
     </div>
@@ -14,9 +13,9 @@
                                                         
                 <thead>
                     <tr>
-                        <th>
+                       <!--  <th>
                             <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                        </th>
+                        </th> -->
                         <th>
                             专利名称
                         </th>
@@ -34,10 +33,10 @@
                 <tbody>
                     <volist name="thesesList" id="vo">
                    
-                    <tr class="<?php echo $col;?>">
-                        <td>
+                    <tr>
+                        <!-- <td>
                             <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
-                        </td>
+                        </td> -->
                         <td>
                             {$vo.cname}
                         </td>
@@ -49,27 +48,18 @@
                         </td>
                         <td>
                              <a  href="#" class="green deleteuser"title="编辑">
-                                       编辑
-                                    </a>
+                               编辑
+                            </a>
 
-                                    <a class="red deleteuser"  href="#" title="删除">
-                                        删除
-                                    </a>
+                            <a class="red deleteuser"  href="#" title="删除">
+                                删除
+                            </a>
 
-                                    <input type="hidden" value="{$vo['id']}">
+                            <input type="hidden" value="{$vo['id']}">
                         </td>                              
                     </tr>
                 </volist>
-                <tr>
-                   <td>
-                    <img src="__PUBLIC__img/arrow_ltr.gif"/>
-                   </td>
-
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                </tr>
+                
                 </tbody>
             </table>
         </form>

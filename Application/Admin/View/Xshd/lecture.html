@@ -15,9 +15,9 @@
                                                                     
                             <thead>
                                 <tr>
-                                    <th>
+                                   <!--  <th>
                                         <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                                    </th>
+                                    </th> -->
                                    <th>
                                         讲座名称
                                     </th>
@@ -38,10 +38,10 @@
                             <tbody>
                                 <volist name="thesesList" id="vo">
                                
-                                <tr class="<?php echo $col;?>">
-                                    <td>
+                                <tr>
+                                   <!--  <td>
                                     <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
-                                    </td>
+                                    </td> -->
                                     <td>
                                         {$vo.name}
                                     </td>
@@ -71,17 +71,7 @@
                                     </td>                            
                                 </tr>
                             </volist>
-                            <tr>
-                               <td>
-                                <img src="__PUBLIC__img/arrow_ltr.gif"/>
-                               </td>
-                               <td>
-                               </td>
-                               <td></td>
-                               <td></td>
-                                <td></td>
-                                 <td></td>
-                            </tr>
+                            
                             </tbody>
                         </table>
                     </form>

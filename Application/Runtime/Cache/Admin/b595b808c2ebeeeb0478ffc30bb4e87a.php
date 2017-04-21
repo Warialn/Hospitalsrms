@@ -15,12 +15,17 @@
 <body>
 <div class="contain">
 	<div class="navbar navbar-duomi navbar-static-top" role="navigation">
+		
 	        <div class="container-fluid" style="background-color:#485b7f;">
+	        	<a href="http://localhost/test/Hospitalsrms/index.php/Home/Index/index"><img class="pull-right" title="前台首页" style="width:26px;height:26px;margin-top:9px;margin-right:50px;"src="/test/Hospitalsrms/Public//bootstrap/images/qianshou.png"></a>
 	            <div class="navbar-header">
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
+
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
+	            	<a href="<?php echo U('Login/logout');?>"><span title="退出" class="glyphicon glyphicon-off pull-right" style="color:white;font-size:18px;margin-top:15px;margin-left:20px;" aria-hidden="true"></span></a>
+    				<a href="<?php echo U('Index/index');?>"><span title="首页" class="glyphicon glyphicon-home pull-right" style="color:white;font-size:18px;margin-top:13px;margin-left:20px;" aria-hidden="true"></span></a>
+		            <p class="pull-right" style="font-size:15px;color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
 		        </div>
 	        </div>
 	    </div>
@@ -160,7 +165,12 @@
 										<b class="arrow icon-angle-down"></b>
 									</a>
 									<ul class="dropdown-menu">
-										<li><a href="">
+										<li><a href="<?php echo U('Xtgl/news');?>">
+												<i class="icon-double-angle-right"></i>
+												新闻管理
+											</a>
+										</li>
+										<li><a href="<?php echo U('Xtgl/password');?>">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>

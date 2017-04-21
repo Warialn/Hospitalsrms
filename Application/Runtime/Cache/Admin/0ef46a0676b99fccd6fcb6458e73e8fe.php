@@ -20,7 +20,8 @@
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
+	            	<a href="<?php echo U('Index/index');?>"><span title="首页" class="glyphicon glyphicon-home pull-right" style="color:white;font-size:18px;margin-top:13px;margin-left:8px;" aria-hidden="true"></span></a>
+		            <p class="pull-right" style="font-size:15px;color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
 		        </div>
 	        </div>
 	    </div>
@@ -165,7 +166,7 @@
 												新闻管理
 											</a>
 										</li>
-										<li><a href="">
+										<li><a href="<?php echo U('Xtgl/password');?>">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>
@@ -192,8 +193,12 @@
 	            
 
 
- <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 200px;">科研统计管理>论文统计管理</div>
-    <div class="col-md-10 column" style="background-color:#fbfbfc;border-radius:0px;height:530px;">
+ <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 200px;">
+    科研统计管理>论文统计管理</div>
+<div class="col-md-10 column" style="background-color:#fff;height:550px;">
+    <div class="col-md-0">
+    </div>
+    <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
 
         <form name="form2" method="post" action="">
             <table class="table table-striped table-bordered table-hover"><br/>
@@ -222,58 +227,48 @@
                          <th>
                             论文状态
                         </th>
-                       <!--  <th>
+                        <th>
                             操作
-                        </th> -->
+                        </th> 
                     </tr>
                 </thead>
                 <tbody>
                     <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
-                      
-                        <td>
-                            <?php echo ($vo["name"]); ?>
-                        </td>
-                         <td>
-                            <?php echo ($vo["sname"]); ?>
-                        </td>
-                        <td>
-                            <?php echo ($vo["author"]); ?>
-                        </td>
-                        <td>
-                            <?php echo ($vo["date"]); ?>
-                        </td> 
-                         <td>
-                            <?php echo ($vo["status"]); ?>
-                        </td> 
-                      <!--   <td>
-                            <a  href="#" class="green deleteuser"title="编辑">
-                                       编辑
-                                    </a>
+                          
+                            <td>
+                                <?php echo ($vo["name"]); ?>
+                            </td>
+                             <td>
+                                <?php echo ($vo["sname"]); ?>
+                            </td>
+                            <td>
+                                <?php echo ($vo["author"]); ?>
+                            </td>
+                            <td>
+                                <?php echo ($vo["date"]); ?>
+                            </td> 
+                             <td>
+                                <?php echo ($vo["status"]); ?>
+                            </td> 
+                            <td>
+                                <a  href="#" class="green deleteuser"title="编辑">
+                                   编辑
+                                </a>
 
-                                    <a class="red deleteuser"  href="#" title="删除">
-                                        删除
-                                    </a>
+                                <a class="red deleteuser"  href="#" title="删除">
+                                    删除
+                                </a>
 
-                                    <input type="hidden" value="<?php echo ($vo['id']); ?>"> 
-                        </td>  -->                             
-                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                <!-- <tr>
-                   <td>
-                    <img src="/test/Hospitalsrms/Public/img/arrow_ltr.gif"/>
-                   </td>
-
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                </tr> -->
+                                <input type="hidden" value="<?php echo ($vo['id']); ?>"> 
+                            </td>                               
+                        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                 </tbody>
             </table>
         </form>
-        <div class="col-md-12 column">
-            <?php echo ($page); ?>
-        </div>
+    <div class="col-md-12 column">
+        <?php echo ($page); ?>
     </div>
+</div>
 </div>
 </div>
 <div class="" style="background-color:#E4E6E9;height:60px;">

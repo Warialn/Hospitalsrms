@@ -15,12 +15,17 @@
 <body>
 <div class="contain">
 	<div class="navbar navbar-duomi navbar-static-top" role="navigation">
+		
 	        <div class="container-fluid" style="background-color:#485b7f;">
+	        	<a href="http://localhost/test/Hospitalsrms/index.php/Home/Index/index"><img class="pull-right" title="前台首页" style="width:26px;height:26px;margin-top:9px;margin-right:50px;"src="/test/Hospitalsrms/Public//bootstrap/images/qianshou.png"></a>
 	            <div class="navbar-header">
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
+
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
+	            	<a href="<?php echo U('Login/logout');?>"><span title="退出" class="glyphicon glyphicon-off pull-right" style="color:white;font-size:18px;margin-top:15px;margin-left:20px;" aria-hidden="true"></span></a>
+    				<a href="<?php echo U('Index/index');?>"><span title="首页" class="glyphicon glyphicon-home pull-right" style="color:white;font-size:18px;margin-top:13px;margin-left:20px;" aria-hidden="true"></span></a>
+		            <p class="pull-right" style="font-size:15px;color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
 		        </div>
 	        </div>
 	    </div>
@@ -160,7 +165,12 @@
 										<b class="arrow icon-angle-down"></b>
 									</a>
 									<ul class="dropdown-menu">
-										<li><a href="">
+										<li><a href="<?php echo U('Xtgl/news');?>">
+												<i class="icon-double-angle-right"></i>
+												新闻管理
+											</a>
+										</li>
+										<li><a href="<?php echo U('Xtgl/password');?>">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>
@@ -214,12 +224,167 @@
 
 </style>
 <div class="main-content">
+    <div id="modal-overlay" class="userAdd">
+        <div class="modal-data">
+            <ul class="breadcrumb">
+                <li>添加用户组</li>
+                 <a class="pull-right closePop" style="color:#485b7f;cursor:pointer;">关闭</a>
+            </ul>
+           
+        
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-xs-win">
+                        <form id="addUser_form" method="post" class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label no-padding-right"> 用户组 </label>
+
+                                <div class="col-sm-9">
+
+                                    <input type="text" name="group_name" id="edite_user" placeholder="用户组" class="col-xs-10 col-sm-5" required/>
+
+                                </div>
+                            </div>
+                            <div class="space-4"></div>
+
+                            <div class="form-group">
+                            
+                                <label class="col-sm-3 control-label no-padding-right"> 备注：</label>
+
+                                <div class="col-sm-9">
+                                    <input type="text" name="note" class="col-xs-10 col-sm-5" required/>
+                                </div>
+                            </div>
+
+                            <div class="space-4"></div>
+
+                          
+                            <div class="clearfix form-actions">
+                                <div>
+                                    <button class="btn btn-info" type="submit">
+                                        <i class="icon-ok bigger-110"></i>
+                                        提交
+                                    </button>
+
+                                    &nbsp; &nbsp; &nbsp;
+                                    <button class="btn btn-info" type="reset">
+                                        <i class="icon-undo bigger-110"></i>
+                                        重置
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+        </div>
+    </div>
+
+
+
+   <div id="modal-overlay" class="userEdit">
+        <div class="modal-data">
+            <ul class="breadcrumb">
+                <li>编辑用户组</li>
+                <a class="pull-right closePop" style="color:#485b7f;cursor:pointer;">关闭</a>
+            </ul>
+            
+        
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-xs-win">
+                       
+                        <form style="position:relative;" id="user_edite_form" class="form-horizontal" role="form">
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label no-padding-right"> 用户组 </label>
+
+                                <div class="col-sm-9">
+
+                                    <input type="text" name="group_name" id="edite_user" placeholder="用户组" class="col-xs-10 col-sm-5" required/>
+
+                                </div>
+                            </div>
+                            <div class="space-4"></div>
+
+                            <div class="form-group">
+                            
+                                <label class="col-sm-3 control-label no-padding-right"> 备注：</label>
+
+                                <div class="col-sm-9">
+                                    <input type="text" name="note" class="col-xs-10 col-sm-5" required/>
+                                </div>
+                            </div>
+                            
+                            <div class="space-4"></div>
+                            <input type="hidden" id='edit_id' name="id"  />
+                            <div class="clearfix form-actions">
+                                <div>
+                                    <button class="btn btn-info user_edite" type="submit">
+                                        <i class="icon-ok bigger-110"></i>
+                                        提交
+                                    </button>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+        </div>
+    </div>
+     <div id="modal-overlay" class="userDel">
+        <div class="modal-data">
+            <ul class="breadcrumb">
+                <li>
+                    删除用户组
+                </li>
+                <a class="pull-right closePop" style="color:#485b7f;cursor:pointer;">关闭</a>
+            </ul>
+        
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-xs-win">
+                      
+                        <form style="position:relative;top:20px;" id="user_delete_form" class="form-horizontal" role="form">
+
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label no-padding-right"> 确定要删除此用户组？ </label>
+                            </div>
+
+                            <input type="hidden" id="del_id"  name="id"/>
+                            <div class="clearfix form-actions">
+                                <div>
+                                    <button class="allusers btn btn-danger" >
+                                        <i class="icon-remove  bigger-110 "></i>
+                                        删除
+                                    </button>
+
+                                    &nbsp; &nbsp; &nbsp;
+                                    <button  type="reset" class="btn closePop">
+                                        <i class="icon-undo bigger-110"></i>
+                                        取消
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.col-->
+                </div>
+               
+            </div>
+        </div>
+    </div>
     <div class="col-md-10 column">
                 <div class="row">
                     <div class="col-xs-12">
                        <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 0px;">系统管理>用户组管理</div>
                        <div class="buttonGroup">
-                           <a href="#" class="btn btn-link" id="usergroupAdd"><i class="icon-plus-sign bigger-120 green"></i>添加</a>|
+                           <a href="#" class="btn btn-link" id="userAdd"><i class="icon-plus-sign bigger-120 green"></i>添加</a>|
                            
                            <a href="#" class="btn btn-link" id="usergroupDel"><i class="icon-remove  bigger-120 red "></i>批量删除</a>
                         
@@ -243,23 +408,17 @@
                                  <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$usergroup_data_vo): $mod = ($i % 2 );++$i;?><tr>
                                         <td><input type="checkbox" name="checkbox" value="<?php echo ($usergroup_data_vo['id']); ?>"></td>
                                         <!-- <td>南京机房</td> -->
+                                        <td><?php echo ($usergroup_data_vo['group_name']); ?></td>
                                         <td><?php echo ($usergroup_data_vo['alias_name']); ?></td>
-                                        <td><?php echo ($usergroup_data_vo['note']); ?></td>
                                         <td><?php if($usergroup_data_vo['alias_name'] == '超级管理员'): ?>---
                                             <?php else: ?>
-                                            <a class="green editeUsergroup" href="#" title="编辑">
-                                                编辑
-                                            </a>
-                                          
-                                            <a class="red" href="#" title="删除">
-                                                删除
-                                            </a>
-                                            <a style="color:#485b7f;"href="/test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/<?php echo ($usergroup_data_vo['id']); ?>">权限设置</a><?php endif; ?>
-                                           
-						
+                                            <a  href="#" class="green Usered"  data1="<?php echo ($usergroup_data_vo['id']); ?>" title="编辑">
+                                       编辑
+                                    </a>
 
-
-                                                                    
+                                    <a  href="#" class="red Userde"  data2="<?php echo ($usergroup_data_vo['id']); ?>"title="删除">
+                                        删除
+                                    </a><?php endif; ?>                        
                                 </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
@@ -277,114 +436,148 @@
 </div>
 
 <script>
-    $(".buttonGroup #usergroupAdd").click(function () {
-        $("#userAddgroup").show();
-        $("#fade").show();
-        return false
+    $(".closePop").css('cusor','pointer').click(function(){
+        $(".userAdd").hide();
+        $(".userEdit").hide();
+        $(".userDel").hide();
     });
-    $(".closePop").css("cursor", "pointer").click(function () {
-        $("#userAddgroup").hide();
-        $("#delUser").hide();
-        $("#editeUsergroup").hide();
-        $("#fade").hide();
-        $(":checked").attr('checked',false);
+    /* 添加用户*/
+    $("#userAdd").click(function () {
+        $(".userAdd").show();
+       
     });
-    $(".buttonGroup #usergroupDel").click(function () {
-        var val= $("input:checkbox[name='checkbox']:checked").map(function() {
-            return $(this).val();
-        }).get();
-        if(val.length<1){
-            layer.alert("请选择数据");
-            return;
-        }
-        $("#delUser").show();
-        $("#fade").show();
-        return false
-    });
-
-    $(".editeUsergroup").click(function () {
-        var tr = $(this).parents('tr');
-        $("#editeusergroup_form input[name='id']").val(tr.children('td:eq(0)').children().val());
-        $("#editeusergroup_form input[name='groupname']").val(tr.children('td:eq(1)').html());
-        $("#editeusergroup_form textarea[name='note']").val(tr.children('td:eq(2)').html());
-        $("#editeUsergroup").show();
-        $("#fade").show();
-        return false
-    })
-
-    $(".delUsergroup").click(function () {
-        $(":checked").attr('checked',false);
-        $(this).parents('tr').children().first().children().attr('checked','checked');
-        $("#delUser").show();
-        $("#fade").show();
-        return false;
-    })
-
-    $('#delgroup_form').submit(function(e){
+    $('#addUser_form').submit(function(e){
+        e.stopPropagation();
         e.preventDefault();
-        var id = $("input:checkbox[name='checkbox']:checked").map(function() {
-                return $(this).val();
-            }).get().join(',');
+        var data = $('#addUser_form').serialize();
+        var checkVal= $('#ischeck input').serialize();
+        
+
+            $.ajax({
+                 type: "POST",
+                 url: "/test/Hospitalsrms/index.php/Admin/Xtgl/usergroup_add",
+                 data: data,
+                 dataType: "json",
+                success:function(data){
+                    if(data.status=='success'){
+                        $(".addUser").hide();
+                        $("#fade").hide();
+                        $('#addUser_form')[0].reset();
+                        alert("添加成功");
+                        window.location.reload();
+                    }else if(data.status=='1'){
+                        alert("用户已存在");
+                    }else{
+                        alert("添加失败");
+
+                    }
+                }
+             });
+       
+        
+    })
+
+ /*编辑用户*/
+    $(".Usered").click(function(){
+
+        $(".userEdit").show();
+        var id = $(this).attr('data1');
+        $("#edit_id").val(id);
+    });
+
+
+    $('#user_edite_form').submit(function(e){
+        e.stopPropagation();
+        e.preventDefault();
+        var editeUser_data = $('#user_edite_form').serialize();
         $.ajax({
-            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/usergroupdel',
+            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/do_usergroup_edit',
+            type:'POST',
+            dataType:'json',
+            data:editeUser_data,
+            success:function(data){
+                if(data.status=='success'){
+                    $(".userEdit").hide();
+                    $("#fade").hide();
+                    $('#user_edite_form')[0].reset();
+                    alert("编辑成功");
+                    window.location.reload();
+                }else if(data.status=='1'){
+                   alert("用户已存在");
+                }
+            }
+        });
+    });
+ /*删除用户*/
+  //单条删除
+    $(".Userde").click(function () {
+       /* $(":checked").attr('checked',false);
+        $(this).parent().parent().children().first().children().first().attr('checked','checked');*/
+            var id = $(this).attr('data2');
+            $('#del_id').val(id);
+            $(".userDel").show();
+            return false;
+    });
+    
+      
+
+    $('#user_delete_form').submit(function(e){
+        e.stopPropagation();
+        e.preventDefault();
+        var id = $("#del_id").val();
+        $.ajax({
+            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/usergroup_delete',
             type:'POST',
             dataType:'json',
             data:{'id':id},
             success:function(data){
                 if(data.status=='success'){
-                   $("#delUser").hide();
-                   $("#fade").hide();
-                   $('#delgroup_form')[0].reset();
-                    layer.alert("删除成功");
+                    $("#userDel").hide();
+                    $("#fade").hide();
+                    $('#user_delete_form')[0].reset();
+                    alert("删除成功");
                     window.location.reload();
                     $(":checked").attr('checked',false);
-                }
-            }
-       });
-    })
-
-    $('#editeusergroup_form').submit(function(e){
-        e.preventDefault();
-        var data = $('#editeusergroup_form').serialize();
-        $.ajax({
-            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/do_usergroup_edite',
-            type:'POST',
-            dataType:'json',
-            data:data,
-            success:function(data){
-                if(data.status=='success'){
-                   $("#editeUsergroup").hide();
-                   $("#fade").hide();
-                   $('#editeusergroup_form')[0].reset();
-                    layer.alert("编辑成功");
-                    window.location.reload();
-                }
-            }
-       });
-    })
-
-    $('#usergroup_form').submit(function(e){
-        e.stopPropagation();
-        e.preventDefault();
-        var usergroup_data = $('#usergroup_form').serialize();
-        $.ajax({
-            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/usergroup_add',
-            type:'POST',
-            dataType:'json',
-            data:usergroup_data,
-            success:function(data){
-                if(data.status=='success'){
-                    $("#userAddgroup").hide();
+                }else{
+                    $("#userDel").hide();
                     $("#fade").hide();
-                    layer.alert("添加成功");
-                    window.location.reload();
-                }else if(data.status=='failed'){
-                    layer.alert(data.message);
+                    $(":checked").attr('checked',false);
+                    alert("不允许删除当前用户组");
                 }
             }
         });
+
     });
 
+
+    
+
+
+
+    $(function () {
+        var leftSel = $("#selectL");
+        var rightSel = $("#selectR");;
+        $("#toright").bind("click", function () {
+            leftSel.find("option:selected").each(function () {
+                $(this).remove().appendTo(rightSel);
+            });
+        });
+        $("#toleft").bind("click", function () {
+            rightSel.find("option:selected").each(function () {
+                $(this).remove().appendTo(leftSel);
+            });
+        });
+        leftSel.dblclick(function () {
+            $(this).find("option:selected").each(function () {
+                $(this).remove().appendTo(rightSel);
+            });
+        });
+        rightSel.dblclick(function () {
+            $(this).find("option:selected").each(function () {
+                $(this).remove().appendTo(leftSel);
+            });
+        });
+    });
 
 </script>
 <div class="" style="background-color:#E4E6E9;height:60px;">

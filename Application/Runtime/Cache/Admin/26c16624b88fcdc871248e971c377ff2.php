@@ -20,6 +20,7 @@
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
 	            </div>
 	            <div class="container">
+	            	<span class="glyphicon glyphicon-home icn_pos hm" aria-hidden="true"></span>
 		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
 		        </div>
 	        </div>
@@ -165,7 +166,7 @@
 												新闻管理
 											</a>
 										</li>
-										<li><a href="">
+										<li><a href="<?php echo U('Xtgl/password');?>">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>
@@ -192,129 +193,111 @@
 	            
 
 
+ <style>
+#modal-overlay {
+             /*visibility: hidden; */   
+             display:none;
+             position: absolute;   /* 使用绝对定位或固定定位  */
+             left: 0px;    
+             top: 0px;
+             width:100%;
+             height:100%;
+            /* text-align:center;*/
+             z-index: 1000;
+            /* background-color: #333; 
+             opacity: 0.5;   /* 背景半透明 */
+        }
+        /* 模态框样式 */
+.modal-data{
+             width:750px;
+             height:330px;
+             margin: 100px auto;
+             background-color: #fff;
+             border:1px solid #000;
+             padding:15px;
+             /*text-align:center;*/
+        }
 
- <div style="height:30px;background-color:#E4E6E9;
- padding:5px 3px 0px 200px;">学术活动管理>讲座管理</div>
-<div class="col-md-10 column" style="background-color:#fff;height:550px;">
-    <div class="col-md-0">
-    </div>
-     <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
+</style>
+ <div class="main-content">
+     <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 60px;">系统管理>用户管理</div>
+                <div class="table-responsive">
+                    <form id="password_edit_form" style="position:relative;top:20px;" class="form-horizontal" role="form">
+                
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label no-padding-right"> 当前密码</label>
 
-                    <form name="form2" method="post" action="">
-                        <table class="table  table-striped table-bordered table-hover"><br/>
-                            <input  class="btn btn-default pull-right" type="submit" value="搜索">
-                            <div class="col-md-2 pull-right">
-                                <input class="form-control" type="text">
+                                <div class="col-sm-7">
+                                    <input type="password" name="password"  class="col-xs-10 col-sm-5" pattern="^\S{6,18}$"  title="请输入6-18位密码" required />
+                                </div>
                             </div>
-                                                                    
-                            <thead>
-                                <tr>
-                                   <!--  <th>
-                                        <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                                    </th> -->
-                                   <th>
-                                        讲座名称
-                                    </th>
-                                    <th>
-                                        主讲者
-                                    </th>
-                                    <th>
-                                        时间
-                                    </th>
-                                    <th>
-                                        地点
-                                    </th>
-                                    <th>
-                                        操作
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-                                   <!--  <td>
-                                    <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-                                    </td> -->
-                                    <td>
-                                        <?php echo ($vo["name"]); ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($vo["speaker"]); ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($vo["time"]); ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($vo["address"]); ?>
-                                    </td> 
-                                     <td>
-                                       <?php if($vo['status'] == 0): ?><a  data1 = "<?php echo ($vo['id']); ?>"href="#" class="green agree"title="同意">
-                                           同意
-                                        </a>
 
-                                        <a data2 = "<?php echo ($vo['id']); ?>" class="red refuse"  href="#" title="拒绝">
-                                            拒绝
-                                        </a>
-                                        
-                                    <?php elseif($vo['status'] == 1): ?>
-                                    <span style="color:green">已同意</span>
-                                <?php else: ?> <span style="color:red">已拒绝</span><?php endif; ?>
-  
-                                    </td>                            
-                                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                            
-                            </tbody>
-                        </table>
-                    </form>
-                    <div class="col-md-12 column">
-                        <?php echo ($page); ?>
-                    </div>
-                </div>
+                            <div class="space-4"></div>
+
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label no-padding-right"> 新密码</label>
+
+                                <div class="col-sm-7">
+                                    <input type="password" name="password_new"  class="col-xs-10 col-sm-5" pattern="^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z?!@#$%^*_,.:;/()~&-|<>`+=]{6,18}$"  title="请输入6-18位字母、数字或特殊字符组合密码" required />
+                                </div>
+                            </div>
+                            <div class="space-4"></div>
+
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label no-padding-right"> 确认新密码</label>
+
+                                <div class="col-sm-7">
+                                    <input type="password" name="password_new2"  class="col-xs-10 col-sm-5 " pattern="^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z?!@#$%^*_,.:;/()~&-|<>`+=]{6,18}$"  title="请输入6-18位字母、数字或特殊字符组合密码" required />
+                                </div>
+                            </div>
+
+
+                            <div class="clearfix" style="display: block;margin-bottom: 0px;margin-top: 20px;text-align: center;text-indent: 0px;padding: 10px;">
+                                <div class="col-md-offset-3 col-md-5">
+                                    <input class="btn btn-info" type="submit" value="提交"/>
+                                    &nbsp; &nbsp; &nbsp;
+                                    <button class="btn" type="reset">
+                                        <i class="icon-undo bigger-110"></i>
+                                        重置
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
                 </div>
             </div>
-             <script>
-            $('.agree').click(function(){
-                var data ={};
-                data.id = $(this).attr('data1');
-                data.stat = 'agree';
-                $.ajax({
-                    type:'POST',
-                    url:'/test/Hospitalsrms/index.php/Admin/Xshd/lecture_edit',
-                    data:data,
-                    dataType:'json',
-                    success:function(data){
-                        if(data.status == 'success'){
-                            alert('操作成功！');
-                            window.location.reload();
-                        }else{
-                            alert('操作失败！');
+        </div>
+    </div>
+</div>
+<div style="clear: both"></div>
+</div>
 
-                        }
-                       
-                    }
-                });
-            });
-            $('.refuse').click(function(){
-                var data ={};
-                data.id = $(this).attr('data2');
-                data.stat = 'refuse';
-                $.ajax({
-                    type:'POST',
-                    url:'/test/Hospitalsrms/index.php/Admin/Xshd/lecture_edit',
-                    data:data,
-                    dataType:'json',
-                    success:function(data){
-                        if(data.status == 'success'){
-                            alert('操作成功！');
-                            window.location.reload();
-                        }else{
-                            alert('操作失败！');
+<script>
 
-                        }
-                       
-                    }
-                });
-            });
-            </script>
+    $('#password_edit_form').submit(function(e){
+        e.stopPropagation();
+        e.preventDefault();
+        var editeUser_data = $('#password_edit_form').serialize();
+        $.ajax({
+            url:'/test/Hospitalsrms/index.php/Admin/Xtgl/password',
+            type:'POST',
+            dataType:'json',
+            data:editeUser_data,
+            success:function(data){
+                if(data.status=='success'){
+                    alert("编辑成功!");
+                    window.location.href="/test/Hospitalsrms/index.php/Admin/Xtgl/user";
+                }else if(data.status=='1'){
+                   alert("新密码与确认密码不一致！");
+                }else{
+                   alert("当前密码不正确！");
+
+                }
+            }
+        });
+    });
+
+
+</script>
 <div class="" style="background-color:#E4E6E9;height:60px;">
 
 </div>

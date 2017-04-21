@@ -160,6 +160,11 @@
 										<b class="arrow icon-angle-down"></b>
 									</a>
 									<ul class="dropdown-menu">
+										<li><a href="<?php echo U('Xtgl/news');?>">
+												<i class="icon-double-angle-right"></i>
+												新闻管理
+											</a>
+										</li>
 										<li><a href="">
 												<i class="icon-double-angle-right"></i>
 												密码管理
@@ -203,9 +208,9 @@
                                                                     
                             <thead>
                                 <tr>
-                                   <th>
+                                   <!-- <th>
                                         <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                                    </th>
+                                    </th> -->
                                     <th>
                                         课题名称
                                     </th>
@@ -224,10 +229,10 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
-                                    <td>
+                                <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                    <!-- <td>
                                     <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-                                    </td>
+                                    </td> -->
                                   <td>
                                         <?php echo ($vo["subject_name"]); ?>
                                     </td>
