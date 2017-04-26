@@ -8,6 +8,23 @@ class XshdController extends CommonController{
 		if($_POST){
 			
 			$data = $_POST;
+			$upload = new \Think\Upload();
+		    $upload->maxSize   =     3145728 ;// 设置附件上传大小
+		    $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg','doc','docx');// 设置附件上传类型
+		    $upload->rootPath  =      './Public/Upload/'; // 设置附件上传根目录
+		    $upload->savePath  =      ''; // 设置附件上传（子）目录
+		    // 上传文件 		   
+		    $info   =   $upload->upload();
+
+			if(!$info){
+				$this->error($upload->getError());
+			}else{
+				foreach($info as $file){
+		            //echo $file['savepath'].$file['savename'];
+		            $data['introduction'] = $file['savepath'].$file['savename'];
+		           
+		        } 
+			}
 			$data['uid'] = $_SESSION['user_id'];
 			$data['status'] = 0;
 			if($model->create($data)){
@@ -43,7 +60,7 @@ class XshdController extends CommonController{
  		$show = $Page->show();		
 	    //dump($show);
 
-		$list = $model->where($map)->order('id')->limit($Page->firstRow.','.$Page->listRows)->select();
+		$list = $model->where($map)->order('id')->order('meetTime desc')->limit($Page->firstRow.','.$Page->listRows)->select();
 		
 		foreach($list as $k =>$value){
 			$list[$k]['uidcount'] = M('XsMeetAttend')->where(array('meet_id'=>$value['id']))->count('uid');
@@ -81,11 +98,61 @@ class XshdController extends CommonController{
 		
 
 	}
+	public function meet_delete(){
+		$id = I('id');
+		$model = M('XsMeet');
+		$res = $model->where(array('id'=>$id))->delete();
+		if($res){
+			$this->ajaxReturn(array('status'=>'success'));
+		}else{
+			$this->ajaxReturn(array('status'=>'error'));
+		}
+	}
+	public function domeetDownload(){
+		$model = M('XsMeet');
+		$map['id'] = $_GET['id'];
+		$result = $model->where($map)->select();
+		header("content-type:text/html;charset=utf-8");
+
+		$file_name="Public/Upload/".$result[0]['introduction'];
+		//dump($file_name);die;
+
+		if(!file_exists($file_name)){
+			echo "<script>alert('NOT FOND');window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Xshd/scanMeet';</script>";
+		}else{
+			$file=fopen($file_name,"r");
+			Header("Content-type:application/octet-stream");
+			Header("Accept-Ranges:bytes");
+			Header("Accept-Length:".filesize($file_name));
+			Header("Content-Disposition:attachment;filename=".$file_name);
+			echo fread($file,filesize($file_name));
+			fclose($file);
+			echo "<script>alert('下载完成');window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Xshd/scanMeet';</script>";
+			exit();
+		}
+	}
 	public function addLecture(){
 		$model = M('XsLecture');
 		if($_POST){
 			
 			$data = $_POST;
+			$upload = new \Think\Upload();
+		    $upload->maxSize   =     3145728 ;// 设置附件上传大小
+		    $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg','doc','docx');// 设置附件上传类型
+		    $upload->rootPath  =      './Public/Upload/'; // 设置附件上传根目录
+		    $upload->savePath  =      ''; // 设置附件上传（子）目录
+		    // 上传文件 		   
+		    $info   =   $upload->upload();
+
+			if(!$info){
+				$this->error($upload->getError());
+			}else{
+				foreach($info as $file){
+		            //echo $file['savepath'].$file['savename'];
+		            $data['introduction'] = $file['savepath'].$file['savename'];
+		           
+		        } 
+			}
 			$data['uid'] = $_SESSION['user_id'];
 			$data['status'] = 0;
 			if($model->create($data)){
@@ -159,6 +226,39 @@ class XshdController extends CommonController{
 			}
 		}
 	}
+	public function lecture_delete(){
+		$id = I('id');
+		$model = M('XsLecture');
+		$res = $model->where(array('id'=>$id))->delete();
+		if($res){
+			$this->ajaxReturn(array('status'=>'success'));
+		}else{
+			$this->ajaxReturn(array('status'=>'error'));
+		}
+	}
+	public function dolectureDownload(){
+		$model = M('XsLecture');
+		$map['id'] = $_GET['id'];
+		$result = $model->where($map)->select();
+		header("content-type:text/html;charset=utf-8");
+
+		$file_name="Public/Upload/".$result[0]['introduction'];
+		//dump($file_name);die;
+
+		if(!file_exists($file_name)){
+			echo "<script>alert('NOT FOND');window.close();</script>";
+		}else{
+			$file=fopen($file_name,"r");
+			Header("Content-type:application/octet-stream");
+			Header("Accept-Ranges:bytes");
+			Header("Accept-Length:".filesize($file_name));
+			Header("Content-Disposition:attachment;filename=".$file_name);
+			echo fread($file,filesize($file_name));
+			fclose($file);
+			echo "<script>alert('下载完成');window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Kytj/scanTheses';</script>";
+			exit();
+		}
+	}
 	public function addComposition(){
 		$model = M('XsComposition');
 		if($_POST){
@@ -190,7 +290,7 @@ class XshdController extends CommonController{
 			}*/
 			
 		}
-		$map['uid'] = $_SESSION['user_id'];
+		$map['status'] = array('neq',0);
 		$count = $model->where($map)->count();
 	    $Page = new \Think\Page($count,10);
  		$show = $Page->show();		
@@ -208,4 +308,32 @@ class XshdController extends CommonController{
 		Layout('Layout/layout');
 		$this->display();
 	}
-}
+	public function returnbook(){
+		$modal = M('XsComposition');
+		if(IS_POST){
+			$map['id'] = I('id');
+			$data['status'] = 4;
+			$res = $modal->where($map)->save($data);
+			if($res){
+				$this->ajaxReturn(array('status'=>'success'));
+			}else{
+				$this->ajaxReturn(array('status'=>'faild'));
+			}
+		}
+		
+	}
+	public function readbook(){
+		$modal = M('XsComposition');
+		if(IS_POST){
+			$map['id'] = I('id');
+			$data['status'] = 2;
+			$res = $modal->where($map)->save($data);
+			if($res){
+				$this->ajaxReturn(array('status'=>'success'));
+			}else{
+				$this->ajaxReturn(array('status'=>'faild'));
+			}
+		}
+		
+	}
+} 

@@ -45,8 +45,9 @@
 			         <div class="form-group">
 			          <div class="col-md-6">
 			            <select name="usergroup_id" class="form-control">
-			            	<option value="1">管理员</option>
-			            	<option value="2">普通管理员</option>
+			            	<volist name="grouplist" id="vo">
+				            	<option value="$vo['id']">{$vo.title}</option>
+				            </volist>
 			            </select>
 			          </div>
 			        </div>

@@ -1,3 +1,52 @@
-<div class="" style="background-color:#E4E6E9;height:60px;">
-
+<div class="col-md-12 column" style="background-color:#fff;opacity:0.8;border:1px solid #4857bf;border-radius:6px;height:60px;text-align:center;">
+  <div style="margin-top:15px;">
+    <span >Copyright 2016-2017 MIIC © All Rights Reserved</span>
+  </div>
 </div>
+</div>
+<script>
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
+</script>

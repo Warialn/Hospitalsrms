@@ -15,12 +15,17 @@
 <body>
 <div class="contain">
 	<div class="navbar navbar-duomi navbar-static-top" role="navigation">
+		
 	        <div class="container-fluid" style="background-color:#485b7f;">
+	        	<a href="http://localhost/test/Hospitalsrms/index.php/Home/Index/index"><img class="pull-right" title="前台首页" style="width:26px;height:26px;margin-top:9px;margin-right:50px;"src="/test/Hospitalsrms/Public//bootstrap/images/qianshou.png"></a>
 	            <div class="navbar-header">
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
+
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
+	            	<a href="<?php echo U('Login/logout');?>"><span title="退出" class="glyphicon glyphicon-off pull-right" style="color:white;font-size:18px;margin-top:15px;margin-left:20px;" aria-hidden="true"></span></a>
+    				<a href="<?php echo U('Index/index');?>"><span title="首页" class="glyphicon glyphicon-home pull-right" style="color:white;font-size:18px;margin-top:13px;margin-left:20px;" aria-hidden="true"></span></a>
+		            <p class="pull-right" style="font-size:15px;color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?></p>
 		        </div>
 	        </div>
 	    </div>
@@ -165,7 +170,7 @@
 												新闻管理
 											</a>
 										</li>
-										<li><a href="">
+										<li><a href="<?php echo U('Xtgl/password');?>">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>
@@ -198,20 +203,22 @@
 <div class="col-md-10 column" style="background-color:#fff;height:550px;">
     <div class="col-md-0">
     </div>
-     <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
+     <div class="col-md-12" style="background-color:#fff;border-radius:0px;height:520px;">
 
-                    <form name="form2" method="post" action="">
+                    <form name="form2" method="get" action="">
                         <table class="table  table-striped table-bordered table-hover"><br/>
                             <input  class="btn btn-default pull-right" type="submit" value="搜索">
+                            <a href="#"   class="btn btn-default delAll" id="">批量删除</a>
                             <div class="col-md-2 pull-right">
-                                <input class="form-control" type="text">
+                                <input class="form-control" type="text" placeholder="物资名称" name="name"/>
                             </div>
+                            <br/><br/>
                                                                     
                             <thead>
                                 <tr>
-                                    <!-- <th>
+                                    <th>
                                         <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                                    </th> -->
+                                    </th>
                                     <th>
                                         物品名称
                                     </th>
@@ -228,9 +235,9 @@
                             </thead>
                             <tbody>
                                 <?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-                                    <!-- <td>
-                                    <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
-                                    </td> -->
+                                    <td>
+                                    <input type="checkbox" name="checkAll" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
+                                    </td>
                                     <td>
                                         <?php echo ($vo["name"]); ?>
                                     </td>
@@ -261,8 +268,7 @@
                     <div class="col-md-12 column">
                         <?php echo ($page); ?>
                     </div>
-                </div>
-                </div>
+               
             </div>
             <script>
             $('.agree').click(function(){
@@ -308,7 +314,81 @@
                     }
                 });
             });
-            </script>
-<div class="" style="background-color:#E4E6E9;height:60px;">
+            $(".delAll").click(function(){
+    var data={};
+    data.id = $("input:checkbox[name='checkAll']:checked").map(function(){
+        return $(this).val();
+    }).get().join(",");
+    //alert(check);
+    $.ajax({
+        url:'/test/Hospitalsrms/index.php/Admin/Xmsb/coller_delAll',
+        type:'post',
+        data:data,
+        dataType:'JSON',
+        success:function(data){
+            if(data.status == 'success'){
+                alert('删除成功！');
 
+                window.location.reload();
+                $(':checked').attr('checked',false);
+            }else{
+                alert('删除失败！');
+            }
+
+        }
+
+    });
+}); 
+            </script>
+<div class="col-md-12 column" style="background-color:#fff;border:1px solid #4857bf;height:60px;text-align:center;">
+  <div style="margin-top:15px;">
+    <span >Copyright 2016-2017 MIIC © All Rights Reserved</span>
+  </div>
 </div>
+</div>
+<script>
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
+</script>

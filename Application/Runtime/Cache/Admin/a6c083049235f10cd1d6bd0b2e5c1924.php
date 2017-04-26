@@ -25,7 +25,7 @@
 	            <div class="container">
 	            	<a href="<?php echo U('Login/logout');?>"><span title="退出" class="glyphicon glyphicon-off pull-right" style="color:white;font-size:18px;margin-top:15px;margin-left:20px;" aria-hidden="true"></span></a>
     				<a href="<?php echo U('Index/index');?>"><span title="首页" class="glyphicon glyphicon-home pull-right" style="color:white;font-size:18px;margin-top:13px;margin-left:20px;" aria-hidden="true"></span></a>
-		            <p class="pull-right" style="font-size:15px;color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
+		            <p class="pull-right" style="font-size:15px;color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?></p>
 		        </div>
 	        </div>
 	    </div>
@@ -223,7 +223,11 @@
         }
 
 </style>
- <div class="main-content">
+<div style="height:30px;background-color:#E4E6E9;
+ padding:5px 3px 0px 200px;">系统管理>用户管理</div>
+<div class="col-md-10 column" style="background-color:#fff;height:550px;">
+    <div class="col-md-0">
+    </div>
     <div id="modal-overlay" class="userAdd">
         <div class="modal-data">
             <ul class="breadcrumb">
@@ -262,7 +266,7 @@
                                 <label class="col-sm-3 control-label no-padding-right"> 用户组： </label>
 
                                <div class="col-sm-9" style="line-height:30px;" id="ischeck">
-                                    <?php if(is_array($group_data)): $i = 0; $__LIST__ = $group_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_data_vo): $mod = ($i % 2 );++$i;?><input type="checkbox" name="usergroup" value="<?php echo ($group_data_vo['id']); ?>" style="margin-right:5px;"><?php echo ($group_data_vo['alias_name']); endforeach; endif; else: echo "" ;endif; ?>
+                                    <?php if(is_array($group_data)): $i = 0; $__LIST__ = $group_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_data_vo): $mod = ($i % 2 );++$i;?><input type="checkbox" name="usergroup" value="<?php echo ($group_data_vo['id']); ?>" style="margin-right:5px;"><?php echo ($group_data_vo['title']); endforeach; endif; else: echo "" ;endif; ?>
                                </div>
                                
                             </div>
@@ -338,7 +342,7 @@
                                 <label class="col-sm-3 control-label no-padding-right"> 用户组： </label>
 
                                <div class="col-sm-9" style="line-height:30px;" id="ischeck">
-                                    <?php if(is_array($group_data)): $i = 0; $__LIST__ = $group_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_data_vo): $mod = ($i % 2 );++$i;?><input type="checkbox" name="usergroup" value="<?php echo ($group_data_vo['id']); ?>" style="margin-right:5px;"><?php echo ($group_data_vo['alias_name']); endforeach; endif; else: echo "" ;endif; ?>
+                                    <?php if(is_array($group_data)): $i = 0; $__LIST__ = $group_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$group_data_vo): $mod = ($i % 2 );++$i;?><input type="checkbox" name="usergroup" value="<?php echo ($group_data_vo['id']); ?>" style="margin-right:5px;"><?php echo ($group_data_vo['title']); endforeach; endif; else: echo "" ;endif; ?>
                                </div>
                                
                             </div>
@@ -404,68 +408,59 @@
             </div>
         </div>
     </div>
-     <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 60px;">系统管理>用户管理</div>
-                <div class="buttonGroup">
-                    <a href="#" class="btn btn-link" id="userAdd"><i class="icon-plus-sign bigger-120 green"></i>添加</a>
-                    </if>
-                    <if condition = "authcheck('Home/Negroup/user_delete','1','')">  
-                    <!-- <a href="#" class="btn btn-link" id="delUser">批量删除</a> -->
-                </div>
+   <div class="buttonGroup">
+        <br/>
+        <a href="#"   class="btn btn-default delAll" id="">批量删除</a>
+        <a href="#" class="btn btn-default" id="userAdd">添加</a>   
+    </div>
+    <br/>
 
-                <div class="table-responsive">
+    <div class="table-responsive" style="height:400px;">
+            <table id="table" class="table table-striped table-bordered table-hover">
+                <thead>
+                <tr>
+                    <!-- <th class="center">
+                        <label>
+                            <input type="checkbox" class="ace" />
+                            <span class="lbl"></span>
+                        </label>
+                    </th> -->
+                    <th><input type="checkbox" id="selAll" onclick="selectAll();"/>  全选</th>
+                    <th>用户名</th>
+                    <th>用户组</th>
+                    <th>注册时间</th>
+                    <th>最后在线时间</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                        <td><input type="checkbox" name="checkAll" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/></td>
+                        <td><?php echo ($vo["user_name"]); ?></td>
+                        <td><?php echo ($vo["title"]); ?></td>
+                        <td><?php echo (date('Y-m-d H:i:s',$vo["reg_time"])); ?></td>
+                        <td><?php if($vo['last_time'] == 0): ?>--
+                        <?php else: ?>
+                        <?php echo (date('Y-m-d H:i:s',$vo["last_time"])); endif; ?></td>
+                        <td>
+                            <a  href="#" class="green Usered"  data1="<?php echo ($vo['id']); ?>" title="编辑">
+                               编辑
+                            </a>
 
-
-                    <table id="table" class="table table-striped table-bordered table-hover">
-                        <thead>
-                        <tr>
-                            <!-- <th class="center">
-                                <label>
-                                    <input type="checkbox" class="ace" />
-                                    <span class="lbl"></span>
-                                </label>
-                            </th> -->
-                            <th><input type="checkbox"></th>
-                            <th>用户名</th>
-                            <th>用户组</th>
-                            <th>注册时间</th>
-                            <th>最后在线时间</th>
-                            <th>操作</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-                                <td><input type="checkbox" name="checkbox"  value="<?php echo ($vo['id']); ?>"></td>
-                                <td><?php echo ($vo["user_name"]); ?></td>
-                                <td><?php echo ($vo["alias_name"]); ?></td>
-                                <td><?php echo (date('Y-m-d H:i:s',$vo["reg_time"])); ?></td>
-                                <td><?php if($vo['last_time'] == 0): ?>--
-                                <?php else: ?>
-                                <?php echo (date('Y-m-d H:i:s',$vo["last_time"])); endif; ?></td>
-                                <td>
-                                    <a  href="#" class="green Usered"  data1="<?php echo ($vo['id']); ?>" title="编辑">
-                                       编辑
-                                    </a>
-
-                                    <a  href="#" class="red Userde"  data2="<?php echo ($vo['id']); ?>"title="删除">
-                                        删除
-                                    </a>
-                                    
-                                </td>
-                            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+                            <a  href="#" class="red Userde"  data2="<?php echo ($vo['id']); ?>"title="删除">
+                                删除
+                            </a>
+                            
+                        </td>
+                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                </tbody>
+            </table>
         </div>
         <div class="dataTables_paginate paging_bootstrap">
             <ul class="pagination">
                 <?php echo ($user_show); ?>
             </ul>
         </div>
-    </div>
-</div>
-<div style="clear: both"></div>
-</div>
 
 <script>
     $(".closePop").css('cusor','pointer').click(function(){
@@ -587,37 +582,81 @@
         });
 
     });
+ $(".delAll").click(function(){
+    var data={};
+    data.id = $("input:checkbox[name='checkAll']:checked").map(function(){
+        return $(this).val();
+    }).get().join(",");
+    //alert(check);
+    $.ajax({
+        url:'/test/Hospitalsrms/index.php/Admin/Xtgl/user_delAll',
+        type:'post',
+        data:data,
+        dataType:'JSON',
+        success:function(data){
+            if(data.status == 'success'){
+                alert('删除成功！');
 
+                window.location.reload();
+                $(':checked').attr('checked',false);
+            }else{
+                alert('删除失败！');
+            }
 
-    
+        }
 
-
-
-    $(function () {
-        var leftSel = $("#selectL");
-        var rightSel = $("#selectR");;
-        $("#toright").bind("click", function () {
-            leftSel.find("option:selected").each(function () {
-                $(this).remove().appendTo(rightSel);
-            });
-        });
-        $("#toleft").bind("click", function () {
-            rightSel.find("option:selected").each(function () {
-                $(this).remove().appendTo(leftSel);
-            });
-        });
-        leftSel.dblclick(function () {
-            $(this).find("option:selected").each(function () {
-                $(this).remove().appendTo(rightSel);
-            });
-        });
-        rightSel.dblclick(function () {
-            $(this).find("option:selected").each(function () {
-                $(this).remove().appendTo(leftSel);
-            });
-        });
     });
+}); 
 </script>
-<div class="" style="background-color:#E4E6E9;height:60px;">
-
+<div class="col-md-12 column" style="background-color:#fff;opacity:0.8;border:1px solid #4857bf;border-radius:6px;height:60px;text-align:center;">
+  <div style="margin-top:15px;">
+    <span >Copyright 2016-2017 MIIC © All Rights Reserved</span>
+  </div>
 </div>
+</div>
+<script>
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
+</script>

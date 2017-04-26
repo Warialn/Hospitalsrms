@@ -3,19 +3,21 @@
 <div class="col-md-10 column" style="background-color:#fff;height:550px;">
     <div class="col-md-0">
     </div>
-    <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
+    <div class="col-md-12" style="background-color:#fff;border-radius:0px;height:520px;">
 
-        <form name="form2" method="post" action="">
+        <form name="form2" method="get" action="">
            <table class="table table-striped table-bordered table-hover"><br/>
+            <a href="#"   class="btn btn-default delAll" id="">批量删除</a>
             <input  class="btn btn-default pull-right" type="submit" value="搜索">
                 <div class="col-md-2 pull-right">
-                    <input class="form-control" type="text" laceholder="设备名称" name="name"/>
+                    <input class="form-control" type="text" placeholder="设备名称" name="name"/>
                 </div>
+                <br/><br/>
                     <thead>
                         <tr>
-                            <!-- <th>
+                            <th>
                                 <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                            </th> -->
+                            </th>
                             <th>
                                 设备名称
                             </th>
@@ -28,18 +30,18 @@
                             <th>
                                 时间
                             </th>
-                             <th>
+                             <!-- <th>
                                操作
-                            </th>
+                            </th> -->
                         </tr>
                     </thead>
                     <tbody>
                         <volist name="thesesList" id="vo">
                     
                         <tr class="<?php echo $col;?>">
-                            <!-- <td>
-                                <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
-                            </td> -->
+                            <td>
+                                <input type="checkbox" name="checkAll" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
+                            </td>
                             <td>
                                 {$vo.name}
                             </td>
@@ -52,7 +54,7 @@
                             <td>
                                 {$vo.time}
                             </td>
-                            <td>
+                            <!-- <td>
                                  <a  href="#" class="green deleteuser"title="编辑">
                                    编辑
                                 </a>
@@ -62,7 +64,7 @@
                                 </a>
 
                                 <input type="hidden" value="{$vo['id']}">
-                            </td>
+                            </td> -->
                         </tr>
                     </volist>
                 </tbody>
@@ -72,5 +74,31 @@
         {$page}
     </div>
 </div>
-</div>
-</div>
+
+<script>
+ $(".delAll").click(function(){
+    var data={};
+    data.id = $("input:checkbox[name='checkAll']:checked").map(function(){
+        return $(this).val();
+    }).get().join(",");
+    //alert(check);
+    $.ajax({
+        url:'__URL__/equipment_delAll',
+        type:'post',
+        data:data,
+        dataType:'JSON',
+        success:function(data){
+            if(data.status == 'success'){
+                alert('删除成功！');
+
+                window.location.reload();
+                $(':checked').attr('checked',false);
+            }else{
+                alert('删除失败！');
+            }
+
+        }
+
+    });
+}); 
+</script>

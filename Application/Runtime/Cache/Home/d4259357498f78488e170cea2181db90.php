@@ -4,6 +4,7 @@
 		<title>综合性医院科研管理系统</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8">
 		<meta name="keywords" content="Play-Offs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 		<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<!meta charset utf="8">
@@ -173,7 +174,7 @@
 				<table width="795" height="287"  class="table">
 					<tr>
 					<td width="246">著作名称（<span class="fontStar">※</span>）</td>
-					<td width="533"><input type="text" class="form-control input-sm" id="name1" placeholder="" name="lectureName"></td>
+					<td width="533"><input type="text" class="form-control input-sm" id="name1" placeholder="" name="compositionName"></td>
 					</tr>
 					<tr>
 					<td>作者（<span class="fontStar">※</span>）</td>
@@ -214,7 +215,7 @@
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
 		<span><img src="/test/Hospitalsrms/Public//img/logo.png"></span>
-		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo-font.png"></h4>
+		<h4 style="display:inline"><img src="/test/Hospitalsrms/Public//img/logo_font2.png"></h4>
 	</div>
 	<hr style="height:1px;background-color:#494949;border:none;margin-top:0">
 	<div class="col-md-12">
@@ -265,7 +266,7 @@
 
 <div class="row footer-bottom" style="background-color:#111111;color:#FFFFFF; padding-top:20px;padding-bottom:15px;">
   <ul class="list-inline text-center">
-    <li>Copyright 2015-2016 <a href="" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
+    <li>Copyright 2016-2017 <a href="" target="_blank" style="color:#309bbe">MIIC</a> © All Rights Reserved</li>
   </ul>
 </div>
 
@@ -297,7 +298,7 @@
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
+$('#datetimepicker').datetimepicker({value:'2017/05/05 07:00',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({
@@ -308,4 +309,50 @@ var logic = function( currentDateTime ){
 			minTime:'8:00'
 		});
 };
+
+
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
 </script>

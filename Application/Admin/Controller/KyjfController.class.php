@@ -5,9 +5,9 @@ use Think\Controller;
  
 	 public function index(){
 	 	$model=M('JfExpense');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
+		$name = I('name');
+		if($name){
+			$map['user'] = $name;
 
 		}
 		//$map['uid'] = $_SESSION['user_id'];
@@ -61,9 +61,9 @@ use Think\Controller;
 	}
 	 public function apply(){
 	 	$model=M('JfExpenseApply');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
+		$name = I('name');
+		if($name){
+			$map['user'] = $name;
 
 		}
 		//$map['uid'] = $_SESSION['user_id'];

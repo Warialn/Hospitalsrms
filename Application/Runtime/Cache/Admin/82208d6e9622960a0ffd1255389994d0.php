@@ -15,12 +15,17 @@
 <body>
 <div class="contain">
 	<div class="navbar navbar-duomi navbar-static-top" role="navigation">
+		
 	        <div class="container-fluid" style="background-color:#485b7f;">
+	        	<a href="http://localhost/test/Hospitalsrms/index.php/Home/Index/index"><img class="pull-right" title="前台首页" style="width:26px;height:26px;margin-top:9px;margin-right:50px;"src="/test/Hospitalsrms/Public//bootstrap/images/qianshou.png"></a>
 	            <div class="navbar-header">
 	                <span class="navbar-brand"id="logo">后台管理系统</span>
+
 	            </div>
 	            <div class="container">
-		            <p class="pull-right" style="color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
+	            	<a href="<?php echo U('Login/logout');?>"><span title="退出" class="glyphicon glyphicon-off pull-right" style="color:white;font-size:18px;margin-top:15px;margin-left:20px;" aria-hidden="true"></span></a>
+    				<a href="<?php echo U('Index/index');?>"><span title="首页" class="glyphicon glyphicon-home pull-right" style="color:white;font-size:18px;margin-top:13px;margin-left:20px;" aria-hidden="true"></span></a>
+		            <p class="pull-right" style="font-size:15px;color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?></p>
 		        </div>
 	        </div>
 	    </div>
@@ -165,7 +170,7 @@
 												新闻管理
 											</a>
 										</li>
-										<li><a href="">
+										<li><a href="<?php echo U('Xtgl/password');?>">
 												<i class="icon-double-angle-right"></i>
 												密码管理
 											</a>
@@ -240,17 +245,24 @@
                                     <td>
                                         <?php echo ($vo["time"]); ?>
                                     </td>
-                                   <td>
-                                       <a  href="#" class="green agree"title="同意">
+                                  <td>
+                                       <?php if($vo['status'] == 0): ?><a  data1 = "<?php echo ($vo['id']); ?>"href="#" class="green agree"title="同意">
                                            同意
                                         </a>
 
-                                        <a class="red refuse"  href="#" title="拒绝">
+                                        <!-- <a data2 = "<?php echo ($vo['id']); ?>" class="red refuse"  href="#" title="拒绝">
                                             拒绝
-                                        </a>
-
-                                        <input type="hidden" value="<?php echo ($vo['id']); ?>">  
-                                    </td>                          
+                                        </a> -->
+                                        
+                                    <?php elseif($vo['status'] == 1): ?>
+                                    <span style="color:green">在库</span>
+                                <?php elseif($vo['status'] == 2): ?> 
+                                <a href="#" class="agreeread" data3="<?php echo ($vo['id']); ?>"><span style="color:blue">同意借阅</span></a>
+                                <?php elseif($vo['status'] == 3): ?>
+                                <span style="color:red">被借阅</span>
+                                <?php elseif($vo['status'] == 4): ?>
+                                <a href="#" class="agreereturn" data4="<?php echo ($vo['id']); ?>"><span style="color:green">确认归还</span></a><?php endif; ?>  
+                                    </td>                           
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                            
                             </tbody>
@@ -262,6 +274,120 @@
                 </div>
                 </div>
             </div>
-<div class="" style="background-color:#E4E6E9;height:60px;">
+            <script>
 
+            $('.agree').click(function(){
+                var data ={};
+                data.id = $(this).attr('data1');
+                data.stat = 'agree';
+                $.ajax({
+                    type:'POST',
+                    url:'/test/Hospitalsrms/index.php/Admin/Xshd/composition_edit',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+                            window.location.reload();
+
+                        }
+                       
+                    }
+                });
+            });
+            $('.agreeread').click(function(){
+                var data ={};
+                data.id = $(this).attr('data3');
+                $.ajax({
+                    type:'POST',
+                    url:'/test/Hospitalsrms/index.php/Admin/Xshd/agreeread',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+
+                        }
+                       
+                    }
+                });
+            });
+             $('.agreereturn').click(function(){
+                var data ={};
+                data.id = $(this).attr('data4');
+                $.ajax({
+                    type:'POST',
+                    url:'/test/Hospitalsrms/index.php/Admin/Xshd/agreereturn',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+
+                        }
+                       
+                    }
+                });
+            });
+            </script>
+<div class="col-md-12 column" style="background-color:#fff;opacity:0.8;border:1px solid #4857bf;border-radius:6px;height:60px;text-align:center;">
+  <div style="margin-top:15px;">
+    <span >Copyright 2016-2017 MIIC © All Rights Reserved</span>
+  </div>
 </div>
+</div>
+<script>
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
+</script>

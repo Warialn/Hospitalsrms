@@ -162,7 +162,7 @@
 			</div>
 		</div>
 		<div class="col-md-8" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;margin-right:30px;">
-			<form role="form" style="padding-top:15px;" action="http://localhost/test/Hospitalsrms/index.php/Home/Xmsb/index" method="post" name="myform" onsubmit="return CheckPost();">
+			<form role="form" enctype="multipart/form-data" style="padding-top:15px;" action="http://localhost/test/Hospitalsrms/index.php/Home/Xmsb/index" method="post" name="myform" onsubmit="return CheckPost();">
 				<div class="row-fluid col-md-12" style="padding-top:5px;">
 					<div class="form-group col-md-3" style="padding-top:0px;padding-left:20px; padding-right:0;">
 					   <select class="form-control input-sm" name="date">
@@ -351,4 +351,50 @@ var logic = function( currentDateTime ){
 			minTime:'8:00'
 		});
 };
+
+
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
 </script>

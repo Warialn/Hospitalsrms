@@ -75,7 +75,7 @@
 										时间
 									</th>
 									<th>
-										地点
+										会议简介
 									</th>
 									<th>
 										操作
@@ -96,16 +96,17 @@
 										{$vo.organizer}
 									</td>
 									<td>
-										{$vo.meetTime}
+										{$vo.meettime}
 									</td>
 									<td>
-										{$vo.address}
+										<a href="{:U('Xshd/domeetDownload',array('id'=>$vo['id']))}">{$vo.introduction}</a>
 									</td>
 									<td>
 										<if condition="$vo['status'] eq 1">
 										<a href="#" class="attend" data="{$vo['id']}">参加（{$vo.uidcount}）</a>
 										<elseif condition = "$vo['status'] eq 2"/>
 										<span style="color:red">已被拒绝</span>
+										<a href="#" style="color:red;" data2="{$vo['id']}" class="delete">删除</a>
 										<else/><span style="color:green">审核中</span></if>
 									</td>
 								</tr>
@@ -123,7 +124,25 @@
 	</div>
 </div>
 <script>
-
+ $('.delete').click(function(){
+ 	var row = $(this).parents('tr');
+    var id = $(this).attr('data2');
+    $.ajax({
+    	url:'__URL__/meet_delete',
+    	type:'post',
+    	data:{'id':id},
+    	dataType:'json',
+    	success:function(data){
+    		if(data.status=='success'){
+                  
+                    alert("操作成功");
+                    window.location.reload();
+                }else if(data.status=='error'){
+                    alert("操作失败");
+                }
+            }
+    	});
+ });
 $('.attend').click(function(){
 	var id = $(this).attr('data');
 	$.ajax({

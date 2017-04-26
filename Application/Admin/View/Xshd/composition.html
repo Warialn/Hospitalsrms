@@ -48,17 +48,26 @@
                                     <td>
                                         {$vo.time}
                                     </td>
-                                   <td>
-                                       <a  href="#" class="green agree"title="同意">
+                                  <td>
+                                       <if condition="$vo['status'] eq 0">
+                                       <a  data1 = "{$vo['id']}"href="#" class="green agree"title="同意">
                                            同意
                                         </a>
 
-                                        <a class="red refuse"  href="#" title="拒绝">
+                                        <!-- <a data2 = "{$vo['id']}" class="red refuse"  href="#" title="拒绝">
                                             拒绝
-                                        </a>
-
-                                        <input type="hidden" value="{$vo['id']}">  
-                                    </td>                          
+                                        </a> -->
+                                        
+                                    <elseif condition = "$vo['status'] eq 1"/>
+                                    <span style="color:green">在库</span>
+                                <elseif condition = "$vo['status'] eq 2"/> 
+                                <a href="#" class="agreeread" data3="{$vo['id']}"><span style="color:blue">同意借阅</span></a>
+                                <elseif condition="$vo['status'] eq 3"/>
+                                <span style="color:red">被借阅</span>
+                                <elseif condition="$vo['status'] eq 4"/>
+                                <a href="#" class="agreereturn" data4="{$vo['id']}"><span style="color:green">确认归还</span></a>
+                            </if>  
+                                    </td>                           
                                 </tr>
                             </volist>
                            
@@ -71,3 +80,68 @@
                 </div>
                 </div>
             </div>
+            <script>
+
+            $('.agree').click(function(){
+                var data ={};
+                data.id = $(this).attr('data1');
+                data.stat = 'agree';
+                $.ajax({
+                    type:'POST',
+                    url:'__URL__/composition_edit',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+                            window.location.reload();
+
+                        }
+                       
+                    }
+                });
+            });
+            $('.agreeread').click(function(){
+                var data ={};
+                data.id = $(this).attr('data3');
+                $.ajax({
+                    type:'POST',
+                    url:'__URL__/agreeread',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+
+                        }
+                       
+                    }
+                });
+            });
+             $('.agreereturn').click(function(){
+                var data ={};
+                data.id = $(this).attr('data4');
+                $.ajax({
+                    type:'POST',
+                    url:'__URL__/agreereturn',
+                    data:data,
+                    dataType:'json',
+                    success:function(data){
+                        if(data.status == 'success'){
+                            alert('操作成功！');
+                            window.location.reload();
+                        }else{
+                            alert('操作失败！');
+
+                        }
+                       
+                    }
+                });
+            });
+            </script>

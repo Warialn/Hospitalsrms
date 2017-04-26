@@ -162,7 +162,7 @@
 				<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
 					<form name="form2" method="get" action="">
 						<div class="form-group " style="margin-top:20px;">
-							<a href="javascript:checkaction(1)"   class="btn btn-default" id="">批量删除</a><input type="submit"  class="btn btn-default pull-right" style="color:white;background-color:#337ab7;"value="搜索"/>
+							<a href="#"   class="btn btn-default delAll" id="">批量删除</a><input type="submit"  class="btn btn-default pull-right" style="color:white;background-color:#337ab7;"value="搜索"/>
 							<input class="form-control col-sm-3 pull-right " type="text" id="" name="year"  placeholder="年份" class="text" style="width:85px;"/>
 							<input class="form-control col-sm-3 pull-right" name="name" type="text" style="width:85px;"placeholder="成果名称" />
 						 
@@ -190,7 +190,7 @@
 							<tbody>
 								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="<?php echo $col;?>">
 									<td>
-										<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
+										<input type="checkbox" name="checkAll" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
 									</td>
 									<td>
 										<?php echo ($vo["name"]); ?>
@@ -214,6 +214,35 @@
 	</div>
 </div>
 <script>
+$(".delAll").click(function(){
+	var data={};
+	data.id = $("input:checkbox[name='checkAll']:checked").map(function(){
+		return $(this).val();
+	}).get().join(",");
+	if(data.id ==''){
+		alert('请选择数据！');
+		return false;
+	}
+	$.ajax({
+		url:'/test/Hospitalsrms/index.php/Home/Kytj/achievement_delAll',
+		type:'post',
+		data:data,
+		dataType:'JSON',
+		success:function(data){
+			if(data.status == 'success'){
+				alert('删除成功！');
+
+				window.location.reload();
+				$(':checked').attr('checked',false);
+			}else{
+				alert('删除失败！');
+			}
+
+		}
+
+	});
+});
+
 </script>
 
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
@@ -302,7 +331,7 @@
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
+$('#datetimepicker').datetimepicker({value:'2017/05/05 07:00',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({
@@ -313,4 +342,50 @@ var logic = function( currentDateTime ){
 			minTime:'8:00'
 		});
 };
+
+
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
 </script>

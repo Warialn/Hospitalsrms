@@ -4,20 +4,22 @@
 <div class="col-md-10 column" style="background-color:#fff;height:550px;">
     <div class="col-md-0">
     </div>
-     <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
+     <div class="col-md-12" style="background-color:#fff;border-radius:0px;height:520px;">
 
-                    <form name="form2" method="post" action="">
+                    <form name="form2" method="get" action="">
                         <table class="table  table-striped table-bordered table-hover"><br/>
                             <input  class="btn btn-default pull-right" type="submit" value="搜索">
+                            <a href="#"   class="btn btn-default delAll" id="">批量删除</a>
                             <div class="col-md-2 pull-right">
-                                <input class="form-control" type="text">
+                                <input class="form-control" type="text" placeholder="物资名称" name="name"/>
                             </div>
+                            <br/><br/>
                                                                     
                             <thead>
                                 <tr>
-                                    <!-- <th>
+                                    <th>
                                         <input type="checkbox" id="selAll" onclick="selectAll();"/>  全选
-                                    </th> -->
+                                    </th>
                                     <th>
                                         物品名称
                                     </th>
@@ -36,9 +38,9 @@
                                 <volist name="thesesList" id="vo">
                                 
                                 <tr>
-                                    <!-- <td>
-                                    <input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
-                                    </td> -->
+                                    <td>
+                                    <input type="checkbox" name="checkAll" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/>
+                                    </td>
                                     <td>
                                         {$vo.name}
                                     </td>
@@ -71,8 +73,7 @@
                     <div class="col-md-12 column">
                         {$page}
                     </div>
-                </div>
-                </div>
+               
             </div>
             <script>
             $('.agree').click(function(){
@@ -118,4 +119,29 @@
                     }
                 });
             });
+            $(".delAll").click(function(){
+    var data={};
+    data.id = $("input:checkbox[name='checkAll']:checked").map(function(){
+        return $(this).val();
+    }).get().join(",");
+    //alert(check);
+    $.ajax({
+        url:'__URL__/coller_delAll',
+        type:'post',
+        data:data,
+        dataType:'JSON',
+        success:function(data){
+            if(data.status == 'success'){
+                alert('删除成功！');
+
+                window.location.reload();
+                $(':checked').attr('checked',false);
+            }else{
+                alert('删除失败！');
+            }
+
+        }
+
+    });
+}); 
             </script>

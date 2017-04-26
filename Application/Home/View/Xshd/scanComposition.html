@@ -90,9 +90,19 @@
 											{$vo.time}
 										</td>
 										<td>
-											<if condition="$vo['status'] eq 0">
+											<if condition="$vo['status'] eq 3">
 												<span style="color:red">被借阅</span>
-												<else/><span style="color:green">在库</span></if>
+												<if condition="$vo['uid'] eq $_SESSION['user_id']">
+												<a href="#" class="returnbook" data="{$vo['id']}" style="color:green">归还</a>
+												</if>
+												<elseif condition="$vo['status'] eq 1"/>
+												<span style="color:green">在库</span>
+												<a href="#" class="readbook" data1="{$vo['id']}" style="color:blue">借阅</a>
+												<elseif condition="$vo['status'] eq 2"/>
+												<span style="color:blue">已申请借阅，待回复</span>
+												<elseif condition="$vo['status'] eq 4"/>
+												<span style="color:blue">已申请归还，待确认</span>
+											</if>
 										</td>
 										
 									</tr>
@@ -109,4 +119,40 @@
 	</div>
 </div>
 <script>
+$('.returnbook').click(function(){
+	var data={};
+    data.id = $(this).attr('data');
+	$.ajax({
+		url:'__URL__/returnbook',
+		type:'POST',
+		data:data,
+		dataType:'JSON',
+		success:function(data){
+			if(data.status == 'success'){
+				alert('归还图书成功！');
+				window.location.reload();
+			}else{
+				alert('归还图书失败！');
+			}
+		}
+	})
+})
+$('.readbook').click(function(){
+	var data={};
+    data.id = $(this).attr('data1');
+	$.ajax({
+		url:'__URL__/readbook',
+		type:'POST',
+		data:data,
+		dataType:'JSON',
+		success:function(data){
+			if(data.status == 'success'){
+				alert('申请借阅成功，等待审核！');
+				window.location.reload();
+			}else{
+				alert('借阅图书失败！');
+			}
+		}
+	})
+})
 	</script>

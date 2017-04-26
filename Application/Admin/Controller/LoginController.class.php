@@ -11,7 +11,9 @@ use Think\Controller;
 			$map['user_name'] = $data['user_name'];
 		   
 			$result = $User->where($map)->select();
-			if($result[0]['type'] == 0){
+			$group_id = $result[0]['usergroup_id'];
+			$type = M('Usergroup')->where(array('id'=>$group_id))->select()[0]['type'];
+	 		if($type == 0){
 				echo "<script>alert('对不起，您没有权限访问！');window.location.href='http://localhost/test/Hospitalsrms/index.php/Admin/Login/index'</script>";
 
 			}

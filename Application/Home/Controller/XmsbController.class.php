@@ -8,6 +8,23 @@ class XmsbController extends CommonController{
 		if($_POST){
 			
 			$data = $_POST;
+			$upload = new \Think\Upload();
+		    $upload->maxSize   =     3145728 ;// 设置附件上传大小
+		    $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg','doc','docx');// 设置附件上传类型
+		    $upload->rootPath  =      './Public/Upload/'; // 设置附件上传根目录
+		    $upload->savePath  =      ''; // 设置附件上传（子）目录
+		    // 上传文件 		   
+		    $info   =   $upload->upload();
+
+			if(!$info){
+				$this->error($upload->getError());
+			}else{
+				foreach($info as $file){
+		            //echo $file['savepath'].$file['savename'];
+		            $data['commitment_book'] = $file['savepath'].$file['savename'];
+		           
+		        } 
+			}
 			$data['uid'] = $_SESSION['user_id'];;
 		
 			if($model->create($data)){
@@ -90,6 +107,25 @@ class XmsbController extends CommonController{
 		}else{
 			$this->ajaxReturn(array('status'=>'error'));
 		}
+	}
+	public function subject_delAll(){
+		$model = M('XmSubject');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$where['status'] =array('eq',1);
+		$res = $model->where($where)->select();
+		if($res){
+			$this->ajaxReturn(array('status'=>'warning'));
+		}else{
+			$list=$model->where($where)->delete();  
+			if($list!==false) {
+			    $this->ajaxReturn(array('status'=>'success')); 
+			}else{   
+			     $this->ajaxReturn(array('status'=>'faild')); 
+			} 
+			
+		}
+
 	}
 	public function department(){
 		$model = M('XmDepartment');
@@ -185,6 +221,25 @@ class XmsbController extends CommonController{
 			$this->ajaxReturn(array('status'=>'error'));
 		}
 	}
+	public function department_delAll(){
+		$model = M('XmDepartment');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$where['status'] =array('eq',1);
+		$res = $model->where($where)->select();
+		if($res){
+			$this->ajaxReturn(array('status'=>'warning'));
+		}else{
+			$list=$model->where($where)->delete();  
+			if($list!==false) {
+			    $this->ajaxReturn(array('status'=>'success')); 
+			}else{   
+			     $this->ajaxReturn(array('status'=>'faild')); 
+			} 
+			
+		}
+
+	}
 	public function coller(){
 		$model = M('XmColler');
 		if($_POST){
@@ -267,6 +322,25 @@ class XmsbController extends CommonController{
 		}else{
 			$this->ajaxReturn(array('status'=>'error'));
 		}
+	}
+	public function coller_delAll(){
+		$model = M('XmColler');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$where['status'] =array('eq',1);
+		$res = $model->where($where)->select();
+		if($res){
+			$this->ajaxReturn(array('status'=>'warning'));
+		}else{
+			$list=$model->where($where)->delete();  
+			if($list!==false) {
+			    $this->ajaxReturn(array('status'=>'success')); 
+			}else{   
+			     $this->ajaxReturn(array('status'=>'faild')); 
+			} 
+			
+		}
+
 	}
 	public function purchase(){
 		$model = M('XmPurchase');
@@ -356,5 +430,24 @@ class XmsbController extends CommonController{
 		}else{
 			$this->ajaxReturn(array('status'=>'error'));
 		}
+	}
+	public function purchase_delAll(){
+		$model = M('XmPurchase');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$where['status'] =array('eq',1);
+		$res = $model->where($where)->select();
+		if($res){
+			$this->ajaxReturn(array('status'=>'warning'));
+		}else{
+			$list=$model->where($where)->delete();  
+			if($list!==false) {
+			    $this->ajaxReturn(array('status'=>'success')); 
+			}else{   
+			     $this->ajaxReturn(array('status'=>'faild')); 
+			} 
+			
+		}
+
 	}
 }

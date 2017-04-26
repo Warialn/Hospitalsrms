@@ -4,6 +4,7 @@
 		<title>综合性医院科研管理系统</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8">
 		<meta name="keywords" content="Play-Offs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 		<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<!meta charset utf="8">
@@ -158,7 +159,7 @@
 				<div class="col-md-8 column" style="background-color:#f8f8f8;border-radius:6px;border:1px solid #e8e8e8;">
 					<form name="form2" method="get" action="">
 						<div class="form-group " style="margin-top:20px;">
-							<a href="javascript:checkaction(1)"   class="btn btn-default" id="">批量删除</a><input type="submit" class="btn btn-default pull-right search" style="color:white;background-color:#337ab7;" value="搜索">
+							<!-- <a href="javascript:checkaction(1)"   class="btn btn-default" id="">批量删除</a> --><input type="submit" class="btn btn-default pull-right search" style="color:white;background-color:#337ab7;" value="搜索">
 							<!-- <input class="form-control col-sm-3 pull-right " type="text" id="" name="year"  placeholder="年份" class="text" style="width:85px;"/> -->
 							<input class="form-control col-sm-3 pull-right" name="name" type="text" style="width:85px;"placeholder="讲座名称" />
 						 
@@ -182,7 +183,7 @@
 										时间
 									</th>
 									<th>
-										地点
+										讲座简介
 									</th>
 									<th>
 										操作
@@ -204,12 +205,13 @@
 										<?php echo ($vo["time"]); ?>
 									</td>
 									<td>
-										<?php echo ($vo["address"]); ?>
+										<a href="<?php echo U('Xshd/dolectureDownload',array('id'=>$vo['id']));?>"><?php echo ($vo["introduction"]); ?></a>
 									</td>
 									<td>
 										<?php if($vo['status'] == 1): ?><a href="#" class="attend" data="<?php echo ($vo['id']); ?>">参加（<?php echo ($vo["uidcount"]); ?>）</a>
 										<?php elseif($vo['status'] == 2): ?>
 										<span style="color:red">已被拒绝</span>
+										<a href="#" style="color:red;" data2="<?php echo ($vo['id']); ?>" class="delete">删除</a>
 										<?php else: ?><span style="color:green">审核中</span><?php endif; ?>
 									</td>
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -238,6 +240,25 @@
 	</div>
 </div>
 <script>
+ $('.delete').click(function(){
+ 	var row = $(this).parents('tr');
+    var id = $(this).attr('data2');
+    $.ajax({
+    	url:'/test/Hospitalsrms/index.php/Home/Xshd/lecture_delete',
+    	type:'post',
+    	data:{'id':id},
+    	dataType:'json',
+    	success:function(data){
+    		if(data.status=='success'){
+                  
+                    alert("操作成功");
+                    window.location.reload();
+                }else if(data.status=='error'){
+                    alert("操作失败");
+                }
+            }
+    	});
+ });
 $('.attend').click(function(){
 	var id = $(this).attr('data');
 	$.ajax({
@@ -257,80 +278,7 @@ $('.attend').click(function(){
 		}
 	})
 })
-	function look(){
-	    document.form1.action="/test/Hospitalsrms/index.php/Home/Xshd/scanLecture";
-	}
-	function mod(){
-		document.form2.action="modify_cost.php";
-	}
-	function checkaction(v){
-	if(v==0){
-		document.form2.method="get";
-		document.form2.action="/test/Hospitalsrms/index.php/Home/Xshd/deleteAll";
-	}else if(v==1){
-		document.form2.method="get";
-		document.form2.action="/test/Hospitalsrms/index.php/Home/Xshd/updatefile";
-	}else{
-		document.form2.method="get";
-		document.form2.action="/test/Hospitalsrms/index.php/Home/Xshd/export";
-	}
-	form2.submit();
-}
-//选中全选按钮，下面的checkbox全部选中
-var selAll = document.getElementById("selAll");
-function selectAll()
-{
-  var obj = document.getElementsByName("checkAll[]");
-  if(document.getElementById("selAll").checked == false)
-  {
-  for(var i=0; i<obj.length; i++)
-  {
-    obj[i].checked=false;
-  }
-  }else
-  {
-  for(var i=0; i<obj.length; i++)
-  {  
-    obj[i].checked=true;
-  }
-  }
- 
-}
-
-//当选中所有的时候，全选按钮会勾上
-function setSelectAll()
-{
-var obj=document.getElementsByName("checkAll[]");
-var count = obj.length;
-var selectCount = 0;
-
-for(var i = 0; i < count; i++)
-{
-if(obj[i].checked == true)
-{
-selectCount++;
-}
-}
-if(count == selectCount)
-{
-document.all.selAll.checked = true;
-}
-else
-{
-document.all.selAll.checked = false;
-}
-}
-
-//反选按钮
-function inverse() {
-var checkboxs=document.getElementsByName("checkAll");
-for (var i=0;i<checkboxs.length;i++) {
-  var e=checkboxs[i];
-  e.checked=!e.checked;
-  setSelectAll();
-}
-}
-	</script>
+</script>
 
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
 	<div class="row" style="padding-left:50px;margin:0;">
@@ -418,7 +366,7 @@ for (var i=0;i<checkboxs.length;i++) {
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
+$('#datetimepicker').datetimepicker({value:'2017/05/05 07:00',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({
@@ -429,4 +377,50 @@ var logic = function( currentDateTime ){
 			minTime:'8:00'
 		});
 };
+
+
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
 </script>

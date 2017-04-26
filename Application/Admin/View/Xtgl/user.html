@@ -24,7 +24,11 @@
         }
 
 </style>
- <div class="main-content">
+<div style="height:30px;background-color:#E4E6E9;
+ padding:5px 3px 0px 200px;">系统管理>用户管理</div>
+<div class="col-md-10 column" style="background-color:#fff;height:550px;">
+    <div class="col-md-0">
+    </div>
     <div id="modal-overlay" class="userAdd">
         <div class="modal-data">
             <ul class="breadcrumb">
@@ -65,7 +69,7 @@
                                <div class="col-sm-9" style="line-height:30px;" id="ischeck">
                                     <volist name="group_data" id="group_data_vo" >
                                         
-                                          <input type="checkbox" name="usergroup" value="{$group_data_vo['id']}" style="margin-right:5px;">{$group_data_vo['alias_name']}
+                                          <input type="checkbox" name="usergroup" value="{$group_data_vo['id']}" style="margin-right:5px;">{$group_data_vo['title']}
                                     </volist>
                                </div>
                                
@@ -144,7 +148,7 @@
                                <div class="col-sm-9" style="line-height:30px;" id="ischeck">
                                     <volist name="group_data" id="group_data_vo" >
                                         
-                                          <input type="checkbox" name="usergroup" value="{$group_data_vo['id']}" style="margin-right:5px;">{$group_data_vo['alias_name']}
+                                          <input type="checkbox" name="usergroup" value="{$group_data_vo['id']}" style="margin-right:5px;">{$group_data_vo['title']}
                                     </volist>
                                </div>
                                
@@ -211,72 +215,63 @@
             </div>
         </div>
     </div>
-     <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 60px;">系统管理>用户管理</div>
-                <div class="buttonGroup">
-                    <a href="#" class="btn btn-link" id="userAdd"><i class="icon-plus-sign bigger-120 green"></i>添加</a>
-                    </if>
-                    <if condition = "authcheck('Home/Negroup/user_delete','1','')">  
-                    <!-- <a href="#" class="btn btn-link" id="delUser">批量删除</a> -->
-                </div>
+   <div class="buttonGroup">
+        <br/>
+        <a href="#"   class="btn btn-default delAll" id="">批量删除</a>
+        <a href="#" class="btn btn-default" id="userAdd">添加</a>   
+    </div>
+    <br/>
 
-                <div class="table-responsive">
+    <div class="table-responsive" style="height:400px;">
+            <table id="table" class="table table-striped table-bordered table-hover">
+                <thead>
+                <tr>
+                    <!-- <th class="center">
+                        <label>
+                            <input type="checkbox" class="ace" />
+                            <span class="lbl"></span>
+                        </label>
+                    </th> -->
+                    <th><input type="checkbox" id="selAll" onclick="selectAll();"/>  全选</th>
+                    <th>用户名</th>
+                    <th>用户组</th>
+                    <th>注册时间</th>
+                    <th>最后在线时间</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="result" id="vo">
+                    <tr>
+                        <td><input type="checkbox" name="checkAll" id="checkAll" onclick="setSelectAll();" value="{$vo.id}"/></td>
+                        <td>{$vo.user_name}</td>
+                        <td>{$vo.title}</td>
+                        <td>{$vo.reg_time|date='Y-m-d H:i:s',###}</td>
+                        <td><if condition="$vo['last_time'] eq 0" >
+                        --
+                        <else />
+                        {$vo.last_time|date='Y-m-d H:i:s',###}
+                        </if></td>
+                        <td>
+                            <a  href="#" class="green Usered"  data1="{$vo['id']}" title="编辑">
+                               编辑
+                            </a>
 
-
-                    <table id="table" class="table table-striped table-bordered table-hover">
-                        <thead>
-                        <tr>
-                            <!-- <th class="center">
-                                <label>
-                                    <input type="checkbox" class="ace" />
-                                    <span class="lbl"></span>
-                                </label>
-                            </th> -->
-                            <th><input type="checkbox"></th>
-                            <th>用户名</th>
-                            <th>用户组</th>
-                            <th>注册时间</th>
-                            <th>最后在线时间</th>
-                            <th>操作</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <volist name="result" id="vo">
-                            <tr>
-                                <td><input type="checkbox" name="checkbox"  value="{$vo['id']}"></td>
-                                <td>{$vo.user_name}</td>
-                                <td>{$vo.alias_name}</td>
-                                <td>{$vo.reg_time|date='Y-m-d H:i:s',###}</td>
-                                <td><if condition="$vo['last_time'] eq 0" >
-                                --
-                                <else />
-                                {$vo.last_time|date='Y-m-d H:i:s',###}
-                                </if></td>
-                                <td>
-                                    <a  href="#" class="green Usered"  data1="{$vo['id']}" title="编辑">
-                                       编辑
-                                    </a>
-
-                                    <a  href="#" class="red Userde"  data2="{$vo['id']}"title="删除">
-                                        删除
-                                    </a>
-                                    
-                                </td>
-                            </tr>
-                        </volist>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+                            <a  href="#" class="red Userde"  data2="{$vo['id']}"title="删除">
+                                删除
+                            </a>
+                            
+                        </td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
         </div>
         <div class="dataTables_paginate paging_bootstrap">
             <ul class="pagination">
                 {$user_show}
             </ul>
         </div>
-    </div>
-</div>
-<div style="clear: both"></div>
-</div>
 
 <script>
     $(".closePop").css('cusor','pointer').click(function(){
@@ -398,34 +393,29 @@
         });
 
     });
+ $(".delAll").click(function(){
+    var data={};
+    data.id = $("input:checkbox[name='checkAll']:checked").map(function(){
+        return $(this).val();
+    }).get().join(",");
+    //alert(check);
+    $.ajax({
+        url:'__URL__/user_delAll',
+        type:'post',
+        data:data,
+        dataType:'JSON',
+        success:function(data){
+            if(data.status == 'success'){
+                alert('删除成功！');
 
+                window.location.reload();
+                $(':checked').attr('checked',false);
+            }else{
+                alert('删除失败！');
+            }
 
-    
+        }
 
-
-
-    $(function () {
-        var leftSel = $("#selectL");
-        var rightSel = $("#selectR");;
-        $("#toright").bind("click", function () {
-            leftSel.find("option:selected").each(function () {
-                $(this).remove().appendTo(rightSel);
-            });
-        });
-        $("#toleft").bind("click", function () {
-            rightSel.find("option:selected").each(function () {
-                $(this).remove().appendTo(leftSel);
-            });
-        });
-        leftSel.dblclick(function () {
-            $(this).find("option:selected").each(function () {
-                $(this).remove().appendTo(rightSel);
-            });
-        });
-        rightSel.dblclick(function () {
-            $(this).find("option:selected").each(function () {
-                $(this).remove().appendTo(leftSel);
-            });
-        });
     });
+}); 
 </script>

@@ -4,9 +4,9 @@ use Think\Controller;
 class XshdController extends CommonController{
 	public function index(){
 		$model=M('XsMeet');
-		$meetName = $_GET['meetname'];
-		if($meetname){
-			$map['meetName'] = $meetName;
+		$name = I('name');
+		if($name){
+			$map['meetName'] = $name;
 
 		}
 		$count = $model->where($map)->count();
@@ -46,9 +46,9 @@ class XshdController extends CommonController{
 	}
 	public function lecture(){
 		$model=M('XsLecture');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
+		$name = $_GET['name'];
+		if($name){
+			$map['name'] = $name;
 
 		}
 		$count = $model->where($map)->count();
@@ -112,4 +112,51 @@ class XshdController extends CommonController{
 		Layout('Layout/layout');
 		$this->display();
 	}
+	public function composition_edit(){
+		$model = M('XsComposition');
+		if($_POST){
+			$id = I('id');
+			$stat = I('stat');
+		}
+		$map['id'] = $id;
+		if($stat == "agree"){
+			$data['status'] = 1;
+		}
+		$res=$model->where($map)->save($data);
+		if($res){
+			$this->ajaxReturn(array('status'=>'success'));
+		}else{
+			$this->ajaxReturn(array('status'=>'error'));
+		}
+	}
+	public function agreeread(){
+		$modal = M('XsComposition');
+		if(IS_POST){
+			$map['id'] = I('id');
+			$data['status'] = 3;
+			$res = $modal->where($map)->save($data);
+			if($res){
+				$this->ajaxReturn(array('status'=>'success'));
+			}else{
+				$this->ajaxReturn(array('status'=>'faild'));
+			}
+		}
+		
+	}
+	public function agreereturn(){
+		$modal = M('XsComposition');
+		if(IS_POST){
+			$map['id'] = I('id');
+			$data['status'] = 1;
+			$res = $modal->where($map)->save($data);
+			if($res){
+				$this->ajaxReturn(array('status'=>'success'));
+			}else{
+				$this->ajaxReturn(array('status'=>'faild'));
+			}
+		}
+		
+	}
+
+
 }

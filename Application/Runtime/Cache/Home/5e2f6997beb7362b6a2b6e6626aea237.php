@@ -4,6 +4,7 @@
 		<title>综合性医院科研管理系统</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8">
 		<meta name="keywords" content="Play-Offs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 		<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<!meta charset utf="8">
@@ -196,8 +197,15 @@
 											<?php echo ($vo["time"]); ?>
 										</td>
 										<td>
-											<?php if($vo['status'] == 0): ?><span style="color:red">被借阅</span>
-												<?php else: ?><span style="color:green">在库</span><?php endif; ?>
+											<?php if($vo['status'] == 3): ?><span style="color:red">被借阅</span>
+												<?php if($vo['uid'] == $_SESSION['user_id']): ?><a href="#" class="returnbook" data="<?php echo ($vo['id']); ?>" style="color:green">归还</a><?php endif; ?>
+												<?php elseif($vo['status'] == 1): ?>
+												<span style="color:green">在库</span>
+												<a href="#" class="readbook" data1="<?php echo ($vo['id']); ?>" style="color:blue">借阅</a>
+												<?php elseif($vo['status'] == 2): ?>
+												<span style="color:blue">已申请借阅，待回复</span>
+												<?php elseif($vo['status'] == 4): ?>
+												<span style="color:blue">已申请归还，待确认</span><?php endif; ?>
 										</td>
 										
 									</tr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -213,6 +221,42 @@
 	</div>
 </div>
 <script>
+$('.returnbook').click(function(){
+	var data={};
+    data.id = $(this).attr('data');
+	$.ajax({
+		url:'/test/Hospitalsrms/index.php/Home/Xshd/returnbook',
+		type:'POST',
+		data:data,
+		dataType:'JSON',
+		success:function(data){
+			if(data.status == 'success'){
+				alert('归还图书成功！');
+				window.location.reload();
+			}else{
+				alert('归还图书失败！');
+			}
+		}
+	})
+})
+$('.readbook').click(function(){
+	var data={};
+    data.id = $(this).attr('data1');
+	$.ajax({
+		url:'/test/Hospitalsrms/index.php/Home/Xshd/readbook',
+		type:'POST',
+		data:data,
+		dataType:'JSON',
+		success:function(data){
+			if(data.status == 'success'){
+				alert('申请借阅成功，等待审核！');
+				window.location.reload();
+			}else{
+				alert('借阅图书失败！');
+			}
+		}
+	})
+})
 	</script>
 
 <div class="row" style="margin-top:50px;background-color:#202020;color:#FFFFFF">
@@ -301,7 +345,7 @@
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
+$('#datetimepicker').datetimepicker({value:'2017/05/05 07:00',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({
@@ -312,4 +356,50 @@ var logic = function( currentDateTime ){
 			minTime:'8:00'
 		});
 };
+
+
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
 </script>

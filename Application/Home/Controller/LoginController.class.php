@@ -8,6 +8,7 @@ class LoginController extends Controller{
 	}
 	public function register(){
 		$User = M('User');
+		$res = M('Usergroup')->where(array('type'=>'0'))->select();
 		if($_POST['submit']){
 		$data['user_name']=$_POST['username'];
 		$data['password']=md5($_POST['password']);
@@ -20,6 +21,7 @@ class LoginController extends Controller{
 			$member=$User->add($data);
 			echo "<script>alert('注册成功！'');window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Login/index'</script>";
 		}
+		$this->assign('grouplist',$res);
 		$this->display();
 	
 	}

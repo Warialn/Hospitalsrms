@@ -74,7 +74,7 @@
 										时间
 									</th>
 									<th>
-										地点
+										讲座简介
 									</th>
 									<th>
 										操作
@@ -98,13 +98,14 @@
 										{$vo.time}
 									</td>
 									<td>
-										{$vo.address}
+										<a href="{:U('Xshd/dolectureDownload',array('id'=>$vo['id']))}">{$vo.introduction}</a>
 									</td>
 									<td>
 										<if condition="$vo['status'] eq 1">
 										<a href="#" class="attend" data="{$vo['id']}">参加（{$vo.uidcount}）</a>
 										<elseif condition = "$vo['status'] eq 2"/>
 										<span style="color:red">已被拒绝</span>
+										<a href="#" style="color:red;" data2="{$vo['id']}" class="delete">删除</a>
 										<else/><span style="color:green">审核中</span></if>
 									</td>
 								</tr>
@@ -134,6 +135,25 @@
 	</div>
 </div>
 <script>
+ $('.delete').click(function(){
+ 	var row = $(this).parents('tr');
+    var id = $(this).attr('data2');
+    $.ajax({
+    	url:'__URL__/lecture_delete',
+    	type:'post',
+    	data:{'id':id},
+    	dataType:'json',
+    	success:function(data){
+    		if(data.status=='success'){
+                  
+                    alert("操作成功");
+                    window.location.reload();
+                }else if(data.status=='error'){
+                    alert("操作失败");
+                }
+            }
+    	});
+ });
 $('.attend').click(function(){
 	var id = $(this).attr('data');
 	$.ajax({
@@ -153,77 +173,4 @@ $('.attend').click(function(){
 		}
 	})
 })
-	function look(){
-	    document.form1.action="__URL__/scanLecture";
-	}
-	function mod(){
-		document.form2.action="modify_cost.php";
-	}
-	function checkaction(v){
-	if(v==0){
-		document.form2.method="get";
-		document.form2.action="__URL__/deleteAll";
-	}else if(v==1){
-		document.form2.method="get";
-		document.form2.action="__URL__/updatefile";
-	}else{
-		document.form2.method="get";
-		document.form2.action="__URL__/export";
-	}
-	form2.submit();
-}
-//选中全选按钮，下面的checkbox全部选中
-var selAll = document.getElementById("selAll");
-function selectAll()
-{
-  var obj = document.getElementsByName("checkAll[]");
-  if(document.getElementById("selAll").checked == false)
-  {
-  for(var i=0; i<obj.length; i++)
-  {
-    obj[i].checked=false;
-  }
-  }else
-  {
-  for(var i=0; i<obj.length; i++)
-  {  
-    obj[i].checked=true;
-  }
-  }
- 
-}
-
-//当选中所有的时候，全选按钮会勾上
-function setSelectAll()
-{
-var obj=document.getElementsByName("checkAll[]");
-var count = obj.length;
-var selectCount = 0;
-
-for(var i = 0; i < count; i++)
-{
-if(obj[i].checked == true)
-{
-selectCount++;
-}
-}
-if(count == selectCount)
-{
-document.all.selAll.checked = true;
-}
-else
-{
-document.all.selAll.checked = false;
-}
-}
-
-//反选按钮
-function inverse() {
-var checkboxs=document.getElementsByName("checkAll");
-for (var i=0;i<checkboxs.length;i++) {
-  var e=checkboxs[i];
-  e.checked=!e.checked;
-  setSelectAll();
-}
-}
-	</script>
+</script>

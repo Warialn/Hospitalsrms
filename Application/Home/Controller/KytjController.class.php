@@ -15,9 +15,27 @@ class KytjController extends CommonController{
 	}
 	public function addTheses(){
 		$model = M('TjTheses');
-		if($_POST){
-			
+
+		if(IS_POST){
 			$data = $_POST;
+			$upload = new \Think\Upload();
+		    $upload->maxSize   =     3145728 ;// 设置附件上传大小
+		    $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg','doc','docx');// 设置附件上传类型
+		    $upload->rootPath  =      './Public/Upload/'; // 设置附件上传根目录
+		    $upload->savePath  =      ''; // 设置附件上传（子）目录
+		    // 上传文件 		   
+		    $info   =   $upload->upload();
+
+			if(!$info){
+				$this->error($upload->getError());
+			}else{
+				foreach($info as $file){
+		            //echo $file['savepath'].$file['savename'];
+		            $data['fujian'] = $file['savepath'].$file['savename'];
+		           
+		        } 
+			}
+			
 			$data['uid'] = $_SESSION['user_id'];
 			$data['date'] = $_POST['year'];
 		
@@ -62,6 +80,41 @@ class KytjController extends CommonController{
 		Layout('Layout/layout');
 		$this->display();
 
+	}
+	public function theses_delAll(){
+		$model = M('TjTheses');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$list=$model->where($where)->delete();  
+		if($list!==false) {
+		    $this->ajaxReturn(array('status'=>'success')); 
+		}else{   
+		     $this->ajaxReturn(array('status'=>'faild')); 
+		} 
+
+	}
+	public function dothesesDownload(){
+		$model = M('TjTheses');
+		$map['id'] = $_GET['id'];
+		$result = $model->where($map)->select();
+		header("content-type:text/html;charset=utf-8");
+
+		$file_name="Public/Upload/".$result[0]['fujian'];
+		//dump($file_name);die;
+
+		if(!file_exists($file_name)){
+			echo "<script>alert('NOT FOND');window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Kytj/scanTheses';</script>";
+		}else{
+			$file=fopen($file_name,"r");
+			Header("Content-type:application/octet-stream");
+			Header("Accept-Ranges:bytes");
+			Header("Accept-Length:".filesize($file_name));
+			Header("Content-Disposition:attachment;filename=".$file_name);
+			echo fread($file,filesize($file_name));
+			fclose($file);
+			echo "<script>alert('下载完成');window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Kytj/scanTheses';</script>";
+			exit();
+		}
 	}
 	public function addAchievement(){
 		$model = M('TjAchievement');
@@ -118,6 +171,18 @@ class KytjController extends CommonController{
 		$this->display();
 
 	}
+	public function achievement_delAll(){
+		$model = M('TjAchievement');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$list=$model->where($where)->delete();  
+		if($list!==false) {
+		    $this->ajaxReturn(array('status'=>'success')); 
+		}else{   
+		     $this->ajaxReturn(array('status'=>'faild')); 
+		} 
+
+	}
 	public function addPropty(){
 		$model = M('TjPropty');
 		if($_POST){
@@ -172,6 +237,18 @@ class KytjController extends CommonController{
 		$this->display();
 
 	}
+	public function propty_delAll(){
+		$model = M('TjPropty');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$list=$model->where($where)->delete();  
+		if($list!==false) {
+		    $this->ajaxReturn(array('status'=>'success')); 
+		}else{   
+		     $this->ajaxReturn(array('status'=>'faild')); 
+		} 
+
+	}
 	public function addEquipment(){
 		$model = M('TjEquipment');
 		if($_POST){
@@ -223,6 +300,18 @@ class KytjController extends CommonController{
 		$this->assign('page',$show);//赋值分页输出
 		Layout('Layout/layout');
 		$this->display();
+	}
+	public function equipment_delAll(){
+		$model = M('TjEquipment');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$list=$model->where($where)->delete();  
+		if($list!==false) {
+		    $this->ajaxReturn(array('status'=>'success')); 
+		}else{   
+		     $this->ajaxReturn(array('status'=>'faild')); 
+		} 
+
 	}
 	public function fileDownload(){
 		$model = M('TjFiledownload');

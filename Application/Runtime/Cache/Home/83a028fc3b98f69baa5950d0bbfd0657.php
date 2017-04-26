@@ -164,7 +164,7 @@
 					<form name="form2" method="get" action="">
 
 						<div class="form-group " style="margin-top:20px;">
-							<a href="javascript:checkaction(1)"   class="btn btn-default" id="">批量删除</a>
+							<a href="#"  class="btn btn-default delAll" id="delAll">批量删除</a>
 							<input type="submit" class="btn btn-default pull-right search" style="color:white;background-color:#337ab7;" value="搜索">
 							<input class="form-control col-sm-3 pull-right " type="text" id="" name="year"  placeholder="年份" class="text" style="width:85px;"/>
 							<input class="form-control col-sm-3 pull-right" name="name" type="text" style="width:85px;"placeholder="论文名称" />
@@ -189,13 +189,15 @@
 									<th>
 										年份
 									</th>
+									<th>
+										论文附件
+									</th>
 								</tr>
 							</thead>
 							<tbody>
-								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $col = ""; $col1 = "warning"; $col2 = "error"; $col3 = "sucess"; $col = $col1; if($col == $col1){ $col = $col2; }elseif($col == $col2){ $col = $col3; }else{ $col = $col1; } ?>
-								<tr class="<?php echo $col;?>">
+								<?php if(is_array($thesesList)): $i = 0; $__LIST__ = $thesesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
 									<td>
-									<input type="checkbox" name="checkAll[]" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
+									<input type="checkbox" name="checkAll" id="checkAll" onclick="setSelectAll();" value="<?php echo ($vo["id"]); ?>"/>
 									</td>
 									<td>
 										<?php echo ($vo["name"]); ?>
@@ -205,6 +207,9 @@
 									</td>
 									<td>
 										<?php echo ($vo["date"]); ?>
+									</td>
+									<td>
+									<a href="<?php echo U('Kytj/dothesesDownload',array('id'=>$vo['id']));?>"><?php echo ($vo["fujian"]); ?></a>
 									</td>								
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 							</tbody>
@@ -219,6 +224,34 @@
 	</div>
 </div>
 <script>
+$(".delAll").click(function(){
+	var data={};
+	data.id = $("input:checkbox[name='checkAll']:checked").map(function(){
+		return $(this).val();
+	}).get().join(",");
+	if(data.id ==''){
+		alert('请选择数据！');
+		return false;
+	}
+	$.ajax({
+		url:'/test/Hospitalsrms/index.php/Home/Kytj/theses_delAll',
+		type:'post',
+		data:data,
+		dataType:'JSON',
+		success:function(data){
+			if(data.status == 'success'){
+				alert('删除成功！');
+
+				window.location.reload();
+				$(':checked').attr('checked',false);
+			}else{
+				alert('删除失败！');
+			}
+
+		}
+
+	});
+});
 
 
 
@@ -310,7 +343,7 @@
 <script>
 
 $('#datetimepicker').datetimepicker();
-$('#datetimepicker').datetimepicker({value:'2012-03-05',step:10});
+$('#datetimepicker').datetimepicker({value:'2017/05/05 07:00',step:10});
 var logic = function( currentDateTime ){
 	if( currentDateTime.getDay()==6 ){
 		this.setOptions({
@@ -321,4 +354,50 @@ var logic = function( currentDateTime ){
 			minTime:'8:00'
 		});
 };
+
+
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
 </script>

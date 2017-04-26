@@ -72,10 +72,17 @@ class Auth{
     protected $_config = array(
         'AUTH_ON'           => true,                      // 认证开关
         'AUTH_TYPE'         => 1,                         // 认证方式，1为实时认证；2为登录认证。
-        'AUTH_GROUP'        => 'auth_group',        // 用户组数据表名
+        'AUTH_GROUP'        => 'usergroup',        // 用户组数据表名
         'AUTH_GROUP_ACCESS' => 'auth_group_access', // 用户-用户组关系表
         'AUTH_RULE'         => 'auth_rule',         // 权限规则表
-        'AUTH_USER'         => 'member'             // 用户信息表
+        'AUTH_USER'         => 'users',             // 用户信息表
+        'AUTH_ADMIN_ID'     =>  [ 1 ],               //无需验证的id(数组形式)
+        'AUTH_ADMIN_RULE'   =>  array(
+                    'Admin/Login/index',
+                    'Admin/Login/logout',
+                    'Admin/Index/index',
+                    'Admin/Xtgl/password',                  
+         )         //无需验证的rule(数组形式)  
     );
 
     public function __construct() {
@@ -101,6 +108,14 @@ class Auth{
     public function check($name, $uid, $type=1, $mode='url', $relation='or') {
         if (!$this->_config['AUTH_ON'])
             return true;
+        if (in_array($name,$this->_config['AUTH_ADMIN_RULE'] )) {
+            return true;
+            die;
+        }
+        if (in_array($uid, $this->_config['AUTH_ADMIN_ID'])) {
+           return true;
+           die;
+        }
         $authList = $this->getAuthList($uid,$type); //获取用户需要验证的所有有效规则列表
         if (is_string($name)) {
             $name = strtolower($name);
@@ -115,17 +130,35 @@ class Auth{
             $REQUEST = unserialize( strtolower(serialize($_REQUEST)) );
         }
         foreach ( $authList as $auth ) {
-            $query = preg_replace('/^.+\?/U','',$auth);
-            if ($mode=='url' && $query!=$auth ) {
-                parse_str($query,$param); //解析规则中的param
-                $intersect = array_intersect_assoc($REQUEST,$param);
-                $auth = preg_replace('/\?.*$/U','',$auth);
-                if ( in_array($auth,$name) && $intersect==$param ) {  //如果节点相符且url参数满足
-                    $list[] = $auth ;
+            if (strpos($auth, ',') !== false) {
+                $auth2 = explode(',', $auth);
+                foreach ( $auth2 as $auth ){
+                    $query = preg_replace('/^.+\?/U','',$auth);
+                    if ($mode=='url' && $query!=$auth ) {
+                        parse_str($query,$param); //解析规则中的param
+                        $intersect = array_intersect_assoc($REQUEST,$param);
+                        $auth = preg_replace('/\?.*$/U','',$auth);
+                        if ( in_array($auth,$name) && $intersect==$param ) {  //如果节点相符且url参数满足
+                            $list[] = $auth ;
+                        }
+                    }else if (in_array($auth , $name)){
+                        $list[] = $auth ;
+                    }
+
                 }
-            }else if (in_array($auth , $name)){
-                $list[] = $auth ;
-            }
+            }else{
+                    $query = preg_replace('/^.+\?/U','',$auth);
+                    if ($mode=='url' && $query!=$auth ) {
+                        parse_str($query,$param); //解析规则中的param
+                        $intersect = array_intersect_assoc($REQUEST,$param);
+                        $auth = preg_replace('/\?.*$/U','',$auth);
+                        if ( in_array($auth,$name) && $intersect==$param ) {  //如果节点相符且url参数满足
+                            $list[] = $auth ;
+                        }
+                    }else if (in_array($auth , $name)){
+                        $list[] = $auth ;
+                    }
+            }         
         }
         if ($relation == 'or' and !empty($list)) {
             return true;
@@ -191,7 +224,6 @@ class Auth{
         );
         //读取用户组所有权限规则
         $rules = M()->table($this->_config['AUTH_RULE'])->where($map)->field('condition,name')->select();
-
         //循环规则，判断结果。
         $authList = array();   //
         foreach ($rules as $rule) {

@@ -8,6 +8,23 @@ class KyjfController extends CommonController{
 		if($_POST){
 			
 			$data = $_POST;
+			$upload = new \Think\Upload();
+		    $upload->maxSize   =     3145728 ;// 设置附件上传大小
+		    $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg','doc','docx');// 设置附件上传类型
+		    $upload->rootPath  =      './Public/Upload/image'; // 设置附件上传根目录
+		    $upload->savePath  =      ''; // 设置附件上传（子）目录
+		    // 上传文件 		   
+		    $info   =   $upload->upload();
+
+			if(!$info){
+				$this->error($upload->getError());
+			}else{
+				foreach($info as $file){
+		            //echo $file['savepath'].$file['savename'];
+		            $data['picpath'] = $file['savepath'].$file['savename'];
+		           
+		        } 
+			}
 			$data['uid'] = $_SESSION['user_id'];
 		
 			if($model->create($data)){
@@ -87,6 +104,25 @@ class KyjfController extends CommonController{
 		}else{
 			$this->ajaxReturn(array('status'=>'error'));
 		}
+	}
+	public function index_delAll(){
+		$model = M('JfExpense');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$where['status'] =array('eq',1);
+		$res = $model->where($where)->select();
+		if($res){
+			$this->ajaxReturn(array('status'=>'warning'));
+		}else{
+			$list=$model->where($where)->delete();  
+			if($list!==false) {
+			    $this->ajaxReturn(array('status'=>'success')); 
+			}else{   
+			     $this->ajaxReturn(array('status'=>'faild')); 
+			} 
+			
+		}
+
 	}
 	public function moneyApply(){
 		$model = M('JfExpenseApply');
@@ -171,5 +207,25 @@ class KyjfController extends CommonController{
 		}else{
 			$this->ajaxReturn(array('status'=>'error'));
 		}
+	}
+	public function apply_delAll(){
+		$model = M('JfExpenseApply');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$where['status'] =array('eq',1);
+		$res = $model->where($where)->select();
+		if($res){
+			$this->ajaxReturn(array('status'=>'warning'));
+		}else{
+			$list=$model->where($where)->delete();  
+			if($list!==false) {
+			    $this->ajaxReturn(array('status'=>'success')); 
+			}else{   
+			     $this->ajaxReturn(array('status'=>'faild')); 
+			} 
+			
+		}
+		
+
 	}
 }

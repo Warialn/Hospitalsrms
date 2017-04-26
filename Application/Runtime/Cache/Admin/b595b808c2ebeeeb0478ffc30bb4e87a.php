@@ -25,7 +25,7 @@
 	            <div class="container">
 	            	<a href="<?php echo U('Login/logout');?>"><span title="退出" class="glyphicon glyphicon-off pull-right" style="color:white;font-size:18px;margin-top:15px;margin-left:20px;" aria-hidden="true"></span></a>
     				<a href="<?php echo U('Index/index');?>"><span title="首页" class="glyphicon glyphicon-home pull-right" style="color:white;font-size:18px;margin-top:13px;margin-left:20px;" aria-hidden="true"></span></a>
-		            <p class="pull-right" style="font-size:15px;color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?>  <a href="<?php echo U('login/logout');?>">退出</a></p>
+		            <p class="pull-right" style="font-size:15px;color:white;margin-top:14px;">欢迎您，<?php echo $_SESSION['user_name']?></p>
 		        </div>
 	        </div>
 	    </div>
@@ -198,6 +198,101 @@
 
 
 
-<div class="" style="background-color:#E4E6E9;height:60px;">
-
+ 
+<div class="col-md-10 column" style="background-color:#eee;height:550px;">
+    <div class="col-md-12 column" style="background-color:;color:red;font-size:30px;">
+    欢迎访问后台管理系统！
+    </div>
+    <div class="col-md-12 column" style="margin-top:60px;">
+        <div class="col-md-12 column" style="color:green;font-size:18px;">
+            <div class="col-md-3 column" >
+                当前登录IP：<?php echo ($ip); ?>
+            </div>
+            <div class="col-md-4 column" >
+                当前登录城市：<?php echo ($area); ?>
+            </div>
+            <div class="col-md-4 column" >
+                当前时间：<?php echo ($time); ?>
+            </div>
+        </div>
+        <div class="col-md-12 column" style="margin-top:120px;">
+            <div class="col-md-4 column" style="margin-top:20px;">
+                课题数量：<?php echo ($subject_num); ?>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                新闻数量：<?php echo ($news_num); ?>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                科研平台数量：<?php echo ($department_num); ?>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                论文数量：<?php echo ($theses_num); ?>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                用户数量：<?php echo ($user_num); ?>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                科研成果数量：<?php echo ($achievement_num); ?>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                学术著作数量：<?php echo ($news_num); ?>
+            </div>
+        </div>
 </div>
+</div>
+</div>
+
+<script>
+</script>
+<div class="col-md-12 column" style="background-color:#fff;opacity:0.8;border:1px solid #4857bf;border-radius:6px;height:60px;text-align:center;">
+  <div style="margin-top:15px;">
+    <span >Copyright 2016-2017 MIIC © All Rights Reserved</span>
+  </div>
+</div>
+</div>
+<script>
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
+</script>

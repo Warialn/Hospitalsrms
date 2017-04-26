@@ -4,9 +4,9 @@ use Think\Controller;
 class XmsbController extends CommonController{
 	public function index(){
 		$model=M('XmSubject');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
+		$name = I('name');
+		if($name){
+			$map['subject_name'] = $name;
 
 		}
 		
@@ -25,6 +25,18 @@ class XmsbController extends CommonController{
 		$this->assign('page',$show);//赋值分页输出
 		Layout('Layout/layout');
 		$this->display();
+	}
+	public function index_delAll(){
+		$model = M('XmSubject');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$list=$model->where($where)->delete();  
+		if($list!==false) {
+		    $this->ajaxReturn(array('status'=>'success')); 
+		}else{   
+		     $this->ajaxReturn(array('status'=>'faild')); 
+		} 
+
 	}
 	public function index_edit(){
 		$model = M('XmSubject');
@@ -47,9 +59,9 @@ class XmsbController extends CommonController{
 	}
 	public function department(){
 		$model=M('XmDepartment');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
+		$name = I('name');
+		if($name){
+			$map['department_name'] = $name;
 
 		}
 		
@@ -90,11 +102,23 @@ class XmsbController extends CommonController{
 			$this->ajaxReturn(array('status'=>'error'));
 		}
 	}
+	public function department_delAll(){
+		$model = M('XmDepartment');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$list=$model->where($where)->delete();  
+		if($list!==false) {
+		    $this->ajaxReturn(array('status'=>'success')); 
+		}else{   
+		     $this->ajaxReturn(array('status'=>'faild')); 
+		} 
+
+	}
 	public function coller(){
 		$model=M('XmColler');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
+		$name = I('name');
+		if($name){
+			$map['name'] = $name;
 
 		}
 		$count = $model->where($map)->count();
@@ -131,11 +155,23 @@ class XmsbController extends CommonController{
 			$this->ajaxReturn(array('status'=>'error'));
 		}
 	}
+	public function coller_delAll(){
+		$model = M('XmColler');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$list=$model->where($where)->delete();  
+		if($list!==false) {
+		    $this->ajaxReturn(array('status'=>'success')); 
+		}else{   
+		     $this->ajaxReturn(array('status'=>'faild')); 
+		} 
+
+	}
 	public function purchase(){
 		$model=M('XmPurchase');
-		$date = $_GET['ctime'];
-		if($date){
-			$map['date'] = $date;
+		$name = I('name');
+		if($name){
+			$map['name'] = $name;
 
 		}
 		$count = $model->where($map)->count();
@@ -155,7 +191,7 @@ class XmsbController extends CommonController{
 		$this->display();
 	}
 	public function purchase_edit(){
-		$model = M('XmSubject');
+		$model = M('XmPurchase');
 		if($_POST){
 			$id = I('id');
 			$stat = I('stat');
@@ -172,5 +208,17 @@ class XmsbController extends CommonController{
 		}else{
 			$this->ajaxReturn(array('status'=>'error'));
 		}
+	}
+	public function purchase_delAll(){
+		$model = M('XmPurchase');
+		$id = I('post.id');
+		$where['id'] = array('in',$id);
+		$list=$model->where($where)->delete();  
+		if($list!==false) {
+		    $this->ajaxReturn(array('status'=>'success')); 
+		}else{   
+		     $this->ajaxReturn(array('status'=>'faild')); 
+		} 
+
 	}
 }

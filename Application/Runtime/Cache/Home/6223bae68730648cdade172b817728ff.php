@@ -184,7 +184,7 @@
 										时间
 									</th>
 									<th>
-										地点
+										会议简介
 									</th>
 									<th>
 										操作
@@ -203,15 +203,16 @@
 										<?php echo ($vo["organizer"]); ?>
 									</td>
 									<td>
-										<?php echo ($vo["meetTime"]); ?>
+										<?php echo ($vo["meettime"]); ?>
 									</td>
 									<td>
-										<?php echo ($vo["address"]); ?>
+										<a href="<?php echo U('Xshd/domeetDownload',array('id'=>$vo['id']));?>"><?php echo ($vo["introduction"]); ?></a>
 									</td>
 									<td>
 										<?php if($vo['status'] == 1): ?><a href="#" class="attend" data="<?php echo ($vo['id']); ?>">参加（<?php echo ($vo["uidcount"]); ?>）</a>
 										<?php elseif($vo['status'] == 2): ?>
 										<span style="color:red">已被拒绝</span>
+										<a href="#" style="color:red;" data2="<?php echo ($vo['id']); ?>" class="delete">删除</a>
 										<?php else: ?><span style="color:green">审核中</span><?php endif; ?>
 									</td>
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -228,7 +229,25 @@
 	</div>
 </div>
 <script>
-
+ $('.delete').click(function(){
+ 	var row = $(this).parents('tr');
+    var id = $(this).attr('data2');
+    $.ajax({
+    	url:'/test/Hospitalsrms/index.php/Home/Xshd/meet_delete',
+    	type:'post',
+    	data:{'id':id},
+    	dataType:'json',
+    	success:function(data){
+    		if(data.status=='success'){
+                  
+                    alert("操作成功");
+                    window.location.reload();
+                }else if(data.status=='error'){
+                    alert("操作失败");
+                }
+            }
+    	});
+ });
 $('.attend').click(function(){
 	var id = $(this).attr('data');
 	$.ajax({
@@ -420,4 +439,50 @@ var logic = function( currentDateTime ){
 			minTime:'8:00'
 		});
 };
+
+
+//选中全选按钮，下面的checkbox全部选中
+var selAll = document.getElementById("selAll");
+function selectAll()
+{
+  var obj = document.getElementsByName("checkAll");
+  if(document.getElementById("selAll").checked == false)
+  {
+  for(var i=0; i<obj.length; i++)
+  {
+    obj[i].checked=false;
+  }
+  }else
+  {
+  for(var i=0; i<obj.length; i++)
+  {  
+    obj[i].checked=true;
+  }
+  }
+ 
+}
+
+//当选中所有的时候，全选按钮会勾上
+function setSelectAll()
+{
+var obj=document.getElementsByName("checkAll");
+var count = obj.length;
+var selectCount = 0;
+
+for(var i = 0; i < count; i++)
+{
+if(obj[i].checked == true)
+{
+selectCount++;
+}
+}
+if(count == selectCount)
+{
+document.all.selAll.checked = true;
+}
+else
+{
+document.all.selAll.checked = false;
+}
+}
 </script>

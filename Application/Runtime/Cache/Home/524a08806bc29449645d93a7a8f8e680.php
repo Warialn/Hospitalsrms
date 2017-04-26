@@ -45,8 +45,7 @@
 			         <div class="form-group">
 			          <div class="col-md-6">
 			            <select name="usergroup_id" class="form-control">
-			            	<option value="1">管理员</option>
-			            	<option value="2">普通管理员</option>
+			            	<?php if(is_array($grouplist)): $i = 0; $__LIST__ = $grouplist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="$vo['id']"><?php echo ($vo["alias_name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
 			            </select>
 			          </div>
 			        </div>
