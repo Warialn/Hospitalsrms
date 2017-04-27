@@ -101,12 +101,9 @@ class XtglController extends CommonController {
 			$data['reg_time'] = time();
 
 			$result = $modal->add($data);
-
-			/*$user_group =M('GroupAccess');
-			foreach ($usergroup as  $value) {
-				$user_group->add(array('uid'=>$result,'group_id'=>$value));
-				# code...
-			}*/
+			$usergroup = M('AuthGroupAccess');
+			$usergroup->add(array('uid'=>$result,'group_id'=>$data['usergroup_id']));
+			
 			if($result){
 				$this->ajaxReturn(array('status'=>'success'));
 
@@ -378,7 +375,7 @@ class XtglController extends CommonController {
         }
       }
     }
-  /*  public function test(){
+    public function test(){
       $menu = M('Menu');
       $result = $menu ->select();
       foreach ($result as $key => $value) {
@@ -391,5 +388,5 @@ class XtglController extends CommonController {
       $this->assign('result',$result);
       layout('Layout/layout');
       $this->display();
-    }*/
+    }
 }

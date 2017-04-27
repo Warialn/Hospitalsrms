@@ -81,7 +81,8 @@ class Auth{
                     'Admin/Login/index',
                     'Admin/Login/logout',
                     'Admin/Index/index',
-                    'Admin/Xtgl/password',                  
+                    'Admin/Xtgl/user_password_edite',
+                    'Admin/Xtgl/password_edit'                  
          )         //无需验证的rule(数组形式)  
     );
 

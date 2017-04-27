@@ -2470,3 +2470,725 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
 
+[ 2017-04-26T16:59:35+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-04-26T17:00:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-04-26T17:00:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-04-26T17:00:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-04-26T17:02:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-04-26T17:05:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-04-26T17:05:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-04-26T17:05:50+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/Achievement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-04-26T17:07:42+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-04-26T17:08:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-04-26T17:10:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-04-26T17:11:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-04-26T17:11:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-04-26T17:14:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-04-26T17:15:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-04-26T17:15:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-04-26T17:15:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-04-26T17:15:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+
+[ 2017-04-26T17:15:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:15:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:15:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:15:57+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-04-26T17:15:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-04-26T17:16:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 模板不存在:./Application/Admin/View/Xtgl/test.html
+
+[ 2017-04-26T17:16:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+
+[ 2017-04-26T17:16:27+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-04-26T17:16:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-04-26T17:16:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:16:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:16:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:16:36+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-04-26T17:16:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-04-26T17:16:40+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-04-26T17:16:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-04-26T17:17:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2017-04-26T17:17:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-04-26T17:17:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-04-26T17:17:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/Achievement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-04-26T17:18:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/Achievement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-04-26T17:21:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-04-26T17:21:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-04-26T17:21:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-04-26T17:22:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-04-26T17:23:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-04-26T17:27:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-04-26T17:27:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T17:27:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+
+[ 2017-04-26T17:27:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:27:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:27:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:27:51+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-04-26T17:27:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-04-26T17:27:57+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-04-26T17:28:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-04-26T17:28:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-04-26T17:28:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/usergroup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-04-26T17:29:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/usergroup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-04-26T17:30:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/usergroup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-04-26T17:30:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+
+[ 2017-04-26T17:30:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+
+[ 2017-04-26T17:30:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize_post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-04-26T17:30:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/usergroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-04-26T17:31:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-04-26T17:31:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-04-26T17:32:06+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0053s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','aaaaaa','eabd8ce9404507aa8c22714d3f5eada9','1493199126') [ RunTime:0.0587s ]
+
+[ 2017-04-26T17:32:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2017-04-26T17:32:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-04-26T17:32:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+
+[ 2017-04-26T17:32:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:32:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:32:21+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:32:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+
+[ 2017-04-26T17:32:30+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+
+[ 2017-04-26T17:32:33+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-04-26T17:43:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-04-26T17:43:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-04-26T17:43:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-04-26T17:43:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-04-26T17:43:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:43:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:43:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+ERR: 非法操作:css
+
+[ 2017-04-26T17:44:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-04-26T17:44:03+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002706s ]
+
+[ 2017-04-26T17:44:08+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-04-26T17:44:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0515s ]
+SQL: DELETE FROM `srms_user` WHERE `id` = 7 [ RunTime:0.0769s ]
+
+[ 2017-04-26T17:44:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-04-26T17:44:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0081s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','aaaaaa','eabd8ce9404507aa8c22714d3f5eada9','1493199872') [ RunTime:0.0751s ]
+SQL: SHOW COLUMNS FROM `srms_auth_group_access` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: usergroup F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XtglController.class.php 第 106 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XtglController.class.php 第 106 行.
+
+[ 2017-04-26T17:44:35+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-04-26T17:47:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-04-26T17:47:42+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0129s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','www','9ab05cae3461bcb6642a19b67784866a','1493200062') [ RunTime:0.0847s ]
+SQL: SHOW COLUMNS FROM `srms_auth_group_access` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined variable: usergroup F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XtglController.class.php 第 106 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XtglController.class.php 第 106 行.
+
+[ 2017-04-26T17:47:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-04-26T17:49:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-04-26T17:49:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-04-26T17:49:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002492s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0150s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','12345','eabd8ce9404507aa8c22714d3f5eada9','1493200163') [ RunTime:0.0661s ]
+SQL: SHOW COLUMNS FROM `srms_auth_group_access` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: usergroup F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XtglController.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XtglController.class.php 第 108 行.
+
+[ 2017-04-26T17:49:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+
+[ 2017-04-26T17:49:57+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-04-26T17:49:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0152s ]
+SQL: DELETE FROM `srms_user` WHERE `id` = 10 [ RunTime:0.0646s ]
+
+[ 2017-04-26T17:50:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-04-26T17:50:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0122s ]
+SQL: DELETE FROM `srms_user` WHERE `id` = 9 [ RunTime:0.0464s ]
+
+[ 2017-04-26T17:50:07+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-04-26T17:50:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0079s ]
+SQL: DELETE FROM `srms_user` WHERE `id` = 8 [ RunTime:0.0728s ]
+
+[ 2017-04-26T17:50:12+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001610s ]
+
+[ 2017-04-26T17:50:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0060s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','aaaaaa','eabd8ce9404507aa8c22714d3f5eada9','1493200220') [ RunTime:0.0985s ]
+SQL: SHOW COLUMNS FROM `srms_auth_group_access` [ RunTime:0.0041s ]
+
+[ 2017-04-26T17:50:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-04-26T17:51:33+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-04-26T17:51:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0122s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','www','a01588751bd98798dce183bfcaf23fc5','1493200304') [ RunTime:0.0773s ]
+SQL: SHOW COLUMNS FROM `srms_auth_group_access` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `srms_auth_group_access`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `srms_auth_group_access` (`uid`) VALUES ('12') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `srms_auth_group_access` (`uid`) VALUES ('12') [ RunTime:0.0010s ]
+
+[ 2017-04-26T17:51:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-04-26T17:52:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-04-26T17:53:03+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0066s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','aaaaa','eabd8ce9404507aa8c22714d3f5eada9','1493200383') [ RunTime:0.0860s ]
+SQL: SHOW COLUMNS FROM `srms_auth_group_access` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `srms_usergroup`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `srms_auth_group_access` (`uid`) VALUES ('13') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `srms_auth_group_access` (`uid`) VALUES ('13') [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 F:\phpStudy\WWW\test\Hospitalsrms\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `srms_auth_group_access` (`uid`) VALUES ('13') [ RunTime:0.0003s ]
+
+[ 2017-04-26T17:53:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-04-26T17:54:04+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0103s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','123','b442f0c3119308bed4451d04b017bdf7','1493200444') [ RunTime:0.0716s ]
+SQL: SHOW COLUMNS FROM `srms_auth_group_access` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `srms_usergroup`  [ RunTime:0.0006s ]
+
+[ 2017-04-26T17:57:18+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0156s ]
+SQL: INSERT INTO `srms_user` (`usergroup_id`,`user_name`,`password`,`reg_time`) VALUES ('1','123','b442f0c3119308bed4451d04b017bdf7','1493200638') [ RunTime:0.0748s ]
+SQL: SHOW COLUMNS FROM `srms_auth_group_access` [ RunTime:0.0063s ]
+SQL: INSERT INTO `srms_auth_group_access` (`uid`,`group_id`) VALUES ('15','1') [ RunTime:0.0005s ]
+
+[ 2017-04-26T17:57:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2017-04-26T17:58:07+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+

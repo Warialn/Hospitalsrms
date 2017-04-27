@@ -1358,12 +1358,12 @@ button,input,select,textarea {
 }
 
 a {
-	color: #eeeeee;
+	color: #4857bf;
 	text-decoration: none
 }
 
 a:focus,a:hover {
-	color: white;
+	color: #4857ee;
 	text-decoration: underline
 }
 

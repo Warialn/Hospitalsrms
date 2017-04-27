@@ -12,7 +12,7 @@ class IndexController extends CommonController {
     	$news_num = M('News')->count();
     	$ip = get_client_ip();
     	$Ip = new \Org\Net\IpLocation('UTFWry.dat');
-		$area = $Ip->getLocation('203.34.5.66')['area'];
+		$area = $Ip->getLocation('')['area'];
 		$time = date("Y-m-d H:i:s");
 		$this->assign('time',$time);
 		$this->assign('ip',$ip);

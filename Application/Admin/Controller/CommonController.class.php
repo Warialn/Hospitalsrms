@@ -12,6 +12,7 @@ class CommonController extends Controller{
         }
          $auth = new Auth();
          if(!$auth->check(MODULE_NAME.'/'.CONTROLLER_NAME.'/'.ACTION_NAME,session('user_id'))){
+            
             $this ->error('没有权限或该模块不存在');
          }
         /* if (MODULE_NAME.'/'.CONTROLLER_NAME.'/'.ACTION_NAME != 'Home/System/check_status') {
