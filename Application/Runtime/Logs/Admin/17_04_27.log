@@ -1,0 +1,78 @@
+[ 2017-04-27T14:14:37+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-04-27T14:14:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-04-27T14:14:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-04-27T14:14:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 非法操作:css
+
+[ 2017-04-27T14:14:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 非法操作:css
+
+[ 2017-04-27T14:14:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 非法操作:css
+
+[ 2017-04-27T14:14:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+ERR: Think\Controller:log方法不存在！
+
+[ 2017-04-27T14:17:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+ERR: Think\Controller:log方法不存在！
+
+[ 2017-04-27T14:17:43+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-04-27T14:17:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-04-27T14:47:00+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-04-27T14:47:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user_delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0123s ]
+SQL: DELETE FROM `srms_user` WHERE `id` = 15 [ RunTime:0.0682s ]
+
+[ 2017-04-27T14:47:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+

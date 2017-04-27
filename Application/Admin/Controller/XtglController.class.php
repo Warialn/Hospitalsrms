@@ -73,7 +73,8 @@ class XtglController extends CommonController {
 	public function user(){
 		$result=M('User')->select();
 		$group = M('Usergroup');
-		$group_data = $group->select();
+		$map['type'] =array('neq',2);
+		$group_data = $group->where($map)->select();
 		
 		foreach ($result as $key => $value) {
 
@@ -359,23 +360,23 @@ class XtglController extends CommonController {
       if (IS_POST) {
         $roleid = intval(I("post.roleid"));
         if(!$roleid){
-          //self::log('Web',session('username').'权限编辑|客户端IP:'.get_client_ip().'|error|',3);
+          self::log('Web',session('user_name').'权限编辑|客户端IP:'.get_client_ip().'|error|',3);
           $this->error("需要授权的角色不存在！");
         }
         if (is_array($_POST['menuid']) && count($_POST['menuid'])>0) {
           $rules = implode(",",$_POST['menuid']);
           $this->auth_access_model->where(array("id"=>$roleid))->save(array('rules'=>$rules));
-          //self::log('Web',$_SESSION['username'].'授权|客户端IP:'.get_client_ip().'|success|'.$sql,5);
+          self::log('Web',$_SESSION['user_name'].'授权|客户端IP:'.get_client_ip().'|success|'.$sql,5);
           $this->success("授权成功！", "usergroup");
         }else{
           //当没有数据时，清除当前角色授权
           $this->auth_access_model->where(array("id" => $roleid))->setField('rules','');
-          //self::log('Web',$_SESSION['username'].'清除授权|客户端IP:'.get_client_ip().'|success|'.$sql,3);
+          self::log('Web',$_SESSION['user_name'].'清除授权|客户端IP:'.get_client_ip().'|success|'.$sql,3);
           $this->error("没有接收到数据，执行清除授权成功！");
         }
       }
     }
-    public function test(){
+    /*public function test(){
       $menu = M('Menu');
       $result = $menu ->select();
       foreach ($result as $key => $value) {
@@ -388,5 +389,19 @@ class XtglController extends CommonController {
       $this->assign('result',$result);
       layout('Layout/layout');
       $this->display();
+    }*/
+      public function log($app, $message='', $level=5, $data=[]){
+        $log = M('log');
+        $data['app'] = $app;
+        $str = '';
+        foreach ($data as $k => $v) {
+            $str .= $k.'='.$v.' ';
+        }
+        $data['message'] = $message.'#'.$str;
+        $data['level'] = $level;
+        $data['uid'] = session('user_id');
+        $data['time'] = time();
+        $log->add($data);
+        //return true;
     }
 }
