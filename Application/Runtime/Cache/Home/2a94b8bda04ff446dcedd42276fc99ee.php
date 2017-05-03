@@ -218,7 +218,8 @@
 								<ul class="menu_drop">
 									<?php if(is_array($new_res)): $i = 0; $__LIST__ = $new_res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="item1 plus">
 											<a href="#" title="<?php echo ($vo['title']); ?>" class="active">
-												<?php if(strlen($vo['title'])>39) { echo mb_substr($vo['title'], 0, 15,'utf-8')."...";}else{echo $vo['title'];}?>
+												<?php echo ($vo['title']); ?>
+												<?php ?>
 												  <!-- <?php echo (mb_substr($vo["title"],0,15,'utf-8')); ?>...  -->
 												<span class="caret"></span>
 											</a>

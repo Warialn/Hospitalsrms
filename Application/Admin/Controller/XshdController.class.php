@@ -90,9 +90,9 @@ class XshdController extends CommonController{
 	}
 	public function composition(){
 		$model=M('XsComposition');
-		$date = $_GET['ctime'];
+		$name = $_GET['name'];
 		if($date){
-			$map['date'] = $date;
+			$map['compositionName'] = $name;
 
 		}
 		$count = $model->where($map)->count();

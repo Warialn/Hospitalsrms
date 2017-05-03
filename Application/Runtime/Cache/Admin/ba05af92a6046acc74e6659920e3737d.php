@@ -31,7 +31,7 @@
 	    </div>
 	        <div class="col-md-12 column">
 	            <div class="row clearfix">
-	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:580px">
+	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:560px">
 	                    <div class="col-md-12" >
 	                        <ul class="nav nav-list">
 	                            <li><a href="" class="dropdown-toggle" data-toggle="dropdown">
@@ -225,7 +225,7 @@
 </style>
 <div style="height:30px;background-color:#E4E6E9;
  padding:5px 3px 0px 200px;">系统管理>用户组管理</div>
-<div class="col-md-10 column" style="background-color:#fff;height:550px;">
+<div class="col-md-10 column" style="background-color:#fff;height:530px;">
     <div class="col-md-0">
     </div>
     <div id="modal-overlay" class="userAdd">
@@ -426,7 +426,7 @@
             <?php echo ($usergroup_show); ?>
         </ul>
     </div>
-
+</div>
 
 <script>
     $(".closePop").css('cusor','pointer').click(function(){

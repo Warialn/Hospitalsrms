@@ -274,6 +274,7 @@
                     <div class="col-md-12 column">
                         <?php echo ($page); ?>
                     </div>
+                </div>
             </div>
              <script>
             $('.agree').click(function(){

@@ -76,3 +76,61 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
 
+[ 2017-04-27T16:54:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-04-27T16:54:47+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/department_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0470s ]
+SQL: UPDATE `srms_xm_department` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0442s ]
+
+[ 2017-04-27T16:54:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-04-27T17:25:33+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-04-27T17:27:30+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-04-27T17:28:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-04-27T17:28:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-04-27T17:43:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+
+[ 2017-04-27T17:43:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-04-27T17:43:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+

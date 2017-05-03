@@ -153,7 +153,7 @@
 									<li><a href="<?php echo U('Kytj/scanPropty');?>">知识产权</a></li>
 									<li class="active"><a href="<?php echo U('Kytj/scanEquipment');?>">仪器设备</a></li>
 									<li><a href="<?php echo U('Kytj/fileDownload');?>">文件下载</a></li>
-									<li><a href="<?php echo U('Kytj/logList');?>">日志信息</a></li>
+									<!-- <li class="active"><a href="<?php echo U('Kytj/logList');?>">日志信息</a></li> -->
 								</ul>
 							</div>
 						</div>
@@ -226,7 +226,10 @@ $(".delAll").click(function(){
 	data.id = $("input:checkbox[name='checkAll']:checked").map(function(){
 		return $(this).val();
 	}).get().join(",");
-	//alert(check);
+	if(data.id ==''){
+		alert('请选择数据！');
+		return false;
+	}
 	$.ajax({
 		url:'/test/Hospitalsrms/index.php/Home/Kytj/equipment_delAll',
 		type:'post',

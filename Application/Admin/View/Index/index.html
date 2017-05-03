@@ -1,13 +1,13 @@
 
  
-<div class="col-md-10 column" style="background-color:#eee;height:550px;">
+<div class="col-md-10 column" style="background-color:#eee;height:560px;">
     <div class="col-md-12 column" style="background-color:;color:red;font-size:30px;">
     欢迎访问后台管理系统！
     </div>
     <div class="col-md-12 column" style="margin-top:60px;">
         <div class="col-md-12 column" style="color:green;font-size:18px;">
             <div class="col-md-3 column" >
-                当前登录IP：{$ip}
+                当前登录IP：{$ip}  
             </div>
             <div class="col-md-4 column" >
                 当前登录城市：{$area}
@@ -16,16 +16,12 @@
                 当前时间：{$time}
             </div>
         </div>
-        <div class="col-md-12 column" style="margin-top:120px;">
-            <div class="col-md-4 column" style="margin-top:20px;">
-                课题数量：{$subject_num}
-            </div>
+        <div class="col-md-12 column" style="margin-top:150px;">
+            
             <div class="col-md-4 column" style="margin-top:20px;">
                 新闻数量：{$news_num}
             </div>
-            <div class="col-md-4 column" style="margin-top:20px;">
-                科研平台数量：{$department_num}
-            </div>
+            
             <div class="col-md-4 column" style="margin-top:20px;">
                 论文数量：{$theses_num}
             </div>
@@ -36,12 +32,40 @@
                 科研成果数量：{$achievement_num}
             </div>
             <div class="col-md-4 column" style="margin-top:20px;">
-                学术著作数量：{$news_num}
+                仪器设备数量：{$equipment_num}
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                专利产权数量：{$propty_num}
+            </div>
+            
+            <div class="col-md-4 column" style="margin-top:20px;">
+                课题数量：{$subject_num}&nbsp;&nbsp;&nbsp;&nbsp; <a href="{:U('Xmsb/index')}">待处理({$subject_do_num})</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                科研平台数量：{$department_num}&nbsp;&nbsp;&nbsp;&nbsp; <a href="{:U('Xmsb/department')}">待处理({$department_do_num})</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                领用申请数量：{$coller_num}&nbsp;&nbsp;&nbsp;&nbsp; <a href="{:U('Xmsb/coller')}">待处理({$coller_do_num})</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                采购申请数量：{$purchase_num}&nbsp;&nbsp;&nbsp;&nbsp; <a href="{:U('Xmsb/purchase')}">待处理({$purchase_do_num})</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                会议数量：{$meet_num}&nbsp;&nbsp;&nbsp;&nbsp; <a href="{:U('Xshd/index')}">待处理({$meet_do_num})</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                讲座数量：{$lecture_num}&nbsp;&nbsp;&nbsp;&nbsp; <a href="{:U('Xshd/lecture')}">待处理({$lecture_do_num})</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                学术著作数量：{$composition_num}&nbsp;&nbsp;&nbsp;&nbsp; <a href="{:U('Xshd/compostion')}">待处理({$composition_do_num})</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                经费报销数量：{$expense_num}&nbsp;&nbsp;&nbsp;&nbsp; <a href="{:U('Kyjf/index')}">待处理({$expense_do_num})</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                经费申请数量：{$apply_num}&nbsp;&nbsp;&nbsp;&nbsp; <a href="{:U('Kyjf/apply')}">待处理({$apply_do_num})</a>
             </div>
         </div>
 </div>
 </div>
-</div>
 
-<script>
-</script>

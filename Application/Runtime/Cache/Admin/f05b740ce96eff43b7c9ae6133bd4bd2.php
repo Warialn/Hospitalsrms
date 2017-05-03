@@ -264,7 +264,7 @@
             <?php echo ($page); ?>
         </div>
     </div>
-
+</div>
 <script>
  $(".delAll").click(function(){
     var data={};

@@ -31,7 +31,7 @@
 	    </div>
 	        <div class="col-md-12 column">
 	            <div class="row clearfix">
-	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:580px">
+	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:560px">
 	                    <div class="col-md-12" >
 	                        <ul class="nav nav-list">
 	                            <li><a href="" class="dropdown-toggle" data-toggle="dropdown">
@@ -199,14 +199,14 @@
 
 
  
-<div class="col-md-10 column" style="background-color:#eee;height:550px;">
+<div class="col-md-10 column" style="background-color:#eee;height:560px;">
     <div class="col-md-12 column" style="background-color:;color:red;font-size:30px;">
     欢迎访问后台管理系统！
     </div>
     <div class="col-md-12 column" style="margin-top:60px;">
         <div class="col-md-12 column" style="color:green;font-size:18px;">
             <div class="col-md-3 column" >
-                当前登录IP：<?php echo ($ip); ?>
+                当前登录IP：<?php echo ($ip); ?>  
             </div>
             <div class="col-md-4 column" >
                 当前登录城市：<?php echo ($area); ?>
@@ -215,16 +215,12 @@
                 当前时间：<?php echo ($time); ?>
             </div>
         </div>
-        <div class="col-md-12 column" style="margin-top:120px;">
-            <div class="col-md-4 column" style="margin-top:20px;">
-                课题数量：<?php echo ($subject_num); ?>
-            </div>
+        <div class="col-md-12 column" style="margin-top:150px;">
+            
             <div class="col-md-4 column" style="margin-top:20px;">
                 新闻数量：<?php echo ($news_num); ?>
             </div>
-            <div class="col-md-4 column" style="margin-top:20px;">
-                科研平台数量：<?php echo ($department_num); ?>
-            </div>
+            
             <div class="col-md-4 column" style="margin-top:20px;">
                 论文数量：<?php echo ($theses_num); ?>
             </div>
@@ -235,16 +231,45 @@
                 科研成果数量：<?php echo ($achievement_num); ?>
             </div>
             <div class="col-md-4 column" style="margin-top:20px;">
-                学术著作数量：<?php echo ($news_num); ?>
+                仪器设备数量：<?php echo ($equipment_num); ?>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                专利产权数量：<?php echo ($propty_num); ?>
+            </div>
+            
+            <div class="col-md-4 column" style="margin-top:20px;">
+                课题数量：<?php echo ($subject_num); ?>&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo U('Xmsb/index');?>">待处理(<?php echo ($subject_do_num); ?>)</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                科研平台数量：<?php echo ($department_num); ?>&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo U('Xmsb/department');?>">待处理(<?php echo ($department_do_num); ?>)</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                领用申请数量：<?php echo ($coller_num); ?>&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo U('Xmsb/coller');?>">待处理(<?php echo ($coller_do_num); ?>)</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                采购申请数量：<?php echo ($purchase_num); ?>&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo U('Xmsb/purchase');?>">待处理(<?php echo ($purchase_do_num); ?>)</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                会议数量：<?php echo ($meet_num); ?>&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo U('Xshd/index');?>">待处理(<?php echo ($meet_do_num); ?>)</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                讲座数量：<?php echo ($lecture_num); ?>&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo U('Xshd/lecture');?>">待处理(<?php echo ($lecture_do_num); ?>)</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                学术著作数量：<?php echo ($composition_num); ?>&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo U('Xshd/compostion');?>">待处理(<?php echo ($composition_do_num); ?>)</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                经费报销数量：<?php echo ($expense_num); ?>&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo U('Kyjf/index');?>">待处理(<?php echo ($expense_do_num); ?>)</a>
+            </div>
+            <div class="col-md-4 column" style="margin-top:20px;">
+                经费申请数量：<?php echo ($apply_num); ?>&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo U('Kyjf/apply');?>">待处理(<?php echo ($apply_do_num); ?>)</a>
             </div>
         </div>
 </div>
 </div>
-</div>
 
-<script>
-</script>
-<div class="col-md-12 column" style="background-color:#fff;opacity:0.8;border:1px solid #4857bf;border-radius:6px;height:60px;text-align:center;">
+
+<div class="col-md-12 column" style="background-color:#fff;opacity:0.8;border-top:1px solid #4857bf;border-radius:0px;height:60px;text-align:center;">
   <div style="margin-top:15px;">
     <span >Copyright 2016-2017 MIIC © All Rights Reserved</span>
   </div>

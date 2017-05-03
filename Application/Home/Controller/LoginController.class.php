@@ -35,14 +35,11 @@ class LoginController extends Controller{
 			$result = $User->where($map)->select();
 			$pass=$result['0']['password'];
 			$map['id']=$result['0']['id'];
-			//echo $pass;
 			if($data['password'] == $pass){
 				    echo "<script>window.location.href='http://localhost/test/Hospitalsrms/index.php/Home/Index/index'</script>";
 					
-					//$this->success('登陆成功！','http://localhost/test/Hospitalsrms/index.php/Home/Index/index');
 					$dat['last_time']=strtotime(date("Y-m-d H:i:s",time()));
 					$User->where($map)->save($dat);
-					//Session::set('USER_AUTH_KEY',$map['id']);
 					$_SESSION['user_id'] = $map['id'];
 					$_SESSION['user_name'] = $data['user_name'];
 

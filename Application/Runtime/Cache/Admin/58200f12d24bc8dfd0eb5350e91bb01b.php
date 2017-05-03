@@ -31,7 +31,7 @@
 	    </div>
 	        <div class="col-md-12 column">
 	            <div class="row clearfix">
-	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:580px">
+	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:560px">
 	                    <div class="col-md-12" >
 	                        <ul class="nav nav-list">
 	                            <li><a href="" class="dropdown-toggle" data-toggle="dropdown">
@@ -199,12 +199,12 @@
 
 <div style="height:30px;background-color:#E4E6E9;
  padding:5px 3px 0px 200px;">系统管理>用户组管理>权限管理</div>
-<div class="col-md-10 column" style="background-color:#fff;height:550px;">
+<div class="col-md-10 column" style="background-color:#fff;height:530px;">
 
     <div class="col-sm-12">
         <div class="row">
             <div class="col-xs-12">
-                <div class="table-responsive" style="height:550px;">
+                <div class="table-responsive" style="height:530px;">
                     <form class="J_ajaxForm" action="<?php echo U('Xtgl/authorize_post');?>" method="post">
                         <div class="table_full">
                             <table width="100%" cellspacing="0" style="font-size:14px;" id="dnd-example">
@@ -222,6 +222,8 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
  
 
     <script type="text/javascript">
@@ -366,7 +368,7 @@
             }
         }
     </script>
-<div class="col-md-12 column" style="background-color:#fff;opacity:0.8;border:1px solid #4857bf;border-radius:6px;height:60px;text-align:center;">
+<div class="col-md-12 column" style="background-color:#fff;opacity:0.8;border-top:1px solid #4857bf;border-radius:0px;height:60px;text-align:center;">
   <div style="margin-top:15px;">
     <span >Copyright 2016-2017 MIIC © All Rights Reserved</span>
   </div>

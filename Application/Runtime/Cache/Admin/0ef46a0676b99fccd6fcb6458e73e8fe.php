@@ -31,7 +31,7 @@
 	    </div>
 	        <div class="col-md-12 column">
 	            <div class="row clearfix">
-	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:580px">
+	                <div class="col-md-2 column" style="background-color:#fbfbfc;height:560px">
 	                    <div class="col-md-12" >
 	                        <ul class="nav nav-list">
 	                            <li><a href="" class="dropdown-toggle" data-toggle="dropdown">
@@ -199,7 +199,7 @@
 
  <div style="height:30px;background-color:#E4E6E9;padding:5px 3px 0px 200px;">
     科研统计管理>论文统计管理</div>
-<div class="col-md-10 column" style="background-color:#fff;height:550px;">
+<div class="col-md-10 column" style="background-color:#fff;height:530px;">
     <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
 
         <form name="form2" method="get" action="">
@@ -276,6 +276,7 @@
         <?php echo ($page); ?>
     </div>
 </div>
+</div>
 <script>
  $(".delAll").click(function(){
     var data={};
@@ -303,7 +304,7 @@
     });
 }); 
 </script>
-<div class="col-md-12 column" style="background-color:#fff;opacity:0.8;border:1px solid #4857bf;border-radius:6px;height:60px;text-align:center;">
+<div class="col-md-12 column" style="background-color:#fff;opacity:0.8;border-top:1px solid #4857bf;border-radius:0px;height:60px;text-align:center;">
   <div style="margin-top:15px;">
     <span >Copyright 2016-2017 MIIC © All Rights Reserved</span>
   </div>

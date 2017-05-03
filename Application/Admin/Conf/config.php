@@ -18,7 +18,7 @@ return array(
 	'DB_PREFIX'=>'think_',
 	'DB_DSN'=>'mysql:host=localhost;dbname=thinkphp;charset=UTF8',*/
 	//'ACTION_SUFFIX'         =>  'Action',
-	'SHOW_PAGE_TRACE'=>    'true',
+	//'SHOW_PAGE_TRACE'=>    'true',
 	'TMPL_PARSE_STRING'=>array(
 		'__PUBLIC__'=>__ROOT__.'/Public/',
 		'__PICTURE__'=>__ROOT__.'/Public/Uploads',

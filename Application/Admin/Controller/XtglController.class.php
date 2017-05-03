@@ -274,7 +274,6 @@ class XtglController extends CommonController {
         $menu = new \Think\Tree();
         $menu->icon = array('│ ', '├─ ', '└─ ');
         $menu->nbsp = '&nbsp;&nbsp;&nbsp;';
-        //$result = $this->initMenu();
         $result = M('Menu')->select();
         $newmenus=array();
         $priv_data=$this->auth_access_model->where(array("id"=>$roleid))->getField("rules",true);//获取权限表数据

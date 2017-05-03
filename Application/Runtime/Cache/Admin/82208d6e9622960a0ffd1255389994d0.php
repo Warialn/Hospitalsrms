@@ -201,16 +201,16 @@
  <div style="height:30px;background-color:#E4E6E9;
  padding:5px 3px 0px 200px;">学术活动管理>学术著作管理</div>
 <div class="col-md-10 column" style="background-color:#fff;height:550px;">
-    <div class="col-md-0">
-    </div>
+
      <div class="col-md-12" style="background-color:#fff;border-radius:0px";>
 
-                    <form name="form2" method="post" action="">
+                    <form name="form2" method="get" action="">
                         <table class="table  table-striped table-bordered table-hover"><br/>
                             <input  class="btn btn-default pull-right" type="submit" value="搜索">
                             <div class="col-md-2 pull-right">
-                                <input class="form-control" type="text">
+                                <input class="form-control" type="text" placeholder="著作名称" name="name"/><br>
                             </div>
+                            <br/><br/>
                                                                     
                             <thead>
                                 <tr>
@@ -272,8 +272,8 @@
                         <?php echo ($page); ?>
                     </div>
                 </div>
-                </div>
             </div>
+
             <script>
 
             $('.agree').click(function(){

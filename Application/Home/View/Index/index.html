@@ -110,7 +110,8 @@
 									<volist name="new_res" id="vo">
 										<li class="item1 plus">
 											<a href="#" title="{$vo['title']}" class="active">
-												<?php if(strlen($vo['title'])>39) { echo mb_substr($vo['title'], 0, 15,'utf-8')."...";}else{echo $vo['title'];}?>
+												{$vo['title']}
+												<?php //if(strlen($vo['title'])>39) { echo mb_substr($vo['title'], 0, 15,'utf-8')."...";}else{echo $vo['title'];}?>
 												  <!-- {$vo.title|mb_substr=0,15,'utf-8'}...  -->
 												<span class="caret"></span>
 											</a>

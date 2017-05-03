@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2017-04-27 10:16:36
+Date: 2017-05-02 10:20:30
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -141,14 +141,18 @@ INSERT INTO `srms_jf_expense_apply` VALUES ('2', '5', null, 'wangnuonan', 'maish
 DROP TABLE IF EXISTS `srms_log`;
 CREATE TABLE `srms_log` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `type` varchar(255) DEFAULT NULL,
+  `level` varchar(255) DEFAULT NULL,
   `message` varchar(255) DEFAULT NULL,
+  `uid` int(11) DEFAULT NULL,
+  `time` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of srms_log
 -- ----------------------------
+INSERT INTO `srms_log` VALUES ('1', '5', 'admin登录|客户端IP:0.0.0.0|success|#app=Web ', '1', '1493273862');
+INSERT INTO `srms_log` VALUES ('2', '5', 'admin登录|客户端IP:0.0.0.0|success|#app=Web ', '1', '1493345730');
 
 -- ----------------------------
 -- Table structure for srms_menu
@@ -412,15 +416,14 @@ CREATE TABLE `srms_user` (
   `last_time` decimal(10,0) NOT NULL,
   `usergroup_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of srms_user
 -- ----------------------------
-INSERT INTO `srms_user` VALUES ('1', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '1492594281', '1493199841', '1');
+INSERT INTO `srms_user` VALUES ('1', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '1492594281', '1493345730', '1');
 INSERT INTO `srms_user` VALUES ('5', 'ww', 'e10adc3949ba59abbe56e057f20f883e', '1492571349', '1493177144', '3');
 INSERT INTO `srms_user` VALUES ('6', 'aaa', 'e10adc3949ba59abbe56e057f20f883e', '0', '1493198196', '2');
-INSERT INTO `srms_user` VALUES ('15', '123', 'b442f0c3119308bed4451d04b017bdf7', '1493200638', '0', '1');
 
 -- ----------------------------
 -- Table structure for srms_usergroup
@@ -489,7 +492,7 @@ CREATE TABLE `srms_xm_department` (
 -- ----------------------------
 -- Records of srms_xm_department
 -- ----------------------------
-INSERT INTO `srms_xm_department` VALUES ('1', '1', '										科研平台3							', '王诺楠', '信息科', '2012-03-05 00:00:00', '项目2 ', '										两天									', '11111111111', '0');
+INSERT INTO `srms_xm_department` VALUES ('1', '1', '										科研平台3							', '王诺楠', '信息科', '2012-03-05 00:00:00', '项目2 ', '										两天									', '11111111111', '1');
 INSERT INTO `srms_xm_department` VALUES ('2', '1', '科研平台2', 'wnn', '信息科', '2017-03-17 13:37:58', '项目23', '三天', '11111111111', '0');
 
 -- ----------------------------
@@ -545,8 +548,8 @@ CREATE TABLE `srms_xm_subject` (
 -- ----------------------------
 -- Records of srms_xm_subject
 -- ----------------------------
-INSERT INTO `srms_xm_subject` VALUES ('1', '1', '课题003345', '2013', 'wnn', '哈哈哈', '研究内容', '研究方案', '', '研究进度', '预期目标', '19960', '', '', null, '', '1');
-INSERT INTO `srms_xm_subject` VALUES ('3', '2', '课题001', '2015', '王诺楠', '目的及意义', '研究内容', '研究方案', '', '研究进度', '预期目标', '1000', '', '', null, '', '2');
+INSERT INTO `srms_xm_subject` VALUES ('1', '1', '课题003345', '2013', 'wnn', '哈哈哈', '研究内容', '研究方案', '', '研究进度', '预期目标', '19960', '', '', null, '', '0');
+INSERT INTO `srms_xm_subject` VALUES ('3', '2', '课题001', '2015', '王诺楠', '目的及意义', '研究内容', '研究方案', '', '研究进度', '预期目标', '1000', '', '', null, '', '0');
 INSERT INTO `srms_xm_subject` VALUES ('4', '1', '', '2013', '上午去额', '测试1', '测试1', '测试1', '', '测试1', '测试1', '0', '测试1', '测试1', null, '2017-04-26/5900109da7992.doc', '1');
 
 -- ----------------------------
@@ -562,17 +565,18 @@ CREATE TABLE `srms_xs_composition` (
   `time` datetime DEFAULT NULL,
   `field` varchar(255) DEFAULT NULL,
   `introduction` varchar(255) DEFAULT NULL,
-  `status` tinyint(255) NOT NULL DEFAULT '1',
+  `status` tinyint(255) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of srms_xs_composition
 -- ----------------------------
 INSERT INTO `srms_xs_composition` VALUES ('2', '1', '本草纲目', '李时珍', '药材', '2014-09-11 10:00:00', '医学', '本草纲目是李时珍当年历时 多少多少年亲身验证完成的。', '1');
 INSERT INTO `srms_xs_composition` VALUES ('3', '1', '五禽戏', '扁鹊', '拳', '2017-05-26 07:10:00', '医学', '', '1');
-INSERT INTO `srms_xs_composition` VALUES ('4', '1', '黄帝内经', '皇帝', '医理', null, '医学', null, '1');
+INSERT INTO `srms_xs_composition` VALUES ('4', '1', '黄帝内经', '皇帝', '医理', null, '医学', null, '2');
 INSERT INTO `srms_xs_composition` VALUES ('5', '1', '神农本草', '神农', null, null, null, null, '3');
+INSERT INTO `srms_xs_composition` VALUES ('6', '1', '伤寒杂病论', '张仲景', '伤寒', '2017-04-27 07:10:00', '医理', '', '0');
 
 -- ----------------------------
 -- Table structure for srms_xs_lecture

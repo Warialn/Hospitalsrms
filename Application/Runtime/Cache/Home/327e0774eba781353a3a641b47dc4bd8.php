@@ -240,7 +240,7 @@
 									<li><a href="<?php echo U('Kytj/scanPropty');?>">知识产权</a></li>
 									<li><a href="<?php echo U('Kytj/scanEquipment');?>">仪器设备</a></li>
 									<li class="active"><a href="<?php echo U('Kytj/fileDownload');?>">文件下载</a></li>
-									<li><a href="<?php echo U('Kytj/logList');?>">日志信息</a></li>
+									<!-- <li class="active"><a href="<?php echo U('Kytj/logList');?>">日志信息</a></li> -->
 								</ul>
 							</div>
 						</div>

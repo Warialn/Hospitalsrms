@@ -1,0 +1,2344 @@
+[ 2017-05-03T09:35:27+08:00 ] ::1 /test/Hospitalsrms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.1379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0508s ]
+SQL: SHOW COLUMNS FROM `srms_tj_equipment` [ RunTime:0.0949s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_equipment` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_propty` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0750s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0646s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_user` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0825s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0532s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_achievement` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0224s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0496s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` WHERE `status` IN ('0','2','4') LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0652s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense_apply` [ RunTime:0.0717s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0643s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_news` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010063s ]
+NOTIC: [8] Undefined index: user_name F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001851s ]
+
+[ 2017-05-03T09:35:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+
+[ 2017-05-03T09:35:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+ERR: 非法操作:css
+
+[ 2017-05-03T09:35:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+ERR: 非法操作:css
+
+[ 2017-05-03T09:35:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/css/templatemo_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+ERR: 非法操作:css
+
+[ 2017-05-03T09:35:35+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `srms_user` WHERE `user_name` = 'admin'  [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `srms_usergroup` WHERE `id` = 1  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: sql F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\LoginController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `srms_log` [ RunTime:0.0562s ]
+SQL: INSERT INTO `srms_log` (`message`,`level`,`uid`,`time`) VALUES ('admin登录|客户端IP:0.0.0.0|success|#app=Web ','5','1','1493775335') [ RunTime:0.0623s ]
+SQL: UPDATE `srms_user` SET `last_time`='1493775335' WHERE `user_name` = 'admin' AND `id` = 1 [ RunTime:0.0409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002727s ]
+
+[ 2017-05-03T09:35:37+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `srms_tj_equipment` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_equipment` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_propty` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_achievement` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` WHERE `status` IN ('0','2','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense_apply` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_news` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2017-05-03T09:35:49+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/usergroup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `srms_usergroup`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000928s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001102s ]
+NOTIC: [8] Undefined variable: vo F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 403 行.
+NOTIC: [8] Undefined variable: vo F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 403 行.
+NOTIC: [8] Undefined variable: vo F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 403 行.
+NOTIC: [8] Undefined variable: usergroup_show F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003976s ]
+
+[ 2017-05-03T09:35:51+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0020s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 3  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0739s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8')  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002547s ]
+
+[ 2017-05-03T09:37:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002422s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `srms_tj_equipment` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_equipment` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_propty` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_achievement` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` WHERE `status` IN ('0','2','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense_apply` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_news` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2017-05-03T09:37:10+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0144s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 17 行.
+SQL: SELECT * FROM `srms_xm_subject` ORDER BY id LIMIT 0,10   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002107s ]
+
+[ 2017-05-03T09:39:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 17 行.
+SQL: SELECT * FROM `srms_xm_subject` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002068s ]
+
+[ 2017-05-03T09:39:15+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 19 行.
+SQL: SELECT * FROM `srms_tj_theses` ORDER BY id LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2017-05-03T09:39:54+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0202s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 19 行.
+SQL: SELECT * FROM `srms_tj_theses` ORDER BY id LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2017-05-03T09:39:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/Achievement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0128s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_achievement` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 58 行.
+SQL: SELECT * FROM `srms_tj_achievement` ORDER BY id LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003923s ]
+
+[ 2017-05-03T09:40:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/Achievement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0125s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_achievement` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 58 行.
+SQL: SELECT * FROM `srms_tj_achievement` ORDER BY id LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002301s ]
+
+[ 2017-05-03T09:40:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 20 行.
+SQL: SELECT * FROM `srms_jf_expense` ORDER BY id LIMIT 0,8   [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\108ed063a3901d6150344db023af08b5.php 第 239 行.
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\108ed063a3901d6150344db023af08b5.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2017-05-03T09:40:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0136s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 20 行.
+SQL: SELECT * FROM `srms_jf_expense` ORDER BY id LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\108ed063a3901d6150344db023af08b5.php 第 239 行.
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\108ed063a3901d6150344db023af08b5.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2017-05-03T09:41:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0135s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 20 行.
+SQL: SELECT * FROM `srms_jf_expense` ORDER BY id LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\108ed063a3901d6150344db023af08b5.php 第 239 行.
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\108ed063a3901d6150344db023af08b5.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002797s ]
+
+[ 2017-05-03T09:41:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_jf_expense_apply` [ RunTime:0.0125s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 76 行.
+SQL: SELECT * FROM `srms_jf_expense_apply` ORDER BY id LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001619s ]
+
+[ 2017-05-03T09:41:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0168s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 16 行.
+SQL: SELECT * FROM `srms_xs_meet` ORDER BY id LIMIT 0,10   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2017-05-03T09:45:09+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 16 行.
+SQL: SELECT * FROM `srms_xs_meet` ORDER BY id LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2017-05-03T09:45:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_news` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `srms_news` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0551s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000813s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001040s ]
+NOTIC: [8] Undefined variable: user_show F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\71f522476de57194b55d7dd1e933b905.php 第 448 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002210s ]
+
+[ 2017-05-03T09:45:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `srms_user` WHERE `id` = 1  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2017-05-03T09:46:07+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `srms_user`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `srms_usergroup` WHERE `type` <> 2  [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `srms_usergroup` WHERE `id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `srms_usergroup` WHERE `id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000550s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Undefined variable: user_show F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\a6c083049235f10cd1d6bd0b2e5c1924.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002649s ]
+
+[ 2017-05-03T09:47:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `srms_user`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `srms_usergroup` WHERE `type` <> 2  [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `srms_usergroup` WHERE `id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `srms_usergroup` WHERE `id` = 3  [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000556s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] Undefined variable: user_show F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\a6c083049235f10cd1d6bd0b2e5c1924.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002529s ]
+
+[ 2017-05-03T09:47:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `srms_user` WHERE `id` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2017-05-03T09:48:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000438s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `srms_user` WHERE `id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2017-05-03T09:48:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/usergroup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `srms_usergroup`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined variable: vo F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 403 行.
+NOTIC: [8] Undefined variable: vo F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 403 行.
+NOTIC: [8] Undefined variable: vo F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 403 行.
+NOTIC: [8] Undefined variable: usergroup_show F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2017-05-03T09:48:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0013s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0068s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2017-05-03T09:48:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0012s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0077s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001591s ]
+
+[ 2017-05-03T09:48:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0013s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0082s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2017-05-03T09:49:13+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 17 行.
+SQL: SELECT * FROM `srms_xm_subject` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-05-03T09:49:17+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 68 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 74 行.
+SQL: SELECT * FROM `srms_xm_department` ORDER BY id LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004625s ]
+
+[ 2017-05-03T09:49:20+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 16 行.
+SQL: SELECT * FROM `srms_xs_meet` ORDER BY id LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2017-05-03T09:49:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/lecture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0128s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 54 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 59 行.
+SQL: SELECT * FROM `srms_xs_lecture` ORDER BY id LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002223s ]
+
+[ 2017-05-03T09:49:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0124s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 98 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 103 行.
+SQL: SELECT * FROM `srms_xs_composition` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001783s ]
+
+[ 2017-05-03T09:51:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0124s ]
+NOTIC: [8] Undefined index: ctime F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 98 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 103 行.
+SQL: SELECT * FROM `srms_xs_composition` ORDER BY id LIMIT 0,10   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006339s ]
+
+[ 2017-05-03T09:56:16+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0119s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: date F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 98 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 103 行.
+SQL: SELECT * FROM `srms_xs_composition` ORDER BY id LIMIT 0,10   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001863s ]
+
+[ 2017-05-03T09:56:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 17 行.
+SQL: SELECT * FROM `srms_xm_subject` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2017-05-03T09:57:35+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 17 行.
+SQL: SELECT * FROM `srms_xm_subject` ORDER BY id LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2017-05-03T09:57:40+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: date F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 98 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 103 行.
+SQL: SELECT * FROM `srms_xs_composition` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003771s ]
+
+[ 2017-05-03T09:58:11+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0131s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: date F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 98 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 103 行.
+SQL: SELECT * FROM `srms_xs_composition` ORDER BY id LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2017-05-03T09:58:30+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: date F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 98 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 103 行.
+SQL: SELECT * FROM `srms_xs_composition` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001730s ]
+
+[ 2017-05-03T09:58:45+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/composition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: date F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 98 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 103 行.
+SQL: SELECT * FROM `srms_xs_composition` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003987s ]
+
+[ 2017-05-03T09:58:51+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0119s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 17 行.
+SQL: SELECT * FROM `srms_xm_subject` ORDER BY id LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001872s ]
+
+[ 2017-05-03T09:59:44+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html?name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 17 行.
+SQL: SELECT * FROM `srms_xm_subject` ORDER BY id LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002016s ]
+
+[ 2017-05-03T09:59:51+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 16 行.
+SQL: SELECT * FROM `srms_xs_meet` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002690s ]
+
+[ 2017-05-03T09:59:59+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/index.html?name=2134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` WHERE `meetName` = '2134' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `srms_xs_meet` WHERE `meetName` = '2134' ORDER BY id LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2017-05-03T10:00:24+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_tj_equipment` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_equipment` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_propty` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_achievement` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` WHERE `status` IN ('0','2','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense_apply` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_news` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2017-05-03T10:00:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_tj_equipment` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_equipment` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_propty` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_achievement` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` WHERE `status` IN ('0','2','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense_apply` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_news` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2017-05-03T10:01:26+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_tj_equipment` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_equipment` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_propty` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_achievement` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` WHERE `status` IN ('0','2','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense_apply` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_news` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2017-05-03T10:01:32+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 17 行.
+SQL: SELECT * FROM `srms_xm_subject` ORDER BY id LIMIT 0,10   [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2017-05-03T10:03:25+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 19 行.
+SQL: SELECT * FROM `srms_tj_theses` ORDER BY id LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2017-05-03T10:03:29+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0134s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 17 行.
+SQL: SELECT * FROM `srms_xm_subject` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2017-05-03T10:03:31+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 20 行.
+SQL: SELECT * FROM `srms_jf_expense` ORDER BY id LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\108ed063a3901d6150344db023af08b5.php 第 239 行.
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\108ed063a3901d6150344db023af08b5.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2017-05-03T10:03:34+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KyjfController.class.php 第 20 行.
+SQL: SELECT * FROM `srms_jf_expense` ORDER BY id LIMIT 0,8   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\108ed063a3901d6150344db023af08b5.php 第 239 行.
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\108ed063a3901d6150344db023af08b5.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-05-03T10:03:38+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 16 行.
+SQL: SELECT * FROM `srms_xs_meet` ORDER BY id LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2017-05-03T10:03:41+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0077s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 17 行.
+SQL: SELECT * FROM `srms_xm_subject` ORDER BY id LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2017-05-03T10:03:48+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/usergroup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `srms_usergroup`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined variable: vo F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 403 行.
+NOTIC: [8] Undefined variable: vo F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 403 行.
+NOTIC: [8] Undefined variable: vo F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 403 行.
+NOTIC: [8] Undefined variable: usergroup_show F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Admin\ba05af92a6046acc74e6659920e3737d.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2017-05-03T10:03:50+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0012s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0708s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000499s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002306s ]
+
+[ 2017-05-03T10:04:39+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0014s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0072s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2017-05-03T10:06:22+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0009s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0057s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2017-05-03T10:06:58+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0025s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0120s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001683s ]
+
+[ 2017-05-03T10:07:01+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0527s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0011s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0078s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2017-05-03T10:07:46+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0008s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0063s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2017-05-03T10:07:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2017-05-03T10:09:02+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0009s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0058s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2017-05-03T10:09:14+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xtgl/authorize/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UsergroupModel
+SQL: SHOW COLUMNS FROM `srms_usergroup` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `srms_menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `srms_menu`  [ RunTime:0.0013s ]
+SQL: SELECT `rules` FROM `srms_usergroup` WHERE `id` = 2  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `srms_auth_rule` [ RunTime:0.0075s ]
+SQL: SELECT `name` FROM `srms_auth_rule` WHERE `id` IN ('1','2','7','8','9','10','3','12','21')  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2017-05-03T10:09:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Kytj/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\KytjController.class.php 第 19 行.
+SQL: SELECT * FROM `srms_tj_theses` ORDER BY id LIMIT 0,8   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2017-05-03T10:09:28+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_tj_theses` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_theses` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_tj_equipment` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_equipment` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_tj_propty` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_propty` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_subject` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `srms_user` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xm_department` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_department` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_tj_achievement` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_tj_achievement` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xm_coller` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_coller` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` WHERE `status` IN ('0','2','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_meet` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense_apply` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense_apply` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_news` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2017-05-03T10:09:55+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xmsb/purchase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 177 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XmsbController.class.php 第 181 行.
+SQL: SELECT * FROM `srms_xm_purchase` ORDER BY id LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-05-03T10:10:05+08:00 ] ::1 /test/Hospitalsrms/index.php/Admin/Xshd/lecture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: think F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\CommonController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `srms_xs_lecture` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 54 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_lecture` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: map F:\phpStudy\WWW\test\Hospitalsrms\Application\Admin\Controller\XshdController.class.php 第 59 行.
+SQL: SELECT * FROM `srms_xs_lecture` ORDER BY id LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+

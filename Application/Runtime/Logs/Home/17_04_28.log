@@ -1,0 +1,219 @@
+[ 2017-04-28T10:13:10+08:00 ] ::1 /test/Hospitalsrms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0531s ]
+SQL: SELECT `title`,`content` FROM `srms_news` ORDER BY id desc LIMIT 6   [ RunTime:0.0367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.032583s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.032764s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.233662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.233892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008395s ]
+
+[ 2017-04-28T10:33:51+08:00 ] ::1 /test/Hospitalsrms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0132s ]
+SQL: SELECT `title`,`content` FROM `srms_news` ORDER BY id desc LIMIT 6   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001672s ]
+
+[ 2017-04-28T13:49:15+08:00 ] ::1 /test/Hospitalsrms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `srms_news` [ RunTime:0.0580s ]
+SQL: SELECT `title`,`content` FROM `srms_news` ORDER BY id desc LIMIT 6   [ RunTime:0.0283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2017-04-28T13:50:19+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `srms_xm_subject` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004186s ]
+
+[ 2017-04-28T13:50:23+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xmsb/scanPurchase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `srms_xm_purchase` [ RunTime:0.0598s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xm_purchase` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `srms_xm_purchase` WHERE `uid` = 1 ORDER BY id LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Undefined variable: col F:\phpStudy\WWW\test\Hospitalsrms\Application\Runtime\Cache\Home\10238801093a56ed15cd9c21019f5521.php 第 287 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002371s ]
+
+[ 2017-04-28T13:53:36+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005006s ]
+
+[ 2017-04-28T13:53:38+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/scanIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_jf_expense` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `srms_jf_expense` WHERE `uid` = 1 ORDER BY id LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000745s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000897s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2017-04-28T13:53:52+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Kyjf/index_delAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `srms_jf_expense` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `srms_jf_expense` WHERE `id` IN ('1') AND `status` = 1  [ RunTime:0.0549s ]
+
+[ 2017-04-28T15:10:53+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `srms_xs_meet` [ RunTime:0.0171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004081s ]
+
+[ 2017-04-28T15:10:56+08:00 ] ::1 /test/Hospitalsrms/index.php/Home/Xshd/scanComposition.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `srms_xs_composition` [ RunTime:0.0357s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `srms_xs_composition` WHERE `status` <> 0 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `srms_xs_composition` WHERE `status` <> 0 ORDER BY id LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `srms_year` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `srms_year`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+

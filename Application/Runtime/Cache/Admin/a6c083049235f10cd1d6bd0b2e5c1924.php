@@ -461,7 +461,7 @@
                 <?php echo ($user_show); ?>
             </ul>
         </div>
-
+</div>
 <script>
     $(".closePop").css('cusor','pointer').click(function(){
         $(".userAdd").hide();
